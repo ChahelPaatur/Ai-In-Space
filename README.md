@@ -149,6 +149,59 @@ python scripts/visualize/generate_paper_figures.py
 python scripts/utils/app.py
 ```
 
+## Visual Demonstrations
+
+### Agent Response Comparisons
+
+Below are visual demonstrations showing how the three agent types (Rule-based, DRL, and Hybrid) respond differently to various fault scenarios.
+
+#### Thermal Fault Response Comparison
+
+![Thermal Response Comparison](static/plots/demos/thermal_response_comparison.png)
+
+The comparison shows how each agent responds to a thermal fault. Note the different detection times and recovery patterns:
+- The Rule-based agent (blue) shows a delayed but stable recovery
+- The DRL agent (red) detects the fault earlier but exhibits oscillatory behavior during recovery
+- The Hybrid agent (green) combines early detection with more stable recovery
+
+#### Power Fault Response Comparison
+
+![Battery Response Comparison](static/plots/demos/battery_response_comparison.png)
+
+When a power subsystem fault occurs, the agents demonstrate different recovery capabilities:
+- The Rule-based agent takes longest to initiate recovery
+- The DRL agent detects the fault quickly and initiates recovery earlier
+- The Hybrid agent balances detection speed with efficient recovery
+
+#### Attitude Control Fault Response Comparison
+
+![Attitude Response Comparison](static/plots/demos/attitude_response_comparison.png)
+
+For attitude control faults, the response patterns further illustrate each agent's characteristics:
+- The Rule-based agent waits until attitude error becomes significant before acting
+- The DRL agent preemptively responds to subtle patterns indicating fault conditions
+- The Hybrid agent leverages DRL's detection capabilities while maintaining stable recovery
+
+### Interactive Dashboard
+
+The project includes an interactive visualization dashboard that allows real-time monitoring of agent performance, state variables, and decision-making.
+
+![Dashboard Demo](static/plots/demos/dashboard_demo.png)
+
+To launch the interactive dashboard:
+
+```bash
+python scripts/utils/app.py
+```
+
+Then navigate to `http://localhost:5000` in your web browser.
+
+### Key Metrics Visualization
+
+![SFRI Components](static/plots/paper/figure11_SFRIMetric.png)
+
+The Stability-Integrated Fault Recovery Index (SFRI) combines detection accuracy, recovery speed, system stability, and false positive rates into a comprehensive metric for agent evaluation.
+
 ## Research Findings
 
 The initial comparison after 50,000 timesteps of training showed:
