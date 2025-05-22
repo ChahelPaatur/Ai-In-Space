@@ -1,0 +1,9296 @@
+[
+  {
+    "step": 1,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -6.2319784774445e-05,
+      -6.274291081354022e-05,
+      -0.0006375716184265912,
+      0.0,
+      20.0,
+      25.0,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 2,
+    "observation": [
+      0.8000138998031616,
+      100.0,
+      28.700056076049805,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010786001803353429,
+      0.0009564527426846325,
+      0.0012877683620899916,
+      0.0,
+      20.0049991607666,
+      24.99187469482422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 3,
+    "observation": [
+      0.8000277876853943,
+      100.0,
+      28.700111389160156,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0067549804225564,
+      0.003148136893287301,
+      -0.007428980432450771,
+      0.0,
+      20.009984970092773,
+      24.983760833740234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 4,
+    "observation": [
+      0.800041675567627,
+      100.0,
+      28.700166702270508,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0032105455175042152,
+      -0.016995592042803764,
+      -0.01172594353556633,
+      0.0,
+      20.014957427978516,
+      24.975656509399414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 5,
+    "observation": [
+      0.8000555634498596,
+      100.0,
+      28.70022201538086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0139254629611969,
+      -0.0065046073868870735,
+      -0.004332398064434528,
+      0.0,
+      20.019914627075195,
+      24.967561721801758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 6,
+    "observation": [
+      0.8000694513320923,
+      100.0,
+      28.70027732849121,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.006803375668823719,
+      0.002170578110963106,
+      0.0033521996811032295,
+      0.0,
+      20.024858474731445,
+      24.959476470947266,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 7,
+    "observation": [
+      0.800083339214325,
+      100.0,
+      28.700332641601562,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.009606348350644112,
+      -0.0010526853147894144,
+      0.006242565810680389,
+      0.0,
+      20.029788970947266,
+      24.95140266418457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 8,
+    "observation": [
+      0.8000972270965576,
+      100.0,
+      28.700387954711914,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.017735255882143974,
+      -0.006054868455976248,
+      -0.008491982705891132,
+      0.0,
+      20.034704208374023,
+      24.94333839416504,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 9,
+    "observation": [
+      0.8001111149787903,
+      100.0,
+      28.7004451751709,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.005603917874395847,
+      -0.008297447115182877,
+      -0.017487388104200363,
+      0.0,
+      20.03960609436035,
+      24.935285568237305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 10,
+    "observation": [
+      0.800125002861023,
+      100.0,
+      28.70050048828125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.020001789554953575,
+      0.009982011280953884,
+      0.008174553513526917,
+      0.0,
+      20.04449462890625,
+      24.927242279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 11,
+    "observation": [
+      0.8001388907432556,
+      100.0,
+      28.7005558013916,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01596255414187908,
+      0.013733196072280407,
+      -0.019512446597218513,
+      0.0,
+      20.049367904663086,
+      24.919208526611328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 12,
+    "observation": [
+      0.8001527786254883,
+      100.0,
+      28.700611114501953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001932885148562491,
+      -0.020070794969797134,
+      0.0011035134084522724,
+      0.0,
+      20.054227828979492,
+      24.911184310913086,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 13,
+    "observation": [
+      0.800166666507721,
+      100.0,
+      28.700666427612305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.012159430421888828,
+      0.003996067214757204,
+      -0.011948268860578537,
+      0.0,
+      20.05907440185547,
+      24.90317153930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 14,
+    "observation": [
+      0.8001805543899536,
+      100.0,
+      28.700721740722656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.013086802326142788,
+      -0.004015786107629538,
+      0.006195219233632088,
+      0.0,
+      20.063905715942383,
+      24.89516830444336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 15,
+    "observation": [
+      0.8001944422721863,
+      100.0,
+      28.700777053833008,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.015595955774188042,
+      0.0013570705195888877,
+      0.013993389904499054,
+      0.0,
+      20.068723678588867,
+      24.887174606323242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 16,
+    "observation": [
+      0.800208330154419,
+      100.0,
+      28.700834274291992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003612411906942725,
+      -0.011155426502227783,
+      -0.008007203228771687,
+      0.0,
+      20.073528289794922,
+      24.879192352294922,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 17,
+    "observation": [
+      0.8002222180366516,
+      100.0,
+      28.700889587402344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0062848846428096294,
+      -0.009819841012358665,
+      0.015973307192325592,
+      0.0,
+      20.078319549560547,
+      24.871217727661133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 18,
+    "observation": [
+      0.8002361059188843,
+      100.0,
+      28.700944900512695,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005145994946360588,
+      -0.00813988409936428,
+      0.010309497825801373,
+      0.0,
+      20.083097457885742,
+      24.86325454711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 19,
+    "observation": [
+      0.8002499938011169,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0016733265947550535,
+      -0.0001077257256838493,
+      0.01656147837638855,
+      0.0,
+      20.087860107421875,
+      24.855300903320312,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 20,
+    "observation": [
+      0.8002638816833496,
+      100.0,
+      28.7010555267334,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007144481875002384,
+      0.00013003962521906942,
+      -0.012011074461042881,
+      0.0,
+      20.09261131286621,
+      24.84735870361328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 21,
+    "observation": [
+      0.8002777695655823,
+      100.0,
+      28.70111083984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0032431529834866524,
+      -0.00271513476036489,
+      -0.004252320155501366,
+      0.0,
+      20.097347259521484,
+      24.83942413330078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 22,
+    "observation": [
+      0.8002916574478149,
+      100.0,
+      28.7011661529541,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0173496101051569,
+      0.012535708956420422,
+      0.0003826187748927623,
+      0.0,
+      20.102069854736328,
+      24.831501007080078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 23,
+    "observation": [
+      0.8003055453300476,
+      100.0,
+      28.701221466064453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.004280597437173128,
+      -0.016344791278243065,
+      -0.01568840816617012,
+      0.0,
+      20.106779098510742,
+      24.82358741760254,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 24,
+    "observation": [
+      0.8003194332122803,
+      100.0,
+      28.701278686523438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004890690091997385,
+      -0.027665669098496437,
+      -0.010166166350245476,
+      0.0,
+      20.111474990844727,
+      24.815683364868164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 25,
+    "observation": [
+      0.8003333210945129,
+      100.0,
+      28.70133399963379,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001217803917825222,
+      0.003093684557825327,
+      -0.009925588965415955,
+      0.0,
+      20.11615562438965,
+      24.807788848876953,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 26,
+    "observation": [
+      0.8003472089767456,
+      100.0,
+      28.70138931274414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01663009449839592,
+      0.0040372456423938274,
+      0.00394413573667407,
+      0.0,
+      20.120824813842773,
+      24.799903869628906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 27,
+    "observation": [
+      0.8003610968589783,
+      100.0,
+      28.701444625854492,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0016771206865087152,
+      0.0028088747058063745,
+      -0.002955651842057705,
+      0.0,
+      20.125478744506836,
+      24.792030334472656,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 28,
+    "observation": [
+      0.8003749847412109,
+      100.0,
+      28.701499938964844,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0019360689911991358,
+      -0.011241941712796688,
+      -0.006497527007013559,
+      0.0,
+      20.1301212310791,
+      24.78416633605957,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 29,
+    "observation": [
+      0.8003888726234436,
+      100.0,
+      28.701555252075195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006434733513742685,
+      0.016774380579590797,
+      -0.0011595957912504673,
+      0.0,
+      20.134748458862305,
+      24.77631187438965,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 30,
+    "observation": [
+      0.8004027605056763,
+      100.0,
+      28.701610565185547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.024069318547844887,
+      0.007806623820215464,
+      0.007826488465070724,
+      0.0,
+      20.13936424255371,
+      24.768465042114258,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 31,
+    "observation": [
+      0.8004166483879089,
+      100.0,
+      28.7016658782959,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.009973886422812939,
+      -0.0004823415947612375,
+      0.005543424282222986,
+      0.0,
+      20.143964767456055,
+      24.760631561279297,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 32,
+    "observation": [
+      0.8004305362701416,
+      100.0,
+      28.701723098754883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004914776422083378,
+      -0.002378065139055252,
+      0.002428213832899928,
+      0.0,
+      20.14855194091797,
+      24.752805709838867,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 33,
+    "observation": [
+      0.8004444241523743,
+      100.0,
+      28.701778411865234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02763936296105385,
+      -0.011522983200848103,
+      -0.014393827877938747,
+      0.0,
+      20.153127670288086,
+      24.7449893951416,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 34,
+    "observation": [
+      0.8004583120346069,
+      100.0,
+      28.701833724975586,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01650356873869896,
+      0.006008910480886698,
+      -0.018044384196400642,
+      0.0,
+      20.15768814086914,
+      24.7371826171875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 35,
+    "observation": [
+      0.8004721999168396,
+      100.0,
+      28.701889038085938,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001456760335713625,
+      0.0004903665976598859,
+      0.022336477413773537,
+      0.0,
+      20.1622371673584,
+      24.729387283325195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 36,
+    "observation": [
+      0.8004860877990723,
+      100.0,
+      28.70194435119629,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.005991704761981964,
+      -0.002061585895717144,
+      -0.004543542396277189,
+      0.0,
+      20.166770935058594,
+      24.721599578857422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 37,
+    "observation": [
+      0.8004999756813049,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005668954458087683,
+      0.008549172431230545,
+      -0.006978965830057859,
+      0.0,
+      20.171293258666992,
+      24.713823318481445,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 38,
+    "observation": [
+      0.8005138635635376,
+      100.0,
+      28.702054977416992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005608910694718361,
+      0.006417181808501482,
+      -0.006845626514405012,
+      0.0,
+      20.175800323486328,
+      24.7060546875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 39,
+    "observation": [
+      0.8005277514457703,
+      100.0,
+      28.702110290527344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006534571759402752,
+      0.004378412384539843,
+      0.01571662351489067,
+      0.0,
+      20.180295944213867,
+      24.69829750061035,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 40,
+    "observation": [
+      0.8005416393280029,
+      100.0,
+      28.702167510986328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014152646996080875,
+      0.002304903930053115,
+      0.01708509400486946,
+      0.0,
+      20.184778213500977,
+      24.690547943115234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 41,
+    "observation": [
+      0.8005555272102356,
+      100.0,
+      28.70222282409668,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.009554850868880749,
+      -0.010008426383137703,
+      -0.0009601251222193241,
+      0.0,
+      20.189247131347656,
+      24.682809829711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 42,
+    "observation": [
+      0.8005694150924683,
+      100.0,
+      28.70227813720703,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.010328021831810474,
+      -0.012397944927215576,
+      0.009858878329396248,
+      0.0,
+      20.193702697753906,
+      24.675081253051758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 43,
+    "observation": [
+      0.8005833625793457,
+      100.0,
+      28.702333450317383,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003909901715815067,
+      0.016410285606980324,
+      0.011149034835398197,
+      0.0,
+      20.198144912719727,
+      24.667360305786133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 44,
+    "observation": [
+      0.8005972504615784,
+      100.0,
+      28.702388763427734,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.002112230286002159,
+      -0.0017080941470339894,
+      -0.007037460338324308,
+      0.0,
+      20.202573776245117,
+      24.659650802612305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 45,
+    "observation": [
+      0.800611138343811,
+      100.0,
+      28.702444076538086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.013911145739257336,
+      -0.009118156507611275,
+      0.013920173048973083,
+      0.0,
+      20.20699119567871,
+      24.65195083618164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 46,
+    "observation": [
+      0.8006250262260437,
+      100.0,
+      28.702499389648438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.002895935205742717,
+      0.012850834988057613,
+      0.003883166005834937,
+      0.0,
+      20.211395263671875,
+      24.64426040649414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 47,
+    "observation": [
+      0.8006389141082764,
+      100.0,
+      28.70255470275879,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007883651996962726,
+      0.010681074112653732,
+      0.0006379359401762486,
+      0.0,
+      20.21578598022461,
+      24.636577606201172,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 48,
+    "observation": [
+      0.800652801990509,
+      100.0,
+      28.702611923217773,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.008920026011765003,
+      -0.013895471580326557,
+      0.002770031103864312,
+      0.0,
+      20.220163345336914,
+      24.62890625,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 49,
+    "observation": [
+      0.8006666898727417,
+      100.0,
+      28.702667236328125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010456156451255083,
+      0.010142857208848,
+      0.0033196951262652874,
+      0.0,
+      20.22452735900879,
+      24.62124252319336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 50,
+    "observation": [
+      0.8006805777549744,
+      100.0,
+      28.702722549438477,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.020539818331599236,
+      -0.0017217437271028757,
+      0.0021142028272151947,
+      0.0,
+      20.228879928588867,
+      24.613590240478516,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 51,
+    "observation": [
+      0.800694465637207,
+      100.0,
+      28.702777862548828,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.006462517660111189,
+      -0.0002359635109314695,
+      7.632437336724252e-05,
+      0.0,
+      20.233219146728516,
+      24.605945587158203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 52,
+    "observation": [
+      0.8007083535194397,
+      100.0,
+      28.70283317565918,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.008459856733679771,
+      -0.007666049990803003,
+      -0.0023575739469379187,
+      0.0,
+      20.237545013427734,
+      24.598312377929688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 53,
+    "observation": [
+      0.8007222414016724,
+      100.0,
+      28.70288848876953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.015064149163663387,
+      -0.004327228292822838,
+      0.017330603674054146,
+      0.0,
+      20.241857528686523,
+      24.590686798095703,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 54,
+    "observation": [
+      0.800736129283905,
+      100.0,
+      28.702943801879883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01823366992175579,
+      0.005811766721308231,
+      0.006432359106838703,
+      0.0,
+      20.246158599853516,
+      24.583070755004883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 55,
+    "observation": [
+      0.8007500171661377,
+      100.0,
+      28.702999114990234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0022513163276016712,
+      -0.002783235628157854,
+      0.0017705997452139854,
+      0.0,
+      20.250446319580078,
+      24.575464248657227,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 56,
+    "observation": [
+      0.8007639050483704,
+      100.0,
+      28.70305633544922,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.008392376825213432,
+      -0.017479756847023964,
+      0.00635028351098299,
+      0.0,
+      20.25472068786621,
+      24.567867279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 57,
+    "observation": [
+      0.800777792930603,
+      100.0,
+      28.70311164855957,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014559103175997734,
+      -0.0027354962658137083,
+      0.01169727835804224,
+      0.0,
+      20.258983612060547,
+      24.560279846191406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 58,
+    "observation": [
+      0.8007916808128357,
+      100.0,
+      28.703166961669922,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.010261189192533493,
+      0.002493703505024314,
+      0.012163481675088406,
+      0.0,
+      20.263233184814453,
+      24.552701950073242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 59,
+    "observation": [
+      0.8008055686950684,
+      100.0,
+      28.703222274780273,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -4.069162969244644e-05,
+      0.0021896015387028456,
+      -0.004367305431514978,
+      0.0,
+      20.26746940612793,
+      24.54513168334961,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 60,
+    "observation": [
+      0.800819456577301,
+      100.0,
+      28.703277587890625,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.013049513101577759,
+      0.0118417302146554,
+      -0.008461999706923962,
+      0.0,
+      20.27169418334961,
+      24.537572860717773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 61,
+    "observation": [
+      0.8008333444595337,
+      100.0,
+      28.703332901000977,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010764173930510879,
+      -0.004043294116854668,
+      0.006308006122708321,
+      0.0,
+      20.27590560913086,
+      24.53002166748047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 62,
+    "observation": [
+      0.8008472323417664,
+      100.0,
+      28.703388214111328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007675554137676954,
+      -0.002243450842797756,
+      -0.01478597056120634,
+      0.0,
+      20.28010368347168,
+      24.522480010986328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 63,
+    "observation": [
+      0.800861120223999,
+      100.0,
+      28.70344352722168,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0039015489164739847,
+      0.01164473406970501,
+      0.003494155127555132,
+      0.0,
+      20.284290313720703,
+      24.51494789123535,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 64,
+    "observation": [
+      0.8008750081062317,
+      100.0,
+      28.703500747680664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.008606132119894028,
+      0.005978209897875786,
+      -0.005759850610047579,
+      0.0,
+      20.288463592529297,
+      24.50742530822754,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 65,
+    "observation": [
+      0.8008888959884644,
+      100.0,
+      28.703556060791016,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0037262781988829374,
+      0.016462786123156548,
+      0.00289978482760489,
+      0.0,
+      20.292625427246094,
+      24.49991226196289,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 66,
+    "observation": [
+      0.800902783870697,
+      100.0,
+      28.703611373901367,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01947522722184658,
+      0.0055969590321183205,
+      0.006445984356105328,
+      0.0,
+      20.29677391052246,
+      24.492406845092773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 67,
+    "observation": [
+      0.8009166717529297,
+      100.0,
+      28.70366668701172,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.010392152704298496,
+      -0.018552932888269424,
+      -0.014652622863650322,
+      0.0,
+      20.30091094970703,
+      24.48491096496582,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 68,
+    "observation": [
+      0.8009305596351624,
+      100.0,
+      28.70372200012207,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.002546472940593958,
+      -0.01133337989449501,
+      -0.01641256920993328,
+      0.0,
+      20.305034637451172,
+      24.477426528930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 69,
+    "observation": [
+      0.800944447517395,
+      100.0,
+      28.703777313232422,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.013500545173883438,
+      -3.283619662397541e-05,
+      -0.004324140027165413,
+      0.0,
+      20.309144973754883,
+      24.469947814941406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 70,
+    "observation": [
+      0.8009583353996277,
+      100.0,
+      28.703832626342773,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.012197691947221756,
+      0.006308223120868206,
+      0.008095655590295792,
+      0.0,
+      20.313243865966797,
+      24.462480545043945,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 71,
+    "observation": [
+      0.8009722232818604,
+      100.0,
+      28.703887939453125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006805466953665018,
+      -0.01891416683793068,
+      -0.00948211457580328,
+      0.0,
+      20.317331314086914,
+      24.455020904541016,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 72,
+    "observation": [
+      0.800986111164093,
+      100.0,
+      28.70394515991211,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007579588796943426,
+      -0.01046962384134531,
+      -0.0055594779551029205,
+      0.0,
+      20.3214054107666,
+      24.447572708129883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 73,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70400047302246,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01374040450900793,
+      0.00951978750526905,
+      0.00529945595189929,
+      0.0,
+      20.325468063354492,
+      24.44013023376465,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 74,
+    "observation": [
+      0.8010138869285583,
+      100.0,
+      28.704055786132812,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0022363150492310524,
+      0.01406574621796608,
+      -0.0009501046151854098,
+      0.0,
+      20.329517364501953,
+      24.43269920349121,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 75,
+    "observation": [
+      0.801027774810791,
+      100.0,
+      28.704111099243164,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006573857273906469,
+      0.010677436366677284,
+      -0.008062214590609074,
+      0.0,
+      20.333553314208984,
+      24.425277709960938,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 76,
+    "observation": [
+      0.8010416626930237,
+      100.0,
+      28.704166412353516,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0023226032499223948,
+      -0.002306118607521057,
+      -0.005063656717538834,
+      0.0,
+      20.33757972717285,
+      24.417863845825195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 77,
+    "observation": [
+      0.8010555505752563,
+      100.0,
+      28.704221725463867,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0049180747009813786,
+      -0.004524719435721636,
+      0.018049413338303566,
+      0.0,
+      20.341590881347656,
+      24.410457611083984,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 78,
+    "observation": [
+      0.801069438457489,
+      100.0,
+      28.70427703857422,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.003645380260422826,
+      -0.0006562943453900516,
+      0.009802623651921749,
+      0.0,
+      20.345592498779297,
+      24.40306282043457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 79,
+    "observation": [
+      0.8010833263397217,
+      100.0,
+      28.704334259033203,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.002862087916582823,
+      -0.02340821735560894,
+      -0.0009612959693185985,
+      0.0,
+      20.349580764770508,
+      24.395675659179688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 80,
+    "observation": [
+      0.8010972142219543,
+      100.0,
+      28.704389572143555,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0034946089144796133,
+      0.012321867048740387,
+      -0.010173236951231956,
+      0.0,
+      20.353557586669922,
+      24.38829803466797,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 81,
+    "observation": [
+      0.801111102104187,
+      100.0,
+      28.704444885253906,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02068484015762806,
+      0.006595999468117952,
+      0.0002184270997531712,
+      0.0,
+      20.357521057128906,
+      24.380929946899414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 82,
+    "observation": [
+      0.8011249899864197,
+      100.0,
+      28.704500198364258,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.012730157934129238,
+      -0.002888009650632739,
+      0.0036424091085791588,
+      0.0,
+      20.361473083496094,
+      24.37356948852539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 83,
+    "observation": [
+      0.8011388778686523,
+      100.0,
+      28.70455551147461,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0037584088277071714,
+      0.02695685811340809,
+      0.0027034725062549114,
+      0.0,
+      20.36541175842285,
+      24.36621856689453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 84,
+    "observation": [
+      0.801152765750885,
+      100.0,
+      28.70461082458496,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0032122887205332518,
+      0.001654930179938674,
+      0.0027857068926095963,
+      0.0,
+      20.369340896606445,
+      24.358877182006836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 85,
+    "observation": [
+      0.8011666536331177,
+      100.0,
+      28.704666137695312,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.011193636804819107,
+      0.00026048245490528643,
+      -0.004728422034531832,
+      0.0,
+      20.37325668334961,
+      24.351543426513672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 86,
+    "observation": [
+      0.8011805415153503,
+      100.0,
+      28.704721450805664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.011800316162407398,
+      -0.003726297290995717,
+      0.018852781504392624,
+      0.0,
+      20.377159118652344,
+      24.344219207763672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 87,
+    "observation": [
+      0.801194429397583,
+      100.0,
+      28.70477867126465,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0074455272406339645,
+      0.010547705926001072,
+      0.009077629074454308,
+      0.0,
+      20.381052017211914,
+      24.336904525756836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 88,
+    "observation": [
+      0.8012083172798157,
+      100.0,
+      28.704833984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010785611812025309,
+      0.002757621230557561,
+      -0.01578104868531227,
+      0.0,
+      20.384931564331055,
+      24.32959747314453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 89,
+    "observation": [
+      0.8012222051620483,
+      100.0,
+      28.70488929748535,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.018978947773575783,
+      -0.003555857576429844,
+      0.007804056163877249,
+      0.0,
+      20.388797760009766,
+      24.32229995727539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 90,
+    "observation": [
+      0.801236093044281,
+      100.0,
+      28.704944610595703,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.013362777419388294,
+      0.01380634680390358,
+      0.012371614575386047,
+      0.0,
+      20.392654418945312,
+      24.31501007080078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 91,
+    "observation": [
+      0.8012499809265137,
+      100.0,
+      28.704999923706055,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01829341985285282,
+      0.00725118862465024,
+      -0.00847577303647995,
+      0.0,
+      20.39649772644043,
+      24.307729721069336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 92,
+    "observation": [
+      0.8012638688087463,
+      100.0,
+      28.705055236816406,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.012630637735128403,
+      0.009827720932662487,
+      0.010458764620125294,
+      0.0,
+      20.40032958984375,
+      24.300458908081055,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 93,
+    "observation": [
+      0.801277756690979,
+      100.0,
+      28.705110549926758,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014258163049817085,
+      0.010517129674553871,
+      -0.006153735797852278,
+      0.0,
+      20.404150009155273,
+      24.293195724487305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 94,
+    "observation": [
+      0.8012916445732117,
+      100.0,
+      28.70516586303711,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.020924553275108337,
+      0.014399771578609943,
+      -0.011484617367386818,
+      0.0,
+      20.407958984375,
+      24.28594207763672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 95,
+    "observation": [
+      0.8013055324554443,
+      100.0,
+      28.705223083496094,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0098652895539999,
+      -0.018041785806417465,
+      0.0003613448643591255,
+      0.0,
+      20.411754608154297,
+      24.278696060180664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 96,
+    "observation": [
+      0.801319420337677,
+      100.0,
+      28.705278396606445,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.016405349597334862,
+      -0.02113642357289791,
+      -0.008382605388760567,
+      0.0,
+      20.415538787841797,
+      24.271459579467773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 97,
+    "observation": [
+      0.8013333082199097,
+      100.0,
+      28.705333709716797,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0034194246400147676,
+      0.021788980811834335,
+      -0.015140267089009285,
+      0.0,
+      20.4193115234375,
+      24.264232635498047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 98,
+    "observation": [
+      0.8013471961021423,
+      100.0,
+      28.70538902282715,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00460795359686017,
+      0.01178863737732172,
+      -0.0024315647315233946,
+      0.0,
+      20.423072814941406,
+      24.25701332092285,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 99,
+    "observation": [
+      0.801361083984375,
+      100.0,
+      28.7054443359375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.02257685922086239,
+      0.011172688566148281,
+      -0.005540347192436457,
+      0.0,
+      20.426822662353516,
+      24.24980354309082,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 100,
+    "observation": [
+      0.8013749718666077,
+      100.0,
+      28.70549964904785,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0068786898627877235,
+      0.0030691109132021666,
+      0.00031872285762801766,
+      0.0,
+      20.430561065673828,
+      24.24260139465332,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 101,
+    "observation": [
+      0.8013888597488403,
+      100.0,
+      28.705554962158203,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00011512617493281141,
+      0.0018451540963724256,
+      -0.009693041443824768,
+      0.0,
+      20.43428611755371,
+      24.235408782958984,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 102,
+    "observation": [
+      0.8014028072357178,
+      100.0,
+      28.705610275268555,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0027927227783948183,
+      0.0010548570426180959,
+      0.011540437117218971,
+      0.0,
+      20.437999725341797,
+      24.22822380065918,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 103,
+    "observation": [
+      0.8014166951179504,
+      100.0,
+      28.70566749572754,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001190961804240942,
+      -0.004431684967130423,
+      -0.0030859995167702436,
+      0.0,
+      20.44170379638672,
+      24.221046447753906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 104,
+    "observation": [
+      0.8014305830001831,
+      100.0,
+      28.70572280883789,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0018564038909971714,
+      0.0061853923834860325,
+      0.006103597115725279,
+      0.0,
+      20.44539451599121,
+      24.21388053894043,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 105,
+    "observation": [
+      0.8014444708824158,
+      100.0,
+      28.705778121948242,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0044511063024401665,
+      0.0005417815409600735,
+      -0.015575437806546688,
+      0.0,
+      20.449073791503906,
+      24.20672035217285,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 106,
+    "observation": [
+      0.8014583587646484,
+      100.0,
+      28.705833435058594,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.010319814085960388,
+      -0.0028655685018748045,
+      0.008912622928619385,
+      0.0,
+      20.452741622924805,
+      24.19957160949707,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 107,
+    "observation": [
+      0.8014722466468811,
+      100.0,
+      28.705888748168945,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0001346046628896147,
+      -0.004630586132407188,
+      0.005978771485388279,
+      0.0,
+      20.456398010253906,
+      24.192428588867188,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 108,
+    "observation": [
+      0.8014861345291138,
+      100.0,
+      28.705944061279297,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009362295386381447,
+      0.007274356670677662,
+      -0.014199384488165379,
+      0.0,
+      20.46004295349121,
+      24.1852970123291,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 109,
+    "observation": [
+      0.8015000224113464,
+      100.0,
+      28.70599937438965,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      7.011702109593898e-05,
+      0.010631931945681572,
+      0.004308945033699274,
+      0.0,
+      20.46367645263672,
+      24.178171157836914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 110,
+    "observation": [
+      0.8015139102935791,
+      100.0,
+      28.7060546875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01076285820454359,
+      0.014049941673874855,
+      -0.011793885380029678,
+      0.0,
+      20.467296600341797,
+      24.17105484008789,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 111,
+    "observation": [
+      0.8015277981758118,
+      100.0,
+      28.706111907958984,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004168040119111538,
+      0.0029448370914906263,
+      0.010439366102218628,
+      0.0,
+      20.47090721130371,
+      24.16394805908203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -5.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 112,
+    "observation": [
+      0.8015416860580444,
+      100.0,
+      28.706167221069336,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003768942318856716,
+      0.014704007655382156,
+      -0.0057614510878920555,
+      0.0,
+      -50.0,
+      24.156848907470703,
+      0.0
+    ],
+    "action": 3,
+    "reward": 0.8999999999999999,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "SensorAFailure"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 113,
+    "observation": [
+      0.8015555739402771,
+      100.0,
+      28.706222534179688,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.013459067791700363,
+      -0.006921063642948866,
+      0.005331164225935936,
+      0.0,
+      20.0049991607666,
+      24.99187469482422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 114,
+    "observation": [
+      0.8015694618225098,
+      100.0,
+      28.70627784729004,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.016652259975671768,
+      -0.0075332592241466045,
+      -0.003955257590860128,
+      0.0,
+      20.009984970092773,
+      24.983760833740234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 115,
+    "observation": [
+      0.8015833497047424,
+      100.0,
+      28.70633316040039,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.022977657616138458,
+      0.020445024594664574,
+      -0.0164568480104208,
+      0.0,
+      20.014957427978516,
+      24.975656509399414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 116,
+    "observation": [
+      0.8015972375869751,
+      100.0,
+      28.706388473510742,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014282047748565674,
+      0.018429091200232506,
+      0.010382957756519318,
+      0.0,
+      20.019914627075195,
+      24.967561721801758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 117,
+    "observation": [
+      0.8016111254692078,
+      100.0,
+      28.706443786621094,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.012587113305926323,
+      -0.005349294748157263,
+      0.005005745682865381,
+      0.0,
+      20.024858474731445,
+      24.959476470947266,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 118,
+    "observation": [
+      0.8016250133514404,
+      100.0,
+      28.706499099731445,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007103994954377413,
+      0.005152672063559294,
+      -0.006291141267865896,
+      0.0,
+      20.029788970947266,
+      24.95140266418457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 119,
+    "observation": [
+      0.8016389012336731,
+      100.0,
+      28.70655632019043,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0008324374794028699,
+      0.005889135878533125,
+      0.007557002827525139,
+      0.0,
+      20.034704208374023,
+      24.94333839416504,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 120,
+    "observation": [
+      0.8016527891159058,
+      100.0,
+      28.70661163330078,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02896866574883461,
+      -0.002565681701526046,
+      -0.003579055657610297,
+      0.0,
+      20.03960609436035,
+      24.935285568237305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 121,
+    "observation": [
+      0.8016666769981384,
+      100.0,
+      28.706666946411133,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0142951849848032,
+      -0.0016559746582061052,
+      0.0048218658193945885,
+      0.0,
+      20.04449462890625,
+      24.927242279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 122,
+    "observation": [
+      0.8016805648803711,
+      100.0,
+      28.706722259521484,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.011499067768454552,
+      -0.012662683613598347,
+      0.007290699984878302,
+      0.0,
+      20.049367904663086,
+      24.919208526611328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 123,
+    "observation": [
+      0.8016944527626038,
+      100.0,
+      28.706777572631836,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006159728392958641,
+      0.005493845324963331,
+      0.0128855612128973,
+      0.0,
+      20.054227828979492,
+      24.911184310913086,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 124,
+    "observation": [
+      0.8017083406448364,
+      100.0,
+      28.706832885742188,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01196945458650589,
+      -0.00796977523714304,
+      0.014039872214198112,
+      0.0,
+      20.05907440185547,
+      24.90317153930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 125,
+    "observation": [
+      0.8017222285270691,
+      100.0,
+      28.70688819885254,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.003422524780035019,
+      0.005718889180570841,
+      0.012977970764040947,
+      0.0,
+      20.063905715942383,
+      24.89516830444336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 126,
+    "observation": [
+      0.8017361164093018,
+      100.0,
+      28.70694351196289,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00014470209134742618,
+      0.00652502803131938,
+      -0.0042782071977853775,
+      0.0,
+      20.068723678588867,
+      24.887174606323242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 127,
+    "observation": [
+      0.8017500042915344,
+      100.0,
+      28.707000732421875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009113641455769539,
+      0.016281362622976303,
+      0.0034292316995561123,
+      0.0,
+      20.073528289794922,
+      24.879192352294922,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 128,
+    "observation": [
+      0.8017638921737671,
+      100.0,
+      28.707056045532227,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.002942906226962805,
+      0.0016608641017228365,
+      0.0093364417552948,
+      0.0,
+      20.078319549560547,
+      24.871217727661133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 129,
+    "observation": [
+      0.8017777800559998,
+      100.0,
+      28.707111358642578,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0135824428871274,
+      -0.02435501664876938,
+      0.017853323370218277,
+      0.0,
+      20.083097457885742,
+      24.86325454711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 130,
+    "observation": [
+      0.8017916679382324,
+      100.0,
+      28.70716667175293,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006315949838608503,
+      -0.01404325570911169,
+      -0.020484717562794685,
+      0.0,
+      20.087860107421875,
+      24.855300903320312,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 131,
+    "observation": [
+      0.8018055558204651,
+      100.0,
+      28.70722198486328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004246043972671032,
+      -0.0010873709106817842,
+      -0.013249637559056282,
+      0.0,
+      20.09261131286621,
+      24.84735870361328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 132,
+    "observation": [
+      0.8018194437026978,
+      100.0,
+      28.707277297973633,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006662133615463972,
+      -0.004083301872014999,
+      0.011325163766741753,
+      0.0,
+      20.097347259521484,
+      24.83942413330078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 133,
+    "observation": [
+      0.8018333315849304,
+      100.0,
+      28.707332611083984,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0027135219424962997,
+      0.0032416298054158688,
+      -0.005428232718259096,
+      0.0,
+      20.102069854736328,
+      24.831501007080078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 134,
+    "observation": [
+      0.8018472194671631,
+      100.0,
+      28.70738983154297,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0030911555513739586,
+      -0.005346646532416344,
+      -0.0007913940353319049,
+      0.0,
+      20.106779098510742,
+      24.82358741760254,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 135,
+    "observation": [
+      0.8018611073493958,
+      100.0,
+      28.70744514465332,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006453176029026508,
+      -0.015013246797025204,
+      -0.013292604126036167,
+      0.0,
+      20.111474990844727,
+      24.815683364868164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 136,
+    "observation": [
+      0.8018749952316284,
+      100.0,
+      28.707500457763672,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009615042246878147,
+      0.014614135026931763,
+      -0.0007427920354530215,
+      0.0,
+      20.11615562438965,
+      24.807788848876953,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 137,
+    "observation": [
+      0.8018888831138611,
+      100.0,
+      28.707555770874023,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009556775912642479,
+      -0.0028697664383798838,
+      0.024184701964259148,
+      0.0,
+      20.120824813842773,
+      24.799903869628906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 138,
+    "observation": [
+      0.8019027709960938,
+      100.0,
+      28.707611083984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.003032899694517255,
+      0.016091888770461082,
+      -0.0008861764799803495,
+      0.0,
+      20.125478744506836,
+      24.792030334472656,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 139,
+    "observation": [
+      0.8019166588783264,
+      100.0,
+      28.707666397094727,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0004774137050844729,
+      -0.018787339329719543,
+      0.019129294902086258,
+      0.0,
+      20.1301212310791,
+      24.78416633605957,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 140,
+    "observation": [
+      0.8019305467605591,
+      100.0,
+      28.707721710205078,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00019555869221221656,
+      -0.005437096580862999,
+      -0.015101266093552113,
+      0.0,
+      20.134748458862305,
+      24.77631187438965,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 141,
+    "observation": [
+      0.8019444346427917,
+      100.0,
+      28.70777702331543,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01906105875968933,
+      0.0060694655403494835,
+      0.0064774686470627785,
+      0.0,
+      20.13936424255371,
+      24.768465042114258,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 142,
+    "observation": [
+      0.8019583225250244,
+      100.0,
+      28.707834243774414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0018491637893021107,
+      0.005312200635671616,
+      0.00021707647829316556,
+      0.0,
+      20.143964767456055,
+      24.760631561279297,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 143,
+    "observation": [
+      0.8019722104072571,
+      100.0,
+      28.707889556884766,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0054534804075956345,
+      0.00012896773114334792,
+      -0.004194814711809158,
+      0.0,
+      20.14855194091797,
+      24.752805709838867,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 144,
+    "observation": [
+      0.8019860982894897,
+      100.0,
+      28.707944869995117,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009660091251134872,
+      0.0025080828927457333,
+      0.007469389121979475,
+      0.0,
+      20.153127670288086,
+      24.7449893951416,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 145,
+    "observation": [
+      0.8019999861717224,
+      100.0,
+      28.70800018310547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0096499128267169,
+      -0.0035650283098220825,
+      0.0003909914521500468,
+      0.0,
+      20.15768814086914,
+      24.7371826171875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 146,
+    "observation": [
+      0.8020138740539551,
+      100.0,
+      28.70805549621582,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.014533684588968754,
+      -0.0006240419461391866,
+      0.0019081722712144256,
+      0.0,
+      20.1622371673584,
+      24.729387283325195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 147,
+    "observation": [
+      0.8020277619361877,
+      100.0,
+      28.708110809326172,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00941359344869852,
+      -0.0034198567736893892,
+      -0.006895497441291809,
+      0.0,
+      20.166770935058594,
+      24.721599578857422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 148,
+    "observation": [
+      0.8020416498184204,
+      100.0,
+      28.708166122436523,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.002134484937414527,
+      -0.020292378962039948,
+      0.004950245842337608,
+      0.0,
+      20.171293258666992,
+      24.713823318481445,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 149,
+    "observation": [
+      0.8020555377006531,
+      100.0,
+      28.708221435546875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01073238905519247,
+      -0.00759055744856596,
+      -0.002354965079575777,
+      0.0,
+      20.175800323486328,
+      24.7060546875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 150,
+    "observation": [
+      0.8020694255828857,
+      100.0,
+      28.70827865600586,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008319997577928007,
+      -0.0017476745415478945,
+      0.0013705927412956953,
+      0.0,
+      20.180295944213867,
+      24.69829750061035,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 151,
+    "observation": [
+      0.8020833134651184,
+      100.0,
+      28.70833396911621,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.015323815867304802,
+      0.005413672421127558,
+      0.0011724933283403516,
+      0.0,
+      20.184778213500977,
+      24.690547943115234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 152,
+    "observation": [
+      0.8020972013473511,
+      100.0,
+      28.708389282226562,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00030182269983924925,
+      -0.008243615739047527,
+      0.01510030496865511,
+      0.0,
+      20.189247131347656,
+      24.682809829711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 153,
+    "observation": [
+      0.8021110892295837,
+      100.0,
+      28.708444595336914,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01047004759311676,
+      -0.0075991093181073666,
+      0.01803983747959137,
+      0.0,
+      20.193702697753906,
+      24.675081253051758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 154,
+    "observation": [
+      0.8021249771118164,
+      100.0,
+      28.708499908447266,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005683652590960264,
+      0.015080766752362251,
+      0.010278034955263138,
+      0.0,
+      20.198144912719727,
+      24.667360305786133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 155,
+    "observation": [
+      0.8021388649940491,
+      100.0,
+      28.708555221557617,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007923334487713873,
+      0.0115340081974864,
+      -0.0022110764402896166,
+      0.0,
+      20.202573776245117,
+      24.659650802612305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 156,
+    "observation": [
+      0.8021527528762817,
+      100.0,
+      28.70861053466797,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003918505273759365,
+      -0.006745082791894674,
+      -0.0015094502596184611,
+      0.0,
+      20.20699119567871,
+      24.65195083618164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 157,
+    "observation": [
+      0.8021666407585144,
+      100.0,
+      28.70866584777832,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.020630184561014175,
+      0.008510447107255459,
+      -0.019168168306350708,
+      0.0,
+      20.211395263671875,
+      24.64426040649414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 158,
+    "observation": [
+      0.8021805286407471,
+      100.0,
+      28.708723068237305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0018187335226684809,
+      0.013450531288981438,
+      -0.008311357349157333,
+      0.0,
+      20.21578598022461,
+      24.636577606201172,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 159,
+    "observation": [
+      0.8021944165229797,
+      100.0,
+      28.708778381347656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0033989965450018644,
+      -0.007299260701984167,
+      -0.005045018624514341,
+      0.0,
+      20.220163345336914,
+      24.62890625,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 160,
+    "observation": [
+      0.8022083044052124,
+      100.0,
+      28.708833694458008,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00019488544785417616,
+      0.007019085343927145,
+      -0.00670856237411499,
+      0.0,
+      20.22452735900879,
+      24.62124252319336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 161,
+    "observation": [
+      0.8022222518920898,
+      100.0,
+      28.70888900756836,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009250196628272533,
+      -0.008236749097704887,
+      0.0011973656946793199,
+      0.0,
+      20.228879928588867,
+      24.613590240478516,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 162,
+    "observation": [
+      0.8022361397743225,
+      100.0,
+      28.70894432067871,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004956583026796579,
+      0.0065880706533789635,
+      0.003108877455815673,
+      0.0,
+      20.233219146728516,
+      24.605945587158203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 163,
+    "observation": [
+      0.8022500276565552,
+      100.0,
+      28.708999633789062,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005892246495932341,
+      0.002357868943363428,
+      -0.011986084282398224,
+      0.0,
+      20.237545013427734,
+      24.598312377929688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 164,
+    "observation": [
+      0.8022639155387878,
+      100.0,
+      28.709054946899414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007850880734622478,
+      -0.0020845269318670034,
+      0.007334599737077951,
+      0.0,
+      20.241857528686523,
+      24.590686798095703,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 165,
+    "observation": [
+      0.8022778034210205,
+      100.0,
+      28.709110260009766,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.011792904697358608,
+      0.00046505560749210417,
+      0.00478636659681797,
+      0.0,
+      20.246158599853516,
+      24.583070755004883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 166,
+    "observation": [
+      0.8022916913032532,
+      100.0,
+      28.70916748046875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009174535050988197,
+      -0.01488221250474453,
+      -0.018070589751005173,
+      0.0,
+      20.250446319580078,
+      24.575464248657227,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 167,
+    "observation": [
+      0.8023055791854858,
+      100.0,
+      28.7092227935791,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.011347287334501743,
+      0.0066917287185788155,
+      -0.014236537739634514,
+      0.0,
+      20.25472068786621,
+      24.567867279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 168,
+    "observation": [
+      0.8023194670677185,
+      100.0,
+      28.709278106689453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0035312767140567303,
+      -0.00595015287399292,
+      0.005806549917906523,
+      0.0,
+      20.258983612060547,
+      24.560279846191406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 169,
+    "observation": [
+      0.8023333549499512,
+      100.0,
+      28.709333419799805,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.012643661350011826,
+      0.0060579413548111916,
+      0.011580449528992176,
+      0.0,
+      20.263233184814453,
+      24.552701950073242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 170,
+    "observation": [
+      0.8023472428321838,
+      100.0,
+      28.709388732910156,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0024566559586673975,
+      0.012448703870177269,
+      -0.004514489788562059,
+      0.0,
+      20.26746940612793,
+      24.54513168334961,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 171,
+    "observation": [
+      0.8023611307144165,
+      100.0,
+      28.709444046020508,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007788331713527441,
+      -0.005996964406222105,
+      -0.002864446258172393,
+      0.0,
+      20.27169418334961,
+      24.537572860717773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 172,
+    "observation": [
+      0.8023750185966492,
+      100.0,
+      28.70949935913086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0013883550418540835,
+      -0.002131947549059987,
+      0.003557113464921713,
+      0.0,
+      20.27590560913086,
+      24.53002166748047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 173,
+    "observation": [
+      0.8023889064788818,
+      100.0,
+      28.70955467224121,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0037439127918332815,
+      -0.010174451395869255,
+      0.012481211684644222,
+      0.0,
+      20.28010368347168,
+      24.522480010986328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 174,
+    "observation": [
+      0.8024027943611145,
+      100.0,
+      28.709611892700195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.013430996797978878,
+      -0.0005306175444275141,
+      -0.008776018396019936,
+      0.0,
+      20.284290313720703,
+      24.51494789123535,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 175,
+    "observation": [
+      0.8024166822433472,
+      100.0,
+      28.709667205810547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01119888387620449,
+      -0.003329431638121605,
+      -0.013447888195514679,
+      0.0,
+      20.288463592529297,
+      24.50742530822754,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 176,
+    "observation": [
+      0.8024305701255798,
+      100.0,
+      28.7097225189209,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00657145120203495,
+      -0.006717443931847811,
+      -0.014182488434016705,
+      0.0,
+      20.292625427246094,
+      24.49991226196289,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 177,
+    "observation": [
+      0.8024444580078125,
+      100.0,
+      28.70977783203125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0030696233734488487,
+      -0.006505188997834921,
+      -0.01875215768814087,
+      0.0,
+      20.29677391052246,
+      24.492406845092773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 178,
+    "observation": [
+      0.8024583458900452,
+      100.0,
+      28.7098331451416,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.011406579054892063,
+      0.00785764493048191,
+      -0.003695758758112788,
+      0.0,
+      20.30091094970703,
+      24.48491096496582,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 179,
+    "observation": [
+      0.8024722337722778,
+      100.0,
+      28.709888458251953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004993460141122341,
+      -0.0011476436629891396,
+      -0.008920717984437943,
+      0.0,
+      20.305034637451172,
+      24.477426528930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 180,
+    "observation": [
+      0.8024861216545105,
+      100.0,
+      28.709943771362305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0045015886425971985,
+      0.0025625883135944605,
+      -0.0019768013153225183,
+      0.0,
+      20.309144973754883,
+      24.469947814941406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 181,
+    "observation": [
+      0.8025000095367432,
+      100.0,
+      28.709999084472656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.008546154946088791,
+      -0.0029850571881979704,
+      0.007605331484228373,
+      0.0,
+      20.313243865966797,
+      24.462480545043945,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 182,
+    "observation": [
+      0.8025138974189758,
+      100.0,
+      28.71005630493164,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.006341037806123495,
+      0.017396360635757446,
+      -0.014339471235871315,
+      0.0,
+      20.317331314086914,
+      24.455020904541016,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 183,
+    "observation": [
+      0.8025277853012085,
+      100.0,
+      28.710111618041992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007067542057484388,
+      -0.002223154529929161,
+      -0.003810330294072628,
+      0.0,
+      20.3214054107666,
+      24.447572708129883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 184,
+    "observation": [
+      0.8025416731834412,
+      100.0,
+      28.710166931152344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00039129331707954407,
+      -0.002632316667586565,
+      -0.011465775780379772,
+      0.0,
+      20.325468063354492,
+      24.44013023376465,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 185,
+    "observation": [
+      0.8025555610656738,
+      100.0,
+      28.710222244262695,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004223864059895277,
+      0.006112338975071907,
+      0.020138002932071686,
+      0.0,
+      20.329517364501953,
+      24.43269920349121,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 186,
+    "observation": [
+      0.8025694489479065,
+      100.0,
+      28.710277557373047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.012136930599808693,
+      -0.013000642880797386,
+      0.00754845654591918,
+      0.0,
+      20.333553314208984,
+      24.425277709960938,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 187,
+    "observation": [
+      0.8025833368301392,
+      100.0,
+      28.7103328704834,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.010720671154558659,
+      0.024610817432403564,
+      -0.004973432514816523,
+      0.0,
+      20.33757972717285,
+      24.417863845825195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 188,
+    "observation": [
+      0.8025972247123718,
+      100.0,
+      28.71038818359375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.008382435888051987,
+      -0.010824618861079216,
+      0.001706451759673655,
+      0.0,
+      20.341590881347656,
+      24.410457611083984,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 189,
+    "observation": [
+      0.8026111125946045,
+      100.0,
+      28.7104434967041,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0060861543752253056,
+      0.008203339762985706,
+      -0.007874151691794395,
+      0.0,
+      20.345592498779297,
+      24.40306282043457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 190,
+    "observation": [
+      0.8026250004768372,
+      100.0,
+      28.710500717163086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.003098494838923216,
+      -0.01081237755715847,
+      -0.006034196820110083,
+      0.0,
+      20.349580764770508,
+      24.395675659179688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 191,
+    "observation": [
+      0.8026388883590698,
+      100.0,
+      28.710556030273438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.014755775220692158,
+      0.0035361379850655794,
+      0.0002306211245013401,
+      0.0,
+      20.353557586669922,
+      24.38829803466797,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 192,
+    "observation": [
+      0.8026527762413025,
+      100.0,
+      28.71061134338379,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.010816196911036968,
+      -0.006153167225420475,
+      -0.00415604654699564,
+      0.0,
+      20.357521057128906,
+      24.380929946899414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 193,
+    "observation": [
+      0.8026666641235352,
+      100.0,
+      28.71066665649414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.010700806975364685,
+      0.0009509355877526104,
+      0.0037801391445100307,
+      0.0,
+      20.361473083496094,
+      24.37356948852539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 194,
+    "observation": [
+      0.8026805520057678,
+      100.0,
+      28.710721969604492,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004631310235708952,
+      0.0037406899500638247,
+      0.010153668001294136,
+      0.0,
+      20.36541175842285,
+      24.36621856689453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 195,
+    "observation": [
+      0.8026944398880005,
+      100.0,
+      28.710777282714844,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.006538428366184235,
+      0.018521619960665703,
+      0.007985973730683327,
+      0.0,
+      20.369340896606445,
+      24.358877182006836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 196,
+    "observation": [
+      0.8027083277702332,
+      100.0,
+      28.710832595825195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005331613123416901,
+      -0.0002698478929232806,
+      -0.0006046523340046406,
+      0.0,
+      20.37325668334961,
+      24.351543426513672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 197,
+    "observation": [
+      0.8027222156524658,
+      100.0,
+      28.71088981628418,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.011270497925579548,
+      -0.00829276256263256,
+      0.005710124969482422,
+      0.0,
+      20.377159118652344,
+      24.344219207763672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 198,
+    "observation": [
+      0.8027361035346985,
+      100.0,
+      28.71094512939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.005594485439360142,
+      0.006229271646589041,
+      -0.0019170447485521436,
+      0.0,
+      20.381052017211914,
+      24.336904525756836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 199,
+    "observation": [
+      0.8027499914169312,
+      100.0,
+      28.711000442504883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.006991617381572723,
+      0.010032230988144875,
+      -0.004284081514924765,
+      0.0,
+      20.384931564331055,
+      24.32959747314453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 200,
+    "observation": [
+      0.8027638792991638,
+      100.0,
+      28.711055755615234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.007326725870370865,
+      -0.014704578556120396,
+      -0.009262205101549625,
+      0.0,
+      20.388797760009766,
+      24.32229995727539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      },
+      {
+        "subsystem": "TCS",
+        "type": "SensorAFailure",
+        "params": {
+          "failed_value": -999.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": true
+  }
+]

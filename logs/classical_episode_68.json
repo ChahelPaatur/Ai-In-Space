@@ -1,0 +1,8584 @@
+[
+  {
+    "step": 1,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0006433730013668537,
+      -0.0008817330235615373,
+      -0.0011521227424964309,
+      0.0,
+      20.0,
+      25.0,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 2,
+    "observation": [
+      0.8000138998031616,
+      100.0,
+      28.700056076049805,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00038854623562656343,
+      0.0006524784839712083,
+      -0.001646411488763988,
+      0.0,
+      20.0049991607666,
+      24.99187469482422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 3,
+    "observation": [
+      0.8000277876853943,
+      100.0,
+      28.700111389160156,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007185097201727331,
+      0.008040743879973888,
+      0.0006208227714523673,
+      0.0,
+      20.009984970092773,
+      24.983760833740234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 4,
+    "observation": [
+      0.800041675567627,
+      100.0,
+      28.700166702270508,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0002080572594422847,
+      0.008488069288432598,
+      -0.0010239199036732316,
+      0.0,
+      20.014957427978516,
+      24.975656509399414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 5,
+    "observation": [
+      0.8000555634498596,
+      100.0,
+      28.70022201538086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0006009089993312955,
+      0.008699142374098301,
+      -0.0025739760603755713,
+      0.0,
+      20.019914627075195,
+      24.967561721801758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 6,
+    "observation": [
+      0.8000694513320923,
+      100.0,
+      28.70027732849121,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007385348435491323,
+      0.010970783419907093,
+      0.0006967533263377845,
+      0.0,
+      20.024858474731445,
+      24.959476470947266,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 7,
+    "observation": [
+      0.800083339214325,
+      100.0,
+      28.700332641601562,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005335530731827021,
+      0.01114086713641882,
+      -0.0006888109492138028,
+      0.0,
+      20.029788970947266,
+      24.95140266418457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 8,
+    "observation": [
+      0.8000972270965576,
+      100.0,
+      28.700387954711914,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0013029015390202403,
+      0.010199600830674171,
+      0.0002115531824529171,
+      0.0,
+      20.034704208374023,
+      24.94333839416504,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 9,
+    "observation": [
+      0.8001111149787903,
+      100.0,
+      28.7004451751709,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0016161092789843678,
+      0.010626045987010002,
+      -0.0014464595587924123,
+      0.0,
+      20.03960609436035,
+      24.935285568237305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 10,
+    "observation": [
+      0.800125002861023,
+      100.0,
+      28.70050048828125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007446056115441024,
+      0.010360975749790668,
+      -0.0004457685863599181,
+      0.0,
+      20.04449462890625,
+      24.927242279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 11,
+    "observation": [
+      0.8001388907432556,
+      100.0,
+      28.7005558013916,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00011391755833756179,
+      0.01168787106871605,
+      0.0006862030713818967,
+      0.0,
+      20.049367904663086,
+      24.919208526611328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 12,
+    "observation": [
+      0.8001527786254883,
+      100.0,
+      28.700611114501953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00010030375415226445,
+      0.011032628826797009,
+      -0.0017617023549973965,
+      0.0,
+      20.054227828979492,
+      24.911184310913086,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 13,
+    "observation": [
+      0.800166666507721,
+      100.0,
+      28.700666427612305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009925661142915487,
+      0.009711517952382565,
+      0.0013905434170737863,
+      0.0,
+      20.05907440185547,
+      24.90317153930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 14,
+    "observation": [
+      0.8001805543899536,
+      100.0,
+      28.700721740722656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001389763900078833,
+      0.007937545888125896,
+      -0.000400797463953495,
+      0.0,
+      20.063905715942383,
+      24.89516830444336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 15,
+    "observation": [
+      0.8001944422721863,
+      100.0,
+      28.700777053833008,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -7.762743189232424e-05,
+      0.010350020602345467,
+      -0.002043732674792409,
+      0.0,
+      20.068723678588867,
+      24.887174606323242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 16,
+    "observation": [
+      0.800208330154419,
+      100.0,
+      28.700834274291992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.002422874793410301,
+      0.00760731240734458,
+      -0.0012423077132552862,
+      0.0,
+      20.073528289794922,
+      24.879192352294922,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 17,
+    "observation": [
+      0.8002222180366516,
+      100.0,
+      28.700889587402344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00022557300690095872,
+      0.010848471894860268,
+      -0.00018344694399274886,
+      0.0,
+      20.078319549560547,
+      24.871217727661133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 18,
+    "observation": [
+      0.8002361059188843,
+      100.0,
+      28.700944900512695,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0016715879319235682,
+      0.009746700525283813,
+      0.001617675763554871,
+      0.0,
+      20.083097457885742,
+      24.86325454711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 19,
+    "observation": [
+      0.8002499938011169,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0012269385624676943,
+      0.007329428102821112,
+      -0.0005311630084179342,
+      0.0,
+      20.087860107421875,
+      24.855300903320312,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 20,
+    "observation": [
+      0.8002638816833496,
+      100.0,
+      28.7010555267334,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00014876967179588974,
+      0.010048865340650082,
+      -0.001375820254907012,
+      0.0,
+      20.09261131286621,
+      24.84735870361328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 21,
+    "observation": [
+      0.8002777695655823,
+      100.0,
+      28.70111083984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00086790113709867,
+      0.009333564899861813,
+      0.0009660208015702665,
+      0.0,
+      20.097347259521484,
+      24.83942413330078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 22,
+    "observation": [
+      0.8002916574478149,
+      100.0,
+      28.7011661529541,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001084639341570437,
+      0.010350305587053299,
+      -0.0009363701683469117,
+      0.0,
+      20.102069854736328,
+      24.831501007080078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 23,
+    "observation": [
+      0.8003055453300476,
+      100.0,
+      28.701221466064453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00037033241824246943,
+      0.010743311606347561,
+      -0.000927812943700701,
+      0.0,
+      20.106779098510742,
+      24.82358741760254,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 24,
+    "observation": [
+      0.8003194332122803,
+      100.0,
+      28.701278686523438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.000450454477686435,
+      0.010189564898610115,
+      0.00029257452115416527,
+      0.0,
+      20.111474990844727,
+      24.815683364868164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 25,
+    "observation": [
+      0.8003333210945129,
+      100.0,
+      28.70133399963379,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00025082507636398077,
+      0.009959869086742401,
+      -0.00030486678588204086,
+      0.0,
+      20.11615562438965,
+      24.807788848876953,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 26,
+    "observation": [
+      0.8003472089767456,
+      100.0,
+      28.70138931274414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010142694227397442,
+      0.010791563428938389,
+      0.0008081212290562689,
+      0.0,
+      20.120824813842773,
+      24.799903869628906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 27,
+    "observation": [
+      0.8003610968589783,
+      100.0,
+      28.701444625854492,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0002761384239420295,
+      0.009895354509353638,
+      6.41039659967646e-05,
+      0.0,
+      20.125478744506836,
+      24.792030334472656,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 28,
+    "observation": [
+      0.8003749847412109,
+      100.0,
+      28.701499938964844,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.000934785115532577,
+      0.008494488894939423,
+      -0.0013573585310950875,
+      0.0,
+      20.1301212310791,
+      24.78416633605957,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 29,
+    "observation": [
+      0.8003888726234436,
+      100.0,
+      28.701555252075195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0003159202460665256,
+      0.010217026807367802,
+      -0.0004806267097592354,
+      0.0,
+      20.134748458862305,
+      24.77631187438965,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 30,
+    "observation": [
+      0.8004027605056763,
+      100.0,
+      28.701610565185547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0024496896658092737,
+      0.010432259179651737,
+      0.0009648035629652441,
+      0.0,
+      20.13936424255371,
+      24.768465042114258,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 31,
+    "observation": [
+      0.8004166483879089,
+      100.0,
+      28.7016658782959,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0019594391342252493,
+      0.008661403320729733,
+      0.0012771416222676635,
+      0.0,
+      20.143964767456055,
+      24.760631561279297,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 32,
+    "observation": [
+      0.8004305362701416,
+      100.0,
+      28.701723098754883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010798745788633823,
+      0.008064689114689827,
+      -0.00014946844021324068,
+      0.0,
+      20.14855194091797,
+      24.752805709838867,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 33,
+    "observation": [
+      0.8004444241523743,
+      100.0,
+      28.701778411865234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0019860693719238043,
+      0.009090596809983253,
+      0.0009764021961018443,
+      0.0,
+      20.153127670288086,
+      24.7449893951416,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 34,
+    "observation": [
+      0.8004583120346069,
+      100.0,
+      28.701833724975586,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009041689918376505,
+      0.009873044677078724,
+      7.696376997046173e-05,
+      0.0,
+      20.15768814086914,
+      24.7371826171875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 35,
+    "observation": [
+      0.8004721999168396,
+      100.0,
+      28.701889038085938,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0002367371489526704,
+      0.009418979287147522,
+      0.0013963308883830905,
+      0.0,
+      20.1622371673584,
+      24.729387283325195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 36,
+    "observation": [
+      0.8004860877990723,
+      100.0,
+      28.70194435119629,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -1.2607154530996922e-05,
+      0.011415718123316765,
+      0.001975385472178459,
+      0.0,
+      20.166770935058594,
+      24.721599578857422,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 37,
+    "observation": [
+      0.8004999756813049,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -1.4867035133647732e-05,
+      0.009455799125134945,
+      -0.0009242113446816802,
+      0.0,
+      20.171293258666992,
+      24.713823318481445,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 38,
+    "observation": [
+      0.8005138635635376,
+      100.0,
+      28.702054977416992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0001745530462358147,
+      0.009821943007409573,
+      0.0004145483544562012,
+      0.0,
+      20.175800323486328,
+      24.7060546875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 39,
+    "observation": [
+      0.8005277514457703,
+      100.0,
+      28.702110290527344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0022517500910907984,
+      0.01149774994701147,
+      7.281759462784976e-05,
+      0.0,
+      20.180295944213867,
+      24.69829750061035,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 40,
+    "observation": [
+      0.8005416393280029,
+      100.0,
+      28.702167510986328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00091828458243981,
+      0.009687183424830437,
+      0.0005206280620768666,
+      0.0,
+      20.184778213500977,
+      24.690547943115234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 41,
+    "observation": [
+      0.8005555272102356,
+      100.0,
+      28.70222282409668,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0005563644808717072,
+      0.00941175315529108,
+      -0.00016590287850704044,
+      0.0,
+      20.189247131347656,
+      24.682809829711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 42,
+    "observation": [
+      0.8005694150924683,
+      100.0,
+      28.70227813720703,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0016637580702081323,
+      0.008609045296907425,
+      0.0005537014221772552,
+      0.0,
+      20.193702697753906,
+      24.675081253051758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 43,
+    "observation": [
+      0.8005833625793457,
+      100.0,
+      28.702333450317383,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0005168636562302709,
+      0.010906541720032692,
+      0.0004794960841536522,
+      0.0,
+      20.198144912719727,
+      24.667360305786133,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 44,
+    "observation": [
+      0.8005972504615784,
+      100.0,
+      28.702388763427734,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      7.485273818019778e-05,
+      0.010118024423718452,
+      -7.104234100552276e-05,
+      0.0,
+      20.202573776245117,
+      24.659650802612305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 45,
+    "observation": [
+      0.800611138343811,
+      100.0,
+      28.702444076538086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00035280981683172286,
+      0.007088848389685154,
+      -0.00036254816222935915,
+      0.0,
+      20.20699119567871,
+      24.65195083618164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 46,
+    "observation": [
+      0.8006250262260437,
+      100.0,
+      28.702499389648438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0003249380097258836,
+      0.009937388822436333,
+      0.00026074587367475033,
+      0.0,
+      20.211395263671875,
+      24.64426040649414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 47,
+    "observation": [
+      0.8006389141082764,
+      100.0,
+      28.70255470275879,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00016604296979494393,
+      0.009454727172851562,
+      -4.334044206188992e-05,
+      0.0,
+      20.21578598022461,
+      24.636577606201172,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 48,
+    "observation": [
+      0.800652801990509,
+      100.0,
+      28.702611923217773,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0002070314803859219,
+      0.01057795062661171,
+      -0.0011030988534912467,
+      0.0,
+      20.220163345336914,
+      24.62890625,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 49,
+    "observation": [
+      0.8006666898727417,
+      100.0,
+      28.702667236328125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00016728052287362516,
+      0.009652823209762573,
+      0.0017225509509444237,
+      0.0,
+      20.22452735900879,
+      24.62124252319336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 50,
+    "observation": [
+      0.8006805777549744,
+      100.0,
+      28.702722549438477,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001255192095413804,
+      0.010631471872329712,
+      -0.0003768438473343849,
+      0.0,
+      20.228879928588867,
+      24.613590240478516,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 51,
+    "observation": [
+      0.800694465637207,
+      100.0,
+      28.702777862548828,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00014423750690184534,
+      0.010162074118852615,
+      -0.0030036787502467632,
+      0.0,
+      20.233219146728516,
+      24.605945587158203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 52,
+    "observation": [
+      0.8007083535194397,
+      100.0,
+      28.70283317565918,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -1.4062416994420346e-05,
+      0.00925328116863966,
+      0.0010242066346108913,
+      0.0,
+      20.237545013427734,
+      24.598312377929688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 53,
+    "observation": [
+      0.8007222414016724,
+      100.0,
+      28.70288848876953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00024993589613586664,
+      0.010687357746064663,
+      -0.00017608264170121402,
+      0.0,
+      20.241857528686523,
+      24.590686798095703,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 54,
+    "observation": [
+      0.800736129283905,
+      100.0,
+      28.702943801879883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005975993699394166,
+      0.00902413111180067,
+      -0.0014072592603042722,
+      0.0,
+      20.246158599853516,
+      24.583070755004883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 55,
+    "observation": [
+      0.8007500171661377,
+      100.0,
+      28.702999114990234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0011383345117792487,
+      0.012074348516762257,
+      0.002775029046460986,
+      0.0,
+      20.250446319580078,
+      24.575464248657227,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 56,
+    "observation": [
+      0.8007639050483704,
+      100.0,
+      28.70305633544922,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0008293738355860114,
+      0.009892280213534832,
+      -3.146511880913749e-05,
+      0.0,
+      20.25472068786621,
+      24.567867279052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 57,
+    "observation": [
+      0.800777792930603,
+      100.0,
+      28.70311164855957,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.002512885257601738,
+      0.012713935226202011,
+      0.000587421003729105,
+      0.0,
+      20.258983612060547,
+      24.560279846191406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 58,
+    "observation": [
+      0.8007916808128357,
+      100.0,
+      28.703166961669922,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -2.5466470106039196e-05,
+      0.011264610104262829,
+      -0.0012754106428474188,
+      0.0,
+      20.263233184814453,
+      24.552701950073242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 59,
+    "observation": [
+      0.8008055686950684,
+      100.0,
+      28.703222274780273,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0008418404031544924,
+      0.0100217554718256,
+      -0.002096365438774228,
+      0.0,
+      20.26746940612793,
+      24.54513168334961,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 60,
+    "observation": [
+      0.800819456577301,
+      100.0,
+      28.703277587890625,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0011820856016129255,
+      0.010309810750186443,
+      -0.0006610899581573904,
+      0.0,
+      20.27169418334961,
+      24.537572860717773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 61,
+    "observation": [
+      0.8008333444595337,
+      100.0,
+      28.703332901000977,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009618772892281413,
+      0.011592120863497257,
+      -0.00028072783607058227,
+      0.0,
+      20.27590560913086,
+      24.53002166748047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 62,
+    "observation": [
+      0.8008472323417664,
+      100.0,
+      28.703388214111328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008211131789721549,
+      0.009084542281925678,
+      0.0005531703936867416,
+      0.0,
+      20.28010368347168,
+      24.522480010986328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 63,
+    "observation": [
+      0.800861120223999,
+      100.0,
+      28.70344352722168,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00034275828511454165,
+      0.009701255708932877,
+      0.0007975788321346045,
+      0.0,
+      20.284290313720703,
+      24.51494789123535,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 64,
+    "observation": [
+      0.8008750081062317,
+      100.0,
+      28.703500747680664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010609655873849988,
+      0.011680643074214458,
+      -0.0015431026695296168,
+      0.0,
+      20.288463592529297,
+      24.50742530822754,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 65,
+    "observation": [
+      0.8008888959884644,
+      100.0,
+      28.703556060791016,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0004276875115465373,
+      0.009630512446165085,
+      -0.0018461794825270772,
+      0.0,
+      20.292625427246094,
+      24.49991226196289,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 66,
+    "observation": [
+      0.800902783870697,
+      100.0,
+      28.703611373901367,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0002017485530814156,
+      0.009891966357827187,
+      9.307704749517143e-05,
+      0.0,
+      20.29677391052246,
+      24.492406845092773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 67,
+    "observation": [
+      0.8009166717529297,
+      100.0,
+      28.70366668701172,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00043041142635047436,
+      0.008335459046065807,
+      -0.0012569495011121035,
+      0.0,
+      20.30091094970703,
+      24.48491096496582,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 68,
+    "observation": [
+      0.8009305596351624,
+      100.0,
+      28.70372200012207,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00040301488479599357,
+      0.011418651789426804,
+      -0.0015791624318808317,
+      0.0,
+      20.305034637451172,
+      24.477426528930664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 69,
+    "observation": [
+      0.800944447517395,
+      100.0,
+      28.703777313232422,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009339496027678251,
+      0.008970476686954498,
+      0.0006551672704517841,
+      0.0,
+      20.309144973754883,
+      24.469947814941406,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 70,
+    "observation": [
+      0.8009583353996277,
+      100.0,
+      28.703832626342773,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001025376608595252,
+      0.010420586913824081,
+      -0.0005715157603845,
+      0.0,
+      20.313243865966797,
+      24.462480545043945,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 71,
+    "observation": [
+      0.8009722232818604,
+      100.0,
+      28.703887939453125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010771902743726969,
+      0.010088267736136913,
+      0.0014086391311138868,
+      0.0,
+      20.317331314086914,
+      24.455020904541016,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 72,
+    "observation": [
+      0.800986111164093,
+      100.0,
+      28.70394515991211,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00016270970809273422,
+      0.009908651933073997,
+      -0.001272067311219871,
+      0.0,
+      20.3214054107666,
+      24.447572708129883,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 73,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70400047302246,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009160478366538882,
+      0.007858077064156532,
+      -0.0006296855863183737,
+      0.0,
+      20.325468063354492,
+      24.44013023376465,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 74,
+    "observation": [
+      0.8010138869285583,
+      100.0,
+      28.704055786132812,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010573961772024632,
+      0.00952211581170559,
+      0.0012188146356493235,
+      0.0,
+      20.329517364501953,
+      24.43269920349121,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 75,
+    "observation": [
+      0.801027774810791,
+      100.0,
+      28.704111099243164,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00039283299702219665,
+      0.00949549488723278,
+      0.00010863612260436639,
+      0.0,
+      20.333553314208984,
+      24.425277709960938,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 76,
+    "observation": [
+      0.8010416626930237,
+      100.0,
+      28.704166412353516,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0006638296181336045,
+      0.008873429149389267,
+      9.00518789421767e-05,
+      0.0,
+      20.33757972717285,
+      24.417863845825195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 77,
+    "observation": [
+      0.8010555505752563,
+      100.0,
+      28.704221725463867,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0001268127525690943,
+      0.01093850377947092,
+      -0.00048764346865937114,
+      0.0,
+      20.341590881347656,
+      24.410457611083984,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 78,
+    "observation": [
+      0.801069438457489,
+      100.0,
+      28.70427703857422,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00021112829563207924,
+      0.009946735575795174,
+      -0.0010488753905519843,
+      0.0,
+      20.345592498779297,
+      24.40306282043457,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 79,
+    "observation": [
+      0.8010833263397217,
+      100.0,
+      28.704334259033203,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001756547950208187,
+      0.012021735310554504,
+      0.0012503875186666846,
+      0.0,
+      20.349580764770508,
+      24.395675659179688,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 80,
+    "observation": [
+      0.8010972142219543,
+      100.0,
+      28.704389572143555,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0013833181001245975,
+      0.008953389711678028,
+      0.0001110452794819139,
+      0.0,
+      20.353557586669922,
+      24.38829803466797,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 81,
+    "observation": [
+      0.801111102104187,
+      100.0,
+      28.704444885253906,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004132455214858055,
+      0.008688731119036674,
+      0.0007522616069763899,
+      0.0,
+      20.357521057128906,
+      24.380929946899414,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 82,
+    "observation": [
+      0.8011249899864197,
+      100.0,
+      28.704500198364258,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003967862285207957,
+      0.010253949090838432,
+      0.0006098978919908404,
+      0.0,
+      20.361473083496094,
+      24.37356948852539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 83,
+    "observation": [
+      0.8011388778686523,
+      100.0,
+      28.70455551147461,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009242132073268294,
+      0.009982061572372913,
+      0.0007405483047477901,
+      0.0,
+      20.36541175842285,
+      24.36621856689453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 84,
+    "observation": [
+      0.801152765750885,
+      100.0,
+      28.70461082458496,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      6.600326742045581e-05,
+      0.009257271885871887,
+      0.0007581894169561565,
+      0.0,
+      20.369340896606445,
+      24.358877182006836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 85,
+    "observation": [
+      0.8011666536331177,
+      100.0,
+      28.704666137695312,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -5.2220450015738606e-05,
+      0.011297600343823433,
+      0.00015642783546354622,
+      0.0,
+      20.37325668334961,
+      24.351543426513672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 86,
+    "observation": [
+      0.8011805415153503,
+      100.0,
+      28.704721450805664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0012707862770184875,
+      0.010005023330450058,
+      -4.96145075885579e-05,
+      0.0,
+      20.377159118652344,
+      24.344219207763672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 87,
+    "observation": [
+      0.801194429397583,
+      100.0,
+      28.70477867126465,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009390570339746773,
+      0.007732050027698278,
+      0.00021624685905408114,
+      0.0,
+      20.381052017211914,
+      24.336904525756836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 88,
+    "observation": [
+      0.8012083172798157,
+      100.0,
+      28.704833984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001702059875242412,
+      0.00835527665913105,
+      0.001009362400509417,
+      0.0,
+      20.384931564331055,
+      24.32959747314453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 89,
+    "observation": [
+      0.8012222051620483,
+      100.0,
+      28.70488929748535,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009469883516430855,
+      0.010808350518345833,
+      0.001476522651501,
+      0.0,
+      20.388797760009766,
+      24.32229995727539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 90,
+    "observation": [
+      0.801236093044281,
+      100.0,
+      28.704944610595703,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0012283985270187259,
+      0.011891812086105347,
+      0.00022639063536189497,
+      0.0,
+      20.392654418945312,
+      24.31501007080078,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 91,
+    "observation": [
+      0.8012499809265137,
+      100.0,
+      28.704999923706055,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001110609038732946,
+      0.009318789467215538,
+      0.0010669301263988018,
+      0.0,
+      20.39649772644043,
+      24.307729721069336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 92,
+    "observation": [
+      0.8012638688087463,
+      100.0,
+      28.705055236816406,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007985215052030981,
+      0.009623618796467781,
+      0.00021403016580734402,
+      0.0,
+      20.40032958984375,
+      24.300458908081055,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 93,
+    "observation": [
+      0.801277756690979,
+      100.0,
+      28.705110549926758,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00016286126628983766,
+      0.01000424474477768,
+      0.000606564455665648,
+      0.0,
+      20.404150009155273,
+      24.293195724487305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 94,
+    "observation": [
+      0.8012916445732117,
+      100.0,
+      28.70516586303711,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010930727003142238,
+      0.010511387139558792,
+      0.0006625073147006333,
+      0.0,
+      20.407958984375,
+      24.28594207763672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 95,
+    "observation": [
+      0.8013055324554443,
+      100.0,
+      28.705223083496094,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009380915435031056,
+      0.009876853786408901,
+      -0.001625422271899879,
+      0.0,
+      20.411754608154297,
+      24.278696060180664,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 96,
+    "observation": [
+      0.801319420337677,
+      100.0,
+      28.705278396606445,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00034166238037869334,
+      0.010672547854483128,
+      -0.0005660330061800778,
+      0.0,
+      20.415538787841797,
+      24.271459579467773,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 97,
+    "observation": [
+      0.8013333082199097,
+      100.0,
+      28.705333709716797,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009872388327494264,
+      0.010052808560431004,
+      -0.002702091122046113,
+      0.0,
+      20.4193115234375,
+      24.264232635498047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 98,
+    "observation": [
+      0.8013471961021423,
+      100.0,
+      28.70538902282715,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0012667560949921608,
+      0.00930813979357481,
+      0.0007623439305461943,
+      0.0,
+      20.423072814941406,
+      24.25701332092285,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 99,
+    "observation": [
+      0.801361083984375,
+      100.0,
+      28.7054443359375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003812530485447496,
+      0.01075650379061699,
+      -0.0002110874920617789,
+      0.0,
+      20.426822662353516,
+      24.24980354309082,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 100,
+    "observation": [
+      0.8013749718666077,
+      100.0,
+      28.70549964904785,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00020167561888229102,
+      0.00944406259804964,
+      -0.0006042974418960512,
+      0.0,
+      20.430561065673828,
+      24.24260139465332,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 101,
+    "observation": [
+      0.8013888597488403,
+      100.0,
+      28.705554962158203,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008242081967182457,
+      0.009428584948182106,
+      0.00017895216296892613,
+      0.0,
+      20.43428611755371,
+      24.235408782958984,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 102,
+    "observation": [
+      0.8014028072357178,
+      100.0,
+      28.705610275268555,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0019285568268969655,
+      0.010618006810545921,
+      -0.00060574448434636,
+      0.0,
+      20.437999725341797,
+      24.22822380065918,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 103,
+    "observation": [
+      0.8014166951179504,
+      100.0,
+      28.70566749572754,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004136565257795155,
+      0.007290402427315712,
+      -0.000312077027047053,
+      0.0,
+      20.44170379638672,
+      24.221046447753906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 104,
+    "observation": [
+      0.8014305830001831,
+      100.0,
+      28.70572280883789,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0008067336748354137,
+      0.011228508315980434,
+      0.0004559872322715819,
+      0.0,
+      20.44539451599121,
+      24.21388053894043,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 105,
+    "observation": [
+      0.8014444708824158,
+      100.0,
+      28.705778121948242,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003505899803712964,
+      0.012196142226457596,
+      0.002347372705116868,
+      0.0,
+      20.449073791503906,
+      24.20672035217285,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 106,
+    "observation": [
+      0.8014583587646484,
+      100.0,
+      28.705833435058594,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0014335059095174074,
+      0.009249616414308548,
+      -0.0011971505591645837,
+      0.0,
+      20.452741622924805,
+      24.19957160949707,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 107,
+    "observation": [
+      0.8014722466468811,
+      100.0,
+      28.705888748168945,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00017509311146568507,
+      0.008506318554282188,
+      -0.00022674741921946406,
+      0.0,
+      20.456398010253906,
+      24.192428588867188,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 108,
+    "observation": [
+      0.8014861345291138,
+      100.0,
+      28.705944061279297,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004406551015563309,
+      0.009052027948200703,
+      -0.0004502327064983547,
+      0.0,
+      20.46004295349121,
+      24.1852970123291,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 109,
+    "observation": [
+      0.8015000224113464,
+      100.0,
+      28.70599937438965,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0021446202881634235,
+      0.009299367666244507,
+      0.0029109930619597435,
+      0.0,
+      20.46367645263672,
+      24.178171157836914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 110,
+    "observation": [
+      0.8015139102935791,
+      100.0,
+      28.7060546875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      6.349887553369626e-05,
+      0.010434870608150959,
+      -0.0025725059676915407,
+      0.0,
+      20.467296600341797,
+      24.17105484008789,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 111,
+    "observation": [
+      0.8015277981758118,
+      100.0,
+      28.706111907958984,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0013971927110105753,
+      0.009697718545794487,
+      4.719702701549977e-05,
+      0.0,
+      20.47090721130371,
+      24.16394805908203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 112,
+    "observation": [
+      0.8015416860580444,
+      100.0,
+      28.706167221069336,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00029063652618788183,
+      0.010071014985442162,
+      -0.0001675973180681467,
+      0.0,
+      20.474506378173828,
+      24.156848907470703,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 113,
+    "observation": [
+      0.8015555739402771,
+      100.0,
+      28.706222534179688,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.002146804239600897,
+      0.0108658941462636,
+      -0.001993237528949976,
+      0.0,
+      20.47809410095215,
+      24.149757385253906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 114,
+    "observation": [
+      0.8015694618225098,
+      100.0,
+      28.70627784729004,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0014407129492610693,
+      0.011135577224195004,
+      0.000319676153594628,
+      0.0,
+      20.481670379638672,
+      24.142675399780273,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 115,
+    "observation": [
+      0.8015833497047424,
+      100.0,
+      28.70633316040039,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010619907407090068,
+      0.009263035841286182,
+      0.002526029711589217,
+      0.0,
+      20.4852352142334,
+      24.135602951049805,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 116,
+    "observation": [
+      0.8015972375869751,
+      100.0,
+      28.706388473510742,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008680972969159484,
+      0.00959906168282032,
+      -2.6237303245579824e-05,
+      0.0,
+      20.488788604736328,
+      24.128536224365234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 117,
+    "observation": [
+      0.8016111254692078,
+      100.0,
+      28.706443786621094,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0017652125097811222,
+      0.010981641709804535,
+      0.0013690615305677056,
+      0.0,
+      20.49233055114746,
+      24.121479034423828,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 118,
+    "observation": [
+      0.8016250133514404,
+      100.0,
+      28.706499099731445,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0011083057615906,
+      0.008947325870394707,
+      -0.0008867551223374903,
+      0.0,
+      20.495861053466797,
+      24.114431381225586,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 119,
+    "observation": [
+      0.8016389012336731,
+      100.0,
+      28.70655632019043,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -6.546313670696691e-05,
+      0.009298928081989288,
+      -7.773854122206103e-06,
+      0.0,
+      20.499380111694336,
+      24.107391357421875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 120,
+    "observation": [
+      0.8016527891159058,
+      100.0,
+      28.70661163330078,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010543051175773144,
+      0.010519399307668209,
+      -0.0017327729146927595,
+      0.0,
+      20.502887725830078,
+      24.100358963012695,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 121,
+    "observation": [
+      0.8016666769981384,
+      100.0,
+      28.706666946411133,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0014368214178830385,
+      0.009848549030721188,
+      0.0005218221340328455,
+      0.0,
+      20.506385803222656,
+      24.09333610534668,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 122,
+    "observation": [
+      0.8016805648803711,
+      100.0,
+      28.706722259521484,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001261121709831059,
+      0.009000240825116634,
+      0.00022514178999699652,
+      0.0,
+      20.509870529174805,
+      24.086320877075195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 123,
+    "observation": [
+      0.8016944527626038,
+      100.0,
+      28.706777572631836,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      8.227423677453771e-05,
+      0.011118843220174313,
+      1.885450546978973e-05,
+      0.0,
+      20.51334571838379,
+      24.079313278198242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 124,
+    "observation": [
+      0.8017083406448364,
+      100.0,
+      28.706832885742188,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0005881493561901152,
+      0.011403325013816357,
+      -0.0007851276895962656,
+      0.0,
+      20.516807556152344,
+      24.072315216064453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 125,
+    "observation": [
+      0.8017222285270691,
+      100.0,
+      28.70688819885254,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0006334308418445289,
+      0.010704783722758293,
+      -0.0006877759005874395,
+      0.0,
+      20.520259857177734,
+      24.065324783325195,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 126,
+    "observation": [
+      0.8017361164093018,
+      100.0,
+      28.70694351196289,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003130078548565507,
+      0.010888731107115746,
+      0.00038241088623180985,
+      0.0,
+      20.523700714111328,
+      24.05834197998047,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 127,
+    "observation": [
+      0.8017500042915344,
+      100.0,
+      28.707000732421875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      3.5018612834392115e-05,
+      0.010305197909474373,
+      -3.260926314396784e-05,
+      0.0,
+      20.527132034301758,
+      24.051368713378906,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 128,
+    "observation": [
+      0.8017638921737671,
+      100.0,
+      28.707056045532227,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0014715405413880944,
+      0.010293140076100826,
+      0.001421210472472012,
+      0.0,
+      20.530550003051758,
+      24.044403076171875,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 129,
+    "observation": [
+      0.8017777800559998,
+      100.0,
+      28.707111358642578,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00020858341304119676,
+      0.011162587441504002,
+      0.0003731733886525035,
+      0.0,
+      20.533958435058594,
+      24.037446975708008,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 130,
+    "observation": [
+      0.8017916679382324,
+      100.0,
+      28.70716667175293,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001080770860426128,
+      0.009735644795000553,
+      -0.0001160213869297877,
+      0.0,
+      20.537355422973633,
+      24.03049659729004,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 131,
+    "observation": [
+      0.8018055558204651,
+      100.0,
+      28.70722198486328,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001268522348254919,
+      0.009581680409610271,
+      0.000880895706359297,
+      0.0,
+      20.540740966796875,
+      24.023555755615234,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 132,
+    "observation": [
+      0.8018194437026978,
+      100.0,
+      28.707277297973633,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008525399025529623,
+      0.00993829034268856,
+      0.0005292910500429571,
+      0.0,
+      20.54411506652832,
+      24.016624450683594,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 133,
+    "observation": [
+      0.8018333315849304,
+      100.0,
+      28.707332611083984,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0013820205349475145,
+      0.009495663456618786,
+      -0.0010172969195991755,
+      0.0,
+      20.5474796295166,
+      24.00969886779785,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 134,
+    "observation": [
+      0.8018472194671631,
+      100.0,
+      28.70738983154297,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00043137907050549984,
+      0.009423831477761269,
+      -0.0009886649204418063,
+      0.0,
+      20.550830841064453,
+      24.002782821655273,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 135,
+    "observation": [
+      0.8018611073493958,
+      100.0,
+      28.70744514465332,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00029406542307697237,
+      0.009365941397845745,
+      0.0008052767952904105,
+      0.0,
+      20.55417251586914,
+      23.995874404907227,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 136,
+    "observation": [
+      0.8018749952316284,
+      100.0,
+      28.707500457763672,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0011678417213261127,
+      0.010441197082400322,
+      0.0006357335369102657,
+      0.0,
+      20.557504653930664,
+      23.988975524902344,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 137,
+    "observation": [
+      0.8018888831138611,
+      100.0,
+      28.707555770874023,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      7.186947186710313e-05,
+      0.00912806112319231,
+      0.0010120361112058163,
+      0.0,
+      20.560823440551758,
+      23.98208236694336,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 138,
+    "observation": [
+      0.8019027709960938,
+      100.0,
+      28.707611083984375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010122850071638823,
+      0.009872222319245338,
+      0.0002894265344366431,
+      0.0,
+      20.564132690429688,
+      23.97519874572754,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 139,
+    "observation": [
+      0.8019166588783264,
+      100.0,
+      28.707666397094727,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00022606068523600698,
+      0.00975015014410019,
+      0.00019554943719413131,
+      0.0,
+      20.567432403564453,
+      23.96832275390625,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 140,
+    "observation": [
+      0.8019305467605591,
+      100.0,
+      28.707721710205078,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00017435441259294748,
+      0.010515421628952026,
+      -0.0006320520187728107,
+      0.0,
+      20.57071876525879,
+      23.961456298828125,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 141,
+    "observation": [
+      0.8019444346427917,
+      100.0,
+      28.70777702331543,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004262151778675616,
+      0.0115694310516119,
+      0.0009030957007780671,
+      0.0,
+      20.57399559020996,
+      23.9545955657959,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 142,
+    "observation": [
+      0.8019583225250244,
+      100.0,
+      28.707834243774414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00012478441931307316,
+      0.00966241117566824,
+      -0.0014804210513830185,
+      0.0,
+      20.577260971069336,
+      23.947744369506836,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 143,
+    "observation": [
+      0.8019722104072571,
+      100.0,
+      28.707889556884766,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00045020176912657917,
+      0.009909680113196373,
+      -0.00018205333617515862,
+      0.0,
+      20.580516815185547,
+      23.940900802612305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 144,
+    "observation": [
+      0.8019860982894897,
+      100.0,
+      28.707944869995117,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00027053244411945343,
+      0.009591464884579182,
+      0.0005003855912946165,
+      0.0,
+      20.58376121520996,
+      23.934064865112305,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 145,
+    "observation": [
+      0.8019999861717224,
+      100.0,
+      28.70800018310547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.000648604822345078,
+      0.010968154296278954,
+      -0.0006157653406262398,
+      0.0,
+      20.586994171142578,
+      23.92723846435547,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 146,
+    "observation": [
+      0.8020138740539551,
+      100.0,
+      28.70805549621582,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0007369398954324424,
+      0.010706464760005474,
+      -0.000505486037582159,
+      0.0,
+      20.59021759033203,
+      23.92041778564453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 147,
+    "observation": [
+      0.8020277619361877,
+      100.0,
+      28.708110809326172,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005085861193947494,
+      0.011483466252684593,
+      -0.0014722337946295738,
+      0.0,
+      20.593429565429688,
+      23.913606643676758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 148,
+    "observation": [
+      0.8020416498184204,
+      100.0,
+      28.708166122436523,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.001984438393265009,
+      0.010779999196529388,
+      -0.001214766874909401,
+      0.0,
+      20.596630096435547,
+      23.906803131103516,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 149,
+    "observation": [
+      0.8020555377006531,
+      100.0,
+      28.708221435546875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0002301658532815054,
+      0.010943363420665264,
+      -0.00033882129355333745,
+      0.0,
+      20.599821090698242,
+      23.900007247924805,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 150,
+    "observation": [
+      0.8020694255828857,
+      100.0,
+      28.70827865600586,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005933656939305365,
+      0.011831137351691723,
+      0.00045235175639390945,
+      0.0,
+      20.603002548217773,
+      23.893220901489258,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 151,
+    "observation": [
+      0.8020833134651184,
+      100.0,
+      28.70833396911621,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00029961438849568367,
+      0.01069478876888752,
+      -0.001108889002352953,
+      0.0,
+      20.606170654296875,
+      23.88644027709961,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 152,
+    "observation": [
+      0.8020972013473511,
+      100.0,
+      28.708389282226562,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0011570713249966502,
+      0.008128982037305832,
+      0.000552784709725529,
+      0.0,
+      20.609331130981445,
+      23.879669189453125,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 153,
+    "observation": [
+      0.8021110892295837,
+      100.0,
+      28.708444595336914,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0006819820264354348,
+      0.011702146381139755,
+      -0.00043696246575564146,
+      0.0,
+      20.612478256225586,
+      23.872905731201172,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 154,
+    "observation": [
+      0.8021249771118164,
+      100.0,
+      28.708499908447266,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004168729647062719,
+      0.007874255068600178,
+      -0.0010784132173284888,
+      0.0,
+      20.615615844726562,
+      23.86614990234375,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 155,
+    "observation": [
+      0.8021388649940491,
+      100.0,
+      28.708555221557617,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -7.262094004545361e-05,
+      0.009302274323999882,
+      0.0014253538101911545,
+      0.0,
+      20.618743896484375,
+      23.85940170288086,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 156,
+    "observation": [
+      0.8021527528762817,
+      100.0,
+      28.70861053466797,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00138828344643116,
+      0.012195496819913387,
+      0.0002171272790292278,
+      0.0,
+      20.62186050415039,
+      23.8526611328125,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 157,
+    "observation": [
+      0.8021666407585144,
+      100.0,
+      28.70866584777832,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0002495479129720479,
+      0.010430657304823399,
+      2.1023210138082504e-05,
+      0.0,
+      20.624967575073242,
+      23.845928192138672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 158,
+    "observation": [
+      0.8021805286407471,
+      100.0,
+      28.708723068237305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00148811808321625,
+      0.010469155386090279,
+      0.00086209736764431,
+      0.0,
+      20.628063201904297,
+      23.839202880859375,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 159,
+    "observation": [
+      0.8021944165229797,
+      100.0,
+      28.708778381347656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0005348552949726582,
+      0.010931595228612423,
+      0.00033223250648006797,
+      0.0,
+      20.631149291992188,
+      23.832487106323242,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 160,
+    "observation": [
+      0.8022083044052124,
+      100.0,
+      28.708833694458008,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0006165907252579927,
+      0.01052606850862503,
+      -0.0005178102292120457,
+      0.0,
+      20.63422393798828,
+      23.82577896118164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 161,
+    "observation": [
+      0.8022222518920898,
+      100.0,
+      28.70888900756836,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008180906297639012,
+      0.009238576516509056,
+      0.000231395591981709,
+      0.0,
+      20.63728904724121,
+      23.819076538085938,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 162,
+    "observation": [
+      0.8022361397743225,
+      100.0,
+      28.70894432067871,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008505251025781035,
+      0.009890725836157799,
+      0.0009437176049686968,
+      0.0,
+      20.640342712402344,
+      23.8123836517334,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 163,
+    "observation": [
+      0.8022500276565552,
+      100.0,
+      28.708999633789062,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010402530897408724,
+      0.01020659040659666,
+      0.0007292089867405593,
+      0.0,
+      20.643386840820312,
+      23.80569839477539,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 164,
+    "observation": [
+      0.8022639155387878,
+      100.0,
+      28.709054946899414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0011276951991021633,
+      0.009080390445888042,
+      0.0014451169408857822,
+      0.0,
+      20.646421432495117,
+      23.799020767211914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 165,
+    "observation": [
+      0.8022778034210205,
+      100.0,
+      28.709110260009766,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00023023318499326706,
+      0.010180458426475525,
+      0.00031141171348281205,
+      0.0,
+      20.649444580078125,
+      23.79235076904297,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 166,
+    "observation": [
+      0.8022916913032532,
+      100.0,
+      28.70916748046875,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010944826062768698,
+      0.009372971020638943,
+      0.0002373548923060298,
+      0.0,
+      20.652456283569336,
+      23.785688400268555,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 167,
+    "observation": [
+      0.8023055791854858,
+      100.0,
+      28.7092227935791,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010242187418043613,
+      0.009778458625078201,
+      -0.0012631426798179746,
+      0.0,
+      20.655460357666016,
+      23.779033660888672,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 168,
+    "observation": [
+      0.8023194670677185,
+      100.0,
+      28.709278106689453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008895536884665489,
+      0.011377627030014992,
+      0.000454887340310961,
+      0.0,
+      20.6584529876709,
+      23.77238655090332,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 169,
+    "observation": [
+      0.8023333549499512,
+      100.0,
+      28.709333419799805,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0006680383230559528,
+      0.00987403653562069,
+      -0.0010034828446805477,
+      0.0,
+      20.661434173583984,
+      23.7657470703125,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 170,
+    "observation": [
+      0.8023472428321838,
+      100.0,
+      28.709388732910156,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0012416233075782657,
+      0.010808075778186321,
+      0.0009763658745214343,
+      0.0,
+      20.664405822753906,
+      23.75911521911621,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 171,
+    "observation": [
+      0.8023611307144165,
+      100.0,
+      28.709444046020508,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0008859463268890977,
+      0.01016432698816061,
+      0.0005934726214036345,
+      0.0,
+      20.667367935180664,
+      23.752490997314453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 172,
+    "observation": [
+      0.8023750185966492,
+      100.0,
+      28.70949935913086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00111469067633152,
+      0.011102915741503239,
+      -0.001066533848643303,
+      0.0,
+      20.670320510864258,
+      23.745874404907227,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 173,
+    "observation": [
+      0.8023889064788818,
+      100.0,
+      28.70955467224121,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0004543420218396932,
+      0.008980696089565754,
+      0.00034149098792113364,
+      0.0,
+      20.673261642456055,
+      23.73926544189453,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 174,
+    "observation": [
+      0.8024027943611145,
+      100.0,
+      28.709611892700195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003488492511678487,
+      0.011201993562281132,
+      -0.0001726085174595937,
+      0.0,
+      20.676193237304688,
+      23.732664108276367,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 175,
+    "observation": [
+      0.8024166822433472,
+      100.0,
+      28.709667205810547,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00040694218478165567,
+      0.008167257532477379,
+      -0.00030536233680322766,
+      0.0,
+      20.679113388061523,
+      23.726070404052734,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 176,
+    "observation": [
+      0.8024305701255798,
+      100.0,
+      28.7097225189209,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010728345951065421,
+      0.010463215410709381,
+      0.0016344903269782662,
+      0.0,
+      20.682025909423828,
+      23.719486236572266,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 177,
+    "observation": [
+      0.8024444580078125,
+      100.0,
+      28.70977783203125,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0011176831321790814,
+      0.011185933835804462,
+      -3.217180619685678e-06,
+      0.0,
+      20.684926986694336,
+      23.712907791137695,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 178,
+    "observation": [
+      0.8024583458900452,
+      100.0,
+      28.7098331451416,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.001397256157360971,
+      0.010520076379179955,
+      -0.00024807467707432806,
+      0.0,
+      20.687816619873047,
+      23.706336975097656,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 179,
+    "observation": [
+      0.8024722337722778,
+      100.0,
+      28.709888458251953,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -4.094773976248689e-05,
+      0.00954602099955082,
+      -0.0018446025205776095,
+      0.0,
+      20.690698623657227,
+      23.69977378845215,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 180,
+    "observation": [
+      0.8024861216545105,
+      100.0,
+      28.709943771362305,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009944943012669683,
+      0.007844301871955395,
+      0.0011330923298373818,
+      0.0,
+      20.69356918334961,
+      23.693218231201172,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 181,
+    "observation": [
+      0.8025000095367432,
+      100.0,
+      28.709999084472656,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009495073463767767,
+      0.00950972642749548,
+      -0.0012117729056626558,
+      0.0,
+      20.696430206298828,
+      23.686670303344727,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 182,
+    "observation": [
+      0.8025138974189758,
+      100.0,
+      28.71005630493164,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0016925346571952105,
+      0.009557077661156654,
+      -0.0007814081036485732,
+      0.0,
+      20.699281692504883,
+      23.68012809753418,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 183,
+    "observation": [
+      0.8025277853012085,
+      100.0,
+      28.710111618041992,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0002802239032462239,
+      0.010823317803442478,
+      -0.001077265595085919,
+      0.0,
+      20.70212173461914,
+      23.673595428466797,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 184,
+    "observation": [
+      0.8025416731834412,
+      100.0,
+      28.710166931152344,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008584698080085218,
+      0.01034909300506115,
+      7.166886007325957e-06,
+      0.0,
+      20.704952239990234,
+      23.667070388793945,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 185,
+    "observation": [
+      0.8025555610656738,
+      100.0,
+      28.710222244262695,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0008869976154528558,
+      0.012033906765282154,
+      -6.479649891844019e-05,
+      0.0,
+      20.707775115966797,
+      23.660552978515625,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 186,
+    "observation": [
+      0.8025694489479065,
+      100.0,
+      28.710277557373047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      5.6074677559081465e-05,
+      0.010035996325314045,
+      0.001135135185904801,
+      0.0,
+      20.71058464050293,
+      23.654041290283203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 187,
+    "observation": [
+      0.8025833368301392,
+      100.0,
+      28.7103328704834,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0007873359718360007,
+      0.009419732727110386,
+      -0.0015309626469388604,
+      0.0,
+      20.71338653564453,
+      23.647539138793945,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 188,
+    "observation": [
+      0.8025972247123718,
+      100.0,
+      28.71038818359375,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0009151421254500747,
+      0.01021651178598404,
+      0.0002357523189857602,
+      0.0,
+      20.71617889404297,
+      23.641042709350586,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 189,
+    "observation": [
+      0.8026111125946045,
+      100.0,
+      28.7104434967041,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.00030651313136331737,
+      0.01125655509531498,
+      0.002671352354809642,
+      0.0,
+      20.71895980834961,
+      23.634553909301758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 190,
+    "observation": [
+      0.8026250004768372,
+      100.0,
+      28.710500717163086,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010717078112065792,
+      0.010458201169967651,
+      -0.0011067407904192805,
+      0.0,
+      20.721731185913086,
+      23.62807273864746,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 191,
+    "observation": [
+      0.8026388883590698,
+      100.0,
+      28.710556030273438,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0018851616187021136,
+      0.009191576391458511,
+      -0.001302521675825119,
+      0.0,
+      20.7244930267334,
+      23.621599197387695,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 192,
+    "observation": [
+      0.8026527762413025,
+      100.0,
+      28.71061134338379,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0007935645990073681,
+      0.008616491220891476,
+      0.00015606218948960304,
+      0.0,
+      20.727245330810547,
+      23.61513328552246,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 193,
+    "observation": [
+      0.8026666641235352,
+      100.0,
+      28.71066665649414,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.000723156554158777,
+      0.00929255411028862,
+      -0.0018448956543579698,
+      0.0,
+      20.72998809814453,
+      23.608675003051758,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 194,
+    "observation": [
+      0.8026805520057678,
+      100.0,
+      28.710721969604492,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0003934592823497951,
+      0.011227022856473923,
+      -2.823891736625228e-05,
+      0.0,
+      20.73272132873535,
+      23.602224349975586,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 195,
+    "observation": [
+      0.8026944398880005,
+      100.0,
+      28.710777282714844,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0007183600682765245,
+      0.010069179348647594,
+      -0.0014739659382030368,
+      0.0,
+      20.735443115234375,
+      23.595779418945312,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 196,
+    "observation": [
+      0.8027083277702332,
+      100.0,
+      28.710832595825195,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0013311748625710607,
+      0.011139419861137867,
+      -8.059840183705091e-05,
+      0.0,
+      20.738157272338867,
+      23.589344024658203,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 197,
+    "observation": [
+      0.8027222156524658,
+      100.0,
+      28.71088981628418,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0005149768549017608,
+      0.009791597723960876,
+      -0.0013642943231388927,
+      0.0,
+      20.740859985351562,
+      23.582914352416992,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 198,
+    "observation": [
+      0.8027361035346985,
+      100.0,
+      28.71094512939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0009830554481595755,
+      0.009520717896521091,
+      0.00021850771736353636,
+      0.0,
+      20.743555068969727,
+      23.576492309570312,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 199,
+    "observation": [
+      0.8027499914169312,
+      100.0,
+      28.711000442504883,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0007566515123471618,
+      0.010184981860220432,
+      -0.0002848072908818722,
+      0.0,
+      20.746238708496094,
+      23.570077896118164,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 200,
+    "observation": [
+      0.8027638792991638,
+      100.0,
+      28.711055755615234,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0011464239796623588,
+      0.012396307662129402,
+      0.0003247251734137535,
+      0.0,
+      20.748912811279297,
+      23.563669204711914,
+      0.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Classical",
+    "terminated": false,
+    "truncated": true
+  }
+]
