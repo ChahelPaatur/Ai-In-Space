@@ -12,9 +12,22 @@ import matplotlib.pyplot as plt
 import json
 import pandas as pd
 from collections import Counter
+import glob
+import sys
+import seaborn as sns
+from matplotlib.gridspec import GridSpec
+from matplotlib.patches import Patch
+
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Constants for visualization
+RESULTS_FILE = "results/enhanced_comparison.json"
+LOGS_DIR = "logs"
+OUTPUT_DIR = "static/plots"
 
 # Create directories if they don't exist
-os.makedirs('static/plots', exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Define figure styling for consistency
 plt.style.use('seaborn-v0_8-whitegrid')
@@ -65,7 +78,7 @@ def create_action_distribution_chart():
     ax.legend()
     
     plt.tight_layout()
-    plt.savefig('static/plots/action_distribution.png')
+    plt.savefig(os.path.join(OUTPUT_DIR, 'action_distribution.png'))
     plt.close()
     
 def create_temperature_timeseries():
@@ -126,7 +139,7 @@ def create_temperature_timeseries():
     ax.legend(loc='upper right')
     
     plt.tight_layout()
-    plt.savefig('static/plots/ep0_TempA_timeseries.png')
+    plt.savefig(os.path.join(OUTPUT_DIR, 'ep0_TempA_timeseries.png'))
     plt.close()
 
 def create_battery_soc_timeseries():
@@ -192,7 +205,7 @@ def create_battery_soc_timeseries():
     ax.legend(loc='lower right')
     
     plt.tight_layout()
-    plt.savefig('static/plots/ep0_SoC_timeseries.png')
+    plt.savefig(os.path.join(OUTPUT_DIR, 'ep0_SoC_timeseries.png'))
     plt.close()
 
 def copy_to_paper_directory():
@@ -202,9 +215,9 @@ def copy_to_paper_directory():
     
     # Define source files and destination paths
     copies = [
-        ('static/plots/action_distribution.png', 'static/plots/paper/figure9_action_distribution.png'),
-        ('static/plots/ep0_TempA_timeseries.png', 'static/plots/paper/figure10a_temperature_response.png'),
-        ('static/plots/ep0_SoC_timeseries.png', 'static/plots/paper/figure10b_battery_soc_response.png')
+        (os.path.join(OUTPUT_DIR, 'action_distribution.png'), os.path.join(OUTPUT_DIR, 'paper', 'figure9_action_distribution.png')),
+        (os.path.join(OUTPUT_DIR, 'ep0_TempA_timeseries.png'), os.path.join(OUTPUT_DIR, 'paper', 'figure10a_temperature_response.png')),
+        (os.path.join(OUTPUT_DIR, 'ep0_SoC_timeseries.png'), os.path.join(OUTPUT_DIR, 'paper', 'figure10b_battery_soc_response.png'))
     ]
     
     # Copy each file

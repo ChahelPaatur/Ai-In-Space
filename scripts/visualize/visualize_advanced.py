@@ -5,11 +5,24 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
+import sys
+from matplotlib.gridspec import GridSpec
+from matplotlib.patches import Patch
+import plotly.graph_objects as go
+import plotly.express as px
 
-# --- Configuration ---
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Constants for visualization
+RESULTS_FILE = "results/enhanced_comparison.json"  # Summary results file
+LOGS_DIR = "logs"  # Directory containing detailed episode logs
+PLOT_DIR = "static/plots"  # Directory to save generated plots
+ROLLING_WINDOW = 10  # Window for smoothing in time series plots
+
+# Configuration
 CLASSICAL_RESULTS_FILE = "results/comparison_summary.json"
 HYBRID_RESULTS_FILE = "results/hybrid_summary.json"
-LOGS_DIR = "logs"
 OUTPUT_DIR = "static/plots" 
 
 def load_all_logs():

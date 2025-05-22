@@ -4,12 +4,16 @@ import torch
 import json
 import os
 import glob
+import sys
+
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from src.spacecraft_env import SpacecraftEnv
 from src.classical_fdir import RuleBasedFDIR
 from src.drl_agent import PPOAgent
 from src.hybrid_agent import HybridFDIRAgent
-from src.metrics import FDIRMetrics
+from src.metrics import calculate_mttr_mttd, calculate_sfri
 
 # --- Simulation Configuration ---
 NUM_EPISODES = 100           # Increased number of episodes for statistical significance

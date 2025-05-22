@@ -4,6 +4,10 @@ import torch # Needed for loading/running the DRL agent
 import json
 import os
 import glob
+import sys
+
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from src.spacecraft_env import SpacecraftEnv
 from src.classical_fdir import RuleBasedFDIR

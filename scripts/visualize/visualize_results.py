@@ -5,12 +5,17 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+import matplotlib.pyplot as plt
+import sys
 
-# --- Configuration ---
-RESULTS_FILE = "results/comparison_summary.json" # Input: Summary stats from run_comparison.py
-LOGS_DIR = "logs"             # Input: Directory containing detailed episode JSON logs
-OUTPUT_DIR = "static/plots" # Output: Directory where generated PNG plots will be saved
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
+# Constants for visualization
+RESULTS_FILE = "results/comparison_summary.json"  # Path to the comparison results file
+LOGS_DIR = "logs"  # Directory containing the detailed episode logs
+PLOT_DIR = "static/plots"  # Directory to save the generated plots
+ROLLING_WINDOW = 10  # Window size for rolling average calculation in time series plots
 
 # Mapping for action indices to human-readable names (must match SpacecraftEnv)
 ACTION_MAP = {
@@ -85,7 +90,7 @@ def load_detailed_logs(log_dir=LOGS_DIR):
 
     return df
 
-def plot_summary_from_df(df, output_dir=OUTPUT_DIR):
+def plot_summary_from_df(df, output_dir=PLOT_DIR):
     """Generates summary box plots (Rewards, Steps) from the combined log DataFrame."""
     if df is None or df.empty:
         print("DataFrame is empty, cannot plot summary.")
@@ -131,7 +136,7 @@ def plot_summary_from_df(df, output_dir=OUTPUT_DIR):
     except Exception as e:
          print(f"Error saving steps plot image {steps_plot_file}. Ensure kaleido is installed. Error: {e}")
 
-def plot_telemetry_timeseries(df, episode_to_plot=0, output_dir=OUTPUT_DIR):
+def plot_telemetry_timeseries(df, episode_to_plot=0, output_dir=PLOT_DIR):
     """Generates time series plots for key telemetry variables for a specific episode."""
     if df is None or df.empty:
         print("DataFrame is empty, cannot plot time series.")
@@ -205,7 +210,7 @@ def plot_telemetry_timeseries(df, episode_to_plot=0, output_dir=OUTPUT_DIR):
         else:
             print(f"Warning: Telemetry column '{col}' not found in processed data. Skipping plot.")
 
-def plot_action_distribution(df, output_dir=OUTPUT_DIR):
+def plot_action_distribution(df, output_dir=PLOT_DIR):
     """Generates a histogram comparing the frequency of actions taken by each agent."""
     if df is None or df.empty:
         print("DataFrame is empty, cannot plot action distribution.")
@@ -239,21 +244,21 @@ def plot_action_distribution(df, output_dir=OUTPUT_DIR):
 def main():
     """Main function to load data and generate all plots."""
     print("--- Starting Result Visualization --- ")
-    os.makedirs(OUTPUT_DIR, exist_ok=True) # Ensure output directory exists
+    os.makedirs(PLOT_DIR, exist_ok=True) # Ensure output directory exists
 
     # Load detailed logs into a DataFrame
     df_steps = load_detailed_logs(LOGS_DIR)
 
     if df_steps is not None and not df_steps.empty:
         # Generate plots from the detailed step logs
-        plot_summary_from_df(df_steps, OUTPUT_DIR)
-        plot_telemetry_timeseries(df_steps, episode_to_plot=0, output_dir=OUTPUT_DIR)
-        plot_action_distribution(df_steps, OUTPUT_DIR)
+        plot_summary_from_df(df_steps, PLOT_DIR)
+        plot_telemetry_timeseries(df_steps, episode_to_plot=0, output_dir=PLOT_DIR)
+        plot_action_distribution(df_steps, PLOT_DIR)
     else:
         print("Skipping plot generation due to issues loading detailed logs.")
 
     print("--- Visualization Complete --- ")
-    print(f"Plots saved in: {OUTPUT_DIR}")
+    print(f"Plots saved in: {PLOT_DIR}")
 
 if __name__ == "__main__":
     main() 

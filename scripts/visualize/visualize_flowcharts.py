@@ -1,8 +1,18 @@
-import os
+import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+import networkx as nx
+import os
+import sys
 from matplotlib.patches import Rectangle, FancyArrowPatch
 
-# --- Configuration ---
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Output directory for saving generated plots
+PLOTS_DIR = "static/plots/paper"
+
+#  Configuration 
 OUTPUT_DIR = "static/plots"
 
 def create_rule_based_flowchart():

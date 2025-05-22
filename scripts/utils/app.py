@@ -2,6 +2,21 @@ import os
 import glob
 import json
 from flask import Flask, render_template, url_for, jsonify, send_from_directory
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+import dash
+from dash import dcc, html, callback, Input, Output, State
+import pandas as pd
+import sys
+
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.spacecraft_env import SpacecraftEnv
+from src.classical_fdir import RuleBasedFDIR
+from src.drl_agent import PPOAgent
+from src.hybrid_agent import HybridFDIRAgent
 
 app = Flask(__name__)
 
@@ -9,6 +24,7 @@ app = Flask(__name__)
 LOGS_DIR = "logs" # Directory containing raw simulation logs
 PLOT_DIR = "static/plots" # Directory where generated plots are saved (for web serving)
 SUMMARY_FILE = "results/comparison_summary.json" # Summary statistics file from run_comparison.py
+RESULTS_DIR = "results"
 
 # Dynamically import numpy for summary stats if available
 try:

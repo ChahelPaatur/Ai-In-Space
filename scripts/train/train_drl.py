@@ -5,12 +5,16 @@ from collections import deque
 import time
 import matplotlib.pyplot as plt
 import pandas as pd # Required for efficient rolling average calculation
+import sys
+
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 # Use absolute imports assuming 'src' is in the Python path or run from project root
 from src.spacecraft_env import SpacecraftEnv
 from src.drl_agent import PPOAgent
 
-# --- Training Configuration ---
+# Training Configuration 
 TOTAL_TIMESTEPS = 50000  # Total environment steps to train for
 STEPS_PER_UPDATE = 2048 # Number of steps to collect before each PPO learning phase
 LEARNING_RATE = 3e-4    # Learning rate for the Adam optimizer

@@ -5,27 +5,30 @@ from collections import deque
 import time
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
 
-# Use absolute imports assuming 'src' is in the Python path or run from project root
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from src.spacecraft_env import SpacecraftEnv
 from src.drl_agent import PPOAgent
 
 # --- Training Configuration ---
 TOTAL_TIMESTEPS = 1000000   # 1 million steps (20x the original)
-STEPS_PER_UPDATE = 2048     # Number of steps to collect before each PPO learning phase
-LEARNING_RATE = 3e-4        # Learning rate for the Adam optimizer
-GAMMA = 0.99                # Discount factor for future rewards
-PPO_EPSILON = 0.2           # PPO clipping parameter
-PPO_EPOCHS = 10             # Number of optimization epochs per PPO update
-BATCH_SIZE = 64             # Minibatch size used within PPO epochs
+STEPS_PER_UPDATE = 2048
+LEARNING_RATE = 3e-4
+GAMMA = 0.99
+PPO_EPSILON = 0.2
+PPO_EPOCHS = 10
+BATCH_SIZE = 64
 HIDDEN_SIZE = 128           # Increased number of units in the MLP hidden layers
 SAVE_PATH = "ppo_agent_long.pth"  # New file path to save the trained agent model
-INTERMEDIATE_SAVE_INTERVAL = 100000  # Save intermediate models every N steps
-PRINT_INTERVAL = 10         # Frequency (in episodes) to print training progress
-PLOT_SAVE_DIR = "static/plots"  # Directory for saving the learning curve plot
+CHECKPOINT_DIR = "checkpoints"  # Directory to save intermediate model checkpoints
+CHECKPOINT_INTERVAL = 50000     # Save model every N timesteps
+PRINT_INTERVAL = 10
+PLOT_SAVE_DIR = "static/plots"
 LEARNING_CURVE_FILENAME = "learning_curve_long.png"
-ROLLING_AVG_WINDOW = 100    # Window size for smoothing the learning curve plot
-CHECKPOINT_DIR = "models/checkpoints"  # Directory for saving intermediate models
+ROLLING_AVG_WINDOW = 100
 
 def plot_learning_curve(timesteps, rewards, save_path, window=ROLLING_AVG_WINDOW):
     """Generates and saves the learning curve plot (reward vs. timesteps)."""
@@ -162,7 +165,7 @@ def train_long():
             print("Agent update complete.")
 
         # --- Save intermediate models ---
-        if current_total_steps % INTERMEDIATE_SAVE_INTERVAL == 0:
+        if current_total_steps % CHECKPOINT_INTERVAL == 0:
             checkpoint_path = os.path.join(CHECKPOINT_DIR, f"ppo_agent_step_{current_total_steps}.pth")
             agent.save_model(checkpoint_path)
             print(f"Saved intermediate model at step {current_total_steps} to {checkpoint_path}")

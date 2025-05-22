@@ -4,10 +4,22 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import glob
+import sys
+from matplotlib.gridspec import GridSpec
 
-# --- Configuration ---
+# Add the project root to the Python path to allow imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Constants
+LOGS_DIR = "logs"  # Directory containing detailed logs
+RESULTS_DIR = "results"  # Directory containing summary results
+OUTPUT_DIR = "static/plots/paper"  # Directory to save paper figures
+FIGSIZE = (12, 8)  # Default figure size
+DPI = 300  # Resolution for saved figures
+
+#  Configuration 
 RESULTS_FILE = "results/enhanced_comparison.json"
-OUTPUT_DIR = "static/plots/paper"
 FIGURE_DPI = 300
 PAPER_STYLE = {
     'font.family': 'serif',

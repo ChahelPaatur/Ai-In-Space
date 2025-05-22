@@ -20,7 +20,7 @@ This research investigates the effectiveness of different FDIR strategies for au
 ## Project Structure
 
 ```
-├── src/                        # Source code
+├── src/                        # Core components
 │   ├── spacecraft_env.py       # Simulation environment
 │   ├── subsystems.py           # Spacecraft subsystem models
 │   ├── faults.py               # Fault injection system
@@ -29,20 +29,32 @@ This research investigates the effectiveness of different FDIR strategies for au
 │   ├── hybrid_agent.py         # Hybrid agent implementation
 │   └── metrics.py              # FDIR metrics calculation
 │
+├── scripts/                    # Executable scripts
+│   ├── run/                    # Simulation execution scripts
+│   │   ├── run_comparison.py   # Run and compare classical and DRL agents
+│   │   ├── run_enhanced_comparison.py # Enhanced comparison with metrics
+│   │   └── run_hybrid.py       # Run and evaluate hybrid agent
+│   ├── train/                  # Training scripts
+│   │   ├── train_drl.py        # Train DRL agent (50K steps)
+│   │   └── train_long.py       # Extended DRL training (500K steps)
+│   ├── visualize/              # Visualization scripts
+│   │   ├── visualize_results.py       # Basic results visualization
+│   │   ├── visualize_advanced.py      # Advanced metrics visualization
+│   │   ├── visualize_flowcharts.py    # Generate architecture diagrams
+│   │   ├── generate_paper_figures.py  # Generate figures for the paper
+│   │   └── extrafigs.py               # Additional figures generation
+│   └── utils/                  # Utility scripts
+│       └── app.py              # Flask web visualization app
+│
 ├── static/                     # Static assets
 │   └── plots/                  # Generated plots and diagrams
+│       └── paper/              # Paper-specific figures
 │
 ├── logs/                       # Simulation logs
-├── models/                     # Trained model weights
+├── results/                    # Simulation results
 │
-├── app.py                      # Flask web visualization app
-├── run_comparison.py           # Run and compare classical and DRL agents
-├── run_hybrid.py               # Run and evaluate hybrid agent
-├── train_drl.py                # Train DRL agent (50K steps)
-├── train_long.py               # Extended DRL training (1M steps)
-├── visualize_results.py        # Basic results visualization
-├── visualize_advanced.py       # Advanced metrics visualization
-└── visualize_flowcharts.py     # Generate architecture diagrams
+├── ppo_agent.pth               # Trained DRL model weights
+└── requirements.txt            # Project dependencies
 ```
 
 ## Key Features
@@ -99,36 +111,42 @@ pip install -r requirements.txt
 
 ```bash
 # Short training run (50K steps)
-python train_drl.py
+python scripts/train/train_drl.py
 
 # Long training run (1M steps)
-python train_long.py
+python scripts/train/train_long.py
 ```
 
 #### Running Comparisons
 
 ```bash
 # Compare Rule-Based and DRL agents
-python run_comparison.py
+python scripts/run/run_comparison.py
 
 # Evaluate the Hybrid agent
-python run_hybrid.py
+python scripts/run/run_hybrid.py
+
+# Run enhanced comparison with additional metrics
+python scripts/run/run_enhanced_comparison.py
 ```
 
 #### Visualizing Results
 
 ```bash
 # Generate basic result plots
-python visualize_results.py
+python scripts/visualize/visualize_results.py
 
 # Generate advanced metrics and visualizations
-python visualize_advanced.py
+python scripts/visualize/visualize_advanced.py
 
 # Generate architecture diagrams and flowcharts
-python visualize_flowcharts.py
+python scripts/visualize/visualize_flowcharts.py
+
+# Generate paper figures
+python scripts/visualize/generate_paper_figures.py
 
 # Start the web visualization server
-python app.py
+python scripts/utils/app.py
 ```
 
 ## Research Findings
