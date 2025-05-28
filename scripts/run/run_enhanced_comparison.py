@@ -13,9 +13,12 @@ from src.spacecraft_env import SpacecraftEnv
 from src.classical_fdir import RuleBasedFDIR
 from src.drl_agent import PPOAgent
 from src.hybrid_agent import HybridFDIRAgent
-from src.metrics import calculate_mttr_mttd, calculate_sfri
+from src.metrics import FDIRMetrics
 
 # --- Simulation Configuration ---
+
+# Paper reference: Section 3.5 "Evaluation Methodology" - Running 100 episodes per agent type
+# "All three agent types (Rule-based, DRL, and Hybrid) were evaluated over 100 episodes each"
 NUM_EPISODES = 100           # Increased number of episodes for statistical significance
 MAX_STEPS_PER_EPISODE = 200  # Maximum steps per episode before truncation
 FAULT_PROBABILITY = 0.02     # Per-step probability of injecting a new persistent fault
@@ -25,11 +28,14 @@ LONG_DRL_MODEL_PATH = "ppo_agent_long.pth"  # Path to the longer-trained model (
 RESULTS_FILE = "results/enhanced_comparison.json"  # Output file for enhanced metrics
 LOGS_DIR = "logs"            # Directory to save detailed step-by-step JSON logs
 SAVE_DETAILED_LOGS = True    # Set to False to disable detailed logging
-CONFIDENCE_THRESHOLD = 0.7   # Threshold for hybrid agent DRL confidence
+CONFIDENCE_THRESHOLD = 0.85  # Increased threshold for hybrid agent DRL confidence (was 0.7)
 
 def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=None):
     """
     Run evaluation episodes for any agent type with enhanced metrics tracking.
+    
+    # Paper reference: Section 3.5 "Evaluation Methodology" - This function implements the
+    # comparative evaluation of different agent types using identical environment configurations.
     
     Args:
         agent_type: String identifier for the agent ('classical', 'drl', 'hybrid', etc.)
@@ -50,6 +56,7 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
     episode_steps = []
     episode_metrics = []
     
+    # Paper reference: Section 3.5 - Running 100 episodes per agent type to ensure statistical validity
     for episode in range(NUM_EPISODES):
         print(f"\n--- {agent_type.capitalize()}: Starting Episode {episode + 1}/{NUM_EPISODES} ---")
         start_time = time.time()
@@ -62,6 +69,7 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
         
         while not terminated and not truncated:
             # Get action from agent (handle different agent interfaces)
+            # Paper reference: Section 3.4 - Hybrid agent uses confidence-based arbitration mechanism
             if agent_type == 'hybrid':
                 action, decision_info = agent_instance.get_action(observation, info)
                 decision_source = decision_info['decision_source']
@@ -82,6 +90,8 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
             step += 1
             
             # Log detailed step data
+            # Paper reference: Section 4.2 - The data collected here enables the action repertoire
+            # and dynamic response analysis described in the paper
             if SAVE_DETAILED_LOGS:
                 step_data = {
                     'step': step,
@@ -99,6 +109,8 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
                 }
                 
                 # Add hybrid-specific decision info if available
+                # Paper reference: Section 4.2 "Hybrid Decision Distribution" - This data enables 
+                # the analysis shown in Figure 6 of the paper
                 if agent_type == 'hybrid':
                     step_data.update({
                         'drl_confidence': decision_info['drl_confidence'],
@@ -119,6 +131,8 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
                 print(f"{agent_type.capitalize()} Episode finished after {step} steps (Truncated)")
         
         # Calculate enhanced metrics for this episode
+        # Paper reference: Section 3.5 "Metrics Framework" - Calculates the specialized FDIR metrics
+        # including MTTD, MTTR, detection rate, recovery rate, false positives, and SFRI
         if episode_log:
             episode_metrics_data = metrics_tracker.process_episode_log(episode_log)
             episode_metrics.append(episode_metrics_data)
@@ -154,6 +168,8 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
     aggregate_metrics = metrics_tracker.get_aggregate_metrics()
     
     # Store results
+    # Paper reference: Section 4.1 - This data is used to generate the aggregate performance
+    # metrics presented in Figures 1-5 of the paper
     results_data[agent_type] = {
         'rewards': episode_rewards,
         'steps': episode_steps,
@@ -172,6 +188,8 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
     }
     
     # Print summary
+    # Paper reference: Section 4.1 - These values directly correspond to the metrics
+    # reported in "Aggregate Performance Metrics" section of the paper
     print(f"\n--- Simulation Summary ({agent_type.capitalize()} Agent) ---")
     print(f"Episodes: {NUM_EPISODES}")
     print(f"Avg Reward: {results_data[agent_type]['avg_reward']:.2f} ± {results_data[agent_type]['std_reward']:.2f}")
@@ -274,7 +292,13 @@ def run_long_trained_drl(results_data):
     return run_drl_agent(results_data, LONG_DRL_MODEL_PATH, 'drl_long')
 
 def run_enhanced_comparison():
-    """Run the complete enhanced comparison with all agent types."""
+    """
+    Run the complete enhanced comparison with all agent types.
+    
+    # Paper reference: Section 3.5 "Comparative Evaluation" - This is the main function that 
+    # implements the evaluation methodology described in the paper, running the three agent types
+    # (Rule-based, DRL, and Hybrid) under identical environment configurations.
+    """
     # Dictionary to hold results from all agent runs
     results = {}
     
@@ -282,6 +306,7 @@ def run_enhanced_comparison():
     os.makedirs(os.path.dirname(RESULTS_FILE), exist_ok=True)
     
     # Run all agents
+    # Paper reference: Section 3.5 - Evaluating all three agent types
     run_classical_agent(results)
     run_drl_agent(results)
     run_hybrid_agent(results)
@@ -296,6 +321,8 @@ def run_enhanced_comparison():
         print(f"Error saving results: {e}")
     
     # Generate comparison table
+    # Paper reference: Section 4.1 - This table summarizes the key metrics that are
+    # analyzed in detail in the "Aggregate Performance Metrics" section
     print("\n=== AGENT COMPARISON SUMMARY ===")
     print(f"{'Agent':<15} {'Reward':<15} {'MTTD':<10} {'MTTR':<10} {'SFRI':<10}")
     print("-" * 60)

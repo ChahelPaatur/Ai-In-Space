@@ -10,16 +10,16 @@
       0.0,
       0.0,
       1.0,
-      0.0,
-      -0.0,
-      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
       20.0,
       25.0,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -44,16 +44,16 @@
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
       0.0,
       20.0049991607666,
       24.992000579833984,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -78,9 +78,9 @@
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0,
       -0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
       0.0,
       20.010000228881836,
       24.983999252319336,
@@ -112,16 +112,16 @@
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
       0.0010000000474974513,
-      -0.0,
+      0.0,
+      0.0010000000474974513,
       0.0,
       20.014999389648438,
       24.97599983215332,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -146,16 +146,16 @@
       0.0,
       0.0,
       1.0,
-      0.0,
       -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0020000000949949026,
       0.0,
       20.020000457763672,
       24.968000411987305,
       0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -180,24 +180,31 @@
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
-      0.0020000000949949026,
+      0.0,
+      -0.0,
+      0.0,
       0.0,
       20.024999618530273,
       24.958999633789062,
-      0.0
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -214,24 +221,31 @@
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      -0.0010000000474974513,
+      0.0,
+      -0.0,
       0.0,
       0.0,
-      20.030000686645508,
+      20.049999237060547,
       24.951000213623047,
-      0.0
+      1.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -249,23 +263,30 @@
       0.0,
       1.0,
       -0.0,
-      0.0020000000949949026,
       0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.075000762939453,
+      24.94300079345703,
+      1.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -282,24 +303,31 @@
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
       -0.0,
-      0.0020000000949949026,
-      0.0010000000474974513,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      0.0,
+      20.100000381469727,
+      24.934999465942383,
+      1.0
     ],
-    "action": 1,
-    "reward": -0.30000000000000004,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -316,24 +344,31 @@
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      -0.0,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      20.124000549316406,
+      24.927000045776367,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -344,30 +379,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
-      -0.0020000000949949026,
       0.0,
-      20.020000457763672,
-      24.968000411987305,
-      0.0
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.14900016784668,
+      24.91900062561035,
+      1.0
     ],
     "action": 4,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -378,30 +420,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      -0.0,
       -0.0010000000474974513,
+      -0.0,
+      -0.0020000000949949026,
       0.0,
-      20.045000076293945,
-      24.958999633789062,
+      20.173999786376953,
+      24.910999298095703,
       1.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -412,30 +461,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.198999404907227,
+      24.902999877929688,
+      1.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -446,30 +502,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
       -0.0,
-      -0.0020000000949949026,
-      -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      20.222999572753906,
+      24.895999908447266,
+      1.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -480,30 +543,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      -0.003000000026077032,
+      -0.0020000000949949026,
+      -0.0,
       0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.24799919128418,
+      24.88800048828125,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -514,30 +584,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      20.27199935913086,
+      24.8799991607666,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -548,30 +625,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0020000000949949026,
-      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      20.297000885009766,
+      24.871999740600586,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -582,30 +666,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
       -0.0010000000474974513,
-      0.0020000000949949026,
+      -0.0,
+      -0.0,
       0.0,
-      20.020000457763672,
-      24.968000411987305,
-      0.0
+      20.32200050354004,
+      24.86400032043457,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -622,24 +713,31 @@
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
       0.0,
       0.0,
-      20.024999618530273,
-      24.958999633789062,
-      0.0
+      20.34600067138672,
+      24.856000900268555,
+      1.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -656,24 +754,31 @@
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
+      -0.0010000000474974513,
       0.0010000000474974513,
+      0.003000000026077032,
       0.0,
-      0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.3700008392334,
+      24.847999572753906,
+      1.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -690,24 +795,31 @@
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
       -0.0010000000474974513,
       0.0010000000474974513,
+      -0.0,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      20.395000457763672,
+      24.840999603271484,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -724,24 +836,31 @@
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
       0.0,
+      -0.0,
+      -0.0,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      20.41900062561035,
+      24.83300018310547,
+      1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -758,24 +877,31 @@
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       -0.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
       0.0,
-      20.040000915527344,
-      24.968000411987305,
+      20.444000244140625,
+      24.825000762939453,
       1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -793,23 +919,30 @@
       0.0,
       1.0,
       -0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.065000534057617,
-      24.958999633789062,
+      20.468000411987305,
+      24.81800079345703,
       1.0
     ],
     "action": 6,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -826,24 +959,31 @@
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
-      0.0020000000949949026,
       0.0,
-      20.09000015258789,
-      24.951000213623047,
+      0.0,
+      0.0,
+      0.0,
+      20.492000579833984,
+      24.809999465942383,
       1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -860,24 +1000,31 @@
       0.0,
       0.0,
       1.0,
+      0.0020000000949949026,
       0.0,
       0.0010000000474974513,
-      -0.0010000000474974513,
       0.0,
-      20.114999771118164,
-      24.94300079345703,
+      20.516000747680664,
+      24.802000045776367,
       1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -894,24 +1041,31 @@
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
-      0.0010000000474974513,
       0.0,
-      20.118999481201172,
-      24.934999465942383,
-      0.0
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.540000915527344,
+      24.795000076293945,
+      1.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -922,30 +1076,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
       -0.0,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.565000534057617,
+      24.78700065612793,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -956,30 +1117,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
       -0.0,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      0.0,
+      20.589000701904297,
+      24.77899932861328,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -990,30 +1158,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
       0.0010000000474974513,
       -0.0,
+      -0.0,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      20.613000869750977,
+      24.77199935913086,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1024,30 +1199,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0020000000949949026,
       -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      20.020000457763672,
-      24.968000411987305,
-      0.0
+      20.636999130249023,
+      24.763999938964844,
+      1.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1058,30 +1240,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      0.0010000000474974513,
-      0.0020000000949949026,
+      -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.024999618530273,
-      24.958999633789062,
-      0.0
+      20.660999298095703,
+      24.756999969482422,
+      1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1092,30 +1281,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
       -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
-      0.0,
-      20.049999237060547,
-      24.951000213623047,
+      20.684999465942383,
+      24.749000549316406,
       1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1126,30 +1322,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
       -0.0010000000474974513,
+      -0.0,
       0.0,
-      20.075000762939453,
-      24.94300079345703,
+      0.0,
+      20.708999633789062,
+      24.742000579833984,
       1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1160,30 +1363,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
+      -0.0,
       0.0020000000949949026,
-      -0.0010000000474974513,
       0.0,
-      20.100000381469727,
-      24.934999465942383,
+      0.0,
+      20.732999801635742,
+      24.733999252319336,
       1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1201,23 +1411,30 @@
       0.0,
       1.0,
       -0.0,
-      -0.0010000000474974513,
       0.0,
+      0.0010000000474974513,
       0.0,
-      20.104000091552734,
-      24.927000045776367,
-      0.0
+      20.756000518798828,
+      24.726999282836914,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 1,
+    "reward": -1.6,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1228,30 +1445,37 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
       -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.108999252319336,
-      24.91900062561035,
-      0.0
+      20.780000686645508,
+      24.719999313354492,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1262,30 +1486,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0020000000949949026,
+      0.00800000037997961,
       -0.0020000000949949026,
-      -0.0,
       0.0,
-      20.11400032043457,
-      24.910999298095703,
-      0.0
+      20.804000854492188,
+      24.711999893188477,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1296,30 +1535,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0020000000949949026,
-      -0.0010000000474974513,
+      -0.009999999776482582,
+      0.008999999612569809,
+      -0.004000000189989805,
       0.0,
-      20.118999481201172,
-      24.902999877929688,
-      0.0
+      20.827999114990234,
+      24.704999923706055,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1330,30 +1584,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.019999999552965164,
+      -0.029999999329447746,
+      0.003000000026077032,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      0.0,
-      20.12299919128418,
-      24.895000457763672,
-      0.0
+      20.851999282836914,
+      24.69700050354004,
+      1.0
     ],
-    "action": 2,
-    "reward": -0.30000000000000004,
+    "action": 4,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1364,30 +1633,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      -0.0010000000474974513,
-      -0.0,
+      0.004999999888241291,
+      -0.004999999888241291,
       0.0,
-      20.128000259399414,
-      24.886999130249023,
-      0.0
+      20.875,
+      24.690000534057617,
+      1.0
     ],
     "action": 6,
-    "reward": 0.2,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1398,30 +1682,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.003000000026077032,
+      -0.006000000052154064,
+      -0.019999999552965164,
       0.0,
-      -0.0,
-      0.0010000000474974513,
-      0.0,
-      20.132999420166016,
-      24.878999710083008,
-      0.0
+      20.89900016784668,
+      24.683000564575195,
+      1.0
     ],
     "action": 4,
-    "reward": 0.2,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1432,30 +1731,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0020000000949949026,
+      0.010999999940395355,
       -0.0,
-      -0.0010000000474974513,
       0.0,
-      20.158000946044922,
-      24.871999740600586,
+      20.922000885009766,
+      24.674999237060547,
       1.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1466,30 +1780,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
       0.0,
+      -0.010999999940395355,
+      0.006000000052154064,
       0.0,
-      20.16200065612793,
-      24.86400032043457,
-      0.0
+      20.945999145507812,
+      24.667999267578125,
+      1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1500,30 +1829,45 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.009999999776482582,
+      -0.009999999776482582,
       0.0,
-      0.0,
-      20.187000274658203,
-      24.856000900268555,
+      20.969999313354492,
+      24.660999298095703,
       1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1532,32 +1876,47 @@
   {
     "step": 46,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.012000000104308128,
+      -0.012000000104308128,
+      0.013000000268220901,
       0.0,
-      -0.0010000000474974513,
-      0.0020000000949949026,
-      0.0,
-      20.191999435424805,
-      24.847999572753906,
-      0.0
+      20.993000030517578,
+      24.65399932861328,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1566,32 +1925,47 @@
   {
     "step": 47,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0,
-      -0.0010000000474974513,
+      -0.012000000104308128,
+      0.00800000037997961,
+      -0.01899999938905239,
       0.0,
-      20.195999145507812,
-      24.84000015258789,
-      0.0
+      21.017000198364258,
+      24.64699935913086,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 0,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1600,32 +1974,47 @@
   {
     "step": 48,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
+      -0.0,
+      -0.004000000189989805,
+      -0.010999999940395355,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.201000213623047,
-      24.832000732421875,
-      0.0
+      21.040000915527344,
+      24.638999938964844,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 4,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1634,32 +2023,47 @@
   {
     "step": 49,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.014999999664723873,
+      -0.0010000000474974513,
+      0.01600000075995922,
       0.0,
-      0.0010000000474974513,
-      -0.0,
-      0.0,
-      20.204999923706055,
-      24.823999404907227,
-      0.0
+      21.062999725341797,
+      24.631999969482422,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1668,32 +2072,47 @@
   {
     "step": 50,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.02199999988079071,
+      -0.009999999776482582,
+      0.004000000189989805,
       0.0,
-      0.0,
-      20.209999084472656,
-      24.81599998474121,
-      0.0
+      21.086999893188477,
+      24.625,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 0,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1702,32 +2121,47 @@
   {
     "step": 51,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      -0.0010000000474974513,
+      0.003000000026077032,
+      -0.01899999938905239,
+      -0.014000000432133675,
       0.0,
-      0.0,
-      20.21500015258789,
-      24.80900001525879,
-      0.0
+      21.110000610351562,
+      24.618000030517578,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1736,32 +2170,47 @@
   {
     "step": 52,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.004000000189989805,
+      -0.013000000268220901,
+      -0.00800000037997961,
       0.0,
-      0.0,
-      20.2189998626709,
-      24.801000595092773,
-      0.0
+      21.132999420166016,
+      24.611000061035156,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 4,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1770,32 +2219,47 @@
   {
     "step": 53,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0020000000949949026,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.007000000216066837,
+      -0.010999999940395355,
       0.0,
-      20.224000930786133,
-      24.792999267578125,
-      0.0
+      21.156999588012695,
+      24.604000091552734,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 6,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1804,32 +2268,47 @@
   {
     "step": 54,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70199966430664,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0020000000949949026,
+      -0.003000000026077032,
       0.0010000000474974513,
+      0.003000000026077032,
       0.0,
-      20.22800064086914,
-      24.78499984741211,
-      0.0
+      21.18000030517578,
+      24.597000122070312,
+      1.0
     ],
     "action": 4,
-    "reward": 0.2,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1838,32 +2317,47 @@
   {
     "step": 55,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
-      0.0020000000949949026,
+      -0.014000000432133675,
+      0.00800000037997961,
+      0.019999999552965164,
       0.0,
-      20.253000259399414,
-      24.777000427246094,
+      21.202999114990234,
+      24.59000015258789,
       1.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1872,32 +2366,47 @@
   {
     "step": 56,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      0.009999999776482582,
+      0.008999999612569809,
+      -0.0020000000949949026,
       0.0,
-      0.0,
-      20.277000427246094,
-      24.770000457763672,
+      21.22599983215332,
+      24.58300018310547,
       1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 4,
+    "reward": -2.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1906,32 +2415,47 @@
   {
     "step": 57,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.004000000189989805,
+      -0.004000000189989805,
+      0.012000000104308128,
       0.0,
-      0.0010000000474974513,
-      -0.0,
-      0.0,
-      20.281999588012695,
-      24.761999130249023,
-      0.0
+      21.249000549316406,
+      24.576000213623047,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1940,32 +2464,47 @@
   {
     "step": 58,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
+      -0.019999999552965164,
+      0.009999999776482582,
+      0.00800000037997961,
       0.0,
-      0.0,
-      0.0,
-      20.285999298095703,
-      24.753999710083008,
-      0.0
+      21.27199935913086,
+      24.569000244140625,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -1974,32 +2513,47 @@
   {
     "step": 59,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      -0.006000000052154064,
+      0.007000000216066837,
+      -0.009999999776482582,
       0.0,
-      20.290000915527344,
-      24.746000289916992,
-      0.0
+      21.295000076293945,
+      24.562000274658203,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 3,
+    "reward": 0.8999999999999999,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "HeaterStuckOn"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -2008,32 +2562,47 @@
   {
     "step": 60,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      0.0020000000949949026,
-      -0.0010000000474974513,
       0.0,
-      20.295000076293945,
-      24.73900032043457,
+      -0.007000000216066837,
+      0.004999999888241291,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Drl",
     "terminated": false,
@@ -2042,89 +2611,21 @@
   {
     "step": 61,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.003000000026077032,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.009999999776482582,
+      0.012000000104308128,
+      0.009999999776482582,
       0.0,
-      20.298999786376953,
-      24.731000900268555,
-      0.0
-    ],
-    "action": 8,
-    "reward": 0.1,
-    "mode": "Nominal",
-    "is_sunlit": true,
-    "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
-    },
-    "persistent_faults": [],
-    "intermittent_faults": [],
-    "decision_source": "Drl",
-    "terminated": false,
-    "truncated": false
-  },
-  {
-    "step": 62,
-    "observation": [
-      0.8009999990463257,
-      100.0,
-      28.702999114990234,
-      50.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0,
-      -0.0020000000949949026,
-      0.0,
-      -0.0020000000949949026,
-      0.0,
-      20.304000854492188,
-      24.722999572753906,
-      0.0
-    ],
-    "action": 8,
-    "reward": -1.2,
-    "mode": "Nominal",
-    "is_sunlit": true,
-    "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "Nominal"
-    },
-    "persistent_faults": [],
-    "intermittent_faults": [],
-    "decision_source": "Drl",
-    "terminated": false,
-    "truncated": false
-  },
-  {
-    "step": 63,
-    "observation": [
-      0.8009999990463257,
-      100.0,
-      28.702999114990234,
-      50.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0,
-      0.0020000000949949026,
-      -0.014000000432133675,
-      0.0020000000949949026,
-      0.0,
-      20.308000564575195,
-      24.715999603271484,
-      0.0
+      20.030000686645508,
+      24.983999252319336,
+      1.0
     ],
     "action": 0,
     "reward": -1.1,
@@ -2136,6 +2637,110 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Drl",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 62,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01899999938905239,
+      -0.007000000216066837,
+      0.004000000189989805,
+      0.0,
+      20.05500030517578,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 8,
+    "reward": -1.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "Drl",
+    "terminated": false,
+    "truncated": false
+  },
+  {
+    "step": 63,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.004999999888241291,
+      0.009999999776482582,
+      -0.019999999552965164,
+      0.0,
+      20.079999923706055,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 4,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2153,24 +2758,24 @@
   {
     "step": 64,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.008999999612569809,
-      -0.004000000189989805,
-      -0.009999999776482582,
+      0.006000000052154064,
+      0.0010000000474974513,
+      0.004000000189989805,
       0.0,
-      20.312000274658203,
-      24.70800018310547,
-      0.0
+      20.104999542236328,
+      24.959999084472656,
+      1.0
     ],
-    "action": 2,
-    "reward": 2.2,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -2179,6 +2784,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2196,32 +2807,38 @@
   {
     "step": 65,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
+      -0.003000000026077032,
+      0.003000000026077032,
+      0.00800000037997961,
       0.0,
-      0.0,
-      20.316999435424805,
-      24.700000762939453,
-      0.0
+      20.1299991607666,
+      24.95199966430664,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2239,32 +2856,38 @@
   {
     "step": 66,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
+      -0.00800000037997961,
       -0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
-      20.320999145507812,
-      24.69300079345703,
-      0.0
+      20.15399932861328,
+      24.944000244140625,
+      1.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2282,32 +2905,38 @@
   {
     "step": 67,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0,
-      -0.0,
+      -0.006000000052154064,
+      0.0020000000949949026,
+      -0.00800000037997961,
       0.0,
-      20.325000762939453,
-      24.684999465942383,
+      20.159000396728516,
+      24.93600082397461,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2325,32 +2954,38 @@
   {
     "step": 68,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0010000000474974513,
-      -0.0,
+      -0.02199999988079071,
+      0.004999999888241291,
+      -0.003000000026077032,
       0.0,
-      20.329999923706055,
-      24.677000045776367,
-      0.0
+      20.18400001525879,
+      24.92799949645996,
+      1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2368,32 +3003,38 @@
   {
     "step": 69,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0020000000949949026,
+      0.0020000000949949026,
       0.003000000026077032,
+      -0.013000000268220901,
       0.0,
-      20.354000091552734,
-      24.670000076293945,
-      1.0
+      20.18899917602539,
+      24.920000076293945,
+      0.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2411,32 +3052,38 @@
   {
     "step": 70,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.010999999940395355,
+      0.009999999776482582,
       0.0,
-      20.378000259399414,
-      24.66200065612793,
-      1.0
+      20.19300079345703,
+      24.91200065612793,
+      0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2454,32 +3101,38 @@
   {
     "step": 71,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.702999114990234,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
-      0.0010000000474974513,
+      -0.004999999888241291,
+      -0.008999999612569809,
+      -0.00800000037997961,
       0.0,
-      20.381999969482422,
-      24.65399932861328,
+      20.197999954223633,
+      24.90399932861328,
       0.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2497,32 +3150,38 @@
   {
     "step": 72,
     "observation": [
-      0.8009999990463257,
+      0.800000011920929,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.004000000189989805,
+      0.0010000000474974513,
+      0.014999999664723873,
       0.0,
-      0.0,
-      20.386999130249023,
-      24.64699935913086,
+      20.202999114990234,
+      24.895999908447266,
       0.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2542,30 +3201,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.004000000189989805,
+      -0.0020000000949949026,
+      0.004000000189989805,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.391000747680664,
-      24.638999938964844,
+      20.207000732421875,
+      24.88800048828125,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2585,30 +3250,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0010000000474974513,
       0.0,
+      -0.007000000216066837,
       0.0,
-      0.0,
-      0.0,
-      20.395000457763672,
-      24.631999969482422,
+      20.211999893188477,
+      24.8799991607666,
       0.0
     ],
     "action": 8,
-    "reward": 0.1,
+    "reward": -1.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2628,30 +3299,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
-      -0.0020000000949949026,
+      0.009999999776482582,
+      -0.004999999888241291,
+      -0.0,
       0.0,
-      20.39900016784668,
-      24.624000549316406,
+      20.216999053955078,
+      24.871999740600586,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2671,30 +3348,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.004000000189989805,
+      0.004999999888241291,
+      0.013000000268220901,
       0.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
-      0.0,
-      20.402999877929688,
-      24.617000579833984,
+      20.22100067138672,
+      24.86400032043457,
       0.0
     ],
     "action": 6,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2714,30 +3397,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0,
-      0.0020000000949949026,
+      0.004999999888241291,
+      0.013000000268220901,
+      -0.013000000268220901,
       0.0,
-      20.406999588012695,
-      24.608999252319336,
+      20.22599983215332,
+      24.856000900268555,
       0.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2757,30 +3446,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      -0.0,
-      -0.0,
+      0.004000000189989805,
+      -0.004999999888241291,
+      -0.008999999612569809,
       0.0,
-      20.430999755859375,
-      24.60099983215332,
-      1.0
+      20.229999542236328,
+      24.849000930786133,
+      0.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2800,30 +3495,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.00800000037997961,
       -0.0,
-      0.0010000000474974513,
+      -0.013000000268220901,
       0.0,
-      0.0,
-      20.45599937438965,
-      24.5939998626709,
-      1.0
+      20.235000610351562,
+      24.840999603271484,
+      0.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2843,30 +3544,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
       -0.0,
-      0.0010000000474974513,
+      -0.0020000000949949026,
+      -0.007000000216066837,
       0.0,
-      20.459999084472656,
-      24.586000442504883,
+      20.23900032043457,
+      24.83300018310547,
       0.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 4,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2886,30 +3593,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.004000000189989805,
+      -0.007000000216066837,
+      -0.013000000268220901,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.464000701904297,
-      24.57900047302246,
-      0.0
+      20.263999938964844,
+      24.825000762939453,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2929,30 +3642,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
-      -0.0010000000474974513,
+      0.008999999612569809,
+      -0.004000000189989805,
+      0.003000000026077032,
       0.0,
-      20.468000411987305,
-      24.57200050354004,
+      20.26799964904785,
+      24.816999435424805,
       0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -2972,30 +3691,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
+      -0.003000000026077032,
+      0.014999999664723873,
+      -0.006000000052154064,
       0.0,
-      20.472000122070312,
-      24.56399917602539,
+      20.273000717163086,
+      24.80900001525879,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3015,30 +3740,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      -0.007000000216066837,
+      0.00800000037997961,
+      -0.010999999940395355,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.47599983215332,
-      24.55699920654297,
+      20.277000427246094,
+      24.802000045776367,
       0.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3058,30 +3789,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0020000000949949026,
-      -0.0010000000474974513,
+      0.010999999940395355,
       0.0,
-      20.479999542236328,
-      24.548999786376953,
+      0.01600000075995922,
+      0.0,
+      20.281999588012695,
+      24.79400062561035,
       0.0
     ],
-    "action": 2,
-    "reward": -0.30000000000000004,
+    "action": 0,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3101,30 +3838,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.014000000432133675,
+      -0.004999999888241291,
+      -0.004999999888241291,
       0.0,
-      0.0020000000949949026,
-      -0.0,
-      0.0,
-      20.483999252319336,
-      24.54199981689453,
+      20.285999298095703,
+      24.785999298095703,
       0.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 6,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3144,30 +3887,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
-      -0.0010000000474974513,
+      0.008999999612569809,
+      -0.027000000700354576,
+      -0.017999999225139618,
       0.0,
-      20.507999420166016,
-      24.534000396728516,
-      1.0
+      20.291000366210938,
+      24.777999877929688,
+      0.0
     ],
     "action": 5,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3187,30 +3936,36 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0020000000949949026,
-      0.0010000000474974513,
+      0.007000000216066837,
+      0.013000000268220901,
+      0.017000000923871994,
       0.0,
-      20.51099967956543,
-      24.527000427246094,
+      20.295000076293945,
+      24.770999908447266,
       0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 2,
+    "reward": 2.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3230,21 +3985,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0020000000949949026,
-      0.0020000000949949026,
+      -0.0,
       0.0,
-      20.514999389648438,
-      24.520000457763672,
+      0.0010000000474974513,
+      0.0,
+      20.299999237060547,
+      24.76300048828125,
       0.0
     ],
-    "action": 5,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3254,6 +4009,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3273,21 +4034,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70400047302246,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0,
       -0.0010000000474974513,
       0.0,
-      20.518999099731445,
-      24.511999130249023,
+      0.0,
+      20.304000854492188,
+      24.7549991607666,
       0.0
     ],
-    "action": 4,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3297,6 +4058,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3316,21 +4083,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
+      -0.0,
       0.0010000000474974513,
       -0.0010000000474974513,
       0.0,
-      20.542999267578125,
-      24.5049991607666,
-      1.0
+      20.308000564575195,
+      24.746999740600586,
+      0.0
     ],
-    "action": 5,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3340,6 +4107,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3359,21 +4132,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
       0.0,
-      20.547000885009766,
-      24.496999740600586,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.312999725341797,
+      24.739999771118164,
       0.0
     ],
-    "action": 4,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3383,6 +4156,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3402,22 +4181,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      -0.0,
+      0.0020000000949949026,
       0.0,
       0.0,
-      20.570999145507812,
-      24.489999771118164,
-      1.0
+      20.316999435424805,
+      24.73200035095215,
+      0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3426,6 +4205,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3445,22 +4230,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      0.0,
-      20.575000762939453,
-      24.482999801635742,
+      20.32200050354004,
+      24.724000930786133,
       0.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3469,6 +4254,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3488,21 +4279,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0020000000949949026,
-      -0.0,
       0.0,
-      20.577999114990234,
-      24.475000381469727,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.326000213623047,
+      24.716999053955078,
       0.0
     ],
-    "action": 6,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3512,6 +4303,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3531,22 +4328,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
       -0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.582000732421875,
-      24.468000411987305,
+      20.329999923706055,
+      24.708999633789062,
       0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3555,6 +4352,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3574,21 +4377,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0,
       0.0,
-      -0.0020000000949949026,
-      0.0,
-      20.586000442504883,
-      24.461000442504883,
+      20.334999084472656,
+      24.701000213623047,
       0.0
     ],
-    "action": 5,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3598,6 +4401,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3617,18 +4426,18 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0010000000474974513,
-      -0.0,
       -0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.59000015258789,
-      24.45400047302246,
+      20.339000701904297,
+      24.694000244140625,
       0.0
     ],
     "action": 5,
@@ -3641,6 +4450,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3660,22 +4475,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
+      -0.0,
+      -0.0010000000474974513,
       -0.0010000000474974513,
       0.0,
-      0.0,
-      20.5939998626709,
-      24.445999145507812,
+      20.343000411987305,
+      24.68600082397461,
       0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3684,6 +4499,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3703,18 +4524,18 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      -0.0,
       -0.0,
       0.0,
-      20.597000122070312,
-      24.43899917602539,
+      -0.0,
+      0.0,
+      20.347000122070312,
+      24.67799949645996,
       0.0
     ],
     "action": 8,
@@ -3727,6 +4548,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3746,22 +4573,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      20.60099983215332,
-      24.43199920654297,
+      0.0020000000949949026,
+      0.0,
+      20.351999282836914,
+      24.67099952697754,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3770,6 +4597,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3789,22 +4622,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
+      -0.0,
+      0.0,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.604999542236328,
-      24.424999237060547,
+      20.356000900268555,
+      24.663000106811523,
       0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3813,6 +4646,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3832,18 +4671,18 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0020000000949949026,
-      -0.0010000000474974513,
       0.0,
-      20.607999801635742,
-      24.41699981689453,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.360000610351562,
+      24.655000686645508,
       0.0
     ],
     "action": 8,
@@ -3856,6 +4695,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3875,21 +4720,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.61199951171875,
-      24.40999984741211,
+      20.36400032043457,
+      24.648000717163086,
       0.0
     ],
-    "action": 0,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -3899,6 +4744,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3918,22 +4769,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0020000000949949026,
       -0.0,
-      0.0010000000474974513,
-      -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.615999221801758,
-      24.402999877929688,
+      20.368999481201172,
+      24.639999389648438,
       0.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3942,6 +4793,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -3961,22 +4818,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
       0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
       0.0,
-      0.0,
-      20.618999481201172,
-      24.395999908447266,
+      20.37299919128418,
+      24.632999420166016,
       0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -3985,6 +4842,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4004,22 +4867,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.704999923706055,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0,
       -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.62299919128418,
-      24.38800048828125,
+      20.37700080871582,
+      24.625,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 2,
+    "reward": -0.30000000000000004,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4028,6 +4891,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4047,21 +4916,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.62700080871582,
-      24.381000518798828,
+      20.381000518798828,
+      24.618000030517578,
       0.0
     ],
-    "action": 0,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -4071,6 +4940,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4090,21 +4965,21 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
       0.0010000000474974513,
       0.0,
-      20.6299991607666,
-      24.374000549316406,
+      20.385000228881836,
+      24.610000610351562,
       0.0
     ],
-    "action": 6,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -4114,6 +4989,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4133,22 +5014,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
+      0.0010000000474974513,
+      0.0,
       -0.0,
       0.0,
-      20.634000778198242,
-      24.367000579833984,
+      20.388999938964844,
+      24.601999282836914,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4157,6 +5038,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4176,22 +5063,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
       0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
       0.0,
-      20.63800048828125,
-      24.360000610351562,
-      0.0
+      20.413999557495117,
+      24.594999313354492,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 3,
+    "reward": -0.30000000000000004,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4200,6 +5087,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4219,22 +5112,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0,
-      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      20.641000747680664,
-      24.351999282836914,
+      20.0049991607666,
+      24.992000579833984,
       0.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4243,6 +5136,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4262,19 +5161,19 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0020000000949949026,
+      -0.0,
       -0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.665000915527344,
-      24.344999313354492,
-      1.0
+      20.010000228881836,
+      24.983999252319336,
+      0.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -4286,6 +5185,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4305,7 +5210,7 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
@@ -4313,14 +5218,14 @@
       1.0,
       -0.0010000000474974513,
       0.0,
-      -0.0010000000474974513,
+      -0.0,
       0.0,
-      20.687999725341797,
-      24.33799934387207,
-      1.0
+      20.014999389648438,
+      24.97599983215332,
+      0.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4329,6 +5234,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4348,19 +5259,19 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
-      0.0020000000949949026,
       0.0,
-      20.711999893188477,
-      24.33099937438965,
-      1.0
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.020000457763672,
+      24.968000411987305,
+      0.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -4372,6 +5283,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4391,22 +5308,22 @@
     "observation": [
       0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
-      -0.0,
       0.0,
-      20.735000610351562,
-      24.323999404907227,
-      1.0
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.024999618530273,
+      24.958999633789062,
+      0.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4415,6 +5332,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4432,21 +5355,21 @@
   {
     "step": 117,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0,
-      0.0010000000474974513,
       0.0,
-      20.759000778198242,
-      24.316999435424805,
-      1.0
+      -0.0,
+      -0.0,
+      0.0,
+      20.030000686645508,
+      24.951000213623047,
+      0.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -4458,6 +5381,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4475,24 +5404,24 @@
   {
     "step": 118,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0010000000474974513,
-      -0.0,
       0.0,
-      20.781999588012695,
-      24.309999465942383,
-      1.0
+      20.03499984741211,
+      24.94300079345703,
+      0.0
     ],
-    "action": 3,
-    "reward": -0.30000000000000004,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4501,6 +5430,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4518,21 +5453,21 @@
   {
     "step": 119,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0,
+      -0.0,
       0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.059999465942383,
+      24.934999465942383,
+      1.0
     ],
     "action": 0,
     "reward": 0.2,
@@ -4544,6 +5479,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4561,24 +5502,24 @@
   {
     "step": 120,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
       -0.0,
-      -0.0010000000474974513,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      -0.0020000000949949026,
+      0.0,
+      20.083999633789062,
+      24.927000045776367,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4587,6 +5528,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4604,23 +5551,23 @@
   {
     "step": 121,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.003000000026077032,
+      0.0010000000474974513,
       -0.0010000000474974513,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      0.0,
+      20.108999252319336,
+      24.91900062561035,
+      1.0
     ],
-    "action": 5,
+    "action": 4,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -4630,6 +5577,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4647,24 +5600,24 @@
   {
     "step": 122,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      -0.0010000000474974513,
       -0.0,
+      0.0010000000474974513,
       0.0,
-      20.020000457763672,
-      24.968000411987305,
-      0.0
+      0.0,
+      20.134000778198242,
+      24.910999298095703,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4673,6 +5626,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4690,21 +5649,21 @@
   {
     "step": 123,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0,
+      -0.0020000000949949026,
+      -0.0,
       0.0,
-      0.0,
-      -0.0010000000474974513,
-      0.0,
-      20.024999618530273,
-      24.958999633789062,
-      0.0
+      20.159000396728516,
+      24.902999877929688,
+      1.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -4716,6 +5675,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4733,24 +5698,24 @@
   {
     "step": 124,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0,
-      -0.0010000000474974513,
       0.0,
-      20.030000686645508,
-      24.951000213623047,
-      0.0
+      0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.18400001525879,
+      24.895000457763672,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4759,6 +5724,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4776,24 +5747,24 @@
   {
     "step": 125,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0,
-      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      0.0,
-      20.03499984741211,
-      24.94300079345703,
-      0.0
+      20.20800018310547,
+      24.886999130249023,
+      1.0
     ],
-    "action": 2,
-    "reward": -0.30000000000000004,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4802,6 +5773,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4819,24 +5796,24 @@
   {
     "step": 126,
     "observation": [
-      0.8019999861717224,
+      0.8009999990463257,
       100.0,
-      28.70599937438965,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      0.0,
       -0.0,
       0.0,
-      20.040000915527344,
-      24.934999465942383,
-      0.0
+      0.0010000000474974513,
+      0.0,
+      20.232999801635742,
+      24.8799991607666,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 1,
+    "reward": -0.30000000000000004,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4845,6 +5822,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4862,24 +5845,24 @@
   {
     "step": 127,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      -0.0010000000474974513,
       -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.04400062561035,
-      24.927000045776367,
-      0.0
+      0.0,
+      20.256999969482422,
+      24.871999740600586,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 1,
+    "reward": -0.30000000000000004,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4888,6 +5871,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4905,24 +5894,24 @@
   {
     "step": 128,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0010000000474974513,
-      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.003000000026077032,
+      0.0010000000474974513,
       0.0,
-      20.048999786376953,
-      24.91900062561035,
-      0.0
+      20.281999588012695,
+      24.86400032043457,
+      1.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -4931,6 +5920,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4948,21 +5943,21 @@
   {
     "step": 129,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0020000000949949026,
-      -0.0010000000474974513,
+      -0.0,
+      -0.0,
       0.0,
-      0.0,
-      20.054000854492188,
-      24.910999298095703,
-      0.0
+      20.30699920654297,
+      24.856000900268555,
+      1.0
     ],
     "action": 4,
     "reward": 0.2,
@@ -4974,6 +5969,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -4991,24 +5992,24 @@
   {
     "step": 130,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
       0.0,
-      20.07900047302246,
-      24.902999877929688,
+      20.33099937438965,
+      24.847999572753906,
       1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5017,6 +6018,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5034,23 +6041,23 @@
   {
     "step": 131,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0,
+      0.0,
       0.0010000000474974513,
       0.0,
-      20.104000091552734,
-      24.895000457763672,
+      20.354999542236328,
+      24.84000015258789,
       1.0
     ],
-    "action": 0,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5060,6 +6067,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5077,20 +6090,20 @@
   {
     "step": 132,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      0.0010000000474974513,
       -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.128999710083008,
-      24.886999130249023,
+      20.3799991607666,
+      24.83300018310547,
       1.0
     ],
     "action": 8,
@@ -5103,6 +6116,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5120,24 +6139,24 @@
   {
     "step": 133,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      0.0,
+      -0.0,
       -0.0,
       0.0,
-      20.152999877929688,
-      24.878999710083008,
+      20.40399932861328,
+      24.825000762939453,
       1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5146,6 +6165,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5163,20 +6188,20 @@
   {
     "step": 134,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
-      -0.003000000026077032,
       0.0,
-      20.17799949645996,
-      24.871000289916992,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.429000854492188,
+      24.816999435424805,
       1.0
     ],
     "action": 8,
@@ -5189,6 +6214,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5206,24 +6237,24 @@
   {
     "step": 135,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      -0.0020000000949949026,
       0.0,
       0.0,
-      20.202999114990234,
-      24.863000869750977,
+      -0.0010000000474974513,
+      0.0,
+      20.452999114990234,
+      24.80900001525879,
       1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5232,6 +6263,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5249,21 +6286,21 @@
   {
     "step": 136,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.700000762939453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0,
       -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
       0.0,
-      20.226999282836914,
-      24.856000900268555,
-      1.0
+      20.457000732421875,
+      24.802000045776367,
+      0.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -5275,6 +6312,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5292,21 +6335,21 @@
   {
     "step": 137,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      0.0,
+      0.0020000000949949026,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.25200080871582,
-      24.847999572753906,
-      1.0
+      20.461000442504883,
+      24.79400062561035,
+      0.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -5318,6 +6361,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5335,24 +6384,24 @@
   {
     "step": 138,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.003000000026077032,
-      -0.0010000000474974513,
       0.0,
-      20.275999069213867,
-      24.84000015258789,
-      1.0
+      -0.0,
+      0.0,
+      0.0,
+      20.465999603271484,
+      24.785999298095703,
+      0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5361,6 +6410,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5378,9 +6433,9 @@
   {
     "step": 139,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
@@ -5388,13 +6443,13 @@
       1.0,
       -0.0010000000474974513,
       -0.0010000000474974513,
-      -0.0,
       0.0,
-      20.2810001373291,
-      24.832000732421875,
+      0.0,
+      20.469999313354492,
+      24.77899932861328,
       0.0
     ],
-    "action": 4,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5404,6 +6459,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5421,21 +6482,21 @@
   {
     "step": 140,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0010000000474974513,
-      -0.0,
+      -0.0010000000474974513,
+      -0.003000000026077032,
+      -0.0010000000474974513,
       0.0,
-      20.30500030517578,
-      24.823999404907227,
-      1.0
+      20.474000930786133,
+      24.770999908447266,
+      0.0
     ],
     "action": 6,
     "reward": 0.2,
@@ -5447,6 +6508,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5464,23 +6531,23 @@
   {
     "step": 141,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      -0.0,
+      -0.0010000000474974513,
+      0.0,
       -0.0,
       0.0,
-      20.329999923706055,
-      24.81599998474121,
-      1.0
+      20.47800064086914,
+      24.763999938964844,
+      0.0
     ],
-    "action": 5,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5490,6 +6557,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5507,23 +6580,23 @@
   {
     "step": 142,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
       0.0,
-      0.0,
-      20.333999633789062,
-      24.80900001525879,
+      20.482999801635742,
+      24.756000518798828,
       0.0
     ],
-    "action": 0,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5533,6 +6606,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5550,20 +6629,20 @@
   {
     "step": 143,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.707000732421875,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
       -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.339000701904297,
-      24.801000595092773,
+      20.48699951171875,
+      24.74799919128418,
       0.0
     ],
     "action": 8,
@@ -5576,6 +6655,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5593,23 +6678,23 @@
   {
     "step": 144,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0,
+      0.0010000000474974513,
       -0.0010000000474974513,
-      -0.0,
-      -0.0,
       0.0,
-      20.343000411987305,
-      24.792999267578125,
+      20.490999221801758,
+      24.740999221801758,
       0.0
     ],
-    "action": 6,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5619,6 +6704,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5636,24 +6727,24 @@
   {
     "step": 145,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0,
       -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
       0.0,
-      20.347999572753906,
-      24.785999298095703,
+      20.4950008392334,
+      24.732999801635742,
       0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5662,6 +6753,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5679,23 +6776,23 @@
   {
     "step": 146,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0020000000949949026,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.003000000026077032,
+      -0.0010000000474974513,
       0.0,
-      0.0,
-      20.351999282836914,
-      24.777999877929688,
+      20.499000549316406,
+      24.72599983215332,
       0.0
     ],
-    "action": 5,
+    "action": 4,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5705,6 +6802,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5722,23 +6825,23 @@
   {
     "step": 147,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      0.0010000000474974513,
-      0.0010000000474974513,
       0.0,
-      20.356000900268555,
-      24.770000457763672,
-      0.0
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.523000717163086,
+      24.718000411987305,
+      1.0
     ],
-    "action": 4,
+    "action": 0,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5748,6 +6851,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5765,23 +6874,23 @@
   {
     "step": 148,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.381000518798828,
-      24.761999130249023,
+      -0.0010000000474974513,
+      0.0,
+      20.547000885009766,
+      24.709999084472656,
       1.0
     ],
-    "action": 4,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5791,6 +6900,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5808,24 +6923,24 @@
   {
     "step": 149,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0,
+      -0.0,
       0.0010000000474974513,
-      -0.0,
-      -0.0,
       0.0,
-      20.405000686645508,
-      24.7549991607666,
-      1.0
+      20.551000595092773,
+      24.702999114990234,
+      0.0
     ],
-    "action": 0,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5834,6 +6949,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5851,24 +6972,24 @@
   {
     "step": 150,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
       -0.0010000000474974513,
       -0.0,
       0.0,
-      20.429000854492188,
-      24.746999740600586,
-      1.0
+      20.55500030517578,
+      24.69499969482422,
+      0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5877,6 +6998,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5894,21 +7021,21 @@
   {
     "step": 151,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.003000000026077032,
-      -0.0020000000949949026,
+      0.0010000000474974513,
       -0.0,
+      0.0010000000474974513,
       0.0,
-      20.452999114990234,
-      24.73900032043457,
-      1.0
+      20.55900001525879,
+      24.687999725341797,
+      0.0
     ],
     "action": 5,
     "reward": 0.2,
@@ -5920,6 +7047,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5937,23 +7070,23 @@
   {
     "step": 152,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      0.0010000000474974513,
-      -0.0010000000474974513,
       0.0,
-      20.45800018310547,
-      24.73200035095215,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.56399917602539,
+      24.68000030517578,
       0.0
     ],
-    "action": 5,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -5963,6 +7096,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -5980,24 +7119,24 @@
   {
     "step": 153,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0010000000474974513,
+      -0.0020000000949949026,
+      -0.0020000000949949026,
       0.0,
-      -0.0,
-      0.0,
-      20.461999893188477,
-      24.724000930786133,
+      20.56800079345703,
+      24.67300033569336,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6006,6 +7145,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6023,23 +7168,23 @@
   {
     "step": 154,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.465999603271484,
-      24.716999053955078,
+      20.570999145507812,
+      24.665000915527344,
       0.0
     ],
-    "action": 0,
+    "action": 4,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -6049,6 +7194,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6066,24 +7217,24 @@
   {
     "step": 155,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0,
       0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      20.469999313354492,
-      24.708999633789062,
-      0.0
+      20.594999313354492,
+      24.658000946044922,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6092,6 +7243,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6109,21 +7266,21 @@
   {
     "step": 156,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
       -0.0,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.474000930786133,
-      24.701000213623047,
-      0.0
+      20.618999481201172,
+      24.649999618530273,
+      1.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -6135,6 +7292,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6152,23 +7315,23 @@
   {
     "step": 157,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0,
+      0.0020000000949949026,
       -0.0010000000474974513,
       0.0,
-      -0.0010000000474974513,
-      0.0,
-      20.47800064086914,
-      24.694000244140625,
-      0.0
+      20.64299964904785,
+      24.64299964904785,
+      1.0
     ],
-    "action": 0,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -6178,6 +7341,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6195,24 +7364,24 @@
   {
     "step": 158,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      0.0,
-      0.0,
-      0.0,
-      20.482999801635742,
-      24.68600082397461,
-      0.0
+      20.66699981689453,
+      24.63599967956543,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6221,6 +7390,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6238,24 +7413,24 @@
   {
     "step": 159,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      0.0,
       -0.0,
       0.0010000000474974513,
       0.0,
-      20.48699951171875,
-      24.679000854492188,
-      0.0
+      20.69099998474121,
+      24.628000259399414,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6264,6 +7439,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6281,24 +7462,24 @@
   {
     "step": 160,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0,
-      0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      20.490999221801758,
-      24.67099952697754,
-      0.0
+      0.0,
+      20.71500015258789,
+      24.621000289916992,
+      1.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6307,6 +7488,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6324,20 +7511,20 @@
   {
     "step": 161,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
       -0.0,
+      -0.0010000000474974513,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.514999389648438,
-      24.663999557495117,
+      20.73900032043457,
+      24.61400032043457,
       1.0
     ],
     "action": 5,
@@ -6350,6 +7537,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6367,24 +7560,24 @@
   {
     "step": 162,
     "observation": [
-      0.8019999861717224,
+      0.800000011920929,
       100.0,
-      28.70800018310547,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
+      0.0,
       0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      0.0,
-      20.518999099731445,
-      24.6560001373291,
+      20.742000579833984,
+      24.606000900268555,
       0.0
     ],
-    "action": 1,
-    "reward": -0.30000000000000004,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6393,6 +7586,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6412,21 +7611,21 @@
     "observation": [
       0.800000011920929,
       100.0,
-      28.700000762939453,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
+      0.0,
+      -0.0,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.523000717163086,
-      24.64900016784668,
+      20.746000289916992,
+      24.599000930786133,
       0.0
     ],
-    "action": 0,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -6436,6 +7635,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6453,24 +7658,24 @@
   {
     "step": 164,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.700000762939453,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      0.0020000000949949026,
       -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
-      20.527000427246094,
-      24.641000747680664,
+      20.75,
+      24.591999053955078,
       0.0
     ],
-    "action": 4,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6479,6 +7684,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6496,24 +7707,24 @@
   {
     "step": 165,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.700000762939453,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0,
       0.0,
-      0.0,
-      -0.0020000000949949026,
-      0.0,
-      20.551000595092773,
-      24.634000778198242,
-      1.0
+      20.753000259399414,
+      24.583999633789062,
+      0.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6522,6 +7733,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6539,24 +7756,24 @@
   {
     "step": 166,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.700000762939453,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
+      -0.0,
       0.0020000000949949026,
+      0.0010000000474974513,
       0.0,
-      20.55500030517578,
-      24.625999450683594,
+      20.756999969482422,
+      24.57699966430664,
       0.0
     ],
-    "action": 7,
-    "reward": -0.30000000000000004,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6565,6 +7782,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6582,25 +7805,25 @@
   {
     "step": 167,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.450000762939453,
-      75.0,
+      28.70199966430664,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
       0.0020000000949949026,
+      0.0010000000474974513,
       0.0,
-      20.55900001525879,
-      24.618999481201172,
+      0.0,
+      20.76099967956543,
+      24.56999969482422,
       0.0
     ],
-    "action": 5,
-    "reward": -0.30000000000000004,
-    "mode": "Safe",
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
@@ -6608,6 +7831,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6625,25 +7854,25 @@
   {
     "step": 168,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.450000762939453,
-      75.0,
+      28.70199966430664,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       -0.0,
-      0.0020000000949949026,
-      0.0010000000474974513,
       0.0,
-      20.562999725341797,
-      24.611000061035156,
+      20.763999938964844,
+      24.562000274658203,
       0.0
     ],
-    "action": 0,
-    "reward": -0.30000000000000004,
-    "mode": "Safe",
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
@@ -6651,6 +7880,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6668,25 +7903,25 @@
   {
     "step": 169,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.450000762939453,
-      75.0,
+      28.70199966430664,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       -0.0010000000474974513,
       0.0,
-      20.566999435424805,
-      24.604000091552734,
+      20.76799964904785,
+      24.55500030517578,
       0.0
     ],
-    "action": 3,
-    "reward": -0.8,
-    "mode": "Safe",
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
@@ -6694,6 +7929,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6711,25 +7952,25 @@
   {
     "step": 170,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.451000213623047,
-      75.0,
+      28.70199966430664,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0010000000474974513,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
       0.0,
-      20.0049991607666,
-      24.992000579833984,
-      0.0
+      20.79199981689453,
+      24.54800033569336,
+      1.0
     ],
-    "action": 6,
-    "reward": -0.30000000000000004,
-    "mode": "Safe",
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
@@ -6737,6 +7978,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6754,25 +8001,25 @@
   {
     "step": 171,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.451000213623047,
-      75.0,
+      28.70199966430664,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
-      -0.0020000000949949026,
-      -0.003000000026077032,
       0.0,
-      20.010000228881836,
-      24.983999252319336,
-      0.0
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.815000534057617,
+      24.541000366210938,
+      1.0
     ],
-    "action": 8,
+    "action": 4,
     "reward": 0.2,
-    "mode": "Safe",
+    "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
@@ -6780,6 +8027,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6797,24 +8050,24 @@
   {
     "step": 172,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.003000000026077032,
-      -0.0010000000474974513,
-      0.0010000000474974513,
       0.0,
-      20.014999389648438,
-      24.97599983215332,
-      0.0
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.839000701904297,
+      24.533000946044922,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6823,6 +8076,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6840,23 +8099,23 @@
   {
     "step": 173,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.003000000026077032,
-      0.0020000000949949026,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0,
-      0.0,
-      20.020000457763672,
-      24.968000411987305,
+      20.841999053955078,
+      24.525999069213867,
       0.0
     ],
-    "action": 0,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -6866,6 +8125,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6883,24 +8148,24 @@
   {
     "step": 174,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      0.0,
-      20.024999618530273,
-      24.958999633789062,
+      20.84600067138672,
+      24.518999099731445,
       0.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6909,6 +8174,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6926,24 +8197,24 @@
   {
     "step": 175,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.003000000026077032,
       0.0010000000474974513,
+      -0.0,
+      -0.0,
       0.0,
-      20.030000686645508,
-      24.951000213623047,
-      0.0
+      20.868999481201172,
+      24.511999130249023,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6952,6 +8223,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -6969,24 +8246,24 @@
   {
     "step": 176,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
-      0.0010000000474974513,
       -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.03499984741211,
-      24.94300079345703,
-      0.0
+      20.89299964904785,
+      24.5049991607666,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 5,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -6995,6 +8272,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7012,20 +8295,20 @@
   {
     "step": 177,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0,
-      0.0020000000949949026,
-      0.0020000000949949026,
       0.0,
-      20.040000915527344,
-      24.934999465942383,
+      0.0010000000474974513,
+      0.0,
+      20.895999908447266,
+      24.49799919128418,
       0.0
     ],
     "action": 8,
@@ -7038,6 +8321,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7055,23 +8344,23 @@
   {
     "step": 178,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.0020000000949949026,
       0.0,
       0.0010000000474974513,
       0.0,
-      20.04400062561035,
-      24.927000045776367,
+      20.899999618530273,
+      24.489999771118164,
       0.0
     ],
-    "action": 0,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -7081,6 +8370,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7098,23 +8393,23 @@
   {
     "step": 179,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       -0.0010000000474974513,
-      -0.0,
-      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.048999786376953,
-      24.91900062561035,
+      20.902999877929688,
+      24.482999801635742,
       0.0
     ],
-    "action": 5,
+    "action": 4,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -7124,6 +8419,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7141,24 +8442,24 @@
   {
     "step": 180,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.0010000000474974513,
       -0.0010000000474974513,
-      0.0020000000949949026,
+      -0.0010000000474974513,
       0.0,
-      20.054000854492188,
-      24.910999298095703,
-      0.0
+      20.927000045776367,
+      24.47599983215332,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7167,6 +8468,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7184,21 +8491,21 @@
   {
     "step": 181,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0,
+      0.0010000000474974513,
       -0.0,
       0.0,
-      20.05900001525879,
-      24.902999877929688,
-      0.0
+      20.950000762939453,
+      24.4689998626709,
+      1.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -7210,6 +8517,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7227,24 +8540,24 @@
   {
     "step": 182,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
       -0.0010000000474974513,
       -0.0010000000474974513,
+      0.0020000000949949026,
       0.0,
-      20.06399917602539,
-      24.895000457763672,
-      0.0
+      20.972999572753906,
+      24.461999893188477,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7253,6 +8566,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7270,23 +8589,23 @@
   {
     "step": 183,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
+      -0.0,
       -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.069000244140625,
-      24.886999130249023,
-      0.0
+      20.996999740600586,
+      24.454999923706055,
+      1.0
     ],
-    "action": 6,
+    "action": 4,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -7296,6 +8615,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7313,24 +8638,24 @@
   {
     "step": 184,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
+      0.0,
       -0.0,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.073999404907227,
-      24.878999710083008,
-      0.0
+      21.020000457763672,
+      24.447999954223633,
+      1.0
     ],
-    "action": 8,
-    "reward": 0.1,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7339,6 +8664,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7356,24 +8687,24 @@
   {
     "step": 185,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      0.0,
-      -0.0010000000474974513,
-      0.0,
-      20.077999114990234,
-      24.871000289916992,
-      0.0
+      21.042999267578125,
+      24.44099998474121,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7382,6 +8713,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7399,23 +8736,23 @@
   {
     "step": 186,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.701000213623047,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       -0.0,
       0.0,
-      0.0010000000474974513,
-      0.0,
-      20.08300018310547,
-      24.863000869750977,
-      0.0
+      21.06599998474121,
+      24.43400001525879,
+      1.0
     ],
-    "action": 0,
+    "action": 6,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -7425,6 +8762,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7442,21 +8785,21 @@
   {
     "step": 187,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      0.0010000000474974513,
-      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      -0.0010000000474974513,
       0.0,
-      20.08799934387207,
-      24.854999542236328,
-      0.0
+      21.089000701904297,
+      24.427000045776367,
+      1.0
     ],
     "action": 8,
     "reward": 0.1,
@@ -7468,6 +8811,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7485,24 +8834,24 @@
   {
     "step": 188,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0,
       -0.0010000000474974513,
       0.0,
-      0.0,
-      20.093000411987305,
-      24.847000122070312,
-      0.0
+      21.11199951171875,
+      24.420000076293945,
+      1.0
     ],
-    "action": 5,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7511,6 +8860,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7528,24 +8883,24 @@
   {
     "step": 189,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
       0.0010000000474974513,
-      -0.0,
       0.0,
-      20.097000122070312,
-      24.839000701904297,
-      0.0
+      0.0010000000474974513,
+      0.0,
+      21.13599967956543,
+      24.413000106811523,
+      1.0
     ],
-    "action": 6,
-    "reward": 0.2,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7554,6 +8909,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7571,21 +8932,21 @@
   {
     "step": 190,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0020000000949949026,
+      0.0,
+      0.0010000000474974513,
       0.0,
       0.0,
-      20.101999282836914,
-      24.832000732421875,
-      0.0
+      21.159000396728516,
+      24.4060001373291,
+      1.0
     ],
     "action": 4,
     "reward": 0.2,
@@ -7597,6 +8958,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7614,23 +8981,23 @@
   {
     "step": 191,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0,
       0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      20.12700080871582,
-      24.823999404907227,
+      21.18199920654297,
+      24.39900016784668,
       1.0
     ],
-    "action": 4,
+    "action": 5,
     "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
@@ -7640,6 +9007,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7657,24 +9030,24 @@
   {
     "step": 192,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
       0.0,
-      0.0,
-      20.150999069213867,
-      24.81599998474121,
-      1.0
+      21.184999465942383,
+      24.39299964904785,
+      0.0
     ],
-    "action": 8,
-    "reward": -1.2,
+    "action": 5,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -7683,6 +9056,12 @@
       "TCS": "Nominal"
     },
     "persistent_faults": [
+      {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
       {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
@@ -7700,45 +9079,43 @@
   {
     "step": 193,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      28.70199966430664,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
       -0.0010000000474974513,
       0.0,
-      20.176000595092773,
-      24.808000564575195,
-      1.0
+      21.187999725341797,
+      24.38599967956543,
+      0.0
     ],
-    "action": 5,
-    "reward": -1.1,
+    "action": 8,
+    "reward": 0.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -7751,45 +9128,43 @@
   {
     "step": 194,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
       0.0010000000474974513,
       0.0,
-      20.180999755859375,
-      24.799999237060547,
+      21.19099998474121,
+      24.378999710083008,
       0.0
     ],
-    "action": 8,
-    "reward": -1.2,
+    "action": 3,
+    "reward": -0.30000000000000004,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -7802,45 +9177,43 @@
   {
     "step": 195,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
-      -0.0,
+      0.0,
       -0.0010000000474974513,
       0.0,
-      20.184999465942383,
-      24.79199981689453,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
       0.0
     ],
-    "action": 5,
-    "reward": -1.1,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -7853,45 +9226,43 @@
   {
     "step": 196,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
+      0.0,
       0.0010000000474974513,
-      -0.0020000000949949026,
+      -0.0010000000474974513,
       0.0,
-      0.0,
-      20.190000534057617,
-      24.784000396728516,
+      20.010000228881836,
+      24.983999252319336,
       0.0
     ],
-    "action": 5,
-    "reward": -1.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -7904,45 +9275,43 @@
   {
     "step": 197,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010000000474974513,
-      -0.0010000000474974513,
       -0.0,
       0.0,
-      20.194000244140625,
-      24.775999069213867,
+      -0.0,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -7955,45 +9324,43 @@
   {
     "step": 198,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0,
+      0.0020000000949949026,
       0.0010000000474974513,
+      -0.0020000000949949026,
       0.0,
-      0.0,
-      20.198999404907227,
-      24.768999099731445,
+      20.020000457763672,
+      24.968000411987305,
       0.0
     ],
-    "action": 8,
-    "reward": -1.2,
+    "action": 4,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -8006,45 +9373,43 @@
   {
     "step": 199,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
       0.0010000000474974513,
-      -0.0,
       0.0,
+      0.0010000000474974513,
       0.0,
-      20.202999114990234,
-      24.76099967956543,
-      0.0
+      20.045000076293945,
+      24.958999633789062,
+      1.0
     ],
-    "action": 8,
-    "reward": -1.2,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }
@@ -8057,45 +9422,43 @@
   {
     "step": 200,
     "observation": [
-      0.800000011920929,
+      0.8009999990463257,
       100.0,
-      29.101999282836914,
-      10.0,
+      28.70400047302246,
+      50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0,
       -0.0010000000474974513,
-      -0.0010000000474974513,
+      -0.0,
       0.0,
-      20.20800018310547,
-      24.753000259399414,
-      0.0
+      0.0,
+      20.06999969482422,
+      24.951000213623047,
+      1.0
     ],
-    "action": 5,
-    "reward": -1.1,
+    "action": 6,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "SolarPanelDegradation",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
+        "subsystem": "TCS",
+        "type": "HeaterStuckOn",
+        "params": {},
+        "intermittent": false
+      },
+      {
         "subsystem": "ADCS",
         "type": "GyroNoiseIncrease",
         "params": {
           "noise_factor": 10.0
-        },
-        "intermittent": false
-      },
-      {
-        "subsystem": "EPS",
-        "type": "SolarPanelDegradation",
-        "params": {
-          "degradation_factor": 0.6
         },
         "intermittent": false
       }

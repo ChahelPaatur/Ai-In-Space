@@ -42,7 +42,6 @@ This research investigates the effectiveness of different FDIR strategies for au
 │   │   ├── visualize_advanced.py      # Advanced metrics visualization
 │   │   ├── visualize_flowcharts.py    # Generate architecture diagrams
 │   │   ├── generate_paper_figures.py  # Generate figures for the paper
-│   │   └── extrafigs.py               # Additional figures generation
 │   └── utils/                  # Utility scripts
 │       └── app.py              # Flask web visualization app
 │
@@ -148,6 +147,43 @@ python scripts/visualize/generate_paper_figures.py
 # Start the web visualization server
 python scripts/utils/app.py
 ```
+
+## Porting to Different Spacecraft Configurations
+
+The simulation framework is designed to be modular, allowing for adaptation to different spacecraft configurations. Here's a guide on how to port the system:
+
+1.  **Modifying Subsystems (`src/subsystems.py`)**:
+    *   Define new or alter existing spacecraft subsystems (e.g., `PowerSubsystem`, `ThermalSubsystem`, `ADCSubsystem`).
+    *   Specify telemetry points for each subsystem, their nominal operating ranges, and how they are affected by state changes or faults.
+    *   Update the `SpacecraftModel` class within `subsystems.py` to integrate new subsystem dynamics.
+
+2.  **Defining New Faults (`src/faults.py`)**:
+    *   Create new fault classes by inheriting from the base `Fault` class.
+    *   Implement the `apply` method to define how a fault affects subsystem parameters (e.g., degrading solar panel efficiency, inducing sensor noise).
+    *   Register new faults in the `FaultInjector` to make them available for simulation.
+
+3.  **Adapting the Rule-Based Agent (`src/classical_fdir.py`)**:
+    *   **Thresholds**: Adjust the telemetry thresholds in the `RuleBasedFDIR` agent to match the nominal ranges of the new spacecraft configuration.
+    *   **Decision Logic**: Modify the `get_action` method to implement new "if-then" rules specific to the new faults and subsystem interactions.
+    *   **Recovery Actions**: Define or update recovery procedures mapped to specific diagnosed faults. Ensure the action space defined in `SpacecraftEnv` supports these actions.
+
+4.  **Telemetry Mapping and Observation Space (`src/spacecraft_env.py`)**:
+    *   The `SpacecraftEnv` class defines the observation space based on the telemetry from `SpacecraftModel`. If new telemetry points are added, the observation space shape and content will change.
+    *   Ensure the `_get_obs()` method correctly gathers and normalizes (if applicable) all relevant telemetry for the agents.
+    *   **Agent Adaptation**:
+        *   **Rule-Based Agent**: Ensure it correctly interprets the indices of the observation vector corresponding to the telemetry it monitors.
+        *   **DRL Agent**: The input layer of the DRL agent's neural network (`src/drl_agent.py`) must be updated to match the new observation space size. Retraining will be necessary.
+        *   **Hybrid Agent**: Both components of the hybrid agent (`src/hybrid_agent.py`) will need to be consistent with the new observation space.
+
+5.  **Action Space (`src/spacecraft_env.py`)**:
+    *   If new recovery actions or control commands are needed for the new spacecraft configuration, update the `action_space` in `SpacecraftEnv`.
+    *   Ensure all agents are updated to understand and output actions compatible with the revised action space.
+
+6.  **API Layer Integration**:
+    *   The `SpacecraftEnv` class serves as the primary API for interaction between the agents and the simulated spacecraft. Its `step` and `reset` methods, along with the observation and action spaces, define how agents interface with the environment.
+    *   Any external flight software or new agent architectures would integrate by adhering to this Gymnasium-compatible API.
+
+By modifying these key components, the simulation can be tailored to model a wide variety of spacecraft and FDIR challenges.
 
 ## Visual Demonstrations
 

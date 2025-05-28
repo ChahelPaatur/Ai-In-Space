@@ -13,7 +13,7 @@ from src.spacecraft_env import SpacecraftEnv
 from src.classical_fdir import RuleBasedFDIR
 from src.drl_agent import PPOAgent
 
-# --- Simulation Configuration ---
+#  Simulation Configuration 
 NUM_EPISODES = 5            # Number of simulation runs for each agent
 MAX_STEPS_PER_EPISODE = 200 # Maximum steps per episode before truncation
 FAULT_PROBABILITY = 0.02    # Per-step probability of injecting a new persistent fault
@@ -26,7 +26,7 @@ SAVE_DETAILED_LOGS = True     # Set to False to disable detailed logging
 
 def run_classical_agent(results_data):
     """Runs evaluation episodes using the classical rule-based FDIR agent."""
-    print("--- Running Simulation with Classical FDIR Agent ---")
+    print(" Running Simulation with Classical FDIR Agent ---")
     os.makedirs(LOGS_DIR, exist_ok=True)
 
     # Instantiate Environment - Note: Use raw observations for classical agent
@@ -44,6 +44,7 @@ def run_classical_agent(results_data):
     for episode in range(NUM_EPISODES):
         print(f"\n--- Classical: Starting Episode {episode + 1}/{NUM_EPISODES} ---")
         start_time = time.time()
+        
         observation, info = env.reset()
         current_episode_reward = 0
         terminated = False
@@ -80,13 +81,13 @@ def run_classical_agent(results_data):
             observation = next_observation
             info = next_info
 
-            # --- Check for episode end conditions --- #
+            #  Check for episode end conditions  #
             if terminated:
                 print(f"Classical Episode finished after {step} steps (Terminated)")
             elif truncated:
                 print(f"Classical Episode finished after {step} steps (Truncated - Max steps reached)")
 
-        # --- End of Episode --- #
+        #  End of Episode  #
         end_time = time.time()
         print(f"Classical Episode {episode + 1} finished. Reward: {current_episode_reward:.2f}")
         print(f"  Final Status: {info.get('subsystem_statuses', 'N/A')}")
@@ -155,7 +156,7 @@ def run_drl_agent(results_data, model_path=DRL_MODEL_PATH):
     episode_steps = []
 
     for episode in range(NUM_EPISODES):
-        print(f"\n--- DRL: Starting Episode {episode + 1}/{NUM_EPISODES} ---")
+        print(f"\nDRL: Starting Episode {episode + 1}/{NUM_EPISODES} ---")
         start_time = time.time()
         # Reset returns the *normalized* observation if normalize_obs=True
         observation, info = env.reset()
@@ -199,13 +200,13 @@ def run_drl_agent(results_data, model_path=DRL_MODEL_PATH):
             observation = next_observation # Use the potentially normalized observation for the next agent decision
             info = next_info # Update info dict
 
-            # --- Check for episode end conditions --- #
+            # Check for episode end conditions  #
             if terminated:
                 print(f"DRL Episode finished after {step} steps (Terminated)")
             elif truncated:
                 print(f"DRL Episode finished after {step} steps (Truncated - Max steps reached)")
 
-        # --- End of Episode --- #
+        #  End of Episode  #
         end_time = time.time()
         print(f"DRL Episode {episode + 1} finished. Reward: {current_episode_reward:.2f}")
         # Retrieve final status from the last info dict
@@ -232,7 +233,7 @@ def run_drl_agent(results_data, model_path=DRL_MODEL_PATH):
         'steps': episode_steps
     }
 
-    print(f"\n--- Simulation Summary (DRL Agent - {model_path}) ---")
+    print(f"\nSimulation Summary (DRL Agent - {model_path}) ---")
     print(f"Episodes: {NUM_EPISODES}")
     print(f"Avg Reward: {np.mean(episode_rewards):.2f} ± {np.std(episode_rewards):.2f}")
     print(f"Avg Steps: {np.mean(episode_steps):.2f} ± {np.std(episode_steps):.2f}")
