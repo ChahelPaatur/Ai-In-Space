@@ -1,18 +1,19 @@
-import numpy as np
-import time
-import torch
-import json
 import os
-import glob
 import sys
+import json
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+from pathlib import Path
 
-# Add the project root to the Python path to allow imports
+# Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from src.spacecraft_env import SpacecraftEnv
 from src.classical_fdir import RuleBasedFDIR
 from src.drl_agent import PPOAgent
 from src.hybrid_agent import HybridFDIRAgent
+# from src.agents.safety_compliant_hybrid_agent import SafetyCompliantHybridAgent
 from src.metrics import FDIRMetrics
 
 # --- Simulation Configuration ---
@@ -75,8 +76,14 @@ def run_agent(agent_type, agent_instance, env, results_data, metrics_tracker=Non
                 decision_source = decision_info['decision_source']
             elif agent_type.startswith('drl'):
                 # DRL agent doesn't use info parameter
-                action, log_prob, value = agent_instance.get_action(observation)
-                decision_source = agent_type.capitalize()
+                # Handle the different return signature for the DRL agent
+                drl_result = agent_instance.get_action(observation)
+                if len(drl_result) == 4:  # If it returns (action, log_prob, value, diagnostics)
+                    action, log_prob, value, diagnostics = drl_result
+                    decision_source = agent_type.capitalize()
+                else:  # If it returns (action, log_prob, value)
+                    action, log_prob, value = drl_result
+                    decision_source = agent_type.capitalize()
             else:
                 action = agent_instance.get_action(observation, info)
                 decision_source = agent_type.capitalize()
@@ -337,6 +344,182 @@ def run_enhanced_comparison():
         print(f"{agent_type.capitalize():<15} {reward:<15} {mttd:<10} {mttr:<10} {sfri:<10}")
     
     return results
+
+def create_comparison_plots(results):
+    """Create comparison plots and save them to the static/plots/paper directory."""
+    plot_dir = Path("static/plots/paper")
+    plot_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Plot colors and labels
+    colors = {
+        "classical": "blue",
+        "drl": "orange",
+        "hybrid": "green",
+        "safety_hybrid": "red"
+    }
+    
+    agent_labels = {
+        "classical": "Classical",
+        "drl": "DRL",
+        "hybrid": "Hybrid",
+        "safety_hybrid": "Safety-Compliant Hybrid"
+    }
+    
+    # 1. Reward Plot (Figure 1)
+    plt.figure(figsize=(10, 8))
+    for agent_type in results.keys():
+        if not results[agent_type]["rewards"]:
+            continue
+        rewards = results[agent_type]["rewards"]
+        mean_reward = np.mean(rewards)
+        plt.boxplot([rewards], positions=[list(results.keys()).index(agent_type)],
+                  widths=0.6, patch_artist=True,
+                  boxprops=dict(facecolor=colors[agent_type], alpha=0.7))
+        plt.scatter([list(results.keys()).index(agent_type)] * len(rewards), 
+                  rewards, color=colors[agent_type], alpha=0.4, s=20)
+        plt.scatter([list(results.keys()).index(agent_type)], [mean_reward], 
+                  color='black', marker='*', s=100, zorder=3)
+        
+    plt.xticks(range(len(results)), [agent_labels[a] for a in results.keys()])
+    plt.ylabel("Episode Reward")
+    plt.title("Figure 1: Total Episode Reward (n=100)")
+    plt.grid(True, alpha=0.3)
+    plt.savefig(plot_dir / "figure1_reward_comparison.png", dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    # 2. MTTD & MTTR Plot (Figure 2)
+    plt.figure(figsize=(10, 8))
+    
+    # Gather data
+    mttd_values = []
+    mttr_values = []
+    agent_types = []
+    
+    for agent_type in results.keys():
+        if agent_type in results and "metrics" in results[agent_type]:
+            metrics = results[agent_type]["metrics"]
+            if "mttd" in metrics and "mttr" in metrics:
+                mttd_values.append(metrics["mttd"])
+                mttr_values.append(metrics["mttr"])
+                agent_types.append(agent_labels[agent_type])
+    
+    x = np.arange(len(agent_types))
+    width = 0.35
+    
+    plt.bar(x - width/2, mttd_values, width, label='MTTD', color='skyblue')
+    plt.bar(x + width/2, mttr_values, width, label='MTTR', color='lightcoral')
+    
+    plt.xlabel('Agent Type')
+    plt.ylabel('Time Steps')
+    plt.title('Figure 2: Detection and Recovery Time (n=100)')
+    plt.xticks(x, agent_types)
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    
+    # Add values as text above each bar
+    for i, v in enumerate(mttd_values):
+        plt.text(i - width/2, v + 2, f"{v:.1f}", ha='center', fontsize=9)
+    for i, v in enumerate(mttr_values):
+        plt.text(i + width/2, v + 2, f"{v:.1f}", ha='center', fontsize=9)
+        
+    plt.savefig(plot_dir / "figure2_mttr_mttd_comparison.png", dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    # 3. False Positives Plot (Figure 3)
+    plt.figure(figsize=(10, 8))
+    
+    # Gather data
+    fp_values = []
+    agent_types = []
+    
+    for agent_type in results.keys():
+        if agent_type in results and "metrics" in results[agent_type]:
+            metrics = results[agent_type]["metrics"]
+            if "false_positives" in metrics:
+                fp_values.append(metrics["false_positives"])
+                agent_types.append(agent_labels[agent_type])
+    
+    plt.bar(agent_types, fp_values, color=[colors[a.lower()] for a in agent_types])
+    plt.xlabel('Agent Type')
+    plt.ylabel('Number of False Positives')
+    plt.title('Figure 3: False Positive Recovery Actions (n=100)')
+    plt.grid(True, alpha=0.3)
+    
+    # Add values as text above each bar
+    for i, v in enumerate(fp_values):
+        plt.text(i, v + max(fp_values) * 0.02, f"{v}", ha='center')
+        
+    plt.savefig(plot_dir / "figure3_false_positives.png", dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    # 4. SFRI Comparison (Figure 4)
+    plt.figure(figsize=(10, 8))
+    
+    # Gather data
+    sfri_values = []
+    agent_types = []
+    
+    for agent_type in results.keys():
+        if agent_type in results and "metrics" in results[agent_type]:
+            metrics = results[agent_type]["metrics"]
+            if "sfri" in metrics:
+                sfri_values.append(metrics["sfri"])
+                agent_types.append(agent_labels[agent_type])
+    
+    plt.bar(agent_types, sfri_values, color=[colors[a.lower()] for a in agent_types])
+    plt.xlabel('Agent Type')
+    plt.ylabel('SFRI Score')
+    plt.title('Figure 4: SFRI Score Comparison (n=100)')
+    plt.ylim(0, 70)  # Scale to max possible score
+    plt.grid(True, alpha=0.3)
+    
+    # Add values as text above each bar
+    for i, v in enumerate(sfri_values):
+        plt.text(i, v + 1, f"{v:.1f}", ha='center')
+        
+    plt.savefig(plot_dir / "figure4_sfri_comparison.png", dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    # 5. Detection & Recovery Rate (Figure 5)
+    plt.figure(figsize=(10, 8))
+    
+    # Gather data
+    detection_rates = []
+    recovery_rates = []
+    agent_types = []
+    
+    for agent_type in results.keys():
+        if agent_type in results and "metrics" in results[agent_type]:
+            metrics = results[agent_type]["metrics"]
+            if "detection_rate" in metrics and "recovery_rate" in metrics:
+                detection_rates.append(metrics["detection_rate"] * 100)  # Convert to percentage
+                recovery_rates.append(metrics["recovery_rate"] * 100)    # Convert to percentage
+                agent_types.append(agent_labels[agent_type])
+    
+    x = np.arange(len(agent_types))
+    width = 0.35
+    
+    plt.bar(x - width/2, detection_rates, width, label='Detection Rate', color='skyblue')
+    plt.bar(x + width/2, recovery_rates, width, label='Recovery Rate', color='lightgreen')
+    
+    plt.xlabel('Agent Type')
+    plt.ylabel('Rate (%)')
+    plt.title('Figure 5: Fault Detection and Recovery Rates (n=100)')
+    plt.xticks(x, agent_types)
+    plt.legend()
+    plt.ylim(0, 105)  # Scale to percentage
+    plt.grid(True, alpha=0.3)
+    
+    # Add values as text above each bar
+    for i, v in enumerate(detection_rates):
+        plt.text(i - width/2, v + 2, f"{v:.1f}%", ha='center', fontsize=9)
+    for i, v in enumerate(recovery_rates):
+        plt.text(i + width/2, v + 2, f"{v:.1f}%", ha='center', fontsize=9)
+        
+    plt.savefig(plot_dir / "figure5_detection_recovery_rates.png", dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    print(f"All comparison plots saved to {plot_dir}")
 
 if __name__ == "__main__":
     run_enhanced_comparison() 

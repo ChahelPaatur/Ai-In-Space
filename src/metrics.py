@@ -20,6 +20,7 @@ class FDIRMetrics:
         self.detection_times = []
         self.recovery_times = []
         self.false_positives = 0
+        self.total_actions = 0  # Track total actions to calculate false positive rate
         self.stability_impacts = []
         
         # Detection/Recovery actions
@@ -28,11 +29,12 @@ class FDIRMetrics:
         # SFRI calculation weights
         # Paper reference: Section 3.5 "Metrics Framework" - These weights are used in the
         # SFRI formula as described in the paper: 
-        # "SFRI = (α × DetectionRate) - (β × MTTR) - (γ × StabilityImpact) - (δ × FalsePositives)"
-        self.detection_weight = 1.0      # α
-        self.recovery_time_weight = 0.5  # β
-        self.stability_weight = 1.0      # γ
-        self.false_positive_weight = 0.7 # δ
+        # "SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate"
+        self.detection_weight = 35.0      # Weight for detection rate (%)
+        self.recovery_weight = 25.0       # Weight for recovery time (%)
+        self.stability_weight = 10.0      # Weight for stability score (%)
+        self.false_positive_weight = 30.0 # Weight for false positive rate (%)
+        self.max_steps = 200.0            # Maximum steps for MTTR normalization
     
     def process_episode_log(self, episode_log, subsystem_fields=None):
         """
@@ -86,6 +88,10 @@ class FDIRMetrics:
             if episode['recovery_step'] is not None:
                 ttr = episode['recovery_step'] - episode['start_step']
                 ttr_values.append(ttr)
+        
+        # Count total actions for false positive rate calculation
+        total_actions = sum(1 for step in episode_log if step.get('action') in self.recovery_actions)
+        self.total_actions += total_actions
         
         # Calculate SFRI
         # Paper reference: Section 3.5 "Metrics Framework" - The novel integrated metric
@@ -477,21 +483,7 @@ class FDIRMetrics:
         
         # Paper reference: Section 3.5 "Metrics Framework" - This implements the novel SFRI
         # metric described in the paper:
-        # "SFRI = 45 × (DetectionRate) + 25 × (1 - MTTR/MaxSteps) + 10 × (StabilityScore) - 20 × (FalsePositiveRate)"
-        # The paper highlights that using this comprehensive metric, the Hybrid agent achieved
-        # the highest score, demonstrating superior balance of detection, recovery, and stability.
-        
-        # Weight explanation: The SFRI weights were carefully chosen based on the priorities
-        # outlined in spacecraft fault management literature and practical mission constraints.
-        # Detection rate received the highest weight (45%) due to its fundamental importance for
-        # preventing mission failure and the dramatic time advantage demonstrated by the Hybrid agent.
-        # Recovery time received the second highest weight (25%) as minimizing system downtime is 
-        # crucial but secondary to detection. False positives were penalized (20%) reflecting their 
-        # impact on spacecraft resource utilization, but this impact can be mitigated in Hybrid systems
-        # through confidence threshold optimization. System stability received the lowest weight (10%) 
-        # as temporary instability can be acceptable if detection and recovery are successful.
-        
-        SFRI = (α × Detection Rate) - (β × MTTR) - (γ × Stability Impact) - (δ × False Positives)
+        # "SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate"
         
         Args:
             detection_times: List of time-to-detect values
@@ -503,35 +495,39 @@ class FDIRMetrics:
         Returns:
             float: SFRI score (higher is better)
         """
-        # Detection rate component
-        detection_rate = len(detection_times) / max(1, total_faults)
-        detection_component = 0.45 * detection_rate  # 45% weight for detection rate
+        # 1. Detection Rate component (0-100%)
+        detection_rate = len(detection_times) / max(1, total_faults) * 100.0
+        detection_component = self.detection_weight * (detection_rate / 100.0)  # Scale to 0-35
         
-        # Recovery time component (normalized to [0,1], lower is better)
+        # 2. Recovery Time component (0-100%)
         if recovery_times:
             mttr = np.mean(recovery_times)
-            # Normalize: assume 20 steps is a good recovery time, 100+ is poor
-            normalized_mttr = min(1.0, mttr / 100.0)
-            recovery_component = 0.25 * normalized_mttr  # 25% weight for recovery time
+            # Recovery score is better when MTTR is lower (1 - MTTR/MaxSteps)
+            recovery_score = max(0.0, 1.0 - (mttr / self.max_steps)) * 100.0
+            recovery_component = self.recovery_weight * (recovery_score / 100.0)  # Scale to 0-25
         else:
-            recovery_component = 0.25  # Maximum penalty if no recoveries
+            recovery_component = 0.0  # No recovery data
         
-        # Stability impact component
-        stability_component = 0.10 * (  # 10% weight for stability impact
-            np.mean(stability_impacts) if stability_impacts else 0.0
-        )
+        # 3. Stability Score component (0-100%)
+        # Convert stability impacts (where higher is worse) to stability score (where higher is better)
+        if stability_impacts:
+            avg_stability_impact = np.mean(stability_impacts)
+            stability_score = (1.0 - avg_stability_impact) * 100.0  # Convert to 0-100%
+            stability_component = self.stability_weight * (stability_score / 100.0)  # Scale to 0-10
+        else:
+            stability_component = self.stability_weight  # Perfect stability if no data
         
-        # False positive component (normalized to [0,1])
-        # Use more lenient scaling: Assume more than 20 false positives per 100 steps is poor
-        # This better reflects the reality that some false positives are acceptable
-        # in exchange for faster detection in critical systems
-        false_positive_rate = min(1.0, false_positives / 20.0)
-        false_positive_component = 0.20 * false_positive_rate  # 20% weight for false positives
+        # 4. False Positive Rate component (0-100%)
+        # In the paper: False Positive Rate = Nfalse positives / Ntotal actions
+        total_actions = self.total_actions if hasattr(self, 'total_actions') and self.total_actions > 0 else max(false_positives, 1)
+        false_positive_rate = (false_positives / total_actions) * 100.0
+        false_positive_component = self.false_positive_weight * (false_positive_rate / 100.0)  # Scale to 0-30
         
-        # Calculate final SFRI (scale to 0-100)
-        # Paper reference: Section 4.1 "SFRI Metric" - The paper reports SFRI scores
-        # on a 0-100 scale, with the Hybrid agent achieving the highest score
-        sfri_raw = detection_component - recovery_component - stability_component - false_positive_component
-        sfri = 100 * (sfri_raw + 1.0) / 2.0  # Scale from [-1,1] to [0,100]
+        # Calculate SFRI according to the paper's formula
+        # SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate
+        sfri = detection_component + recovery_component + stability_component - false_positive_component
         
-        return max(0, min(100, sfri))  # Clamp to [0,100] 
+        # Convert to 0-100 scale for reporting
+        sfri_scaled = max(0.0, min(100.0, sfri * 100.0 / 70.0))  # 70 is the maximum possible score (35+25+10)
+        
+        return sfri_scaled 

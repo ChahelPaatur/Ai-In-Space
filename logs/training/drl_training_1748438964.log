@@ -1,0 +1,19 @@
+2025-05-28 06:29:24,920 - DRL_Training - INFO - [train_enhanced_drl.py:136] - Starting enhanced DRL agent training...
+2025-05-28 06:29:25,632 - DRL_Training - INFO - [train_enhanced_drl.py:168] - Training for 1000 episodes...
+2025-05-28 06:29:26,996 - DRL_Training - INFO - [train_enhanced_drl.py:215] - Episode 10/1000 - Reward: -601.30 - Duration: 0.21s
+2025-05-28 06:29:28,172 - DRL_Training - INFO - [train_enhanced_drl.py:215] - Episode 20/1000 - Reward: -413.70 - Duration: 0.11s
+2025-05-28 06:29:29,320 - DRL_Training - INFO - [train_enhanced_drl.py:215] - Episode 30/1000 - Reward: -427.30 - Duration: 0.10s
+2025-05-28 06:29:30,274 - DRL_Training - INFO - [train_enhanced_drl.py:215] - Episode 40/1000 - Reward: -85.10 - Duration: 0.10s
+2025-05-28 06:29:31,308 - DRL_Training - INFO - [train_enhanced_drl.py:215] - Episode 50/1000 - Reward: -254.90 - Duration: 0.09s
+2025-05-28 06:29:31,314 - DRL_Training - ERROR - [train_enhanced_drl.py:341] - Error during training: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/chahelpaatur/Documents/Ai-In-Space/scripts/train_enhanced_drl.py", line 334, in <module>
+    reward, metrics = train_agent()
+                      ^^^^^^^^^^^^^
+  File "/Users/chahelpaatur/Documents/Ai-In-Space/scripts/train_enhanced_drl.py", line 219, in train_agent
+    eval_reward, eval_std, eval_metrics = evaluate_agent(agent, env)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chahelpaatur/Documents/Ai-In-Space/scripts/train_enhanced_drl.py", line 77, in evaluate_agent
+    steps_to_detect[fault] = {'detected': False, 'steps': 0}
+    ~~~~~~~~~~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'

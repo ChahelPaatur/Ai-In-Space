@@ -10,9 +10,9 @@
       0.0,
       0.0,
       1.0,
-      0.0006443571764975786,
-      0.0008254243875853717,
-      0.00045354111352935433,
+      0.0014264106284826994,
+      -0.00037680755485780537,
+      -0.0006964500644244254,
       0.0,
       20.0,
       25.0,
@@ -44,9 +44,9 @@
       0.0,
       0.0,
       1.0,
-      0.0009751204052008688,
-      -0.0006227900739759207,
-      0.0006779173854738474,
+      -0.0007510409923270345,
+      -0.001634848304092884,
+      1.1755376362998504e-05,
       0.0,
       20.0049991607666,
       24.99187469482422,
@@ -78,9 +78,9 @@
       0.0,
       0.0,
       1.0,
-      -0.002073829062283039,
-      0.0008030374883674085,
-      0.0004954268224537373,
+      0.0002558980486355722,
+      -7.590893073938787e-05,
+      -0.0008857941720634699,
       0.0,
       20.009984970092773,
       24.983760833740234,
@@ -112,9 +112,9 @@
       0.0,
       0.0,
       1.0,
-      -5.174877151148394e-05,
-      -0.0006082523614168167,
-      0.00043050391832366586,
+      0.0003685250994749367,
+      -0.001175812678411603,
+      -0.0001388619712088257,
       0.0,
       20.014957427978516,
       24.975656509399414,
@@ -146,16 +146,16 @@
       0.0,
       0.0,
       1.0,
-      0.001624567317776382,
-      -0.00025669747265055776,
-      -0.0007602509576827288,
+      -0.0009564660140313208,
+      -0.0003156447201035917,
+      -0.001225444138981402,
       0.0,
       20.019914627075195,
       24.967561721801758,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -180,31 +180,24 @@
       0.0,
       0.0,
       1.0,
-      0.0008650637464597821,
-      0.0006335889920592308,
-      -0.0006503784679807723,
+      0.00031112972646951675,
+      0.0007717425469309092,
+      -0.001341398456133902,
       0.0,
       20.024858474731445,
       24.959476470947266,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -221,31 +214,24 @@
       0.0,
       0.0,
       1.0,
-      0.0011032095644623041,
-      -0.00019738958508241922,
-      0.0017877251375466585,
+      -0.002152460627257824,
+      0.0009506060741841793,
+      -0.0004297376435715705,
       0.0,
       20.029788970947266,
       24.95140266418457,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -262,31 +248,24 @@
       0.0,
       0.0,
       1.0,
-      0.00010993687465088442,
-      -0.0015157313318923116,
-      -0.0004660245031118393,
+      0.0008631178643554449,
+      -0.0014135843375697732,
+      -0.000777770415879786,
       0.0,
       20.034704208374023,
       24.94333839416504,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -303,31 +282,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00094664900097996,
-      -0.0003119913744740188,
-      -2.624558146635536e-05,
+      -0.00029995309887453914,
+      -0.0012678049970418215,
+      0.0008229524246416986,
       0.0,
       20.03960609436035,
       24.935285568237305,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -344,31 +316,24 @@
       0.0,
       0.0,
       1.0,
-      0.00039978986023925245,
-      0.0013457110617309809,
-      0.0008962017600424588,
+      0.0021015850361436605,
+      -0.00014361504872795194,
+      -0.0006569863762706518,
       0.0,
       20.04449462890625,
       24.927242279052734,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -385,31 +350,24 @@
       0.0,
       0.0,
       1.0,
-      0.0026905869599431753,
-      0.0007393226842395961,
-      -0.0009117349982261658,
+      -0.0009124040370807052,
+      0.0003397460386622697,
+      -0.0009084015619009733,
       0.0,
       20.049367904663086,
       24.919208526611328,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -426,31 +384,24 @@
       0.0,
       0.0,
       1.0,
-      -7.283840386662632e-05,
-      -0.0011678142473101616,
-      0.00032541778637096286,
+      0.00042565292096696794,
+      0.00024242463405244052,
+      0.0008922581910155714,
       0.0,
       20.054227828979492,
       24.911184310913086,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -467,31 +418,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0004597616789396852,
-      -0.00037455401616171,
-      -0.0017332570860162377,
+      0.0005281458725221455,
+      -0.0005409809527918696,
+      6.495315119536826e-06,
       0.0,
       20.05907440185547,
       24.90317153930664,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -508,31 +452,24 @@
       0.0,
       0.0,
       1.0,
-      0.00022904294019099325,
-      0.00044586980948224664,
-      -0.001024352153763175,
+      0.00016260835400316864,
+      0.0021551046520471573,
+      0.002789068268612027,
       0.0,
       20.063905715942383,
       24.89516830444336,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -549,31 +486,24 @@
       0.0,
       0.0,
       1.0,
-      0.0012109971139580011,
-      -0.0011667488142848015,
-      0.0010588807053864002,
+      -0.0007614125497639179,
+      -6.54551331535913e-05,
+      -0.00044550056918524206,
       0.0,
       20.068723678588867,
       24.887174606323242,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -590,31 +520,24 @@
       0.0,
       0.0,
       1.0,
-      0.00034578461782075465,
-      -0.0006004261085763574,
-      -0.0009495994308963418,
+      0.001179252634756267,
+      -0.0008588352939113975,
+      -0.0013779522851109505,
       0.0,
       20.073528289794922,
       24.879192352294922,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -631,31 +554,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0013538756174966693,
-      0.0006426300969906151,
-      -0.00044505743426270783,
+      0.00025725638261064887,
+      0.001292919390834868,
+      0.00011896688374690711,
       0.0,
       20.078319549560547,
       24.871217727661133,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -672,31 +588,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007587643340229988,
-      -0.00016439580940641463,
-      0.0009940537856891751,
+      -0.0006044098408892751,
+      -0.0003562738129403442,
+      0.0012141575571149588,
       0.0,
       20.083097457885742,
       24.86325454711914,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -713,31 +622,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0017726110527291894,
-      0.001356130582280457,
-      -0.0006385852466337383,
+      0.00037391827208921313,
+      -0.0008700659382157028,
+      -0.0011851306771859527,
       0.0,
       20.087860107421875,
       24.855300903320312,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -754,31 +656,24 @@
       0.0,
       0.0,
       1.0,
-      0.0013793909456580877,
-      -7.68572062952444e-05,
-      -0.0009773883502930403,
+      -0.0008003694820217788,
+      -0.0010719276033341885,
+      -4.527515557128936e-05,
       0.0,
       20.09261131286621,
       24.84735870361328,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -795,31 +690,24 @@
       0.0,
       0.0,
       1.0,
-      0.0017578110564500093,
-      -0.0008499259129166603,
-      -0.0009851254289969802,
+      -0.00017445022240281105,
+      -8.675370190758258e-05,
+      0.0012930086813867092,
       0.0,
       20.097347259521484,
       24.83942413330078,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -836,31 +724,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0015375877264887094,
-      0.0001533754839329049,
-      -0.000184884003829211,
+      9.138479799730703e-05,
+      0.00019635500211734325,
+      0.00020400587527547032,
       0.0,
       20.102069854736328,
       24.831501007080078,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -877,31 +758,24 @@
       0.0,
       0.0,
       1.0,
-      0.0014572995714843273,
-      0.0012738227378576994,
-      -0.0014587411424145103,
+      0.0012418755795806646,
+      -0.0010174132185056806,
+      -0.0003457329294178635,
       0.0,
       20.106779098510742,
       24.82358741760254,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -918,31 +792,24 @@
       0.0,
       0.0,
       1.0,
-      0.0006582639762200415,
-      -0.0005925143486820161,
-      0.00016978895291686058,
+      0.000502351438626647,
+      -0.0007981540984474123,
+      0.0001682346482994035,
       0.0,
       20.111474990844727,
       24.815683364868164,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -959,31 +826,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0008855964406393468,
-      0.00036524885217659175,
-      -0.0006699205259792507,
+      -0.0006120993057265878,
+      -0.0007271097274497151,
+      -0.0003990612749475986,
       0.0,
       20.11615562438965,
       24.807788848876953,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1000,31 +860,24 @@
       0.0,
       0.0,
       1.0,
-      0.00012953327677678317,
-      -0.0007429622928611934,
-      -0.0003453893295954913,
+      0.0002070667833322659,
+      -0.0016614277847111225,
+      0.0018180671613663435,
       0.0,
       20.120824813842773,
       24.799903869628906,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1041,31 +894,24 @@
       0.0,
       0.0,
       1.0,
-      6.061222302378155e-05,
-      0.00023471307940781116,
-      -0.0013604083796963096,
+      -0.000661041762214154,
+      0.0012046422343701124,
+      0.0007883047801442444,
       0.0,
       20.125478744506836,
       24.792030334472656,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1082,31 +928,24 @@
       0.0,
       0.0,
       1.0,
-      0.0005786983529105783,
-      -0.00029930417076684535,
-      0.0012412318028509617,
+      0.00029983374406583607,
+      0.0013135718181729317,
+      0.0006787543534301221,
       0.0,
       20.1301212310791,
       24.78416633605957,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1123,31 +962,24 @@
       0.0,
       0.0,
       1.0,
-      -3.346701123518869e-05,
-      -0.0001787732617231086,
-      0.000509637757204473,
+      -0.0010445498628541827,
+      0.0003429819771554321,
+      0.0002177455899072811,
       0.0,
       20.134748458862305,
       24.77631187438965,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1164,31 +996,24 @@
       0.0,
       0.0,
       1.0,
-      2.893651253543794e-05,
-      0.000977680436335504,
-      -0.00043807458132505417,
+      -0.0006895732949487865,
+      -0.0012959877494722605,
+      0.0008123185252770782,
       0.0,
       20.13936424255371,
       24.768465042114258,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1205,31 +1030,24 @@
       0.0,
       0.0,
       1.0,
-      0.0012946601491421461,
-      0.0013348039938136935,
-      -0.0007564417319372296,
+      0.0014928651507943869,
+      -0.0009721658425405622,
+      0.002532616490498185,
       0.0,
       20.143964767456055,
       24.760631561279297,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1246,31 +1064,24 @@
       0.0,
       0.0,
       1.0,
-      0.0005552604561671615,
-      0.0002262298803543672,
-      -0.00011117085523437709,
+      -0.0005484638968482614,
+      0.00010064170055557042,
+      0.0009349031606689095,
       0.0,
       20.14855194091797,
       24.752805709838867,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1287,31 +1098,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0003385378804523498,
-      0.0007125358679331839,
-      0.001580673735588789,
+      0.0015951950335875154,
+      -0.00014491198817268014,
+      -0.0005342164658941329,
       0.0,
       20.153127670288086,
       24.7449893951416,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1328,31 +1132,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0008244309574365616,
-      0.0006058705621398985,
-      -8.663251355756074e-05,
+      0.0005503823631443083,
+      -5.2524406783049926e-05,
+      -0.000684024766087532,
       0.0,
       20.15768814086914,
       24.7371826171875,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1369,31 +1166,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0003306263533886522,
-      0.0012097969884052873,
-      0.00042048757313750684,
+      -0.0005986885516904294,
+      -0.0009257917408831418,
+      0.0016446183435618877,
       0.0,
       20.1622371673584,
       24.729387283325195,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1410,31 +1200,24 @@
       0.0,
       0.0,
       1.0,
-      -0.000355694122845307,
-      -0.001638699322938919,
-      0.0005847963620908558,
+      9.370856423629448e-05,
+      -0.0012486238265410066,
+      0.0004098363860975951,
       0.0,
       20.166770935058594,
       24.721599578857422,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1451,31 +1234,24 @@
       0.0,
       0.0,
       1.0,
-      0.001095796818844974,
-      -0.0005356522160582244,
-      0.0006610307609662414,
+      0.000809449702501297,
+      -0.00018672367150429636,
+      0.001551882247440517,
       0.0,
       20.171293258666992,
       24.713823318481445,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1492,31 +1268,24 @@
       0.0,
       0.0,
       1.0,
-      0.0010048648109659553,
-      -0.000723102712072432,
-      -0.00031088420655578375,
+      -0.0006650479626841843,
+      0.0007275295211002231,
+      -0.0006387169123627245,
       0.0,
       20.175800323486328,
       24.7060546875,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1533,31 +1302,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007034261361695826,
-      0.0008199779549613595,
-      6.578443571925163e-05,
+      -0.000599700550083071,
+      0.0014634366380050778,
+      0.00118873396422714,
       0.0,
       20.180295944213867,
       24.69829750061035,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1574,31 +1336,24 @@
       0.0,
       0.0,
       1.0,
-      -1.3748006495006848e-05,
-      0.0004511166480369866,
-      0.0001449128903914243,
+      0.0017000216757878661,
+      0.00038475703331641853,
+      0.0022409914527088404,
       0.0,
       20.184778213500977,
       24.690547943115234,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1615,31 +1370,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007972700404934585,
-      0.00013903577928431332,
-      1.8802442127707764e-06,
+      -0.0002242552291136235,
+      0.0017411098815500736,
+      -0.00035942060640081763,
       0.0,
       20.189247131347656,
       24.682809829711914,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1656,31 +1404,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00022363947937265038,
-      0.0007560050580650568,
-      0.0016652806662023067,
+      -0.0010920317145064473,
+      -0.0005811912706121802,
+      -0.0014675987185910344,
       0.0,
       20.193702697753906,
       24.675081253051758,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1697,31 +1438,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0006530337850563228,
-      0.001491061644628644,
-      8.93582619028166e-05,
+      0.000604128057602793,
+      -0.0005562201840803027,
+      -0.00025723519502207637,
       0.0,
       20.198144912719727,
       24.667360305786133,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1738,31 +1472,24 @@
       0.0,
       0.0,
       1.0,
-      0.0003530212852638215,
-      0.0003555315197445452,
-      0.0012468372005969286,
+      -0.0007754915859550238,
+      0.000258318439591676,
+      0.0012351248878985643,
       0.0,
       20.202573776245117,
       24.659650802612305,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1779,31 +1506,24 @@
       0.0,
       0.0,
       1.0,
-      0.001959366723895073,
-      0.00020390820282045752,
-      -2.2817566787125543e-05,
+      0.0014397352933883667,
+      0.0007527281995862722,
+      0.0006915144040249288,
       0.0,
       20.20699119567871,
       24.65195083618164,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1820,31 +1540,24 @@
       0.0,
       0.0,
       1.0,
-      0.0011643095640465617,
-      -5.582110316026956e-05,
-      -0.0005447717849165201,
+      0.00016344540927093476,
+      -0.0015976346330717206,
+      0.00016751312068663538,
       0.0,
       20.211395263671875,
       24.64426040649414,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1861,31 +1574,24 @@
       0.0,
       0.0,
       1.0,
-      3.301925607956946e-05,
-      -0.0020383375231176615,
-      0.0011059821117669344,
+      0.00010664085857570171,
+      -0.0001699865679256618,
+      0.00211568851955235,
       0.0,
       20.21578598022461,
       24.636577606201172,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1902,31 +1608,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0002719359181355685,
-      0.0007754339021630585,
-      0.0013189936289563775,
+      0.0011595432879403234,
+      -0.0005021381075493991,
+      -0.00019741318828891963,
       0.0,
       20.220163345336914,
       24.62890625,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1943,31 +1642,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00048769189743325114,
-      0.0009101842879317701,
-      -0.0002048310125246644,
+      0.0012396022211760283,
+      0.0020111522171646357,
+      0.0018247326370328665,
       0.0,
       20.22452735900879,
       24.62124252319336,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1984,31 +1676,24 @@
       0.0,
       0.0,
       1.0,
-      -9.82545388978906e-05,
-      0.0009462457965128124,
-      0.0006620339117944241,
+      -0.0004607803130056709,
+      0.000541158311534673,
+      0.00066026346758008,
       0.0,
       20.228879928588867,
       24.613590240478516,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2025,31 +1710,24 @@
       0.0,
       0.0,
       1.0,
-      0.000353923998773098,
-      -0.0004656464734580368,
-      -0.0011827957350760698,
+      0.001164328888989985,
+      0.00039457721868529916,
+      -0.00025861497852019966,
       0.0,
       20.233219146728516,
       24.605945587158203,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2066,31 +1744,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007424940704368055,
-      -0.00011593339149840176,
-      -0.00046231350279413164,
+      -0.0002360312209930271,
+      0.0010244157165288925,
+      -0.0010421074694022536,
       0.0,
       20.237545013427734,
       24.598312377929688,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2107,31 +1778,24 @@
       0.0,
       0.0,
       1.0,
-      0.0012116843136027455,
-      -0.00020338426111266017,
-      -0.0006265047122724354,
+      0.0007426708471029997,
+      0.0017495700158178806,
+      0.00040453311521559954,
       0.0,
       20.241857528686523,
       24.590686798095703,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2148,31 +1812,24 @@
       0.0,
       0.0,
       1.0,
-      0.0022184818517416716,
-      -0.0002494018117431551,
-      -0.0002430235908832401,
+      -0.0012925153132528067,
+      8.844527474138886e-05,
+      0.0007688786135986447,
       0.0,
       20.246158599853516,
       24.583070755004883,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2189,31 +1846,24 @@
       0.0,
       0.0,
       1.0,
-      0.0003698896034620702,
-      -0.000675370916724205,
-      0.0006270937155932188,
+      3.7296089431038126e-05,
+      -0.0003528181405272335,
+      0.0018842634744942188,
       0.0,
       20.250446319580078,
       24.575464248657227,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2230,31 +1880,24 @@
       0.0,
       0.0,
       1.0,
-      0.00024406575539615005,
-      -0.0005083617870695889,
-      -0.0001657482353039086,
+      0.0002468721941113472,
+      -0.0011976388050243258,
+      -0.00032974276109598577,
       0.0,
       20.25472068786621,
       24.567867279052734,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2271,31 +1914,24 @@
       0.0,
       0.0,
       1.0,
-      -1.8649456251296215e-05,
-      0.0003063451440539211,
-      0.0003030041407328099,
+      -0.00018365638970863074,
+      1.655275082157459e-05,
+      -0.002370042959228158,
       0.0,
       20.258983612060547,
       24.560279846191406,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2312,31 +1948,24 @@
       0.0,
       0.0,
       1.0,
-      0.002306872047483921,
-      -0.000573433528188616,
-      0.00041754054836928844,
+      -0.0015291075687855482,
+      0.00011487052688607946,
+      0.0017362881917506456,
       0.0,
       20.263233184814453,
       24.552701950073242,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2353,31 +1982,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007355425041168928,
-      -0.002185436198487878,
-      -0.0014648815849795938,
+      -0.0005800778162665665,
+      0.000110118358861655,
+      -0.0012175432639196515,
       0.0,
       20.26746940612793,
       24.54513168334961,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2394,31 +2016,24 @@
       0.0,
       0.0,
       1.0,
-      0.0012245855759829283,
-      9.350667096441612e-05,
-      0.0001463338703615591,
+      -0.0008481109980493784,
+      -0.0004195673391222954,
+      -0.0007721005822531879,
       0.0,
       20.27169418334961,
       24.537572860717773,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2435,31 +2050,24 @@
       0.0,
       0.0,
       1.0,
-      0.00013404942001216114,
-      0.0017007964197546244,
-      -0.0007177569204941392,
+      -0.00024000255507417023,
+      -0.0014053628547117114,
+      -0.0012562512420117855,
       0.0,
       20.27590560913086,
       24.53002166748047,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2476,31 +2084,24 @@
       0.0,
       0.0,
       1.0,
-      -0.000535014842171222,
-      6.390474482032005e-06,
-      -0.0006509787635877728,
+      0.0012297987705096602,
+      0.0004082971136085689,
+      -5.995755418553017e-05,
       0.0,
       20.28010368347168,
       24.522480010986328,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2517,31 +2118,24 @@
       0.0,
       0.0,
       1.0,
-      0.00014974985970184207,
-      -0.0001304476463701576,
-      0.0004716381663456559,
+      -0.00040793890366330743,
+      -0.0013753812527284026,
+      -0.0006420408026315272,
       0.0,
       20.284290313720703,
       24.51494789123535,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2558,31 +2152,24 @@
       0.0,
       0.0,
       1.0,
-      -1.1425383490859531e-05,
-      -0.0012273191241547465,
-      0.0012230923166498542,
+      -0.0002359296486247331,
+      -0.0012592601124197245,
+      -0.00048104170127771795,
       0.0,
       20.288463592529297,
       24.50742530822754,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2599,31 +2186,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0012727199355140328,
-      0.001186252455227077,
-      -0.0002962114231195301,
+      -0.0018360548419877887,
+      -0.0011208242503926158,
+      0.0002751208667177707,
       0.0,
       20.292625427246094,
       24.49991226196289,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2640,31 +2220,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0010510982247069478,
-      0.00010424140054965392,
-      0.00035701351589523256,
+      0.00015077507123351097,
+      0.0013642446137964725,
+      -0.0005278174648992717,
       0.0,
       20.29677391052246,
       24.492406845092773,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2681,31 +2254,24 @@
       0.0,
       0.0,
       1.0,
-      0.0007176467915996909,
-      0.0008832786115817726,
-      -0.0006281993119046092,
+      -8.882391557563096e-05,
+      -0.000727830920368433,
+      -0.0011504681315273046,
       0.0,
       20.30091094970703,
       24.48491096496582,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2722,31 +2288,24 @@
       0.0,
       0.0,
       1.0,
-      0.0011767253745347261,
-      0.0016654942883178592,
-      -0.0008242341573350132,
+      0.001879397896118462,
+      -0.0010934907477349043,
+      -0.0009826509049162269,
       0.0,
       20.305034637451172,
       24.477426528930664,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2763,31 +2322,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007902797660790384,
-      -0.0006026339833624661,
-      -0.0010596117936074734,
+      0.00022336865367833525,
+      0.0004257922701071948,
+      -0.00055051373783499,
       0.0,
       20.309144973754883,
       24.469947814941406,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2804,31 +2356,24 @@
       0.0,
       0.0,
       1.0,
-      0.0009944705525413156,
-      -0.0007273821975104511,
-      0.0008809734717942774,
+      0.0019422817276790738,
+      0.0012338671367615461,
+      -0.00041512810275889933,
       0.0,
       20.313243865966797,
       24.462480545043945,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2845,31 +2390,24 @@
       0.0,
       0.0,
       1.0,
-      0.0019017538288608193,
-      3.22379419230856e-05,
-      -0.0001866633101599291,
+      0.0015077046118676662,
+      1.0126161242851595e-07,
+      -0.0012229281710460782,
       0.0,
       20.317331314086914,
       24.455020904541016,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2886,31 +2424,24 @@
       0.0,
       0.0,
       1.0,
-      4.545960473478772e-05,
-      0.0008216227870434523,
-      -0.00021904557070229203,
+      0.00027483818121254444,
+      -0.0005245007923804224,
+      -0.0012659113854169846,
       0.0,
       20.3214054107666,
       24.447572708129883,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2927,31 +2458,24 @@
       0.0,
       0.0,
       1.0,
-      0.0015067120548337698,
-      4.6521134208887815e-05,
-      -0.0006641782238148153,
+      9.651415166445076e-05,
+      -0.00033322087256237864,
+      0.0002938641409855336,
       0.0,
       20.325468063354492,
       24.44013023376465,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2968,31 +2492,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0005253924755379558,
-      3.904723052983172e-05,
-      0.0007897436153143644,
+      0.0012762615224346519,
+      0.0025437839794903994,
+      -0.0006635957397520542,
       0.0,
       20.329517364501953,
       24.43269920349121,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3009,31 +2526,24 @@
       0.0,
       0.0,
       1.0,
-      0.0003645512042567134,
-      -0.00040871620876714587,
-      0.0009885471081361175,
+      0.0013131522573530674,
+      0.002823497634381056,
+      1.0528500752116088e-05,
       0.0,
       20.333553314208984,
       24.425277709960938,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3050,31 +2560,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00025339590501971543,
-      -0.0006080606835894287,
-      0.00014016166096553206,
+      -0.00029501004610210657,
+      -0.00018334895139560103,
+      0.0007867145468480885,
       0.0,
       20.33757972717285,
       24.417863845825195,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3091,31 +2594,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0012773831840604544,
-      0.0007898468757048249,
-      0.000433525099651888,
+      -0.0004438260511960834,
+      0.00025037024170160294,
+      -0.0008274763240478933,
       0.0,
       20.341590881347656,
       24.410457611083984,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3132,31 +2628,24 @@
       0.0,
       0.0,
       1.0,
-      0.0005009180749766529,
-      0.00016517701442353427,
-      -0.00145005586091429,
+      -0.0013306145556271076,
+      -0.0017127996543422341,
+      6.437423144234344e-05,
       0.0,
       20.345592498779297,
       24.40306282043457,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3173,31 +2662,24 @@
       0.0,
       0.0,
       1.0,
-      0.0014633511891588569,
-      -0.0021258241031318903,
-      -0.0014567057369276881,
+      0.0009075440466403961,
+      0.0004262401780579239,
+      -0.002266884548589587,
       0.0,
       20.349580764770508,
       24.395675659179688,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3214,31 +2696,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0005709289107471704,
-      -0.001158940140157938,
-      -0.002635958604514599,
+      0.001720858970656991,
+      -0.0008230389794334769,
+      -0.0024335875641554594,
       0.0,
       20.353557586669922,
       24.38829803466797,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3255,31 +2730,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00041317017166875303,
-      -0.00018878618720918894,
-      0.00047882820945233107,
+      0.00013634064816869795,
+      -0.0007515404722653329,
+      -7.966789416968822e-05,
       0.0,
       20.357521057128906,
       24.380929946899414,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3296,31 +2764,24 @@
       0.0,
       0.0,
       1.0,
-      0.00038821680936962366,
-      -0.0006492507527582347,
-      2.3214684915728867e-05,
+      -0.0010966458357870579,
+      6.942127947695553e-05,
+      -0.0005242225015535951,
       0.0,
       20.361473083496094,
       24.37356948852539,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3337,31 +2798,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0005534794763661921,
-      -0.00011716667358996347,
-      0.00034241555840708315,
+      0.0011615639086812735,
+      -0.00035685423063114285,
+      -0.0020496067591011524,
       0.0,
       20.36541175842285,
       24.36621856689453,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3378,31 +2832,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0010222194250673056,
-      0.000150818275869824,
-      -0.0006913020624779165,
+      9.056043927557766e-05,
+      0.0008544042939320207,
+      0.00027646406670100987,
       0.0,
       20.369340896606445,
       24.358877182006836,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3419,31 +2866,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0012800151016563177,
-      -0.0005730664706788957,
-      0.0012320461682975292,
+      0.0005464437999762595,
+      0.0009387421887367964,
+      0.0008106214227154851,
       0.0,
       20.37325668334961,
       24.351543426513672,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3460,31 +2900,24 @@
       0.0,
       0.0,
       1.0,
-      0.00025824151816777885,
-      -0.0010099223582074046,
-      -0.0012682302622124553,
+      0.00034145123208872974,
+      0.000150724095874466,
+      -0.0004972104215994477,
       0.0,
       20.377159118652344,
       24.344219207763672,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3501,31 +2934,24 @@
       0.0,
       0.0,
       1.0,
-      0.0005856721545569599,
-      -0.0005980624700896442,
-      -0.0010949809802696109,
+      0.00010357033897889778,
+      0.0013439541216939688,
+      1.9738508854061365e-06,
       0.0,
       20.381052017211914,
       24.336904525756836,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3542,31 +2968,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0017419550567865372,
-      0.0011463158298283815,
-      0.0005952082574367523,
+      0.0004960708902217448,
+      0.0010865068761631846,
+      0.00039293794543482363,
       0.0,
       20.384931564331055,
       24.32959747314453,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3583,31 +3002,24 @@
       0.0,
       0.0,
       1.0,
-      0.000555122212972492,
-      0.002056798432022333,
-      0.0009597406606189907,
+      -0.00017441868840251118,
+      -0.0006316118524409831,
+      0.0009255693876184523,
       0.0,
       20.388797760009766,
       24.32229995727539,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3624,31 +3036,24 @@
       0.0,
       0.0,
       1.0,
-      0.0012251585721969604,
-      -0.0014531287597492337,
-      -0.0010502373334020376,
+      -0.0005374788888730109,
+      0.0002913769567385316,
+      -0.0005645611090585589,
       0.0,
       20.392654418945312,
       24.31501007080078,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3665,31 +3070,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0012450747890397906,
-      -0.0006291221361607313,
-      0.000319947226671502,
+      -0.0013334929244592786,
+      0.0011739947367459536,
+      -0.0006597987958230078,
       0.0,
       20.39649772644043,
       24.307729721069336,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3706,31 +3104,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0005867630243301392,
-      -0.000338663870934397,
-      5.868912558071315e-05,
+      0.0011050854809582233,
+      0.0009091382380574942,
+      0.0002153132954845205,
       0.0,
       20.40032958984375,
       24.300458908081055,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3747,31 +3138,24 @@
       0.0,
       0.0,
       1.0,
-      -0.001027135644108057,
-      -0.0008692279807291925,
-      0.00023763095668982714,
+      -0.0005949519691057503,
+      0.0014216417912393808,
+      -0.00036074541276320815,
       0.0,
       20.404150009155273,
       24.293195724487305,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3788,31 +3172,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0009647917468100786,
-      0.0005287152016535401,
-      0.00023797042376827449,
+      -0.00010560722148511559,
+      -0.00037848728243261576,
+      0.00012104753113817424,
       0.0,
       20.407958984375,
       24.28594207763672,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3829,31 +3206,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0012042898451909423,
-      -0.0007197989034466445,
-      0.0017515928484499454,
+      0.0003786579181905836,
+      -0.0003835394454654306,
+      -0.0005491944612003863,
       0.0,
       20.411754608154297,
       24.278696060180664,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3870,31 +3240,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0011335416929796338,
-      -0.0015077003045007586,
-      0.000142446078825742,
+      0.001307989819906652,
+      0.000777031818870455,
+      0.0005978461704216897,
       0.0,
       20.415538787841797,
       24.271459579467773,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3911,31 +3274,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0005174438701942563,
-      0.00031761647551320493,
-      0.0005527882021851838,
+      0.00033644912764430046,
+      4.6323955757543445e-05,
+      -0.0006505610072053969,
       0.0,
       20.4193115234375,
       24.264232635498047,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3952,31 +3308,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0009605315863154829,
-      0.0010856027947738767,
-      0.0011142855510115623,
+      -0.00018553250993136317,
+      -0.0010105009423568845,
+      -0.0008032662444747984,
       0.0,
       20.423072814941406,
       24.25701332092285,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3993,31 +3342,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00034811324439942837,
-      0.00042432089685462415,
-      0.00040543416980654,
+      0.0005528159090317786,
+      0.0014746536035090685,
+      0.00040164319216273725,
       0.0,
       20.426822662353516,
       24.24980354309082,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4034,31 +3376,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0006865480099804699,
-      0.001517962897196412,
-      -0.000566299946513027,
+      0.0008631733362562954,
+      0.002361782593652606,
+      -0.0006085631903260946,
       0.0,
       20.430561065673828,
       24.24260139465332,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4075,31 +3410,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007527316338382661,
-      -0.0020352264400571585,
-      -0.0006824948359280825,
+      0.0005452867480926216,
+      -0.0001062535447999835,
+      -0.0010847991798073053,
       0.0,
       20.43428611755371,
       24.235408782958984,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4116,31 +3444,24 @@
       0.0,
       0.0,
       1.0,
-      0.0006771495100110769,
-      0.0018479347927495837,
-      -0.0001081625887309201,
+      0.0007573369657620788,
+      -0.0011711082188412547,
+      -0.0010556186316534877,
       0.0,
       20.437999725341797,
       24.22822380065918,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4157,31 +3478,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00042905387817882,
-      0.000262721732724458,
-      0.0005100658163428307,
+      0.0013524094829335809,
+      0.0010809851810336113,
+      -0.00025133471353910863,
       0.0,
       20.44170379638672,
       24.221046447753906,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4198,31 +3512,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0004933817544952035,
-      0.0014298701426014304,
-      0.0008062831475399435,
+      -0.00010133642354048789,
+      -0.000441880983998999,
+      -0.0008717464515939355,
       0.0,
       20.44539451599121,
       24.21388053894043,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4239,31 +3546,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0003881908196490258,
-      0.0009160033077932894,
-      0.0009729529265314341,
+      0.0011535980738699436,
+      -0.001195118180476129,
+      0.0002478131209500134,
       0.0,
       20.449073791503906,
       24.20672035217285,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4280,31 +3580,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0007854283903725445,
-      0.000600431056227535,
-      0.0031177843920886517,
+      -0.0004454728914424777,
+      0.0010193190537393093,
+      -0.0004188692255411297,
       0.0,
       20.452741622924805,
       24.19957160949707,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4321,31 +3614,24 @@
       0.0,
       0.0,
       1.0,
-      0.0010778330033645034,
-      0.0003209957212675363,
-      0.00047301375889219344,
+      7.499786443077028e-05,
+      -0.0012887933989986777,
+      -0.0003932215040549636,
       0.0,
       20.456398010253906,
       24.192428588867188,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4362,31 +3648,24 @@
       0.0,
       0.0,
       1.0,
-      0.00015149630780797452,
-      0.0007022888748906553,
-      -0.00010540503717493266,
+      -0.00011795220052590594,
+      -0.000994061934761703,
+      0.001016153022646904,
       0.0,
       20.46004295349121,
       24.1852970123291,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4403,31 +3682,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00019543750386219472,
-      0.0005814409232698381,
-      0.000952970702201128,
+      0.0016557550989091396,
+      0.00035123364068567753,
+      -0.0012030925136059523,
       0.0,
       20.46367645263672,
       24.178171157836914,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4444,31 +3716,24 @@
       0.0,
       0.0,
       1.0,
-      0.001088830758817494,
-      0.0008586382027715445,
-      -0.0005150927463546395,
+      0.0005853972397744656,
+      -0.0004377225413918495,
+      0.001528642838820815,
       0.0,
       20.467296600341797,
       24.17105484008789,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4485,31 +3750,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0010334727121517062,
-      -0.00023604878515470773,
-      0.0005858266376890242,
+      -0.0004368383961264044,
+      0.001596412155777216,
+      -0.0002839038206730038,
       0.0,
       20.47090721130371,
       24.16394805908203,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4526,31 +3784,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0003892898967023939,
-      -0.0011573540978133678,
-      0.000727430684491992,
+      -0.00043348033796064556,
+      -0.0008321025525219738,
+      -0.001390130608342588,
       0.0,
       20.474506378173828,
       24.156848907470703,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4567,31 +3818,24 @@
       0.0,
       0.0,
       1.0,
-      0.00013306272740010172,
-      0.0003586911770980805,
-      0.0004034698649775237,
+      0.0013179047964513302,
+      -0.0021580802276730537,
+      0.0007141835521906614,
       0.0,
       20.47809410095215,
       24.149757385253906,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4608,31 +3852,24 @@
       0.0,
       0.0,
       1.0,
-      0.0008480882388539612,
-      -0.0005982103757560253,
-      3.923720578313805e-05,
+      0.00017230468802154064,
+      -0.0002356183249503374,
+      0.0009090630919672549,
       0.0,
       20.481670379638672,
       24.142675399780273,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4649,31 +3886,24 @@
       0.0,
       0.0,
       1.0,
-      0.0003763855202123523,
-      0.0015402662102133036,
-      0.0009389214101247489,
+      -0.0004540134978014976,
+      -8.893205813365057e-05,
+      -0.0009076744318008423,
       0.0,
       20.4852352142334,
       24.135602951049805,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4690,31 +3920,24 @@
       0.0,
       0.0,
       1.0,
-      0.0006747131701558828,
-      -0.0005308048566803336,
-      -0.0010307146003469825,
+      -0.0010507256956771016,
+      4.338957296567969e-05,
+      -0.0009516057325527072,
       0.0,
       20.488788604736328,
       24.128536224365234,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4731,31 +3954,24 @@
       0.0,
       0.0,
       1.0,
-      0.00036452943459153175,
-      0.0012777624651789665,
-      -0.0011607795022428036,
+      -0.0003158469626214355,
+      -0.0012519819429144263,
+      -0.0005507208406925201,
       0.0,
       20.49233055114746,
       24.121479034423828,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4772,31 +3988,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0014052294427528977,
-      0.001806059735827148,
-      0.0013658710522577167,
+      -0.0011242685141041875,
+      0.0002448826562613249,
+      0.0016065789386630058,
       0.0,
       20.495861053466797,
       24.114431381225586,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4813,31 +4022,24 @@
       0.0,
       0.0,
       1.0,
-      0.0007025607628747821,
-      0.00024922649026848376,
-      -0.0003523202030919492,
+      -0.00026939131203107536,
+      -6.64642866468057e-05,
+      -0.000703506579156965,
       0.0,
       20.499380111694336,
       24.107391357421875,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4854,31 +4056,24 @@
       0.0,
       0.0,
       1.0,
-      0.0009704643161967397,
-      -0.0003170094860251993,
-      -0.0015868907794356346,
+      0.0021458608098328114,
+      0.0015684952959418297,
+      -0.0004270064819138497,
       0.0,
       20.502887725830078,
       24.100358963012695,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4895,31 +4090,24 @@
       0.0,
       0.0,
       1.0,
-      -0.00027521795709617436,
-      -0.0008480988326482475,
-      0.0009602268110029399,
+      -0.000655992713291198,
+      -0.0004344033368397504,
+      -0.00019950690330006182,
       0.0,
       20.506385803222656,
       24.09333610534668,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4936,31 +4124,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0001866274542408064,
-      -0.0003446944465395063,
-      0.0010053837904706597,
+      0.0010074952151626348,
+      0.0005606019403785467,
+      -0.0016551135340705514,
       0.0,
       20.509870529174805,
       24.086320877075195,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4977,31 +4158,24 @@
       0.0,
       0.0,
       1.0,
-      0.0011639868607744575,
-      0.0012067370116710663,
-      0.000184465097845532,
+      -0.0008130914065986872,
+      -0.0007490854477509856,
+      0.0008449931046925485,
       0.0,
       20.51334571838379,
       24.079313278198242,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5018,31 +4192,24 @@
       0.0,
       0.0,
       1.0,
-      0.00028773522353731096,
-      0.0008464284474030137,
-      0.0010627323063090444,
+      0.001542970654554665,
+      -0.0005516176461242139,
+      -0.0004887285176664591,
       0.0,
       20.516807556152344,
       24.072315216064453,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5059,31 +4226,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0017297466984018683,
-      -0.0012686960399150848,
-      0.0007462296634912491,
+      -0.001190836075693369,
+      -0.0012027918128296733,
+      0.00018640274356584996,
       0.0,
       20.520259857177734,
       24.065324783325195,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5100,31 +4260,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0009211645228788257,
-      -0.000495665823109448,
-      0.0019421594915911555,
+      0.0009859012207016349,
+      6.171026325318962e-05,
+      0.0007200165418908,
       0.0,
       20.523700714111328,
       24.05834197998047,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5141,31 +4294,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0015911691589280963,
-      -0.0005873587797395885,
-      0.0009016211843118072,
+      -0.0014583904994651675,
+      0.0010434300638735294,
+      -0.0010538708884269,
       0.0,
       20.527132034301758,
       24.051368713378906,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5182,31 +4328,24 @@
       0.0,
       0.0,
       1.0,
-      0.00034315974335186183,
-      0.00011830238508991897,
-      0.0006293841870501637,
+      -1.1560112398001365e-05,
+      -0.000492796185426414,
+      0.0007794264820404351,
       0.0,
       20.530550003051758,
       24.044403076171875,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5223,31 +4362,24 @@
       0.0,
       0.0,
       1.0,
-      0.0008878320804797113,
-      -3.274799746577628e-05,
-      0.001496478565968573,
+      0.0008709808462299407,
+      -0.0002824648981913924,
+      0.0012925696792080998,
       0.0,
       20.533958435058594,
       24.037446975708008,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5264,31 +4396,24 @@
       0.0,
       0.0,
       1.0,
-      -0.0010447901440784335,
-      -0.0006941163446754217,
-      0.0015303308609873056,
+      -8.854740735841915e-05,
+      -0.0003418574924580753,
+      -6.342769484035671e-05,
       0.0,
       20.537355422973633,
       24.03049659729004,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5305,9 +4430,9 @@
       0.0,
       0.0,
       1.0,
-      0.0015626001404598355,
-      -0.0008387714624404907,
-      0.00020613233209587634,
+      0.0006105517968535423,
+      -0.0009993216954171658,
+      0.0005424483097158372,
       0.0,
       20.540740966796875,
       24.023555755615234,
@@ -5320,16 +4445,9 @@
     "subsystem_statuses": {
       "EPS": "Nominal",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5346,9 +4464,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00028545191162265837,
-      -0.0017747930251061916,
-      0.0005037979572080076,
+      0.0006123000057414174,
+      -0.0007710832869634032,
+      -0.0024823094718158245,
       0.0,
       20.54411506652832,
       24.016624450683594,
@@ -5359,15 +4477,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5379,17 +4499,17 @@
   {
     "step": 133,
     "observation": [
-      0.8018333315849304,
+      0.8018749952316284,
       100.0,
-      28.707332611083984,
+      28.707500457763672,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0023339770268648863,
-      0.0005440508830361068,
-      0.00019343337044119835,
+      0.00039013021159917116,
+      0.0009041141020134091,
+      -0.0011293011484667659,
       0.0,
       20.5474796295166,
       24.00969886779785,
@@ -5400,15 +4520,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5420,17 +4542,17 @@
   {
     "step": 134,
     "observation": [
-      0.8018472194671631,
+      0.8019305467605591,
       100.0,
-      28.70738983154297,
+      28.707721710205078,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00036373070906847715,
-      -0.0014754170551896095,
-      -0.0008174533140845597,
+      -0.001983488444238901,
+      0.0011623244499787688,
+      -0.00032874217140488327,
       0.0,
       20.550830841064453,
       24.002782821655273,
@@ -5441,15 +4563,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5461,17 +4585,17 @@
   {
     "step": 135,
     "observation": [
-      0.8018611073493958,
+      0.8019860982894897,
       100.0,
-      28.70744514465332,
+      28.707944869995117,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0009419782436452806,
-      -0.000589262112043798,
-      0.00010277594265062362,
+      -0.001325527555309236,
+      0.0010570753365755081,
+      -0.0001997488143388182,
       0.0,
       20.55417251586914,
       23.995874404907227,
@@ -5482,15 +4606,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5502,17 +4628,17 @@
   {
     "step": 136,
     "observation": [
-      0.8018749952316284,
+      0.8020416498184204,
       100.0,
-      28.707500457763672,
+      28.708166122436523,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.000737061258405447,
-      -0.0012621054193004966,
-      0.0005797284538857639,
+      -0.0011786088580265641,
+      0.0020746872760355473,
+      -0.0004076760960742831,
       0.0,
       20.557504653930664,
       23.988975524902344,
@@ -5523,15 +4649,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5543,17 +4671,17 @@
   {
     "step": 137,
     "observation": [
-      0.8018888831138611,
+      0.8020972013473511,
       100.0,
-      28.707555770874023,
+      28.708389282226562,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000556478975340724,
-      -0.0004082757805008441,
-      -0.0015267918352037668,
+      0.0005927676102146506,
+      0.0007980091613717377,
+      0.0003394647501409054,
       0.0,
       20.560823440551758,
       23.98208236694336,
@@ -5564,15 +4692,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5584,36 +4714,38 @@
   {
     "step": 138,
     "observation": [
-      0.8019027709960938,
+      0.8021527528762817,
       100.0,
-      28.707611083984375,
+      28.70861053466797,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006749965250492096,
-      -0.000295568403089419,
-      -0.001164542743936181,
+      0.000807999458629638,
+      0.0011472488986328244,
+      -0.00046452635433524847,
       0.0,
       20.564132690429688,
       23.97519874572754,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5625,43 +4757,37 @@
   {
     "step": 139,
     "observation": [
-      0.8019166588783264,
+      0.8022083044052124,
       100.0,
-      28.707666397094727,
+      28.708833694458008,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01097138412296772,
-      -0.001684025046415627,
-      0.0001575115165906027,
+      3.9871694752946496e-05,
+      -0.0001752198295434937,
+      0.001133895362727344,
       0.0,
       20.567432403564453,
       23.96832275390625,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5674,43 +4800,37 @@
   {
     "step": 140,
     "observation": [
-      0.8019305467605591,
+      0.8022639155387878,
       100.0,
-      28.707721710205078,
+      28.709054946899414,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009026984684169292,
-      0.00147659657523036,
-      0.0012592683779075742,
+      0.00035346817458048463,
+      0.0009848789777606726,
+      0.000791679136455059,
       0.0,
       20.57071876525879,
       23.961456298828125,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5723,43 +4843,37 @@
   {
     "step": 141,
     "observation": [
-      0.8019444346427917,
+      0.8023194670677185,
       100.0,
-      28.70777702331543,
+      28.709278106689453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010185236111283302,
-      0.0011314350413158536,
-      -0.0004987350548617542,
+      -0.00030010711634531617,
+      0.0012709003640338778,
+      -0.00034286282607354224,
       0.0,
       20.57399559020996,
       23.9545955657959,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5772,43 +4886,37 @@
   {
     "step": 142,
     "observation": [
-      0.8019583225250244,
+      0.8023750185966492,
       100.0,
-      28.707834243774414,
+      28.70949935913086,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009613828733563423,
-      0.0011278755264356732,
-      0.0009525724453851581,
+      5.9729332861024886e-05,
+      0.00021343558910302818,
+      0.0015887065092101693,
       0.0,
       20.577260971069336,
       23.947744369506836,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5821,43 +4929,37 @@
   {
     "step": 143,
     "observation": [
-      0.8019722104072571,
+      0.8024305701255798,
       100.0,
-      28.707889556884766,
+      28.7097225189209,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009577987715601921,
-      0.000862293818499893,
-      0.0006553701823577285,
+      -0.0008552420185878873,
+      0.00041228579357266426,
+      0.0006733048940077424,
       0.0,
       20.580516815185547,
       23.940900802612305,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5870,43 +4972,37 @@
   {
     "step": 144,
     "observation": [
-      0.8019860982894897,
+      0.8024861216545105,
       100.0,
-      28.707944869995117,
+      28.709943771362305,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009473252110183239,
-      -0.00017750213737599552,
-      0.0009707328281365335,
+      -0.0011399133363738656,
+      -0.000743833661545068,
+      -0.00144092773552984,
       0.0,
       20.58376121520996,
       23.934064865112305,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5919,43 +5015,37 @@
   {
     "step": 145,
     "observation": [
-      0.8019999861717224,
+      0.8025416731834412,
       100.0,
-      28.70800018310547,
+      28.710166931152344,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.011430848389863968,
-      -0.00048598897410556674,
-      1.911546860355884e-06,
+      0.0028732179198414087,
+      0.0008120060665532947,
+      -0.0012411202769726515,
       0.0,
       20.586994171142578,
       23.92723846435547,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5968,43 +5058,37 @@
   {
     "step": 146,
     "observation": [
-      0.8020138740539551,
+      0.8025972247123718,
       100.0,
-      28.70805549621582,
+      28.71038818359375,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00899509247392416,
-      -0.001840365817770362,
-      0.0008841128437779844,
+      0.0007236918900161982,
+      0.0008322488865815103,
+      -0.000262368906987831,
       0.0,
       20.59021759033203,
       23.92041778564453,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6017,43 +5101,37 @@
   {
     "step": 147,
     "observation": [
-      0.8020277619361877,
+      0.8026527762413025,
       100.0,
-      28.708110809326172,
+      28.71061134338379,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010381260886788368,
-      0.0014325716765597463,
-      -7.844240462873131e-05,
+      -0.0004345130582805723,
+      0.002058790298178792,
+      -3.826217653113417e-05,
       0.0,
       20.593429565429688,
       23.913606643676758,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6066,43 +5144,37 @@
   {
     "step": 148,
     "observation": [
-      0.8020416498184204,
+      0.8027083277702332,
       100.0,
-      28.708166122436523,
+      28.710832595825195,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01026918739080429,
-      0.0007952440064400434,
-      -0.0008224062039516866,
+      0.00016900248010642827,
+      0.0009685970144346356,
+      0.00031735849916003644,
       0.0,
       20.596630096435547,
       23.906803131103516,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6115,43 +5187,37 @@
   {
     "step": 149,
     "observation": [
-      0.8020555377006531,
+      0.8027638792991638,
       100.0,
-      28.708221435546875,
+      28.711055755615234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009218815714120865,
-      -0.0006885239854454994,
-      0.000618526479229331,
+      -0.0006564666400663555,
+      0.0002648195077199489,
+      -0.0012105208588764071,
       0.0,
       20.599821090698242,
       23.900007247924805,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6164,43 +5230,37 @@
   {
     "step": 150,
     "observation": [
-      0.8020694255828857,
+      0.8028194308280945,
       100.0,
-      28.70827865600586,
+      28.71127700805664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010367518290877342,
-      0.0002920358092524111,
-      -0.0008732715505175292,
+      -0.0005820438382215798,
+      4.008498217444867e-05,
+      -0.0006145362858660519,
       0.0,
       20.603002548217773,
       23.893220901489258,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6213,43 +5273,37 @@
   {
     "step": 151,
     "observation": [
-      0.8020833134651184,
+      0.8028749823570251,
       100.0,
-      28.70833396911621,
+      28.71150016784668,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.008425749838352203,
-      -0.0008859944646246731,
-      -0.0008202935568988323,
+      0.0018791512120515108,
+      -0.0011245051864534616,
+      -0.0010687550529837608,
       0.0,
       20.606170654296875,
       23.88644027709961,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6262,43 +5316,37 @@
   {
     "step": 152,
     "observation": [
-      0.8020972013473511,
+      0.8029305338859558,
       100.0,
-      28.708389282226562,
+      28.711721420288086,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.011063682846724987,
-      0.0007798245060257614,
-      -0.0020628985948860645,
+      -0.0015030308859422803,
+      -0.00012825700105167925,
+      -4.200074545224197e-05,
       0.0,
       20.609331130981445,
       23.879669189453125,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6311,43 +5359,37 @@
   {
     "step": 153,
     "observation": [
-      0.8021110892295837,
+      0.8029860854148865,
       100.0,
-      28.708444595336914,
+      28.711944580078125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009650803171098232,
-      0.00023014970065560192,
-      0.002338947495445609,
+      0.0003597424365580082,
+      0.0006359224789775908,
+      0.0009190136916004121,
       0.0,
       20.612478256225586,
       23.872905731201172,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6360,43 +5402,37 @@
   {
     "step": 154,
     "observation": [
-      0.8021249771118164,
+      0.8030416369438171,
       100.0,
-      28.708499908447266,
+      28.71216583251953,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010070674121379852,
-      -0.0002750162675511092,
-      -5.696453808923252e-05,
+      -0.0010491987923160195,
+      0.0001786045904736966,
+      -0.0007722311420366168,
       0.0,
       20.615615844726562,
       23.86614990234375,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6409,43 +5445,37 @@
   {
     "step": 155,
     "observation": [
-      0.8021388649940491,
+      0.8030972480773926,
       100.0,
-      28.708555221557617,
+      28.71238899230957,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009629329666495323,
-      -0.0013629510067403316,
-      0.0005029443418607116,
+      -0.00010973326425300911,
+      8.023090776987374e-05,
+      0.0017223948379978538,
       0.0,
       20.618743896484375,
       23.85940170288086,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6458,43 +5488,37 @@
   {
     "step": 156,
     "observation": [
-      0.8021527528762817,
+      0.8031527996063232,
       100.0,
-      28.70861053466797,
+      28.712610244750977,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009434087201952934,
-      0.001764924032613635,
-      -0.00047054875176399946,
+      -0.0008274689898826182,
+      0.001119280350394547,
+      -0.0008151325164362788,
       0.0,
       20.62186050415039,
       23.8526611328125,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6507,43 +5531,37 @@
   {
     "step": 157,
     "observation": [
-      0.8021666407585144,
+      0.8032083511352539,
       100.0,
-      28.70866584777832,
+      28.712833404541016,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.013056551106274128,
-      0.001160348649136722,
-      -0.0007120690424926579,
+      -0.0011346294777467847,
+      -0.0008167938212864101,
+      0.001665310119278729,
       0.0,
       20.624967575073242,
       23.845928192138672,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6556,43 +5574,37 @@
   {
     "step": 158,
     "observation": [
-      0.8021805286407471,
+      0.8032639026641846,
       100.0,
-      28.708723068237305,
+      28.713054656982422,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010004336014389992,
-      0.0013845196226611733,
-      -0.0008164690225385129,
+      0.0010361721506342292,
+      -0.0011826443951576948,
+      0.0009056322742253542,
       0.0,
       20.628063201904297,
       23.839202880859375,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6605,43 +5617,37 @@
   {
     "step": 159,
     "observation": [
-      0.8021944165229797,
+      0.8033194541931152,
       100.0,
-      28.708778381347656,
+      28.71327781677246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010377802886068821,
-      -0.00031582338851876557,
-      0.0007126196869648993,
+      0.0006647740374319255,
+      0.0013063830556347966,
+      0.00018181686755269766,
       0.0,
       20.631149291992188,
       23.832487106323242,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6654,43 +5660,37 @@
   {
     "step": 160,
     "observation": [
-      0.8022083044052124,
+      0.8033750057220459,
       100.0,
-      28.708833694458008,
+      28.713499069213867,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010422400198876858,
-      -0.0009140244219452143,
-      -5.4975822422420606e-05,
+      0.0011575320968404412,
+      -5.6561213568784297e-05,
+      0.0003854554088320583,
       0.0,
       20.63422393798828,
       23.82577896118164,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6703,43 +5703,37 @@
   {
     "step": 161,
     "observation": [
-      0.8022222518920898,
+      0.8034305572509766,
       100.0,
-      28.70888900756836,
+      28.713722229003906,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009092090651392937,
-      -0.0007102297968231142,
-      0.001314105000346899,
+      -0.0025154880713671446,
+      0.001342244097031653,
+      0.000965346407610923,
       0.0,
       20.63728904724121,
       23.819076538085938,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6752,43 +5746,37 @@
   {
     "step": 162,
     "observation": [
-      0.8022361397743225,
+      0.8034861087799072,
       100.0,
-      28.70894432067871,
+      28.713945388793945,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01033489964902401,
-      -0.0011010937159880996,
-      0.0006581314373761415,
+      0.0001281627919524908,
+      0.00026755445287562907,
+      0.0005057934322394431,
       0.0,
       20.640342712402344,
       23.8123836517334,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6801,43 +5789,37 @@
   {
     "step": 163,
     "observation": [
-      0.8022500276565552,
+      0.8035416603088379,
       100.0,
-      28.708999633789062,
+      28.71416664123535,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010429958812892437,
-      0.0007269329507835209,
-      -0.00021760899107903242,
+      0.0014081369154155254,
+      -0.0016328553901985288,
+      -0.001210283488035202,
       0.0,
       20.643386840820312,
       23.80569839477539,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6850,43 +5832,37 @@
   {
     "step": 164,
     "observation": [
-      0.8022639155387878,
+      0.8035972118377686,
       100.0,
-      28.709054946899414,
+      28.71438980102539,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.008995160460472107,
-      0.00042446021689102054,
-      -0.0009015636169351637,
+      -8.518840331817046e-05,
+      -0.001455066492781043,
+      -0.001462122076191008,
       0.0,
       20.646421432495117,
       23.799020767211914,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6899,43 +5875,37 @@
   {
     "step": 165,
     "observation": [
-      0.8022778034210205,
+      0.8036527633666992,
       100.0,
-      28.709110260009766,
+      28.714611053466797,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01121768169105053,
-      -5.574614624492824e-05,
-      0.0005332942819222808,
+      -0.0025065066292881966,
+      0.00037285793223418295,
+      0.000791194208431989,
       0.0,
       20.649444580078125,
       23.79235076904297,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6948,43 +5918,37 @@
   {
     "step": 166,
     "observation": [
-      0.8022916913032532,
+      0.8037083148956299,
       100.0,
-      28.70916748046875,
+      28.714834213256836,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009969858452677727,
-      0.0011471129255369306,
-      -0.00196491158567369,
+      0.0007029813714325428,
+      0.0006641863146796823,
+      -0.0007186681032180786,
       0.0,
       20.652456283569336,
       23.785688400268555,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6997,43 +5961,37 @@
   {
     "step": 167,
     "observation": [
-      0.8023055791854858,
+      0.8037638664245605,
       100.0,
-      28.7092227935791,
+      28.715055465698242,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010053819045424461,
-      -0.0009704948170110583,
-      -0.0003356087545398623,
+      -0.0002867609146051109,
+      0.000812546000815928,
+      -0.0009451817604713142,
       0.0,
       20.655460357666016,
       23.779033660888672,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7046,43 +6004,37 @@
   {
     "step": 168,
     "observation": [
-      0.8023194670677185,
+      0.8038194179534912,
       100.0,
-      28.709278106689453,
+      28.71527862548828,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01040673442184925,
-      0.0005629638326354325,
-      -0.0006935603450983763,
+      -0.0008370268042199314,
+      0.0007223088759928942,
+      -0.001151211909018457,
       0.0,
       20.6584529876709,
       23.77238655090332,
       0.0
     ],
     "action": 0,
-    "reward": -2.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7095,43 +6047,37 @@
   {
     "step": 169,
     "observation": [
-      0.8023333549499512,
+      0.8038750290870667,
       100.0,
-      28.709333419799805,
+      28.715499877929688,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01107608713209629,
-      0.000250976620009169,
-      -0.0006255714688450098,
+      0.00010384348570369184,
+      -0.0009056096314452589,
+      -0.0002262855414301157,
       0.0,
       20.661434173583984,
       23.7657470703125,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
+        "subsystem": "EPS",
+        "type": "BatteryCellFailure",
         "params": {
-          "bias_value": 0.01
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7144,46 +6090,32 @@
   {
     "step": 170,
     "observation": [
-      0.8023472428321838,
+      0.8039305806159973,
       100.0,
-      28.709388732910156,
+      28.715723037719727,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00884891115128994,
-      0.002039319835603237,
-      -0.001148100709542632,
+      -0.0009024420287460089,
+      0.0017085399013012648,
+      -0.0004999066004529595,
       0.0,
       20.664405822753906,
       23.75911521911621,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7201,46 +6133,32 @@
   {
     "step": 171,
     "observation": [
-      0.8024027943611145,
+      0.803986132144928,
       100.0,
-      28.709611892700195,
+      28.715944290161133,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010417014360427856,
-      0.0016669625183567405,
-      -0.0020848398562520742,
+      0.002941193524748087,
+      -0.0002564449969213456,
+      0.0012506068451330066,
       0.0,
       20.667367935180664,
       23.752490997314453,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7258,46 +6176,32 @@
   {
     "step": 172,
     "observation": [
-      0.8024583458900452,
+      0.8040416836738586,
       100.0,
-      28.7098331451416,
+      28.716167449951172,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010357441380620003,
-      -0.0007632978959009051,
-      -2.022688750002999e-05,
+      0.0016434395220130682,
+      -0.0004967200220562518,
+      0.0008719104225747287,
       0.0,
       20.670320510864258,
       23.745874404907227,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7315,46 +6219,32 @@
   {
     "step": 173,
     "observation": [
-      0.8025138974189758,
+      0.8040972352027893,
       100.0,
-      28.71005630493164,
+      28.716388702392578,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01043441891670227,
-      -0.00047798213199712336,
-      -0.00036894288496114314,
+      -0.0009723053663037717,
+      -0.000408664986025542,
+      -0.001137303188443184,
       0.0,
       20.673261642456055,
       23.73926544189453,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7372,46 +6262,32 @@
   {
     "step": 174,
     "observation": [
-      0.8025694489479065,
+      0.80415278673172,
       100.0,
-      28.710277557373047,
+      28.716611862182617,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010695756413042545,
-      0.0013147288700565696,
-      -0.0007579433149658144,
+      -0.000928308698348701,
+      -0.001237891730852425,
+      0.0001648853358346969,
       0.0,
       20.676193237304688,
       23.732664108276367,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7429,46 +6305,32 @@
   {
     "step": 175,
     "observation": [
-      0.8026250004768372,
+      0.8042083382606506,
       100.0,
-      28.710500717163086,
+      28.716833114624023,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.008878089487552643,
-      0.0004163381818216294,
-      -0.0017558791441842914,
+      -0.0008921664557419717,
+      -0.000838549982290715,
+      -0.0008888908196240664,
       0.0,
       20.679113388061523,
       23.726070404052734,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7486,46 +6348,32 @@
   {
     "step": 176,
     "observation": [
-      0.8026805520057678,
+      0.8042638897895813,
       100.0,
-      28.710721969604492,
+      28.717056274414062,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010835252702236176,
-      0.0008837268687784672,
-      -0.0011150111677125096,
+      0.00018794232164509594,
+      0.002159811556339264,
+      0.000198835288756527,
       0.0,
       20.682025909423828,
       23.719486236572266,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7543,46 +6391,32 @@
   {
     "step": 177,
     "observation": [
-      0.8027361035346985,
+      0.804319441318512,
       100.0,
-      28.71094512939453,
+      28.71727752685547,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.012262199074029922,
-      -0.00025542572257108986,
-      -0.0007003251230344176,
+      -0.002568404655903578,
+      0.001585469814017415,
+      -0.0011021859245374799,
       0.0,
       20.684926986694336,
       23.712907791137695,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7600,46 +6434,32 @@
   {
     "step": 178,
     "observation": [
-      0.8027916550636292,
+      0.8043749928474426,
       100.0,
-      28.711166381835938,
+      28.717500686645508,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009205831214785576,
-      0.0006357661914080381,
-      -0.0011054023634642363,
+      0.00026220601284876466,
+      0.0004286143521312624,
+      -0.00030095604597590864,
       0.0,
       20.687816619873047,
       23.706336975097656,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7657,46 +6477,32 @@
   {
     "step": 179,
     "observation": [
-      0.8028472065925598,
+      0.8044305443763733,
       100.0,
-      28.711389541625977,
+      28.717721939086914,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.012140264734625816,
-      0.001740168547257781,
-      0.0001903585798572749,
+      0.000508942932356149,
+      0.0005580810247920454,
+      -0.0015328624285757542,
       0.0,
       20.690698623657227,
       23.69977378845215,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7714,46 +6520,32 @@
   {
     "step": 180,
     "observation": [
-      0.8029027581214905,
+      0.804486095905304,
       100.0,
-      28.711610794067383,
+      28.717945098876953,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01177919190376997,
-      -8.791159052634612e-05,
-      0.0009166403906419873,
+      0.0009257139754481614,
+      -0.0004047009570058435,
+      -0.0005552415386773646,
       0.0,
       20.69356918334961,
       23.693218231201172,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7771,46 +6563,32 @@
   {
     "step": 181,
     "observation": [
-      0.8029583096504211,
+      0.8045416474342346,
       100.0,
-      28.711833953857422,
+      28.71816635131836,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009638667106628418,
-      -0.0017324980581179261,
-      -0.0016059449408203363,
+      0.00013534574827644974,
+      -0.0017837733030319214,
+      0.0006393283838406205,
       0.0,
       20.696430206298828,
       23.686670303344727,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7828,46 +6606,32 @@
   {
     "step": 182,
     "observation": [
-      0.8030138611793518,
+      0.8045971989631653,
       100.0,
-      28.712055206298828,
+      28.7183895111084,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01226832251995802,
-      0.0023872011806815863,
-      -0.00021759596711490303,
+      3.42723578796722e-05,
+      0.000549914431758225,
+      0.00010988762369379401,
       0.0,
       20.699281692504883,
       23.68012809753418,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7885,46 +6649,32 @@
   {
     "step": 183,
     "observation": [
-      0.8030694723129272,
+      0.804652750492096,
       100.0,
-      28.712278366088867,
+      28.718610763549805,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009952224791049957,
-      6.531558028655127e-05,
-      0.0002111098583554849,
+      -1.994740523514338e-05,
+      0.0023055588826537132,
+      0.0005530454800464213,
       0.0,
       20.70212173461914,
       23.673595428466797,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7942,46 +6692,32 @@
   {
     "step": 184,
     "observation": [
-      0.8031250238418579,
+      0.8047083616256714,
       100.0,
-      28.712499618530273,
+      28.718833923339844,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009131901897490025,
-      -0.0007385218632407486,
-      0.0011801784858107567,
+      -0.0022304721642285585,
+      0.0010677524842321873,
+      -0.0011984356679022312,
       0.0,
       20.704952239990234,
       23.667070388793945,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -7999,46 +6735,32 @@
   {
     "step": 185,
     "observation": [
-      0.8031805753707886,
+      0.804763913154602,
       100.0,
-      28.712722778320312,
+      28.71905517578125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.008600720204412937,
-      -0.0005090045160613954,
-      0.00019389532099012285,
+      0.00037607495323754847,
+      0.0006618393817916512,
+      -0.0015563118504360318,
       0.0,
       20.707775115966797,
       23.660552978515625,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8056,46 +6778,32 @@
   {
     "step": 186,
     "observation": [
-      0.8032361268997192,
+      0.8048194646835327,
       100.0,
-      28.71294403076172,
+      28.71927833557129,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009226714260876179,
-      0.0009374026558361948,
-      0.0021694302558898926,
+      -0.0005499902181327343,
+      2.4974440748337656e-05,
+      0.00030898553086444736,
       0.0,
       20.71058464050293,
       23.654041290283203,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8113,46 +6821,32 @@
   {
     "step": 187,
     "observation": [
-      0.8032916784286499,
+      0.8048750162124634,
       100.0,
-      28.713167190551758,
+      28.719499588012695,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010747156105935574,
-      0.0017946793232113123,
-      0.002914619166404009,
+      -0.001779240439645946,
+      0.00012167724344180897,
+      0.0009746634750626981,
       0.0,
       20.71338653564453,
       23.647539138793945,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8170,46 +6864,32 @@
   {
     "step": 188,
     "observation": [
-      0.8033472299575806,
+      0.804930567741394,
       100.0,
-      28.713388442993164,
+      28.719722747802734,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.007465725298970938,
-      -0.0017631383379921317,
-      0.0023823892697691917,
+      0.0002014728233916685,
+      -0.0013099717907607555,
+      0.0022286209277808666,
       0.0,
       20.71617889404297,
       23.641042709350586,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8227,46 +6907,32 @@
   {
     "step": 189,
     "observation": [
-      0.8034027814865112,
+      0.8049861192703247,
       100.0,
-      28.713611602783203,
+      28.71994400024414,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.011384695768356323,
-      0.00018345721764490008,
-      0.0014330906560644507,
+      0.0004949563881382346,
+      0.00040857988642528653,
+      0.00015621192869730294,
       0.0,
       20.71895980834961,
       23.634553909301758,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8284,46 +6950,32 @@
   {
     "step": 190,
     "observation": [
-      0.8034583330154419,
+      0.8050416707992554,
       100.0,
-      28.71383285522461,
+      28.72016716003418,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010147670283913612,
-      0.0015165271470323205,
-      0.0002237180306110531,
+      0.0003781172854360193,
+      0.0006730873719789088,
+      0.0005332014989107847,
       0.0,
       20.721731185913086,
       23.62807273864746,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8341,46 +6993,32 @@
   {
     "step": 191,
     "observation": [
-      0.8035138845443726,
+      0.805097222328186,
       100.0,
-      28.71405601501465,
+      28.720388412475586,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009280079044401646,
-      -0.00037168723065406084,
-      -0.0006613953737542033,
+      0.00023202082957141101,
+      8.479615644318983e-05,
+      0.0005729923723265529,
       0.0,
       20.7244930267334,
       23.621599197387695,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8398,46 +7036,32 @@
   {
     "step": 192,
     "observation": [
-      0.8035694360733032,
+      0.8051527738571167,
       100.0,
-      28.714277267456055,
+      28.720611572265625,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009301832877099514,
-      -0.0005626646452583373,
-      -0.000790588790550828,
+      0.001142588909715414,
+      0.0012495233677327633,
+      0.0013036499731242657,
       0.0,
       20.727245330810547,
       23.61513328552246,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8455,46 +7079,32 @@
   {
     "step": 193,
     "observation": [
-      0.8036249876022339,
+      0.8052083253860474,
       100.0,
-      28.714500427246094,
+      28.72083282470703,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.010173195041716099,
-      -0.00010103112435899675,
-      0.002424072241410613,
+      0.0012774792267009616,
+      0.0010233183857053518,
+      2.60762635662104e-06,
       0.0,
       20.72998809814453,
       23.608675003051758,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8512,46 +7122,32 @@
   {
     "step": 194,
     "observation": [
-      0.8036805391311646,
+      0.805263876914978,
       100.0,
-      28.7147216796875,
+      28.72105598449707,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0077058845199644566,
-      -0.0016041286289691925,
-      -0.0005061223637312651,
+      0.0004993864567950368,
+      -0.00031608797144144773,
+      -0.0014974063960835338,
       0.0,
       20.73272132873535,
       23.602224349975586,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8569,46 +7165,32 @@
   {
     "step": 195,
     "observation": [
-      0.8037360906600952,
+      0.8053194284439087,
       100.0,
-      28.71494483947754,
+      28.721277236938477,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009491153061389923,
-      -0.0008692436967976391,
-      0.00029305770294740796,
+      0.00024288355780299753,
+      0.00039955775719136,
+      0.0013106770347803831,
       0.0,
       20.735443115234375,
       23.595779418945312,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8626,46 +7208,32 @@
   {
     "step": 196,
     "observation": [
-      0.8037916421890259,
+      0.8053749799728394,
       100.0,
-      28.715166091918945,
+      28.721500396728516,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01002122275531292,
-      -0.00035547674633562565,
-      -0.0019422854529693723,
+      0.0011291649425402284,
+      -0.0004763752513099462,
+      -0.0009648713166825473,
       0.0,
       20.738157272338867,
       23.589344024658203,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8683,46 +7251,32 @@
   {
     "step": 197,
     "observation": [
-      0.8038471937179565,
+      0.80543053150177,
       100.0,
-      28.715389251708984,
+      28.721721649169922,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0077180708758533,
-      0.0014721493935212493,
-      0.001334881642833352,
+      0.00039284449303522706,
+      -0.00038779605529271066,
+      -0.0005901900585740805,
       0.0,
       20.740859985351562,
       23.582914352416992,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8740,46 +7294,32 @@
   {
     "step": 198,
     "observation": [
-      0.803902804851532,
+      0.8054860830307007,
       100.0,
-      28.71561050415039,
+      28.72194480895996,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.01079342607408762,
-      0.0017151919892057776,
-      -0.001206491724587977,
+      0.00029005284886807203,
+      -0.0021204513031989336,
+      0.00011753054423024878,
       0.0,
       20.743555068969727,
       23.576492309570312,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8797,46 +7337,32 @@
   {
     "step": 199,
     "observation": [
-      0.8039583563804626,
+      0.8055416941642761,
       100.0,
-      28.71583366394043,
+      28.722166061401367,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.009980353526771069,
-      -0.0003037095593754202,
-      0.0005109144258312881,
+      0.0005984297604300082,
+      0.0006997085292823613,
+      0.002354321302846074,
       0.0,
       20.746238708496094,
       23.570077896118164,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",
@@ -8854,46 +7380,32 @@
   {
     "step": 200,
     "observation": [
-      0.8040139079093933,
+      0.8055972456932068,
       100.0,
-      28.716054916381836,
+      28.722389221191406,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.012003249488770962,
-      -0.0006030874792486429,
-      -0.0016048639081418514,
+      -0.00015425874153152108,
+      0.0007039172924123704,
+      -3.870484579238109e-05,
       0.0,
       20.748912811279297,
       23.563669204711914,
       0.0
     ],
     "action": 0,
-    "reward": -3.1,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "BatteryCellFailure",
-      "ADCS": "GyroBias",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
-      {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "GyroBias",
-        "params": {
-          "bias_value": 0.01
-        },
-        "intermittent": false
-      },
       {
         "subsystem": "EPS",
         "type": "BatteryCellFailure",

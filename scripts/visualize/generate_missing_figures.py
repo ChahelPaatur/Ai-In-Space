@@ -3,7 +3,7 @@ import sys
 import shutil
 
 # Add the project root to the Python path to allow imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 def create_output_dirs():
     """Create output directories for figures"""
@@ -14,6 +14,7 @@ def run_architecture_diagrams():
     """Generate the architecture diagrams (Figures 8a, 8b, 8c)"""
     print("\n--- Generating Architecture Diagrams (Figures 8a, 8b, 8c) ---")
     try:
+        # Import directly from local modules
         from scripts.visualize.generate_architectures import create_drl_architecture, create_hybrid_architecture, create_rule_based_flowchart
         
         # Generate architecture diagrams
@@ -41,6 +42,12 @@ def run_action_distribution_chart():
     """Generate the action distribution chart (Figure 9)"""
     print("\n--- Generating Action Distribution Chart (Figure 9) ---")
     try:
+        # First check if the file exists
+        extra_figs_path = os.path.join(os.path.dirname(__file__), 'extrafigs.py')
+        if not os.path.exists(extra_figs_path):
+            print(f"Warning: extrafigs.py not found at {extra_figs_path}")
+            return
+            
         from scripts.visualize.extrafigs import create_action_distribution_chart
         create_action_distribution_chart()
         
@@ -57,6 +64,12 @@ def run_time_series_plots():
     """Generate the time series plots (Figures 10a, 10b)"""
     print("\n--- Generating Time Series Plots (Figures 10a, 10b) ---")
     try:
+        # First check if the file exists
+        extra_figs_path = os.path.join(os.path.dirname(__file__), 'extrafigs.py')
+        if not os.path.exists(extra_figs_path):
+            print(f"Warning: extrafigs.py not found at {extra_figs_path}")
+            return
+            
         from scripts.visualize.extrafigs import create_temperature_timeseries, create_battery_soc_timeseries
         
         # Generate time series plots

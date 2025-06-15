@@ -10,9 +10,9 @@
       0.0,
       0.0,
       1.0,
-      8.244666241807863e-05,
-      -0.0010685801971703768,
-      0.0024690821301192045,
+      0.00121562578715384,
+      -0.0009738653898239136,
+      -0.0005618022987619042,
       0.0,
       20.0,
       25.0,
@@ -44,9 +44,9 @@
       0.0,
       0.0,
       1.0,
-      -0.001850808272138238,
-      0.0009490980301052332,
-      0.00014219102740753442,
+      -0.0009999402100220323,
+      0.00011278165766270831,
+      0.0009263959364034235,
       0.0,
       20.0049991607666,
       24.99187469482422,
@@ -78,16 +78,16 @@
       0.0,
       0.0,
       1.0,
-      -0.0008653960539959371,
-      0.000897338381037116,
-      -0.0008686143555678427,
+      0.0012873263331130147,
+      0.00040298167732544243,
+      0.0005549903144128621,
       0.0,
       20.009984970092773,
       24.983760833740234,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -112,24 +112,33 @@
       0.0,
       0.0,
       1.0,
-      0.0004642300773411989,
-      -0.0008260488975793123,
-      0.00020073859195690602,
+      0.00839769747108221,
+      0.000578860635869205,
+      -0.0016102453228086233,
       0.0,
       20.014957427978516,
       24.975656509399414,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -146,24 +155,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0010675564408302307,
-      0.0003145396476611495,
-      0.001389938872307539,
+      0.00825274083763361,
+      -0.0009473617537878454,
+      -0.0004110506270080805,
       0.0,
       20.019914627075195,
       24.967561721801758,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -180,24 +198,33 @@
       0.0,
       0.0,
       1.0,
-      0.0010814772685989738,
-      0.0006619622581638396,
-      -0.0014577772235497832,
+      0.011036727577447891,
+      -0.0006452283123508096,
+      -0.0012863908195868134,
       0.0,
       20.024858474731445,
       24.959476470947266,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -214,24 +241,33 @@
       0.0,
       0.0,
       1.0,
-      0.0007094937609508634,
-      -0.0012295095948502421,
-      0.00034997359034605324,
+      0.009717830456793308,
+      0.000405533064622432,
+      -0.0013823010958731174,
       0.0,
       20.029788970947266,
       24.95140266418457,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -248,24 +284,33 @@
       0.0,
       0.0,
       1.0,
-      0.00017614780517760664,
-      -0.00016322339070029557,
-      0.0003100818139500916,
+      0.010381946340203285,
+      0.0021236964967101812,
+      1.4937711966922507e-05,
       0.0,
       20.034704208374023,
       24.94333839416504,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -282,24 +327,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0001754927507136017,
-      -0.0017236246494576335,
-      -0.0006034321850165725,
+      0.01082194410264492,
+      0.00018903477757703513,
+      -0.0003370101912878454,
       0.0,
       20.03960609436035,
       24.935285568237305,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -316,24 +370,33 @@
       0.0,
       0.0,
       1.0,
-      -1.6979216525214724e-05,
-      -0.0006636083708144724,
-      0.0014040364185348153,
+      0.010051626712083817,
+      0.002600796055048704,
+      -0.0012166965752840042,
       0.0,
       20.04449462890625,
       24.927242279052734,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -350,24 +413,33 @@
       0.0,
       0.0,
       1.0,
-      0.0024427666794508696,
-      0.00044448822154663503,
-      0.00043749346514232457,
+      0.011455322615802288,
+      -0.0015545663191005588,
+      0.0007458182517439127,
       0.0,
       20.049367904663086,
       24.919208526611328,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -384,24 +456,33 @@
       0.0,
       0.0,
       1.0,
-      0.0010904091177508235,
-      0.002094545168802142,
-      0.0005778931663371623,
+      0.011905131861567497,
+      -0.0008173533715307713,
+      0.00023731340479571372,
       0.0,
       20.054227828979492,
       24.911184310913086,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -418,24 +499,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0009169261320494115,
-      0.0009264816180802882,
-      -0.00011458777589723468,
+      0.008330524899065495,
+      0.0008518040413036942,
+      0.00044735995470546186,
       0.0,
       20.05907440185547,
       24.90317153930664,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -452,24 +542,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0020913227926939726,
-      -0.00158016721252352,
-      0.0007516667246818542,
+      0.010207233019173145,
+      -1.2347848496574443e-05,
+      0.0002919711987487972,
       0.0,
       20.063905715942383,
       24.89516830444336,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -486,24 +585,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0001944175746757537,
-      -0.00032292059040628374,
-      0.0006214461172930896,
+      0.01008911058306694,
+      0.0014203103492036462,
+      -0.0007742086891084909,
       0.0,
       20.068723678588867,
       24.887174606323242,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -520,24 +628,33 @@
       0.0,
       0.0,
       1.0,
-      -0.00018567983352113515,
-      -0.0008463516714982688,
-      0.0007858587778173387,
+      0.008060220628976822,
+      -0.0012828647159039974,
+      0.0011223426554352045,
       0.0,
       20.073528289794922,
       24.879192352294922,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -554,24 +671,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0011427238350734115,
-      0.0017628787318244576,
-      -0.0006469158106483519,
+      0.010647354647517204,
+      -0.00038816986489109695,
+      -0.001076714601367712,
       0.0,
       20.078319549560547,
       24.871217727661133,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -588,24 +714,33 @@
       0.0,
       0.0,
       1.0,
-      0.00019791309023275971,
-      -0.0011080661788582802,
-      0.0014620226575061679,
+      0.010477169416844845,
+      -0.00022953303414396942,
+      0.00034205574775114655,
       0.0,
       20.083097457885742,
       24.86325454711914,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -622,24 +757,33 @@
       0.0,
       0.0,
       1.0,
-      0.0012153001734986901,
-      0.0010049998527392745,
-      0.00031559515628032386,
+      0.010613720864057541,
+      -0.00018384905706625432,
+      -0.001365212257951498,
       0.0,
       20.087860107421875,
       24.855300903320312,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -656,24 +800,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0005947507452219725,
-      0.0001982804824365303,
-      0.0008658352307975292,
+      0.01048229355365038,
+      -0.0007237762329168618,
+      0.001548625179566443,
       0.0,
       20.09261131286621,
       24.84735870361328,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -690,24 +843,33 @@
       0.0,
       0.0,
       1.0,
-      0.00018343269766774029,
-      -0.00028970162384212017,
-      0.00035998981911689043,
+      0.011233702301979065,
+      -0.0001660370035097003,
+      0.0015445426106452942,
       0.0,
       20.097347259521484,
       24.83942413330078,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -724,24 +886,33 @@
       0.0,
       0.0,
       1.0,
-      0.0003403830050956458,
-      -0.0004884069203399122,
-      0.0014284868957474828,
+      0.01019430160522461,
+      -0.0009066372876986861,
+      -0.001003973069600761,
       0.0,
       20.102069854736328,
       24.831501007080078,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -758,24 +929,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0003073208499699831,
-      -0.0009938986040651798,
-      -0.0008650795207358897,
+      0.008694480173289776,
+      -0.00013638952805195004,
+      -0.0008147046319209039,
       0.0,
       20.106779098510742,
       24.82358741760254,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -792,24 +972,33 @@
       0.0,
       0.0,
       1.0,
-      0.0011455586645752192,
-      0.001577732153236866,
-      0.0007854640716686845,
+      0.00982651486992836,
+      8.79293293110095e-05,
+      -0.0013543165987357497,
       0.0,
       20.111474990844727,
       24.815683364868164,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -826,24 +1015,33 @@
       0.0,
       0.0,
       1.0,
-      -0.00035519275115802884,
-      -0.0013695170637220144,
-      -0.00045306605170480907,
+      0.009065556339919567,
+      -0.0015259231440722942,
+      0.0002146012702723965,
       0.0,
       20.11615562438965,
       24.807788848876953,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -860,24 +1058,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0012468956410884857,
-      0.001126683666370809,
-      -0.00013945290993433446,
+      0.011178318411111832,
+      0.0011458315420895815,
+      -0.0012130009708926082,
       0.0,
       20.120824813842773,
       24.799903869628906,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -894,24 +1101,33 @@
       0.0,
       0.0,
       1.0,
-      0.001155451056547463,
-      0.0007105517433956265,
-      0.0004339096776675433,
+      0.011180611327290535,
+      -0.0008219534647651017,
+      -0.00011283702770015225,
       0.0,
       20.125478744506836,
       24.792030334472656,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -928,24 +1144,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0005815260810777545,
-      0.001786829438060522,
-      0.0005787133704870939,
+      0.009897902607917786,
+      0.00020816184405703098,
+      2.1382622435339727e-05,
       0.0,
       20.1301212310791,
       24.78416633605957,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -962,24 +1187,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0007988434517756104,
-      -0.0012256551999598742,
-      0.0014002294046804309,
+      0.00899197906255722,
+      -0.00024267856497317553,
+      -0.0003682637761812657,
       0.0,
       20.134748458862305,
       24.77631187438965,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -996,24 +1230,33 @@
       0.0,
       0.0,
       1.0,
-      -9.653723100200295e-05,
-      -0.0012545561185106635,
-      0.0011046328581869602,
+      0.00933680310845375,
+      0.0014489063760265708,
+      -0.00018580033793114126,
       0.0,
       20.13936424255371,
       24.768465042114258,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1030,24 +1273,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0012307523284107447,
-      -2.433239933452569e-05,
-      -0.0008953666547313333,
+      0.008135556243360043,
+      0.0010739469435065985,
+      -0.0010887227253988385,
       0.0,
       20.143964767456055,
       24.760631561279297,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1064,24 +1316,33 @@
       0.0,
       0.0,
       1.0,
-      7.856010051909834e-05,
-      0.0014015028718858957,
-      8.435831841779873e-05,
+      0.010295785963535309,
+      0.0004253223305568099,
+      0.0011168617056682706,
       0.0,
       20.14855194091797,
       24.752805709838867,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1098,24 +1359,33 @@
       0.0,
       0.0,
       1.0,
-      0.00041400393820367754,
-      0.0008079910767264664,
-      0.0004519791400525719,
+      0.00865948386490345,
+      -0.0005262512713670731,
+      -0.0002834819897543639,
       0.0,
       20.153127670288086,
       24.7449893951416,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1132,24 +1402,33 @@
       0.0,
       0.0,
       1.0,
-      -7.194477802840993e-05,
-      0.0018062354065477848,
-      -0.000765881675761193,
+      0.009326855652034283,
+      0.0007780482992529869,
+      -0.0007945173420011997,
       0.0,
       20.15768814086914,
       24.7371826171875,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1166,24 +1445,33 @@
       0.0,
       0.0,
       1.0,
-      0.0010323129827156663,
-      3.717913568834774e-05,
-      0.0002692375855986029,
+      0.009520739316940308,
+      -0.001070515369065106,
+      0.0004392287810333073,
       0.0,
       20.1622371673584,
       24.729387283325195,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1200,24 +1488,33 @@
       0.0,
       0.0,
       1.0,
-      -9.338065137853846e-05,
-      -0.0005768431583419442,
-      -6.276241037994623e-05,
+      0.009638700634241104,
+      0.00036116340197622776,
+      0.0007223276188597083,
       0.0,
       20.166770935058594,
       24.721599578857422,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1234,24 +1531,33 @@
       0.0,
       0.0,
       1.0,
-      0.0013593536568805575,
-      0.00039257208118215203,
-      0.0016319999704137444,
+      0.010498522780835629,
+      -0.0005256198928691447,
+      0.0022626786958426237,
       0.0,
       20.171293258666992,
       24.713823318481445,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1268,24 +1574,33 @@
       0.0,
       0.0,
       1.0,
-      0.00022828337387181818,
-      0.00048658056766726077,
-      0.001049383427016437,
+      0.008942102082073689,
+      0.00013428297825157642,
+      0.0008028886513784528,
       0.0,
       20.175800323486328,
       24.7060546875,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1302,24 +1617,33 @@
       0.0,
       0.0,
       1.0,
-      -0.0011998377740383148,
-      0.001862073433585465,
-      -0.0012348887976258993,
+      0.008579143323004246,
+      -0.0009904633043333888,
+      0.001587553066201508,
       0.0,
       20.180295944213867,
       24.69829750061035,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1336,9 +1660,9 @@
       0.0,
       0.0,
       1.0,
-      0.0011140340939164162,
-      0.00040658219950273633,
-      -0.0002858887310139835,
+      0.010438244789838791,
+      -0.0008898273226805031,
+      0.0008506214944645762,
       0.0,
       20.184778213500977,
       24.690547943115234,
@@ -1350,10 +1674,19 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
+      "ADCS": "GyroBias",
       "TCS": "Nominal"
     },
-    "persistent_faults": [],
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1370,9 +1703,9 @@
       0.0,
       0.0,
       1.0,
-      -4.962913953932002e-05,
-      -0.0008188169449567795,
-      -0.00016956882609520108,
+      0.010072434321045876,
+      0.000432615343015641,
+      0.0011715719010680914,
       0.0,
       20.189247131347656,
       24.682809829711914,
@@ -1384,14 +1717,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1411,9 +1746,9 @@
       0.0,
       0.0,
       1.0,
-      0.0004949274589307606,
-      5.334250090527348e-05,
-      -0.0003974211576860398,
+      0.009002876468002796,
+      -0.0006242378149181604,
+      0.0008359129424206913,
       0.0,
       20.193702697753906,
       24.675081253051758,
@@ -1425,14 +1760,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1452,9 +1789,9 @@
       0.0,
       0.0,
       1.0,
-      0.00013745408796239644,
-      -0.0008564005838707089,
-      -0.001323349424637854,
+      0.011289210990071297,
+      -0.0009730865713208914,
+      -0.0008652008255012333,
       0.0,
       20.198144912719727,
       24.667360305786133,
@@ -1466,14 +1803,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1493,9 +1832,9 @@
       0.0,
       0.0,
       1.0,
-      0.0010801272001117468,
-      0.00023162245634011924,
-      0.0008169152424670756,
+      0.00913939904421568,
+      0.0009684338001534343,
+      -0.0008252363768406212,
       0.0,
       20.202573776245117,
       24.659650802612305,
@@ -1507,14 +1846,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1534,9 +1875,9 @@
       0.0,
       0.0,
       1.0,
-      0.0014530745102092624,
-      -0.0009849881753325462,
-      0.00017386506078764796,
+      0.009694814682006836,
+      -0.00036884599830955267,
+      4.4170843466417864e-05,
       0.0,
       20.20699119567871,
       24.65195083618164,
@@ -1548,14 +1889,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1575,9 +1918,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007139546796679497,
-      -0.0003249421715736389,
-      -0.00048793599125929177,
+      0.010707863606512547,
+      0.00022499794431496412,
+      0.001494511729106307,
       0.0,
       20.211395263671875,
       24.64426040649414,
@@ -1589,14 +1932,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1616,9 +1961,9 @@
       0.0,
       0.0,
       1.0,
-      -0.001352390623651445,
-      0.0004178882227279246,
-      -0.001258802367374301,
+      0.01063456665724516,
+      0.001331609906628728,
+      6.396115350071341e-05,
       0.0,
       20.21578598022461,
       24.636577606201172,
@@ -1630,14 +1975,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1657,9 +2004,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007092356099747121,
-      -0.0005801701336167753,
-      0.001276508904993534,
+      0.010363108478486538,
+      0.0017662912141531706,
+      0.0014101086417213082,
       0.0,
       20.220163345336914,
       24.62890625,
@@ -1671,14 +2018,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1698,9 +2047,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0021648621186614037,
-      0.000573301746044308,
-      -0.0020873926114290953,
+      0.010257435031235218,
+      -0.0011452591279521585,
+      -0.00022399182489607483,
       0.0,
       20.22452735900879,
       24.62124252319336,
@@ -1712,14 +2061,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1739,9 +2090,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007658964022994041,
-      0.0007917401380836964,
-      0.0001712739613140002,
+      0.009233249351382256,
+      0.000557081657461822,
+      0.00035303932963870466,
       0.0,
       20.228879928588867,
       24.613590240478516,
@@ -1753,14 +2104,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1780,9 +2133,9 @@
       0.0,
       0.0,
       1.0,
-      0.0010723820887506008,
-      0.0011975486995652318,
-      0.0015464243479073048,
+      0.011389777064323425,
+      -0.001349688391201198,
+      0.0013125729747116566,
       0.0,
       20.233219146728516,
       24.605945587158203,
@@ -1794,14 +2147,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1821,9 +2176,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007006953237578273,
-      0.0009273338364437222,
-      -0.0007548858411610126,
+      0.009992680512368679,
+      0.0012458350975066423,
+      -0.0014607945922762156,
       0.0,
       20.237545013427734,
       24.598312377929688,
@@ -1835,14 +2190,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1862,9 +2219,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0003766653244383633,
-      0.0010837517911568284,
-      -0.0001961574307642877,
+      0.009282401762902737,
+      -0.0012301808455958962,
+      0.0008644891204312444,
       0.0,
       20.241857528686523,
       24.590686798095703,
@@ -1876,14 +2233,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1903,9 +2262,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008810017025098205,
-      0.0014419479994103312,
-      -0.0006577536696568131,
+      0.009872735477983952,
+      -2.7808224331238307e-05,
+      -0.0005715997540391982,
       0.0,
       20.246158599853516,
       24.583070755004883,
@@ -1917,14 +2276,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1944,9 +2305,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0006093670963309705,
-      -0.0018591723637655377,
-      0.0009751489269547164,
+      0.010728235356509686,
+      2.2686750526190735e-05,
+      -0.0002522927534300834,
       0.0,
       20.250446319580078,
       24.575464248657227,
@@ -1958,14 +2319,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -1985,9 +2348,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007902669603936374,
-      -0.0007436413434334099,
-      -0.0004170378961134702,
+      0.012316625565290451,
+      0.0005336784524843097,
+      0.0012023246381431818,
       0.0,
       20.25472068786621,
       24.567867279052734,
@@ -1999,14 +2362,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2026,9 +2391,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00040896073915064335,
-      0.00032837718026712537,
-      0.000293590419460088,
+      0.009607255458831787,
+      0.0007801150786690414,
+      1.0716068572946824e-05,
       0.0,
       20.258983612060547,
       24.560279846191406,
@@ -2040,14 +2405,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2067,9 +2434,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0005255910800769925,
-      -0.0004363844054751098,
-      0.00018302397802472115,
+      0.010399717837572098,
+      0.000270193355390802,
+      -0.0006900738808326423,
       0.0,
       20.263233184814453,
       24.552701950073242,
@@ -2081,14 +2448,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2108,9 +2477,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010921963257715106,
-      0.0011410345323383808,
-      0.0008216366986744106,
+      0.009242938831448555,
+      -0.0002504445146769285,
+      0.00027646651142276824,
       0.0,
       20.26746940612793,
       24.54513168334961,
@@ -2122,14 +2491,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2149,9 +2520,9 @@
       0.0,
       0.0,
       1.0,
-      0.0004487284168135375,
-      -0.0019366819178685546,
-      0.0005143687012605369,
+      0.010061156004667282,
+      -0.0003495429118629545,
+      -0.000812425569165498,
       0.0,
       20.27169418334961,
       24.537572860717773,
@@ -2163,14 +2534,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2190,9 +2563,9 @@
       0.0,
       0.0,
       1.0,
-      0.0008278382592834532,
-      -0.0007923137163743377,
-      0.000673452450428158,
+      0.009463115595281124,
+      -0.00048061812412925065,
+      -0.0015896179247647524,
       0.0,
       20.27590560913086,
       24.53002166748047,
@@ -2204,14 +2577,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2231,9 +2606,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0004572681791614741,
-      -0.0002684571663849056,
-      0.002247004769742489,
+      0.011344512924551964,
+      0.0019543522503226995,
+      -0.0023025681730359793,
       0.0,
       20.28010368347168,
       24.522480010986328,
@@ -2245,14 +2620,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2272,9 +2649,9 @@
       0.0,
       0.0,
       1.0,
-      -0.000998139614239335,
-      0.0005638516740873456,
-      -0.0006893413374200463,
+      0.011356453411281109,
+      -0.00040710539906285703,
+      0.0004721155855804682,
       0.0,
       20.284290313720703,
       24.51494789123535,
@@ -2286,14 +2663,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2313,9 +2692,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0006749832537025213,
-      0.0007002437487244606,
-      0.00013686240708921105,
+      0.009619684889912605,
+      0.0004046795656904578,
+      -0.0010089419083669782,
       0.0,
       20.288463592529297,
       24.50742530822754,
@@ -2327,14 +2706,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2354,9 +2735,9 @@
       0.0,
       0.0,
       1.0,
-      0.00037779551348648965,
-      0.0010505809914320707,
-      -0.0013072198489680886,
+      0.010908910073339939,
+      0.0006747992010787129,
+      -0.0006003864691592753,
       0.0,
       20.292625427246094,
       24.49991226196289,
@@ -2368,14 +2749,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2395,9 +2778,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00024469022173434496,
-      0.0008865686831995845,
-      -0.00026945024728775024,
+      0.009338779374957085,
+      -0.00098249944858253,
+      -0.000422111974330619,
       0.0,
       20.29677391052246,
       24.492406845092773,
@@ -2409,14 +2792,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2436,9 +2821,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0014383478555828333,
-      0.0005325097590684891,
-      -0.0005225818604230881,
+      0.01030496135354042,
+      -0.00047971494495868683,
+      0.0009559717727825046,
       0.0,
       20.30091094970703,
       24.48491096496582,
@@ -2450,14 +2835,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2477,9 +2864,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00050090387230739,
-      0.0003182940708938986,
-      -0.0022016754373908043,
+      0.010141570121049881,
+      0.0015786278527230024,
+      0.0006569158285856247,
       0.0,
       20.305034637451172,
       24.477426528930664,
@@ -2491,14 +2878,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2518,9 +2907,9 @@
       0.0,
       0.0,
       1.0,
-      0.00035268228384666145,
-      -0.0007013604044914246,
-      0.0006571865524165332,
+      0.010102884843945503,
+      0.0010989278089255095,
+      0.0011302829952910542,
       0.0,
       20.309144973754883,
       24.469947814941406,
@@ -2532,14 +2921,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2559,9 +2950,9 @@
       0.0,
       0.0,
       1.0,
-      0.0008752577123232186,
-      -0.0012307923752814531,
-      0.0011682799085974693,
+      0.009440026246011257,
+      -0.0008111232309602201,
+      -0.0009052857640199363,
       0.0,
       20.313243865966797,
       24.462480545043945,
@@ -2573,14 +2964,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2600,9 +2993,9 @@
       0.0,
       0.0,
       1.0,
-      0.0024552596732974052,
-      -0.0015680762007832527,
-      0.00030194956343621016,
+      0.008421731181442738,
+      0.00010041001223726198,
+      0.0008724367944523692,
       0.0,
       20.317331314086914,
       24.455020904541016,
@@ -2614,14 +3007,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2641,9 +3036,9 @@
       0.0,
       0.0,
       1.0,
-      0.00024241034407168627,
-      -0.0005170890362933278,
-      -0.0015819553518667817,
+      0.009905247017741203,
+      0.0012099259765818715,
+      0.00032501135137863457,
       0.0,
       20.3214054107666,
       24.447572708129883,
@@ -2655,14 +3050,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2682,9 +3079,9 @@
       0.0,
       0.0,
       1.0,
-      0.0015323873376473784,
-      -0.00011060448741773143,
-      0.0007162993424572051,
+      0.009270528331398964,
+      0.0015508870128542185,
+      0.0009244513930752873,
       0.0,
       20.325468063354492,
       24.44013023376465,
@@ -2696,14 +3093,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2723,9 +3122,9 @@
       0.0,
       0.0,
       1.0,
-      0.0013426810037344694,
-      -0.0005346413236111403,
-      0.0003899171424563974,
+      0.010712695308029652,
+      -0.001102575333788991,
+      0.0020945193246006966,
       0.0,
       20.329517364501953,
       24.43269920349121,
@@ -2737,14 +3136,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2764,9 +3165,9 @@
       0.0,
       0.0,
       1.0,
-      -0.002650340087711811,
-      -0.0006019899155944586,
-      0.0006750715547241271,
+      0.009936939924955368,
+      -0.0005188762443140149,
+      0.0007457798346877098,
       0.0,
       20.333553314208984,
       24.425277709960938,
@@ -2778,14 +3179,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2805,9 +3208,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007208256283774972,
-      0.002010730095207691,
-      -0.0007995644118636847,
+      0.009155528619885445,
+      0.00035708415089175105,
+      0.0004273663798812777,
       0.0,
       20.33757972717285,
       24.417863845825195,
@@ -2819,14 +3222,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2846,9 +3251,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0006537826266139746,
-      1.6830126696731895e-05,
-      -0.0007978779030963778,
+      0.010199534706771374,
+      -5.845865962328389e-05,
+      -0.00011709397222148255,
       0.0,
       20.341590881347656,
       24.410457611083984,
@@ -2860,14 +3265,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2887,9 +3294,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00033632697886787355,
-      0.00028955034213140607,
-      -0.0001964614784810692,
+      0.009171699173748493,
+      -0.001638569519855082,
+      0.0004359216254670173,
       0.0,
       20.345592498779297,
       24.40306282043457,
@@ -2901,14 +3308,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2928,9 +3337,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0005724085494875908,
-      0.00011541543062776327,
-      -0.0005941452691331506,
+      0.010483507998287678,
+      -0.00016979390056803823,
+      0.0011004525003954768,
       0.0,
       20.349580764770508,
       24.395675659179688,
@@ -2942,14 +3351,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -2969,9 +3380,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008905971189960837,
-      -0.001225675456225872,
-      0.0011864769039675593,
+      0.008952945470809937,
+      0.0027903809677809477,
+      0.0011106596793979406,
       0.0,
       20.353557586669922,
       24.38829803466797,
@@ -2983,14 +3394,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3010,9 +3423,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00010149591253139079,
-      0.000916989054530859,
-      0.0004821664188057184,
+      0.010369244031608105,
+      0.000757685920689255,
+      -0.0018996164435520768,
       0.0,
       20.357521057128906,
       24.380929946899414,
@@ -3024,14 +3437,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3051,9 +3466,9 @@
       0.0,
       0.0,
       1.0,
-      0.0034993186127394438,
-      -0.0007244538865052164,
-      -0.0007514336612075567,
+      0.009309543296694756,
+      0.0009270271402783692,
+      -0.0016070082783699036,
       0.0,
       20.361473083496094,
       24.37356948852539,
@@ -3065,14 +3480,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3092,9 +3509,9 @@
       0.0,
       0.0,
       1.0,
-      -0.002032649703323841,
-      0.0001652093487791717,
-      -0.0015022301813587546,
+      0.009441358968615532,
+      0.0008071589982137084,
+      0.0005292365676723421,
       0.0,
       20.36541175842285,
       24.36621856689453,
@@ -3106,14 +3523,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3133,9 +3552,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010044078808277845,
-      0.0011497129453346133,
-      -0.0007274270756170154,
+      0.008343805558979511,
+      -0.0005952728679403663,
+      -0.0006370055489242077,
       0.0,
       20.369340896606445,
       24.358877182006836,
@@ -3147,14 +3566,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3174,9 +3595,9 @@
       0.0,
       0.0,
       1.0,
-      0.00012583604257088155,
-      0.000205364209250547,
-      0.0007752356468699872,
+      0.009663937613368034,
+      -0.0008902398403733969,
+      -0.0009659377974458039,
       0.0,
       20.37325668334961,
       24.351543426513672,
@@ -3188,14 +3609,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3215,9 +3638,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0009013842209242284,
-      -0.0014289027312770486,
-      0.0008737093303352594,
+      0.009646914899349213,
+      0.0015218299813568592,
+      0.00015191399143077433,
       0.0,
       20.377159118652344,
       24.344219207763672,
@@ -3229,14 +3652,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3256,9 +3681,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0004767289210576564,
-      0.0010906313546001911,
-      -0.0009694314212538302,
+      0.010416131466627121,
+      0.0010488370899111032,
+      5.8914010878652334e-05,
       0.0,
       20.381052017211914,
       24.336904525756836,
@@ -3270,14 +3695,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3297,9 +3724,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007500513456761837,
-      0.00031267316080629826,
-      -0.001148125738836825,
+      0.012859039008617401,
+      0.00017610983923077583,
+      -0.0004141271347180009,
       0.0,
       20.384931564331055,
       24.32959747314453,
@@ -3311,14 +3738,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3338,9 +3767,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0009796172380447388,
-      -0.0010862937197089195,
-      0.0004616480437107384,
+      0.008838772773742676,
+      -0.0002342781808692962,
+      -0.0010960246436297894,
       0.0,
       20.388797760009766,
       24.32229995727539,
@@ -3352,14 +3781,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3379,9 +3810,9 @@
       0.0,
       0.0,
       1.0,
-      0.001729527022689581,
-      0.001586470054462552,
-      -0.00032555038342252374,
+      0.010100564919412136,
+      0.0008628887007944286,
+      0.0008547776378691196,
       0.0,
       20.392654418945312,
       24.31501007080078,
@@ -3393,14 +3824,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3420,9 +3853,9 @@
       0.0,
       0.0,
       1.0,
-      0.0015184185467660427,
-      0.0004674137744586915,
-      -0.0002895956567954272,
+      0.009613055735826492,
+      9.889942884910852e-05,
+      0.001555051188915968,
       0.0,
       20.39649772644043,
       24.307729721069336,
@@ -3434,14 +3867,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3461,9 +3896,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0002780760114546865,
-      0.0018361684633418918,
-      -0.0008343274239450693,
+      0.011847107671201229,
+      -0.0020708530209958553,
+      -0.002007972216233611,
       0.0,
       20.40032958984375,
       24.300458908081055,
@@ -3475,14 +3910,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3502,9 +3939,9 @@
       0.0,
       0.0,
       1.0,
-      0.00212161079980433,
-      -0.0016553798923268914,
-      7.392931001959369e-05,
+      0.008847704157233238,
+      0.0012715307530015707,
+      0.0001540689409011975,
       0.0,
       20.404150009155273,
       24.293195724487305,
@@ -3516,14 +3953,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3543,9 +3982,9 @@
       0.0,
       0.0,
       1.0,
-      0.00041670622886158526,
-      -0.0011190746445208788,
-      -0.0008725866209715605,
+      0.008872197940945625,
+      -0.0005416645435616374,
+      0.001012998865917325,
       0.0,
       20.407958984375,
       24.28594207763672,
@@ -3557,14 +3996,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3584,9 +4025,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007004608632996678,
-      -0.0017022003885358572,
-      0.0019126794068142772,
+      0.010708266869187355,
+      0.0003067671204917133,
+      0.0012176181189715862,
       0.0,
       20.411754608154297,
       24.278696060180664,
@@ -3598,14 +4039,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3625,9 +4068,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007588761509396136,
-      -0.0005186181515455246,
-      -0.0009299847879447043,
+      0.008610226213932037,
+      0.00037412066012620926,
+      0.00047945338883437216,
       0.0,
       20.415538787841797,
       24.271459579467773,
@@ -3639,14 +4082,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3666,9 +4111,9 @@
       0.0,
       0.0,
       1.0,
-      0.00032121327240020037,
-      -0.0016792123205959797,
-      0.0011904985876753926,
+      0.009425505064427853,
+      0.0022605485282838345,
+      0.0006685834378004074,
       0.0,
       20.4193115234375,
       24.264232635498047,
@@ -3680,14 +4125,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3707,9 +4154,9 @@
       0.0,
       0.0,
       1.0,
-      -0.000731553474906832,
-      -0.0013745786854997277,
-      0.00105393142439425,
+      0.008431822061538696,
+      0.0008097583777271211,
+      -0.001195666496641934,
       0.0,
       20.423072814941406,
       24.25701332092285,
@@ -3721,14 +4168,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3748,9 +4197,9 @@
       0.0,
       0.0,
       1.0,
-      0.0005785048706457019,
-      -0.00048351482837460935,
-      0.0019993314053863287,
+      0.009376401081681252,
+      -0.0015500012086704373,
+      0.001614635344594717,
       0.0,
       20.426822662353516,
       24.24980354309082,
@@ -3762,14 +4211,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3789,9 +4240,9 @@
       0.0,
       0.0,
       1.0,
-      0.0011112954234704375,
-      -0.00018595340952742845,
-      0.0018528355285525322,
+      0.010781925171613693,
+      -0.0007837113225832582,
+      -0.000918339064810425,
       0.0,
       20.430561065673828,
       24.24260139465332,
@@ -3803,14 +4254,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3830,9 +4283,9 @@
       0.0,
       0.0,
       1.0,
-      0.001723448745906353,
-      0.00013111701991874725,
-      -0.00039069080958142877,
+      0.009502037428319454,
+      -0.0006242295494303107,
+      -0.0012147992383688688,
       0.0,
       20.43428611755371,
       24.235408782958984,
@@ -3844,14 +4297,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3871,9 +4326,9 @@
       0.0,
       0.0,
       1.0,
-      1.5136342881305609e-05,
-      0.0011435621418058872,
-      -0.0008415085612796247,
+      0.009610837325453758,
+      -0.0007797244470566511,
+      -0.0010332207893952727,
       0.0,
       20.437999725341797,
       24.22822380065918,
@@ -3885,14 +4340,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3912,9 +4369,9 @@
       0.0,
       0.0,
       1.0,
-      -3.0158220397424884e-05,
-      -0.00079363863915205,
-      9.517187572782859e-05,
+      0.010518969036638737,
+      5.677589069819078e-05,
+      9.025213512359187e-05,
       0.0,
       20.44170379638672,
       24.221046447753906,
@@ -3926,14 +4383,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3953,9 +4412,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0003456676786299795,
-      -0.0002839428198058158,
-      0.0011225315975025296,
+      0.010006376542150974,
+      -0.00011727066157618538,
+      -0.0010976758785545826,
       0.0,
       20.44539451599121,
       24.21388053894043,
@@ -3967,14 +4426,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -3994,9 +4455,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00027222424978390336,
-      0.0014076874358579516,
-      0.0018922738963738084,
+      0.012175953947007656,
+      0.001016699941828847,
+      -0.0009674833272583783,
       0.0,
       20.449073791503906,
       24.20672035217285,
@@ -4008,14 +4469,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4035,9 +4498,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00012319798406679183,
-      -0.0025899887550622225,
-      -0.0009475102997384965,
+      0.011534192599356174,
+      -0.0005663740448653698,
+      -0.0017473750049248338,
       0.0,
       20.452741622924805,
       24.19957160949707,
@@ -4049,14 +4512,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4076,9 +4541,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007321267621591687,
-      0.0010600913083180785,
-      -0.0017187657067552209,
+      0.012880880385637283,
+      0.0014738733880221844,
+      0.0010724022286012769,
       0.0,
       20.456398010253906,
       24.192428588867188,
@@ -4090,14 +4555,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4117,9 +4584,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008939119288697839,
-      0.0008748385589569807,
-      0.0005458403611555696,
+      0.010480125434696674,
+      -0.0004649887268897146,
+      -0.0006602389621548355,
       0.0,
       20.46004295349121,
       24.1852970123291,
@@ -4131,14 +4598,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4158,9 +4627,9 @@
       0.0,
       0.0,
       1.0,
-      0.0001375337305944413,
-      5.075696390122175e-05,
-      -0.0004826032090932131,
+      0.009447728283703327,
+      0.0008304532384499907,
+      -0.0006238650530576706,
       0.0,
       20.46367645263672,
       24.178171157836914,
@@ -4172,14 +4641,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4199,9 +4670,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00015484829782508314,
-      -0.00024138088338077068,
-      -0.0011372123844921589,
+      0.011074917390942574,
+      -0.00024235268938355148,
+      -0.00020157656399533153,
       0.0,
       20.467296600341797,
       24.17105484008789,
@@ -4213,14 +4684,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4240,9 +4713,9 @@
       0.0,
       0.0,
       1.0,
-      0.0006883820169605315,
-      -0.002843709895387292,
-      0.0006937126163393259,
+      0.009537902660667896,
+      0.0008118698606267571,
+      0.00040880939923226833,
       0.0,
       20.47090721130371,
       24.16394805908203,
@@ -4254,14 +4727,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4281,9 +4756,9 @@
       0.0,
       0.0,
       1.0,
-      0.0003211749135516584,
-      0.00014516437659040093,
-      -0.0005387404235079885,
+      0.010411286726593971,
+      -0.0001777470315573737,
+      -0.0005013635382056236,
       0.0,
       20.474506378173828,
       24.156848907470703,
@@ -4295,14 +4770,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4322,9 +4799,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007470067939721048,
-      0.0001857572642620653,
-      0.0002627166686579585,
+      0.011599883437156677,
+      0.00012118975428165868,
+      -0.003559775184839964,
       0.0,
       20.47809410095215,
       24.149757385253906,
@@ -4336,14 +4813,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4363,9 +4842,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00016929162666201591,
-      -0.001558330375701189,
-      -0.0015389281325042248,
+      0.010065494105219841,
+      0.00015056636766530573,
+      -0.00046047219075262547,
       0.0,
       20.481670379638672,
       24.142675399780273,
@@ -4377,14 +4856,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4404,9 +4885,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008581522270105779,
-      0.0005231421091593802,
-      -0.0017114621587097645,
+      0.010816306807100773,
+      0.0004122545651625842,
+      0.0002735808666329831,
       0.0,
       20.4852352142334,
       24.135602951049805,
@@ -4418,14 +4899,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4445,9 +4928,9 @@
       0.0,
       0.0,
       1.0,
-      -0.000407159561291337,
-      -0.0011121719144284725,
-      -0.00044673663796857,
+      0.01219181064516306,
+      0.001560032251290977,
+      -0.0003659313078969717,
       0.0,
       20.488788604736328,
       24.128536224365234,
@@ -4459,14 +4942,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4486,9 +4971,9 @@
       0.0,
       0.0,
       1.0,
-      0.00027533553657121956,
-      -0.0009772446937859058,
-      0.0016023196512833238,
+      0.010116648860275745,
+      0.0011780557688325644,
+      -0.0012980566825717688,
       0.0,
       20.49233055114746,
       24.121479034423828,
@@ -4500,14 +4985,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4527,9 +5014,9 @@
       0.0,
       0.0,
       1.0,
-      0.0016212399350479245,
-      -0.0001308141800109297,
-      -0.002108172979205847,
+      0.009786432608962059,
+      0.0009739170200191438,
+      0.003335286397486925,
       0.0,
       20.495861053466797,
       24.114431381225586,
@@ -4541,14 +5028,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4568,9 +5057,9 @@
       0.0,
       0.0,
       1.0,
-      0.000842806592117995,
-      -0.0023259217850863934,
-      0.0018818239914253354,
+      0.011042892932891846,
+      0.0014546301681548357,
+      -0.0003484884509816766,
       0.0,
       20.499380111694336,
       24.107391357421875,
@@ -4582,14 +5071,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4609,9 +5100,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0001296439440920949,
-      0.00014422679669223726,
-      0.00040988053660839796,
+      0.010125745087862015,
+      -6.551796104758978e-05,
+      0.0022147020790725946,
       0.0,
       20.502887725830078,
       24.100358963012695,
@@ -4623,14 +5114,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4650,9 +5143,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00034787942422553897,
-      0.0008179732249118388,
-      0.00022072778665460646,
+      0.008723659440875053,
+      -0.0007334306719712913,
+      0.00027469301130622625,
       0.0,
       20.506385803222656,
       24.09333610534668,
@@ -4664,14 +5157,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4691,9 +5186,9 @@
       0.0,
       0.0,
       1.0,
-      9.340651740785688e-05,
-      -0.0014870540471747518,
-      0.0007098146597854793,
+      0.00995001569390297,
+      0.0003308351442683488,
+      -0.0011857944773510098,
       0.0,
       20.509870529174805,
       24.086320877075195,
@@ -4705,14 +5200,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4732,9 +5229,9 @@
       0.0,
       0.0,
       1.0,
-      0.00023189048806671053,
-      -0.000545884424354881,
-      0.0009103062329813838,
+      0.009727618657052517,
+      -0.0006225986871868372,
+      0.00012252655869815499,
       0.0,
       20.51334571838379,
       24.079313278198242,
@@ -4746,14 +5243,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4773,9 +5272,9 @@
       0.0,
       0.0,
       1.0,
-      0.00010311184450984001,
-      -0.0009906714549288154,
-      0.0001746157358866185,
+      0.00779365748167038,
+      -0.0001674499362707138,
+      0.0009317747317254543,
       0.0,
       20.516807556152344,
       24.072315216064453,
@@ -4787,14 +5286,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4814,9 +5315,9 @@
       0.0,
       0.0,
       1.0,
-      -0.002875214908272028,
-      0.002245253650471568,
-      0.0009185023955069482,
+      0.010105031542479992,
+      0.000207700373721309,
+      0.0010160313686355948,
       0.0,
       20.520259857177734,
       24.065324783325195,
@@ -4828,14 +5329,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4855,9 +5358,9 @@
       0.0,
       0.0,
       1.0,
-      0.00017317966558039188,
-      0.0012530343374237418,
-      0.0007322152960114181,
+      0.009643197059631348,
+      0.00038855563616380095,
+      -6.07131005381234e-05,
       0.0,
       20.523700714111328,
       24.05834197998047,
@@ -4869,14 +5372,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4896,9 +5401,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008439812809228897,
-      0.0007964113028720021,
-      -0.000482223549624905,
+      0.010126383043825626,
+      -0.0006250899750739336,
+      -0.00019926123786717653,
       0.0,
       20.527132034301758,
       24.051368713378906,
@@ -4910,14 +5415,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4937,9 +5444,9 @@
       0.0,
       0.0,
       1.0,
-      0.0003334218345116824,
-      0.0011709367390722036,
-      0.0008132290095090866,
+      0.010862492956221104,
+      -0.00025842690956778824,
+      -0.0017318063182756305,
       0.0,
       20.530550003051758,
       24.044403076171875,
@@ -4951,14 +5458,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -4978,9 +5487,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0004885559901595116,
-      0.0004953430034220219,
-      -0.00043861265294253826,
+      0.009269812144339085,
+      0.0008586951880715787,
+      -0.0009236490004695952,
       0.0,
       20.533958435058594,
       24.037446975708008,
@@ -4992,14 +5501,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5019,9 +5530,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0009966304060071707,
-      -0.0008104722946882248,
-      0.0005887544830329716,
+      0.009919690899550915,
+      0.00032837732578627765,
+      0.0010255088564008474,
       0.0,
       20.537355422973633,
       24.03049659729004,
@@ -5033,14 +5544,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5060,9 +5573,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010522253578528762,
-      0.0007520727813243866,
-      8.465685095870867e-05,
+      0.00959717109799385,
+      -0.00012792197230737656,
+      -0.00037125195376574993,
       0.0,
       20.540740966796875,
       24.023555755615234,
@@ -5074,14 +5587,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5101,9 +5616,9 @@
       0.0,
       0.0,
       1.0,
-      0.0016399869928136468,
-      0.0015143108321353793,
-      -0.0014050487661734223,
+      0.010143887251615524,
+      0.0012675868347287178,
+      0.0007763475878164172,
       0.0,
       20.54411506652832,
       24.016624450683594,
@@ -5115,14 +5630,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5142,9 +5659,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00041526631684973836,
-      -0.0002910197072196752,
-      0.0005764170782640576,
+      0.008245671167969704,
+      -0.0001913827145472169,
+      0.00011259282473474741,
       0.0,
       20.5474796295166,
       24.00969886779785,
@@ -5156,14 +5673,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5183,9 +5702,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010696743847802281,
-      0.0010590394958853722,
-      -0.0012126234360039234,
+      0.011474264785647392,
+      0.0003923519398085773,
+      -1.671252175583504e-05,
       0.0,
       20.550830841064453,
       24.002782821655273,
@@ -5197,14 +5716,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5224,9 +5745,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0013303341111168265,
-      0.00013389348168857396,
-      0.0009318599477410316,
+      0.008758436888456345,
+      -0.0011607976630330086,
+      -0.0012241494841873646,
       0.0,
       20.55417251586914,
       23.995874404907227,
@@ -5238,14 +5759,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5265,9 +5788,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0004818779998458922,
-      0.0008196400594897568,
-      0.0012587825767695904,
+      0.00865399744361639,
+      -0.00027948865317739546,
+      -0.0009458962013013661,
       0.0,
       20.557504653930664,
       23.988975524902344,
@@ -5279,14 +5802,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5306,9 +5831,9 @@
       0.0,
       0.0,
       1.0,
-      0.0002170143707189709,
-      0.0007607834995724261,
-      0.00037202020757831633,
+      0.010805224999785423,
+      0.0008666531066410244,
+      -0.0006912699318490922,
       0.0,
       20.560823440551758,
       23.98208236694336,
@@ -5320,14 +5845,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5347,9 +5874,9 @@
       0.0,
       0.0,
       1.0,
-      -4.9599890189711004e-05,
-      -0.0014480800600722432,
-      6.939005106687546e-05,
+      0.011252439580857754,
+      0.0007709633209742606,
+      -0.001772386603988707,
       0.0,
       20.564132690429688,
       23.97519874572754,
@@ -5361,14 +5888,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5388,9 +5917,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007189331809058785,
-      0.001103144371882081,
-      4.057373007526621e-05,
+      0.010413960553705692,
+      0.0019002247136086226,
+      0.000802034919615835,
       0.0,
       20.567432403564453,
       23.96832275390625,
@@ -5402,14 +5931,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5429,9 +5960,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007846388034522533,
-      -0.0009287622524425387,
-      0.0007881298079155385,
+      0.011320794001221657,
+      0.0022627715952694416,
+      0.0017475832719355822,
       0.0,
       20.57071876525879,
       23.961456298828125,
@@ -5443,14 +5974,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5470,9 +6003,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0001306553604081273,
-      0.0009320816025137901,
-      -0.001166071742773056,
+      0.008139478042721748,
+      -0.00146999501157552,
+      0.0019556768238544464,
       0.0,
       20.57399559020996,
       23.9545955657959,
@@ -5484,14 +6017,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5511,9 +6046,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0012521977769210935,
-      -0.0006497749127447605,
-      -0.0005624718032777309,
+      0.010706203058362007,
+      -0.0017634801333770156,
+      0.000249894626904279,
       0.0,
       20.577260971069336,
       23.947744369506836,
@@ -5525,14 +6060,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5552,9 +6089,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0009795749792829156,
-      -0.0002764303353615105,
-      0.0019027661764994264,
+      0.01002446748316288,
+      -0.000575286045204848,
+      -0.0005197404534555972,
       0.0,
       20.580516815185547,
       23.940900802612305,
@@ -5566,14 +6103,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5593,9 +6132,9 @@
       0.0,
       0.0,
       1.0,
-      2.0833671442233026e-05,
-      0.00037866184720769525,
-      -0.0006089656963013113,
+      0.008628614246845245,
+      -0.0006096060387790203,
+      -0.0018216572934761643,
       0.0,
       20.58376121520996,
       23.934064865112305,
@@ -5607,14 +6146,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5634,9 +6175,9 @@
       0.0,
       0.0,
       1.0,
-      0.0002101343561662361,
-      0.0003401962749194354,
-      0.0004153046174906194,
+      0.011072441004216671,
+      0.00039255121373571455,
+      0.0004040886415168643,
       0.0,
       20.586994171142578,
       23.92723846435547,
@@ -5648,14 +6189,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5675,9 +6218,9 @@
       0.0,
       0.0,
       1.0,
-      0.0016961080254986882,
-      0.0006479055155068636,
-      -0.0007913544541224837,
+      0.009550044313073158,
+      0.0007534872856922448,
+      -0.0013371683889999986,
       0.0,
       20.59021759033203,
       23.92041778564453,
@@ -5689,14 +6232,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5716,9 +6261,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007243185536935925,
-      -0.0004449249536264688,
-      0.0001551691093482077,
+      0.009722571820020676,
+      5.133683589519933e-05,
+      0.0006696595810353756,
       0.0,
       20.593429565429688,
       23.913606643676758,
@@ -5730,14 +6275,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5757,9 +6304,9 @@
       0.0,
       0.0,
       1.0,
-      0.0012095847632735968,
-      -0.0012612509308382869,
-      0.0010164512787014246,
+      0.01041098777204752,
+      0.00026959326351061463,
+      -0.0002733042638283223,
       0.0,
       20.596630096435547,
       23.906803131103516,
@@ -5771,14 +6318,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5798,9 +6347,9 @@
       0.0,
       0.0,
       1.0,
-      0.0012603321811184287,
-      0.0012805918231606483,
-      0.0010294171515852213,
+      0.010502226650714874,
+      -0.0001597757072886452,
+      0.0003469774383120239,
       0.0,
       20.599821090698242,
       23.900007247924805,
@@ -5812,14 +6361,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5839,9 +6390,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007560960366390646,
-      -0.0005527371540665627,
-      0.0006271721213124692,
+      0.009702893905341625,
+      0.0005717775784432888,
+      0.0004900845233350992,
       0.0,
       20.603002548217773,
       23.893220901489258,
@@ -5853,14 +6404,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5880,9 +6433,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007728856871835887,
-      0.0018152473494410515,
-      0.0007653217180632055,
+      0.010624964721500874,
+      -0.0011624217731878161,
+      -0.001392660429701209,
       0.0,
       20.606170654296875,
       23.88644027709961,
@@ -5894,14 +6447,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5921,9 +6476,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0006197504699230194,
-      0.0007637334638275206,
-      0.0016115277539938688,
+      0.008652185089886189,
+      -0.00018059855210594833,
+      6.419306009775028e-05,
       0.0,
       20.609331130981445,
       23.879669189453125,
@@ -5935,14 +6490,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -5962,9 +6519,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0015363837592303753,
-      0.00016267165483441204,
-      0.0010182480327785015,
+      0.010416221804916859,
+      0.0009422366856597364,
+      -0.0007497106562368572,
       0.0,
       20.612478256225586,
       23.872905731201172,
@@ -5976,14 +6533,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6003,9 +6562,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007372259278781712,
-      -1.1920874385396019e-05,
-      0.0011038166703656316,
+      0.010000728070735931,
+      0.0011302299099043012,
+      -0.0011257219593971968,
       0.0,
       20.615615844726562,
       23.86614990234375,
@@ -6017,14 +6576,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6044,9 +6605,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0013381075114011765,
-      0.0003825656895060092,
-      -0.0015725272241979837,
+      0.010475059039890766,
+      -0.0004783551557920873,
+      0.0013767386553809047,
       0.0,
       20.618743896484375,
       23.85940170288086,
@@ -6058,14 +6619,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6085,9 +6648,9 @@
       0.0,
       0.0,
       1.0,
-      0.0004117978096473962,
-      -0.0007717158296145499,
-      0.0022516241297125816,
+      0.009580112993717194,
+      0.0013407728401944041,
+      -0.002353175077587366,
       0.0,
       20.62186050415039,
       23.8526611328125,
@@ -6099,14 +6662,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6126,9 +6691,9 @@
       0.0,
       0.0,
       1.0,
-      0.0010788578074425459,
-      0.0004172919725533575,
-      -0.0009779792744666338,
+      0.00957506988197565,
+      0.0002521921996958554,
+      -0.0016126908594742417,
       0.0,
       20.624967575073242,
       23.845928192138672,
@@ -6140,14 +6705,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6167,9 +6734,9 @@
       0.0,
       0.0,
       1.0,
-      0.0011158183915540576,
-      0.0008323455112986267,
-      -0.0007343035540543497,
+      0.01093637477606535,
+      0.00028683949494734406,
+      -0.0001712792000034824,
       0.0,
       20.628063201904297,
       23.839202880859375,
@@ -6181,14 +6748,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6208,9 +6777,9 @@
       0.0,
       0.0,
       1.0,
-      0.000782684946898371,
-      -0.0008057208033278584,
-      -0.0011572090443223715,
+      0.009397774003446102,
+      0.0012197911273688078,
+      -0.0023069249000400305,
       0.0,
       20.631149291992188,
       23.832487106323242,
@@ -6222,14 +6791,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6249,9 +6820,9 @@
       0.0,
       0.0,
       1.0,
-      0.0012769231107085943,
-      0.0014096183003857732,
-      0.00038134027272462845,
+      0.010186667554080486,
+      0.0007530516013503075,
+      0.0005410399753600359,
       0.0,
       20.63422393798828,
       23.82577896118164,
@@ -6263,14 +6834,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6290,9 +6863,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0005153499078005552,
-      -0.0014218476135283709,
-      0.0002752332657109946,
+      0.011126259341835976,
+      -0.0009202592191286385,
+      -0.0009361262200400233,
       0.0,
       20.63728904724121,
       23.819076538085938,
@@ -6304,14 +6877,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6331,9 +6906,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0011522643035277724,
-      -0.0003282762481831014,
-      -0.00046690512681379914,
+      0.011014528572559357,
+      -0.0026337779127061367,
+      -0.000826051167678088,
       0.0,
       20.640342712402344,
       23.8123836517334,
@@ -6345,14 +6920,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6372,9 +6949,9 @@
       0.0,
       0.0,
       1.0,
-      0.001569659449160099,
-      -0.00013461074559018016,
-      0.0005051512853242457,
+      0.011752164922654629,
+      -0.00011157483095303178,
+      -0.0008725702646188438,
       0.0,
       20.643386840820312,
       23.80569839477539,
@@ -6386,14 +6963,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6413,9 +6992,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0013493809383362532,
-      0.00019654505013022572,
-      0.0007906057289801538,
+      0.00885773729532957,
+      -0.0012105203932151198,
+      -0.0010101951193064451,
       0.0,
       20.646421432495117,
       23.799020767211914,
@@ -6427,14 +7006,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6454,9 +7035,9 @@
       0.0,
       0.0,
       1.0,
-      2.1510280930669978e-05,
-      -0.0013470641570165753,
-      -0.0013321517035365105,
+      0.008988218382000923,
+      0.001233159564435482,
+      -0.00033129178336821496,
       0.0,
       20.649444580078125,
       23.79235076904297,
@@ -6468,14 +7049,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6495,9 +7078,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0011818871134892106,
-      0.00016226180014200509,
-      -0.001468828646466136,
+      0.01185251958668232,
+      -0.0004084985994268209,
+      0.0014247620711103082,
       0.0,
       20.652456283569336,
       23.785688400268555,
@@ -6509,14 +7092,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6536,9 +7121,9 @@
       0.0,
       0.0,
       1.0,
-      0.0019748276099562645,
-      0.0003415037353988737,
-      -0.0005123129230923951,
+      0.009868866764008999,
+      0.0009308227454312146,
+      -0.0004861642373725772,
       0.0,
       20.655460357666016,
       23.779033660888672,
@@ -6550,14 +7135,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6577,9 +7164,9 @@
       0.0,
       0.0,
       1.0,
-      0.0021402952261269093,
-      -0.000539237807970494,
-      -0.0001476669276598841,
+      0.009948210790753365,
+      -0.0006180927739478648,
+      0.0010514880996197462,
       0.0,
       20.6584529876709,
       23.77238655090332,
@@ -6591,14 +7178,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6618,9 +7207,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0003981048066634685,
-      -0.0004164730489719659,
-      -0.0017439292278140783,
+      0.008694403804838657,
+      -0.0028909826651215553,
+      0.0004638376703951508,
       0.0,
       20.661434173583984,
       23.7657470703125,
@@ -6632,14 +7221,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6659,9 +7250,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010540041839703918,
-      0.00027325263363309205,
-      0.0009876228868961334,
+      0.011679451912641525,
+      -0.0002715545706450939,
+      0.0010479765478521585,
       0.0,
       20.664405822753906,
       23.75911521911621,
@@ -6673,14 +7264,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6700,9 +7293,9 @@
       0.0,
       0.0,
       1.0,
-      -0.000593570526689291,
-      -0.00023946173314470798,
-      0.0001491151051595807,
+      0.010283371433615685,
+      -0.0006646487745456398,
+      0.002304226392880082,
       0.0,
       20.667367935180664,
       23.752490997314453,
@@ -6714,14 +7307,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6741,9 +7336,9 @@
       0.0,
       0.0,
       1.0,
-      0.0009115129359997809,
-      -0.00018031737999990582,
-      0.00023945095017552376,
+      0.009022963233292103,
+      -0.000870961754117161,
+      -0.001892685773782432,
       0.0,
       20.670320510864258,
       23.745874404907227,
@@ -6755,14 +7350,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6782,9 +7379,9 @@
       0.0,
       0.0,
       1.0,
-      0.00010292905062669888,
-      -0.0007028293330222368,
-      -0.000501670001540333,
+      0.009008393622934818,
+      -0.0016330733196809888,
+      0.0007760456064715981,
       0.0,
       20.673261642456055,
       23.73926544189453,
@@ -6796,14 +7393,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6823,9 +7422,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007297463598661125,
-      0.00013595042400993407,
-      -0.0001888309489004314,
+      0.010556643828749657,
+      -0.0003001421282533556,
+      0.00016540811338927597,
       0.0,
       20.676193237304688,
       23.732664108276367,
@@ -6837,14 +7436,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6864,9 +7465,9 @@
       0.0,
       0.0,
       1.0,
-      0.00030116556445136666,
-      0.0002563828893471509,
-      -0.00011039688251912594,
+      0.009169376455247402,
+      0.0006925235502421856,
+      0.000934554380364716,
       0.0,
       20.679113388061523,
       23.726070404052734,
@@ -6878,14 +7479,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6905,9 +7508,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0010629219468683004,
-      -0.0003506300854496658,
-      0.0002094185765599832,
+      0.009249388240277767,
+      -0.0009988633682951331,
+      -0.0019710317719727755,
       0.0,
       20.682025909423828,
       23.719486236572266,
@@ -6919,14 +7522,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6946,9 +7551,9 @@
       0.0,
       0.0,
       1.0,
-      0.00023230678925756365,
-      -0.0004250487545505166,
-      -0.0007335511036217213,
+      0.01076184120029211,
+      0.0004023968067485839,
+      0.0007064418750815094,
       0.0,
       20.684926986694336,
       23.712907791137695,
@@ -6960,14 +7565,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -6987,9 +7594,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0012631347635760903,
-      0.0005353420274332166,
-      0.0013722095172852278,
+      0.011019308120012283,
+      0.0008362793596461415,
+      0.0018270646687597036,
       0.0,
       20.687816619873047,
       23.706336975097656,
@@ -7001,14 +7608,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7028,9 +7637,9 @@
       0.0,
       0.0,
       1.0,
-      0.0006819689297117293,
-      0.001236120006069541,
-      -0.00014824663230683655,
+      0.008168026804924011,
+      0.0010876647429540753,
+      0.0004118435608688742,
       0.0,
       20.690698623657227,
       23.69977378845215,
@@ -7042,14 +7651,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7069,9 +7680,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0005311950226314366,
-      0.000987027888186276,
-      -0.0023833890445530415,
+      0.010416718199849129,
+      -0.0005656743887811899,
+      0.0007861910853534937,
       0.0,
       20.69356918334961,
       23.693218231201172,
@@ -7083,14 +7694,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7110,9 +7723,9 @@
       0.0,
       0.0,
       1.0,
-      0.00015377304225694388,
-      -0.0009682237869128585,
-      -0.0009705759584903717,
+      0.010671892203390598,
+      0.0014707258669659495,
+      -0.0004962672828696668,
       0.0,
       20.696430206298828,
       23.686670303344727,
@@ -7124,14 +7737,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7151,9 +7766,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007026172243058681,
-      9.894392132991925e-05,
-      0.00027137197321280837,
+      0.008787731640040874,
+      -0.0009552578558214009,
+      0.0005933446809649467,
       0.0,
       20.699281692504883,
       23.68012809753418,
@@ -7165,14 +7780,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7192,9 +7809,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0007961326045915484,
-      0.0010768893407657743,
-      -0.0013446147786453366,
+      0.009261703118681908,
+      -0.0002533929073251784,
+      0.00046026339987292886,
       0.0,
       20.70212173461914,
       23.673595428466797,
@@ -7206,14 +7823,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7233,9 +7852,9 @@
       0.0,
       0.0,
       1.0,
-      7.873505091993138e-05,
-      0.0006199749768711627,
-      0.0009129515965469182,
+      0.009892641566693783,
+      6.611100980080664e-05,
+      6.953949196031317e-05,
       0.0,
       20.704952239990234,
       23.667070388793945,
@@ -7247,14 +7866,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7274,9 +7895,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00019172056636307389,
-      -0.000292125710984692,
-      0.0011621209559962153,
+      0.010138340294361115,
+      -0.000826501112896949,
+      -0.0016405925853177905,
       0.0,
       20.707775115966797,
       23.660552978515625,
@@ -7288,14 +7909,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7315,9 +7938,9 @@
       0.0,
       0.0,
       1.0,
-      0.0011791936121881008,
-      0.0018991793040186167,
-      -0.0008550510392524302,
+      0.008784514851868153,
+      0.0001770717790350318,
+      0.0012654332676902413,
       0.0,
       20.71058464050293,
       23.654041290283203,
@@ -7329,14 +7952,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7356,9 +7981,9 @@
       0.0,
       0.0,
       1.0,
-      0.0012452539522200823,
-      -7.758089486742392e-05,
-      0.00158348074182868,
+      0.008896607905626297,
+      -8.610762597527355e-05,
+      0.0015313749900087714,
       0.0,
       20.71338653564453,
       23.647539138793945,
@@ -7370,14 +7995,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7397,9 +8024,9 @@
       0.0,
       0.0,
       1.0,
-      0.00040465855272486806,
-      -0.0005300215561874211,
-      0.0024105964694172144,
+      0.00856969878077507,
+      0.00020150314958300442,
+      -0.0015045503387227654,
       0.0,
       20.71617889404297,
       23.641042709350586,
@@ -7411,14 +8038,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7438,9 +8067,9 @@
       0.0,
       0.0,
       1.0,
-      0.0016551963053643703,
-      0.0001146541690104641,
-      0.001105220173485577,
+      0.011162582784891129,
+      0.0010610038880258799,
+      -0.0010332392994314432,
       0.0,
       20.71895980834961,
       23.634553909301758,
@@ -7452,14 +8081,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7479,9 +8110,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007786210626363754,
-      -0.0004909353447146714,
-      -0.001362152281217277,
+      0.01010795310139656,
+      -0.002081603743135929,
+      -0.0010681054554879665,
       0.0,
       20.721731185913086,
       23.62807273864746,
@@ -7493,14 +8124,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7520,9 +8153,9 @@
       0.0,
       0.0,
       1.0,
-      -5.054752546129748e-05,
-      -0.0009685421828180552,
-      0.0002256949373986572,
+      0.010036811232566833,
+      0.00036408784217201173,
+      0.0007327357889153063,
       0.0,
       20.7244930267334,
       23.621599197387695,
@@ -7534,14 +8167,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7561,9 +8196,9 @@
       0.0,
       0.0,
       1.0,
-      0.00020856662013102323,
-      0.0008338706684298813,
-      0.00036397710209712386,
+      0.00933505967259407,
+      0.0004301541775930673,
+      -0.00011967591126449406,
       0.0,
       20.727245330810547,
       23.61513328552246,
@@ -7575,14 +8210,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7602,9 +8239,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0014820272335782647,
-      -6.94454211043194e-05,
-      0.0002501718408893794,
+      0.009455326944589615,
+      -0.0001372520055156201,
+      0.0004746367922052741,
       0.0,
       20.72998809814453,
       23.608675003051758,
@@ -7616,14 +8253,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7643,9 +8282,9 @@
       0.0,
       0.0,
       1.0,
-      0.0006334137287922204,
-      0.00011263689521001652,
-      -0.0012517219875007868,
+      0.012379337102174759,
+      -0.000714082911144942,
+      0.0016258496325463057,
       0.0,
       20.73272132873535,
       23.602224349975586,
@@ -7657,14 +8296,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7684,9 +8325,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0004415667208377272,
-      0.0006387935136444867,
-      -0.0003154332225676626,
+      0.009936592541635036,
+      -0.001049616141244769,
+      0.001259373500943184,
       0.0,
       20.735443115234375,
       23.595779418945312,
@@ -7698,14 +8339,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7725,9 +8368,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0012397841783240438,
-      0.00011216563871130347,
-      -0.0004346341302152723,
+      0.008539280854165554,
+      0.0006968103116378188,
+      0.0009851569775491953,
       0.0,
       20.738157272338867,
       23.589344024658203,
@@ -7739,14 +8382,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7766,9 +8411,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0008466293220408261,
-      -0.0004897854523733258,
-      -0.00031140848295763135,
+      0.011853544972836971,
+      -0.0008003095863386989,
+      0.0008669537492096424,
       0.0,
       20.740859985351562,
       23.582914352416992,
@@ -7780,14 +8425,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7807,9 +8454,9 @@
       0.0,
       0.0,
       1.0,
-      0.0009614101727493107,
-      0.0009619963821023703,
-      -0.0019704350270330906,
+      0.00800185464322567,
+      -0.0004303775494918227,
+      -0.0008294018334709108,
       0.0,
       20.743555068969727,
       23.576492309570312,
@@ -7821,14 +8468,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7848,9 +8497,9 @@
       0.0,
       0.0,
       1.0,
-      0.0007232336793094873,
-      0.0003358555259183049,
-      -0.0017773236613720655,
+      0.009596425108611584,
+      0.000616188277490437,
+      -0.0012197366449981928,
       0.0,
       20.746238708496094,
       23.570077896118164,
@@ -7862,14 +8511,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],
@@ -7889,9 +8540,9 @@
       0.0,
       0.0,
       1.0,
-      -0.00035715970443561673,
-      -0.0007130680023692548,
-      0.0006601348286494613,
+      0.010283942334353924,
+      0.0003178815240971744,
+      -0.0006690946174785495,
       0.0,
       20.748912811279297,
       23.563669204711914,
@@ -7903,14 +8554,16 @@
     "is_sunlit": true,
     "subsystem_statuses": {
       "EPS": "Nominal",
-      "ADCS": "Nominal",
-      "TCS": "HeaterStuckOff"
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
     },
     "persistent_faults": [
       {
-        "subsystem": "TCS",
-        "type": "HeaterStuckOff",
-        "params": {},
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
         "intermittent": false
       }
     ],

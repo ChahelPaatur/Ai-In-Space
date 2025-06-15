@@ -10,9 +10,9 @@
       0.0,
       0.0,
       1.0,
-      -0.0011255497811362147,
-      0.000914388510864228,
-      -0.0007873530848883092,
+      -0.00042019030661322176,
+      0.0005560274003073573,
+      -0.0007750609656795859,
       0.0,
       20.0,
       25.0,
@@ -44,16 +44,16 @@
       0.0,
       0.0,
       1.0,
-      0.0008530544582754374,
-      0.000841632834635675,
-      -0.0005592019879259169,
+      -3.826380634563975e-06,
+      0.0002595994155853987,
+      0.0005049059400334954,
       0.0,
       20.0049991607666,
       24.99187469482422,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -78,31 +78,24 @@
       0.0,
       0.0,
       1.0,
-      8.961083949543536e-06,
-      -0.0009304823470301926,
-      0.0009507625945843756,
+      -0.0012648742413148284,
+      -0.0010396558791399002,
+      0.000683837104588747,
       0.0,
       20.009984970092773,
       24.983760833740234,
       0.0
     ],
     "action": 0,
-    "reward": -1.1,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "PowerShortCircuit",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -113,37 +106,30 @@
     "observation": [
       0.800041675567627,
       100.0,
-      24.0,
+      28.700166702270508,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0013562540989369154,
-      -0.001278948737308383,
-      -0.00034673308255150914,
+      0.0012681559892371297,
+      -0.0023018275387585163,
+      0.0010445096995681524,
       0.0,
       20.014957427978516,
       24.975656509399414,
       0.0
     ],
-    "action": 1,
-    "reward": 2.2,
+    "action": 0,
+    "reward": 0.2,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "PowerShortCircuit",
+      "EPS": "Nominal",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -152,17 +138,17 @@
   {
     "step": 5,
     "observation": [
-      0.8000138998031616,
+      0.8000555634498596,
       100.0,
-      28.700056076049805,
+      28.70022201538086,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0022121588699519634,
-      0.0004649589827749878,
-      -0.0005483641289174557,
+      -0.0006568118697032332,
+      -0.00010494273010408506,
+      -0.0013932856963947415,
       0.0,
       20.019914627075195,
       24.967561721801758,
@@ -177,14 +163,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -193,17 +172,17 @@
   {
     "step": 6,
     "observation": [
-      0.8000277876853943,
+      0.8000694513320923,
       100.0,
-      28.700111389160156,
+      28.70027732849121,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005222719628363848,
-      -0.0003592011926230043,
-      -0.001125119160860777,
+      -0.0012309339363127947,
+      0.0004854142898693681,
+      -0.0003934793930966407,
       0.0,
       20.024858474731445,
       24.959476470947266,
@@ -218,14 +197,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -234,17 +206,17 @@
   {
     "step": 7,
     "observation": [
-      0.800041675567627,
+      0.800083339214325,
       100.0,
-      28.700166702270508,
+      28.700332641601562,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007056256290525198,
-      -0.0012648520059883595,
-      0.001631797174923122,
+      -0.002329152077436447,
+      -0.000805635645519942,
+      -0.001077115535736084,
       0.0,
       20.029788970947266,
       24.95140266418457,
@@ -259,14 +231,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -275,17 +240,17 @@
   {
     "step": 8,
     "observation": [
-      0.8000555634498596,
+      0.8000972270965576,
       100.0,
-      28.70022201538086,
+      28.700387954711914,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005283927894197404,
-      0.0003762423002626747,
-      -0.00017703036428429186,
+      0.0008815262117423117,
+      0.0009515098063275218,
+      0.000323568849125877,
       0.0,
       20.034704208374023,
       24.94333839416504,
@@ -300,14 +265,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -316,17 +274,17 @@
   {
     "step": 9,
     "observation": [
-      0.8000694513320923,
+      0.8001111149787903,
       100.0,
-      28.70027732849121,
+      28.7004451751709,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003070669190492481,
-      -0.001141540240496397,
-      0.0010027920361608267,
+      0.001354483189061284,
+      -0.0005923146964050829,
+      0.00020773647702299058,
       0.0,
       20.03960609436035,
       24.935285568237305,
@@ -341,14 +299,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -357,17 +308,17 @@
   {
     "step": 10,
     "observation": [
-      0.800083339214325,
+      0.800125002861023,
       100.0,
-      28.700332641601562,
+      28.70050048828125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0008705926593393087,
-      -0.0010367220966145396,
-      -0.0003280219389125705,
+      -0.002742585027590394,
+      -0.001004792982712388,
+      -0.0014372473815456033,
       0.0,
       20.04449462890625,
       24.927242279052734,
@@ -382,14 +333,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -398,17 +342,17 @@
   {
     "step": 11,
     "observation": [
-      0.8000972270965576,
+      0.8001388907432556,
       100.0,
-      28.700387954711914,
+      28.7005558013916,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0011151566868647933,
-      -0.00029253598768264055,
-      -0.0011059773387387395,
+      -0.0008161011501215398,
+      0.0014007185818627477,
+      0.0005079301772639155,
       0.0,
       20.049367904663086,
       24.919208526611328,
@@ -423,14 +367,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -439,17 +376,17 @@
   {
     "step": 12,
     "observation": [
-      0.8001111149787903,
+      0.8001527786254883,
       100.0,
-      28.7004451751709,
+      28.700611114501953,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00014497060328722,
-      -0.0017046674620360136,
-      0.00018969921802636236,
+      0.0008237758884206414,
+      -0.00075815204763785,
+      -2.2351881852955557e-05,
       0.0,
       20.054227828979492,
       24.911184310913086,
@@ -464,14 +401,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -480,17 +410,17 @@
   {
     "step": 13,
     "observation": [
-      0.800125002861023,
+      0.800166666507721,
       100.0,
-      28.70050048828125,
+      28.700666427612305,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0001379334571538493,
-      -0.0005511387134902179,
-      7.55625223973766e-05,
+      0.0024238675832748413,
+      -0.0014154298696666956,
+      0.0006142050260677934,
       0.0,
       20.05907440185547,
       24.90317153930664,
@@ -505,14 +435,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -521,17 +444,17 @@
   {
     "step": 14,
     "observation": [
-      0.8001388907432556,
+      0.8001805543899536,
       100.0,
-      28.7005558013916,
+      28.700721740722656,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003429226344451308,
-      0.00027572200633585453,
-      0.0008260600734502077,
+      0.0014570039929822087,
+      9.204022353515029e-05,
+      -0.0014239934971556067,
       0.0,
       20.063905715942383,
       24.89516830444336,
@@ -546,14 +469,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -562,17 +478,17 @@
   {
     "step": 15,
     "observation": [
-      0.8001527786254883,
+      0.8001944422721863,
       100.0,
-      28.700611114501953,
+      28.700777053833008,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0008596190600655973,
-      -0.00047075041220523417,
-      0.00035223158192820847,
+      0.001297889743000269,
+      -0.0017771893180906773,
+      -0.0011476605432108045,
       0.0,
       20.068723678588867,
       24.887174606323242,
@@ -587,14 +503,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -603,17 +512,17 @@
   {
     "step": 16,
     "observation": [
-      0.800166666507721,
+      0.800208330154419,
       100.0,
-      28.700666427612305,
+      28.700834274291992,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006079269805923104,
-      -0.00023390378919430077,
-      0.0007312740199267864,
+      0.0012254772009328008,
+      -0.0004588755255099386,
+      -0.0008634484256617725,
       0.0,
       20.073528289794922,
       24.879192352294922,
@@ -628,14 +537,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -644,17 +546,17 @@
   {
     "step": 17,
     "observation": [
-      0.8001805543899536,
+      0.8002222180366516,
       100.0,
-      28.700721740722656,
+      28.700889587402344,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      9.534965647617355e-05,
-      -0.0005233371630311012,
-      0.0006421207217499614,
+      0.0018464932218194008,
+      0.0011183590395376086,
+      0.0013051906134933233,
       0.0,
       20.078319549560547,
       24.871217727661133,
@@ -669,14 +571,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -685,17 +580,17 @@
   {
     "step": 18,
     "observation": [
-      0.8001944422721863,
+      0.8002361059188843,
       100.0,
-      28.700777053833008,
+      28.700944900512695,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006314596976153553,
-      -0.0010037916945293546,
-      -0.0005918029928579926,
+      2.016206235566642e-05,
+      0.0005771628930233419,
+      -0.00014838724746368825,
       0.0,
       20.083097457885742,
       24.86325454711914,
@@ -710,14 +605,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -726,17 +614,17 @@
   {
     "step": 19,
     "observation": [
-      0.800208330154419,
+      0.8002499938011169,
       100.0,
-      28.700834274291992,
+      28.701000213623047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00021467819169629365,
-      -0.0019969637505710125,
-      -0.001528223161585629,
+      -0.0002308754628757015,
+      -0.0005362703814171255,
+      -0.00024258397752419114,
       0.0,
       20.087860107421875,
       24.855300903320312,
@@ -751,14 +639,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -767,17 +648,17 @@
   {
     "step": 20,
     "observation": [
-      0.8002222180366516,
+      0.8002638816833496,
       100.0,
-      28.700889587402344,
+      28.7010555267334,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000404906488256529,
-      0.0015127678634598851,
-      -0.0001323950127698481,
+      0.0004734719404950738,
+      -0.0007470076088793576,
+      0.0007751230732537806,
       0.0,
       20.09261131286621,
       24.84735870361328,
@@ -792,14 +673,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -808,17 +682,17 @@
   {
     "step": 21,
     "observation": [
-      0.8002361059188843,
+      0.8002777695655823,
       100.0,
-      28.700944900512695,
+      28.70111083984375,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011694205459207296,
-      0.0006660799263045192,
-      0.002628462156280875,
+      0.0024670660495758057,
+      0.00045908207539469004,
+      -4.128303044126369e-05,
       0.0,
       20.097347259521484,
       24.83942413330078,
@@ -833,14 +707,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -849,17 +716,17 @@
   {
     "step": 22,
     "observation": [
-      0.8002499938011169,
+      0.8002916574478149,
       100.0,
-      28.701000213623047,
+      28.7011661529541,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007837001467123628,
-      -0.0014143588487058878,
-      -0.0009090210660360754,
+      0.0005853944458067417,
+      0.0023648557253181934,
+      -0.0014929129974916577,
       0.0,
       20.102069854736328,
       24.831501007080078,
@@ -874,14 +741,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -890,17 +750,17 @@
   {
     "step": 23,
     "observation": [
-      0.8002638816833496,
+      0.8003055453300476,
       100.0,
-      28.7010555267334,
+      28.701221466064453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009536792058497667,
-      0.00010228737664874643,
-      -0.0015017226105555892,
+      0.0009702416136860847,
+      0.0007044140947982669,
+      -0.001326940138824284,
       0.0,
       20.106779098510742,
       24.82358741760254,
@@ -915,14 +775,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -931,17 +784,17 @@
   {
     "step": 24,
     "observation": [
-      0.8002777695655823,
+      0.8003194332122803,
       100.0,
-      28.70111083984375,
+      28.701278686523438,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0012305829441174865,
-      0.0008933702483773232,
-      0.0009570596739649773,
+      9.61769328569062e-05,
+      -0.0006128037348389626,
+      -0.00037339015398174524,
       0.0,
       20.111474990844727,
       24.815683364868164,
@@ -956,14 +809,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -972,17 +818,17 @@
   {
     "step": 25,
     "observation": [
-      0.8002916574478149,
+      0.8003333210945129,
       100.0,
-      28.7011661529541,
+      28.70133399963379,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00045962497824802995,
-      -0.00032895978074520826,
-      0.0006111605907790363,
+      -0.0008907626033760607,
+      0.0012980055762454867,
+      0.0015683630481362343,
       0.0,
       20.11615562438965,
       24.807788848876953,
@@ -997,14 +843,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1013,17 +852,17 @@
   {
     "step": 26,
     "observation": [
-      0.8003055453300476,
+      0.8003472089767456,
       100.0,
-      28.701221466064453,
+      28.70138931274414,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009319533710367978,
-      -0.0004889850388281047,
-      0.0010023444192484021,
+      0.0005879562231712043,
+      0.0005728229298256338,
+      0.0006559506873600185,
       0.0,
       20.120824813842773,
       24.799903869628906,
@@ -1038,14 +877,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1054,17 +886,17 @@
   {
     "step": 27,
     "observation": [
-      0.8003194332122803,
+      0.8003610968589783,
       100.0,
-      28.701278686523438,
+      28.701444625854492,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00012074775440851226,
-      -0.0014816517941653728,
-      7.683950570935849e-06,
+      0.0001017059403238818,
+      0.0005331204156391323,
+      -0.0014318263856694102,
       0.0,
       20.125478744506836,
       24.792030334472656,
@@ -1079,14 +911,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1095,17 +920,17 @@
   {
     "step": 28,
     "observation": [
-      0.8003333210945129,
+      0.8003749847412109,
       100.0,
-      28.70133399963379,
+      28.701499938964844,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006646222900599241,
-      -0.00025795321562327445,
-      0.00013125239638611674,
+      0.00034837168641388416,
+      0.0009973749984055758,
+      0.00016649138706270605,
       0.0,
       20.1301212310791,
       24.78416633605957,
@@ -1120,14 +945,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1136,17 +954,17 @@
   {
     "step": 29,
     "observation": [
-      0.8003472089767456,
+      0.8003888726234436,
       100.0,
-      28.70138931274414,
+      28.701555252075195,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005998294218443334,
-      0.000684861617628485,
-      0.0004316344566177577,
+      0.00246759713627398,
+      0.0014624802861362696,
+      0.00036454282235354185,
       0.0,
       20.134748458862305,
       24.77631187438965,
@@ -1161,14 +979,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1177,17 +988,17 @@
   {
     "step": 30,
     "observation": [
-      0.8003610968589783,
+      0.8004027605056763,
       100.0,
-      28.701444625854492,
+      28.701610565185547,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.001537359319627285,
-      0.00022278414689935744,
-      0.001617358298972249,
+      -0.0016972095472738147,
+      0.0015802241396158934,
+      -0.00011306808301014826,
       0.0,
       20.13936424255371,
       24.768465042114258,
@@ -1202,14 +1013,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1218,17 +1022,17 @@
   {
     "step": 31,
     "observation": [
-      0.8003749847412109,
+      0.8004166483879089,
       100.0,
-      28.701499938964844,
+      28.7016658782959,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0001308684586547315,
-      0.00026558322133496404,
-      1.7342517821816728e-05,
+      -0.001363507122732699,
+      -0.002582793589681387,
+      0.0012363858986645937,
       0.0,
       20.143964767456055,
       24.760631561279297,
@@ -1243,14 +1047,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1259,17 +1056,17 @@
   {
     "step": 32,
     "observation": [
-      0.8003888726234436,
+      0.8004305362701416,
       100.0,
-      28.701555252075195,
+      28.701723098754883,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.002005950780585408,
-      0.0016198394587263465,
-      -0.0004907332477159798,
+      0.00043893727706745267,
+      0.0006255877087824047,
+      0.0006926211644895375,
       0.0,
       20.14855194091797,
       24.752805709838867,
@@ -1284,14 +1081,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1300,17 +1090,17 @@
   {
     "step": 33,
     "observation": [
-      0.8004027605056763,
+      0.8004444241523743,
       100.0,
-      28.701610565185547,
+      28.701778411865234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0002654671261552721,
-      -0.001055349363014102,
-      -4.413802525959909e-05,
+      0.00010877687600441277,
+      0.00043473197729326785,
+      0.0010237208334729075,
       0.0,
       20.153127670288086,
       24.7449893951416,
@@ -1325,14 +1115,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1341,17 +1124,17 @@
   {
     "step": 34,
     "observation": [
-      0.8004166483879089,
+      0.8004583120346069,
       100.0,
-      28.7016658782959,
+      28.701833724975586,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00099793984554708,
-      -0.0004621250554919243,
-      0.0008805795223452151,
+      0.0009331557666882873,
+      -0.0013841602485626936,
+      0.0017992212669923902,
       0.0,
       20.15768814086914,
       24.7371826171875,
@@ -1366,14 +1149,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1382,17 +1158,17 @@
   {
     "step": 35,
     "observation": [
-      0.8004305362701416,
+      0.8004721999168396,
       100.0,
-      28.701723098754883,
+      28.701889038085938,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      2.5068189643207006e-05,
-      0.00017575871606823057,
-      -0.0012155596632510424,
+      0.0006942875334061682,
+      -0.0013953604502603412,
+      0.0011444143019616604,
       0.0,
       20.1622371673584,
       24.729387283325195,
@@ -1407,14 +1183,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1423,17 +1192,17 @@
   {
     "step": 36,
     "observation": [
-      0.8004444241523743,
+      0.8004860877990723,
       100.0,
-      28.701778411865234,
+      28.70194435119629,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000977520365267992,
-      -0.0005705862422473729,
-      0.0011947947787120938,
+      0.0008702285122126341,
+      0.00025589371216483414,
+      0.00048970797797665,
       0.0,
       20.166770935058594,
       24.721599578857422,
@@ -1448,14 +1217,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1464,17 +1226,17 @@
   {
     "step": 37,
     "observation": [
-      0.8004583120346069,
+      0.8004999756813049,
       100.0,
-      28.701833724975586,
+      28.70199966430664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00046378301340155303,
-      -0.0003619079361669719,
-      -0.000117795767437201,
+      0.0005018016090616584,
+      -0.000559308857191354,
+      -0.0005741033819504082,
       0.0,
       20.171293258666992,
       24.713823318481445,
@@ -1489,14 +1251,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1505,17 +1260,17 @@
   {
     "step": 38,
     "observation": [
-      0.8004721999168396,
+      0.8005138635635376,
       100.0,
-      28.701889038085938,
+      28.702054977416992,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009657504269853234,
-      0.0024617924354970455,
-      0.0006543886265717447,
+      -0.0006299582892097533,
+      -0.0002766870893537998,
+      -0.0005864370032213628,
       0.0,
       20.175800323486328,
       24.7060546875,
@@ -1530,14 +1285,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1546,17 +1294,17 @@
   {
     "step": 39,
     "observation": [
-      0.8004860877990723,
+      0.8005277514457703,
       100.0,
-      28.70194435119629,
+      28.702110290527344,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0008977903053164482,
-      6.481639138655737e-05,
-      -0.0001383233757223934,
+      0.0015329886227846146,
+      0.0004956122138537467,
+      -0.0005900360411033034,
       0.0,
       20.180295944213867,
       24.69829750061035,
@@ -1571,14 +1319,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1587,17 +1328,17 @@
   {
     "step": 40,
     "observation": [
-      0.8004999756813049,
+      0.8005416393280029,
       100.0,
-      28.70199966430664,
+      28.702167510986328,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00044551666360348463,
-      -0.0011340143391862512,
-      -0.0011809859424829483,
+      0.00019807596981991082,
+      -0.0002363021339988336,
+      0.00044060350046493113,
       0.0,
       20.184778213500977,
       24.690547943115234,
@@ -1612,14 +1353,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1628,17 +1362,17 @@
   {
     "step": 41,
     "observation": [
-      0.8005138635635376,
+      0.8005555272102356,
       100.0,
-      28.702054977416992,
+      28.70222282409668,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007721505244262516,
-      -0.00024992614635266364,
-      0.00020490637689363211,
+      0.0006854208768345416,
+      -0.0034311364870518446,
+      0.000274547201115638,
       0.0,
       20.189247131347656,
       24.682809829711914,
@@ -1653,14 +1387,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1669,17 +1396,17 @@
   {
     "step": 42,
     "observation": [
-      0.8005277514457703,
+      0.8005694150924683,
       100.0,
-      28.702110290527344,
+      28.70227813720703,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00018907339836005121,
-      0.0011400900548323989,
-      0.0013131896266713738,
+      -0.000914593692868948,
+      -0.000672259193379432,
+      0.0001679489650996402,
       0.0,
       20.193702697753906,
       24.675081253051758,
@@ -1694,14 +1421,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1710,17 +1430,17 @@
   {
     "step": 43,
     "observation": [
-      0.8005416393280029,
+      0.8005833625793457,
       100.0,
-      28.702167510986328,
+      28.702333450317383,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0001342372561339289,
-      0.0011562096187844872,
-      0.00025934845325537026,
+      0.0005428589065559208,
+      -0.001050498685799539,
+      -0.0005880641983821988,
       0.0,
       20.198144912719727,
       24.667360305786133,
@@ -1735,14 +1455,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1751,17 +1464,17 @@
   {
     "step": 44,
     "observation": [
-      0.8005555272102356,
+      0.8005972504615784,
       100.0,
-      28.70222282409668,
+      28.702388763427734,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.001018553040921688,
-      0.0006527455407194793,
-      0.00012703059474006295,
+      -0.001107041141949594,
+      -0.0009809189941734076,
+      0.0001838336611399427,
       0.0,
       20.202573776245117,
       24.659650802612305,
@@ -1776,14 +1489,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1792,17 +1498,17 @@
   {
     "step": 45,
     "observation": [
-      0.8005694150924683,
+      0.800611138343811,
       100.0,
-      28.70227813720703,
+      28.702444076538086,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.001277328236028552,
-      0.0002952268405351788,
-      0.000682525394950062,
+      -0.0008190636872313917,
+      0.0008128241170197725,
+      0.00039751495933160186,
       0.0,
       20.20699119567871,
       24.65195083618164,
@@ -1817,14 +1523,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1833,17 +1532,17 @@
   {
     "step": 46,
     "observation": [
-      0.8005833625793457,
+      0.8006250262260437,
       100.0,
-      28.702333450317383,
+      28.702499389648438,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011057571973651648,
-      -0.000536649429704994,
-      -0.001622882904484868,
+      0.0013145837001502514,
+      -0.0009920253651216626,
+      -0.0005536419339478016,
       0.0,
       20.211395263671875,
       24.64426040649414,
@@ -1858,14 +1557,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1874,17 +1566,17 @@
   {
     "step": 47,
     "observation": [
-      0.8005972504615784,
+      0.8006389141082764,
       100.0,
-      28.702388763427734,
+      28.70255470275879,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0025328483898192644,
-      0.0003296539362054318,
-      -0.0008072815253399312,
+      0.00031269490136764944,
+      -0.0018055237596854568,
+      0.0005224446067586541,
       0.0,
       20.21578598022461,
       24.636577606201172,
@@ -1899,14 +1591,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1915,17 +1600,17 @@
   {
     "step": 48,
     "observation": [
-      0.800611138343811,
+      0.800652801990509,
       100.0,
-      28.702444076538086,
+      28.702611923217773,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004938089405186474,
-      4.354409975348972e-05,
-      -0.0017729956889525056,
+      0.0009620707714930177,
+      -0.00047011475544422865,
+      -0.0003846217005047947,
       0.0,
       20.220163345336914,
       24.62890625,
@@ -1940,14 +1625,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1956,17 +1634,17 @@
   {
     "step": 49,
     "observation": [
-      0.8006250262260437,
+      0.8006666898727417,
       100.0,
-      28.702499389648438,
+      28.702667236328125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003828110347967595,
-      0.0013020477490499616,
-      -0.0007494649617001414,
+      0.002461592899635434,
+      -0.0008340555359609425,
+      0.0009795542573556304,
       0.0,
       20.22452735900879,
       24.62124252319336,
@@ -1981,14 +1659,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -1997,17 +1668,17 @@
   {
     "step": 50,
     "observation": [
-      0.8006389141082764,
+      0.8006805777549744,
       100.0,
-      28.70255470275879,
+      28.702722549438477,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000995778595097363,
-      0.00139177730306983,
-      -0.0005085596349090338,
+      -0.00034516656887717545,
+      0.0010070742573589087,
+      -0.0005632469546981156,
       0.0,
       20.228879928588867,
       24.613590240478516,
@@ -2022,14 +1693,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2038,17 +1702,17 @@
   {
     "step": 51,
     "observation": [
-      0.800652801990509,
+      0.800694465637207,
       100.0,
-      28.702611923217773,
+      28.702777862548828,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0008162267040461302,
-      0.00011010699381586164,
-      -0.0009198329062201083,
+      -0.0013544578105211258,
+      -0.0005150965298525989,
+      0.00040114703006111085,
       0.0,
       20.233219146728516,
       24.605945587158203,
@@ -2063,14 +1727,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2079,17 +1736,17 @@
   {
     "step": 52,
     "observation": [
-      0.8006666898727417,
+      0.8007083535194397,
       100.0,
-      28.702667236328125,
+      28.70283317565918,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006891874363645911,
-      0.0003475559933576733,
-      -0.00017284070781897753,
+      -0.0002680209290701896,
+      0.00151720957364887,
+      -0.0005267069791443646,
       0.0,
       20.237545013427734,
       24.598312377929688,
@@ -2104,14 +1761,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2120,17 +1770,17 @@
   {
     "step": 53,
     "observation": [
-      0.8006805777549744,
+      0.8007222414016724,
       100.0,
-      28.702722549438477,
+      28.70288848876953,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00021750455198343843,
-      0.0004990577581338584,
-      -2.334455530217383e-05,
+      -0.0004410822002682835,
+      0.00010254371591145173,
+      -0.0006410533096641302,
       0.0,
       20.241857528686523,
       24.590686798095703,
@@ -2145,14 +1795,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2161,17 +1804,17 @@
   {
     "step": 54,
     "observation": [
-      0.800694465637207,
+      0.800736129283905,
       100.0,
-      28.702777862548828,
+      28.702943801879883,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00122601049952209,
-      -0.0009251682786270976,
-      -0.00021783520060125738,
+      0.001401734072715044,
+      -0.0012877332046627998,
+      -0.0003439015708863735,
       0.0,
       20.246158599853516,
       24.583070755004883,
@@ -2186,14 +1829,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2202,17 +1838,17 @@
   {
     "step": 55,
     "observation": [
-      0.8007083535194397,
+      0.8007500171661377,
       100.0,
-      28.70283317565918,
+      28.702999114990234,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00010648191528161988,
-      0.0003588409745134413,
-      -0.000493862375151366,
+      -0.0016808353830128908,
+      0.0004948233836330473,
+      -0.00039271850255317986,
       0.0,
       20.250446319580078,
       24.575464248657227,
@@ -2227,14 +1863,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2243,17 +1872,17 @@
   {
     "step": 56,
     "observation": [
-      0.8007222414016724,
+      0.8007639050483704,
       100.0,
-      28.70288848876953,
+      28.70305633544922,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00117991934530437,
-      -1.587174119777046e-05,
-      -0.0006759544485248625,
+      -3.3094133868871722e-06,
+      -6.97723517077975e-05,
+      -0.0007356923306360841,
       0.0,
       20.25472068786621,
       24.567867279052734,
@@ -2268,14 +1897,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2284,17 +1906,17 @@
   {
     "step": 57,
     "observation": [
-      0.800736129283905,
+      0.800777792930603,
       100.0,
-      28.702943801879883,
+      28.70311164855957,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00041653294465504587,
-      0.0011610601795837283,
-      0.0004990854649804533,
+      0.00013820602907799184,
+      -0.0012299492955207825,
+      -0.000506217940710485,
       0.0,
       20.258983612060547,
       24.560279846191406,
@@ -2309,14 +1931,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2325,17 +1940,17 @@
   {
     "step": 58,
     "observation": [
-      0.8007500171661377,
+      0.8007916808128357,
       100.0,
-      28.702999114990234,
+      28.703166961669922,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007451504934579134,
-      0.0003578200994525105,
-      -0.00028566550463438034,
+      0.0008256486034952104,
+      0.0011974076041951776,
+      0.000139272611704655,
       0.0,
       20.263233184814453,
       24.552701950073242,
@@ -2350,14 +1965,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2366,17 +1974,17 @@
   {
     "step": 59,
     "observation": [
-      0.8007639050483704,
+      0.8008055686950684,
       100.0,
-      28.70305633544922,
+      28.703222274780273,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.001507712178863585,
-      -0.0011242268374189734,
-      0.0007375497370958328,
+      -0.0011334053706377745,
+      -0.00222876132465899,
+      0.00022904643265064806,
       0.0,
       20.26746940612793,
       24.54513168334961,
@@ -2391,14 +1999,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2407,17 +2008,17 @@
   {
     "step": 60,
     "observation": [
-      0.800777792930603,
+      0.800819456577301,
       100.0,
-      28.70311164855957,
+      28.703277587890625,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00127317919395864,
-      -0.0003118191089015454,
-      -0.0005923482240177691,
+      -0.0013112144079059362,
+      -0.0017788204131647944,
+      -0.0010531075531616807,
       0.0,
       20.27169418334961,
       24.537572860717773,
@@ -2432,14 +2033,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2448,17 +2042,17 @@
   {
     "step": 61,
     "observation": [
-      0.8007916808128357,
+      0.8008333444595337,
       100.0,
-      28.703166961669922,
+      28.703332901000977,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00048787257401272655,
-      0.0018807864980772138,
-      0.00016084691742435098,
+      0.0008872806211002171,
+      0.00038011223659850657,
+      0.0002562977315392345,
       0.0,
       20.27590560913086,
       24.53002166748047,
@@ -2473,14 +2067,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2489,17 +2076,17 @@
   {
     "step": 62,
     "observation": [
-      0.8008055686950684,
+      0.8008472323417664,
       100.0,
-      28.703222274780273,
+      28.703388214111328,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000785074254963547,
-      -2.0438810679479502e-05,
-      0.0008004720439203084,
+      2.444232814013958e-05,
+      -0.000508494267705828,
+      0.00032916112104430795,
       0.0,
       20.28010368347168,
       24.522480010986328,
@@ -2514,14 +2101,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2530,17 +2110,17 @@
   {
     "step": 63,
     "observation": [
-      0.800819456577301,
+      0.800861120223999,
       100.0,
-      28.703277587890625,
+      28.70344352722168,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.001475405297242105,
-      -0.0013701729476451874,
-      -0.00032114909845404327,
+      -0.0019517607288435102,
+      -8.779671770753339e-05,
+      -0.001712286495603621,
       0.0,
       20.284290313720703,
       24.51494789123535,
@@ -2555,14 +2135,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2571,17 +2144,17 @@
   {
     "step": 64,
     "observation": [
-      0.8008333444595337,
+      0.8008750081062317,
       100.0,
-      28.703332901000977,
+      28.703500747680664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00010843991913134232,
-      0.0003990783297922462,
-      -0.0008415672346018255,
+      0.0006715345662087202,
+      -0.0010260224808007479,
+      -0.0009858624543994665,
       0.0,
       20.288463592529297,
       24.50742530822754,
@@ -2596,14 +2169,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2612,17 +2178,17 @@
   {
     "step": 65,
     "observation": [
-      0.8008472323417664,
+      0.8008888959884644,
       100.0,
-      28.703388214111328,
+      28.703556060791016,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0010480026248842478,
-      0.0007025682716630399,
-      -0.0001935018808580935,
+      3.87119289371185e-05,
+      -0.0013445032527670264,
+      -0.0011212978279218078,
       0.0,
       20.292625427246094,
       24.49991226196289,
@@ -2637,14 +2203,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2653,17 +2212,17 @@
   {
     "step": 66,
     "observation": [
-      0.800861120223999,
+      0.800902783870697,
       100.0,
-      28.70344352722168,
+      28.703611373901367,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.000924249179661274,
-      -0.00022988974524196237,
-      -0.0005091828061267734,
+      0.0015188538236543536,
+      0.0009589047986082733,
+      -0.002028836403042078,
       0.0,
       20.29677391052246,
       24.492406845092773,
@@ -2678,14 +2237,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2694,17 +2246,17 @@
   {
     "step": 67,
     "observation": [
-      0.8008750081062317,
+      0.8009166717529297,
       100.0,
-      28.703500747680664,
+      28.70366668701172,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010435477597638965,
-      0.00018177871243096888,
-      0.0010374948615208268,
+      8.53193414513953e-05,
+      -0.0029397085309028625,
+      -0.0004531035665422678,
       0.0,
       20.30091094970703,
       24.48491096496582,
@@ -2719,14 +2271,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2735,17 +2280,17 @@
   {
     "step": 68,
     "observation": [
-      0.8008888959884644,
+      0.8009305596351624,
       100.0,
-      28.703556060791016,
+      28.70372200012207,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.000327800284139812,
-      0.0005130512872710824,
-      0.00045859115198254585,
+      0.0007016541785560548,
+      -0.0006043642642907798,
+      0.001600602874532342,
       0.0,
       20.305034637451172,
       24.477426528930664,
@@ -2760,14 +2305,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2776,17 +2314,17 @@
   {
     "step": 69,
     "observation": [
-      0.800902783870697,
+      0.800944447517395,
       100.0,
-      28.703611373901367,
+      28.703777313232422,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00013392287655733526,
-      -0.001614842563867569,
-      -0.0016709624323993921,
+      3.025068508577533e-06,
+      -0.00024383094569202513,
+      -0.0004945100517943501,
       0.0,
       20.309144973754883,
       24.469947814941406,
@@ -2801,14 +2339,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2817,17 +2348,17 @@
   {
     "step": 70,
     "observation": [
-      0.8009166717529297,
+      0.8009583353996277,
       100.0,
-      28.70366668701172,
+      28.703832626342773,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0004278924607206136,
-      -0.0005678667803294957,
-      0.0004211363848298788,
+      0.002048191614449024,
+      -0.0011863430263474584,
+      -0.0013261811109259725,
       0.0,
       20.313243865966797,
       24.462480545043945,
@@ -2842,14 +2373,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2858,17 +2382,17 @@
   {
     "step": 71,
     "observation": [
-      0.8009305596351624,
+      0.8009722232818604,
       100.0,
-      28.70372200012207,
+      28.703887939453125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -8.441648969892412e-05,
-      -9.788962051970884e-05,
-      -0.0008926037698984146,
+      0.0005702999187633395,
+      -0.00048392624012194574,
+      0.0010499194031581283,
       0.0,
       20.317331314086914,
       24.455020904541016,
@@ -2883,14 +2407,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2899,17 +2416,17 @@
   {
     "step": 72,
     "observation": [
-      0.800944447517395,
+      0.800986111164093,
       100.0,
-      28.703777313232422,
+      28.70394515991211,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0003726998984348029,
-      -0.0019294897792860866,
-      -0.0009125719661824405,
+      0.0022613881155848503,
+      3.22272717312444e-06,
+      -0.0006000401917845011,
       0.0,
       20.3214054107666,
       24.447572708129883,
@@ -2924,14 +2441,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2940,17 +2450,17 @@
   {
     "step": 73,
     "observation": [
-      0.8009583353996277,
+      0.8009999990463257,
       100.0,
-      28.703832626342773,
+      28.70400047302246,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007729644421488047,
-      -0.00044453382724896073,
-      -0.001041700947098434,
+      -0.0007490206626243889,
+      0.0006128850509412587,
+      0.0007367312209680676,
       0.0,
       20.325468063354492,
       24.44013023376465,
@@ -2965,14 +2475,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -2981,17 +2484,17 @@
   {
     "step": 74,
     "observation": [
-      0.8009722232818604,
+      0.8010138869285583,
       100.0,
-      28.703887939453125,
+      28.704055786132812,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005219182930886745,
-      -0.0011739387409761548,
-      0.00028864448540844023,
+      -0.0026029821019619703,
+      -0.0003006540355272591,
+      -0.0006602498469874263,
       0.0,
       20.329517364501953,
       24.43269920349121,
@@ -3006,14 +2509,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3022,17 +2518,17 @@
   {
     "step": 75,
     "observation": [
-      0.800986111164093,
+      0.801027774810791,
       100.0,
-      28.70394515991211,
+      28.704111099243164,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0013038712786510587,
-      -0.001438108622096479,
-      0.00034969946136698127,
+      -0.0008724112412892282,
+      7.861074118409306e-05,
+      -0.0007029884727671742,
       0.0,
       20.333553314208984,
       24.425277709960938,
@@ -3047,14 +2543,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3063,17 +2552,17 @@
   {
     "step": 76,
     "observation": [
-      0.8009999990463257,
+      0.8010416626930237,
       100.0,
-      28.70400047302246,
+      28.704166412353516,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003503308689687401,
-      0.0015551792457699776,
-      0.0009260401129722595,
+      0.00011447058204794303,
+      -0.0009462700691074133,
+      0.0012237575137987733,
       0.0,
       20.33757972717285,
       24.417863845825195,
@@ -3088,14 +2577,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3104,17 +2586,17 @@
   {
     "step": 77,
     "observation": [
-      0.8010138869285583,
+      0.8010555505752563,
       100.0,
-      28.704055786132812,
+      28.704221725463867,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006637974875047803,
-      -0.0012615448795258999,
-      0.0002465863071847707,
+      -0.0006565221701748669,
+      -0.00024380438844673336,
+      0.0007961088558658957,
       0.0,
       20.341590881347656,
       24.410457611083984,
@@ -3129,14 +2611,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3145,17 +2620,17 @@
   {
     "step": 78,
     "observation": [
-      0.801027774810791,
+      0.801069438457489,
       100.0,
-      28.704111099243164,
+      28.70427703857422,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0003986551018897444,
-      -0.0002632034884300083,
-      0.00012560756294988096,
+      0.00029160501435399055,
+      0.001995246158912778,
+      0.00016900939226616174,
       0.0,
       20.345592498779297,
       24.40306282043457,
@@ -3170,14 +2645,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3186,17 +2654,17 @@
   {
     "step": 79,
     "observation": [
-      0.8010416626930237,
+      0.8010833263397217,
       100.0,
-      28.704166412353516,
+      28.704334259033203,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00011626817286014557,
-      -0.0009342040284536779,
-      0.000256234867265448,
+      4.907039328827523e-05,
+      -0.0014770921552553773,
+      0.0008675199351273477,
       0.0,
       20.349580764770508,
       24.395675659179688,
@@ -3211,14 +2679,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3227,17 +2688,17 @@
   {
     "step": 80,
     "observation": [
-      0.8010555505752563,
+      0.8010972142219543,
       100.0,
-      28.704221725463867,
+      28.704389572143555,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004240744165144861,
-      0.001496032695285976,
-      -0.0007289525237865746,
+      0.0003774440847337246,
+      -0.0011980540584772825,
+      -0.0006630464922636747,
       0.0,
       20.353557586669922,
       24.38829803466797,
@@ -3252,14 +2713,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3268,17 +2722,17 @@
   {
     "step": 81,
     "observation": [
-      0.801069438457489,
+      0.801111102104187,
       100.0,
-      28.70427703857422,
+      28.704444885253906,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004282980808056891,
-      -0.0018302130047231913,
-      0.0015284253749996424,
+      -0.0007738497224636376,
+      0.00022714262013323605,
+      -0.000524096074514091,
       0.0,
       20.357521057128906,
       24.380929946899414,
@@ -3293,14 +2747,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3309,17 +2756,17 @@
   {
     "step": 82,
     "observation": [
-      0.8010833263397217,
+      0.8011249899864197,
       100.0,
-      28.704334259033203,
+      28.704500198364258,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005854272749274969,
-      -0.0001996339560719207,
-      -0.0010002285707741976,
+      -0.0015030979411676526,
+      0.0010597907239571214,
+      0.00018471214571036398,
       0.0,
       20.361473083496094,
       24.37356948852539,
@@ -3334,14 +2781,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3350,17 +2790,17 @@
   {
     "step": 83,
     "observation": [
-      0.8010972142219543,
+      0.8011388778686523,
       100.0,
-      28.704389572143555,
+      28.70455551147461,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006444104947149754,
-      -0.0002688166860025376,
-      -0.0005930227343924344,
+      0.0008003925322555006,
+      -0.0010347336065024137,
+      0.0018916078843176365,
       0.0,
       20.36541175842285,
       24.36621856689453,
@@ -3375,14 +2815,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3391,17 +2824,17 @@
   {
     "step": 84,
     "observation": [
-      0.801111102104187,
+      0.801152765750885,
       100.0,
-      28.704444885253906,
+      28.70461082458496,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005143365124240518,
-      -0.003351932391524315,
-      -4.1007275285664946e-05,
+      0.00024355696223210543,
+      0.000641935330349952,
+      -0.001012020162306726,
       0.0,
       20.369340896606445,
       24.358877182006836,
@@ -3416,14 +2849,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3432,17 +2858,17 @@
   {
     "step": 85,
     "observation": [
-      0.8011249899864197,
+      0.8011666536331177,
       100.0,
-      28.704500198364258,
+      28.704666137695312,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007163571426644921,
-      -0.001041783718392253,
-      -0.0005238442099653184,
+      -0.0004715349059551954,
+      -0.0007212379714474082,
+      0.0012039914727210999,
       0.0,
       20.37325668334961,
       24.351543426513672,
@@ -3457,14 +2883,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3473,17 +2892,17 @@
   {
     "step": 86,
     "observation": [
-      0.8011388778686523,
+      0.8011805415153503,
       100.0,
-      28.70455551147461,
+      28.704721450805664,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00080095324665308,
-      0.0010497093899175525,
-      -7.257287506945431e-05,
+      0.0005765295354649425,
+      -0.0010802579345181584,
+      -0.00079054239904508,
       0.0,
       20.377159118652344,
       24.344219207763672,
@@ -3498,14 +2917,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3514,17 +2926,17 @@
   {
     "step": 87,
     "observation": [
-      0.801152765750885,
+      0.801194429397583,
       100.0,
-      28.70461082458496,
+      28.70477867126465,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.000645774242002517,
-      -0.0007994878105819225,
-      -0.0014219158329069614,
+      -0.0002749243867583573,
+      -0.000232138394494541,
+      -0.0007060134084895253,
       0.0,
       20.381052017211914,
       24.336904525756836,
@@ -3539,14 +2951,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3555,17 +2960,17 @@
   {
     "step": 88,
     "observation": [
-      0.8011666536331177,
+      0.8012083172798157,
       100.0,
-      28.704666137695312,
+      28.704833984375,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005898444796912372,
-      0.001179722137749195,
-      0.0007900423370301723,
+      -0.0007346016936935484,
+      0.0008525063749402761,
+      6.631529686274007e-05,
       0.0,
       20.384931564331055,
       24.32959747314453,
@@ -3580,14 +2985,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3596,17 +2994,17 @@
   {
     "step": 89,
     "observation": [
-      0.8011805415153503,
+      0.8012222051620483,
       100.0,
-      28.704721450805664,
+      28.70488929748535,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0002853642508853227,
-      0.0005274464492686093,
-      -0.002263895235955715,
+      0.0002271881967317313,
+      0.0005277987220324576,
+      0.0003504158230498433,
       0.0,
       20.388797760009766,
       24.32229995727539,
@@ -3621,14 +3019,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3637,17 +3028,17 @@
   {
     "step": 90,
     "observation": [
-      0.801194429397583,
+      0.801236093044281,
       100.0,
-      28.70477867126465,
+      28.704944610595703,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00034957329626195133,
-      -0.001173060038127005,
-      0.00019152023014612496,
+      -0.0016478945035487413,
+      0.00017206519260071218,
+      -0.00018813232600223273,
       0.0,
       20.392654418945312,
       24.31501007080078,
@@ -3662,14 +3053,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3678,17 +3062,17 @@
   {
     "step": 91,
     "observation": [
-      0.8012083172798157,
+      0.8012499809265137,
       100.0,
-      28.704833984375,
+      28.704999923706055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00022481134510599077,
-      -0.0013614993076771498,
-      -0.0013662884011864662,
+      -0.0002462846750859171,
+      0.0006900450680404902,
+      -0.0003405759343877435,
       0.0,
       20.39649772644043,
       24.307729721069336,
@@ -3703,14 +3087,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3719,17 +3096,17 @@
   {
     "step": 92,
     "observation": [
-      0.8012222051620483,
+      0.8012638688087463,
       100.0,
-      28.70488929748535,
+      28.705055236816406,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0001259502168977633,
-      -0.0007397637236863375,
-      0.0014673580881208181,
+      0.0010199762182310224,
+      -0.0013271617935970426,
+      -0.0004024550726171583,
       0.0,
       20.40032958984375,
       24.300458908081055,
@@ -3744,14 +3121,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3760,17 +3130,17 @@
   {
     "step": 93,
     "observation": [
-      0.801236093044281,
+      0.801277756690979,
       100.0,
-      28.704944610595703,
+      28.705110549926758,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0012978382874280214,
-      0.0019526948453858495,
-      5.599355426966213e-05,
+      0.00035537793883122504,
+      -0.0011090791085734963,
+      -0.0008244157652370632,
       0.0,
       20.404150009155273,
       24.293195724487305,
@@ -3785,14 +3155,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3801,17 +3164,17 @@
   {
     "step": 94,
     "observation": [
-      0.8012499809265137,
+      0.8012916445732117,
       100.0,
-      28.704999923706055,
+      28.70516586303711,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007989499135874212,
-      0.0013326342450454831,
-      0.001091999700292945,
+      -0.0016065279487520456,
+      0.0003245816333219409,
+      0.0011742509668692946,
       0.0,
       20.407958984375,
       24.28594207763672,
@@ -3826,14 +3189,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3842,17 +3198,17 @@
   {
     "step": 95,
     "observation": [
-      0.8012638688087463,
+      0.8013055324554443,
       100.0,
-      28.705055236816406,
+      28.705223083496094,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00012181346392026171,
-      7.777746759529691e-06,
-      -0.00019526525284163654,
+      -0.0015148570528253913,
+      -0.0020143245346844196,
+      -0.0003839389537461102,
       0.0,
       20.411754608154297,
       24.278696060180664,
@@ -3867,14 +3223,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3883,17 +3232,17 @@
   {
     "step": 96,
     "observation": [
-      0.801277756690979,
+      0.801319420337677,
       100.0,
-      28.705110549926758,
+      28.705278396606445,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.001357993925921619,
-      0.0018576704896986485,
-      0.00021826241572853178,
+      -0.0012307524448260665,
+      -0.00018823267600964755,
+      -0.00047842669300734997,
       0.0,
       20.415538787841797,
       24.271459579467773,
@@ -3908,14 +3257,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3924,17 +3266,17 @@
   {
     "step": 97,
     "observation": [
-      0.8012916445732117,
+      0.8013333082199097,
       100.0,
-      28.70516586303711,
+      28.705333709716797,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005577731062658131,
-      0.0010902556823566556,
-      0.0014808630803599954,
+      0.00017713799024932086,
+      0.00038992927875369787,
+      0.00048544700257480145,
       0.0,
       20.4193115234375,
       24.264232635498047,
@@ -3949,14 +3291,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -3965,17 +3300,17 @@
   {
     "step": 98,
     "observation": [
-      0.8013055324554443,
+      0.8013471961021423,
       100.0,
-      28.705223083496094,
+      28.70538902282715,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00027652483549900353,
-      -0.00013957801274955273,
-      -0.0007765833870507777,
+      0.00015429909399244934,
+      0.0011707929661497474,
+      -0.0010572205064818263,
       0.0,
       20.423072814941406,
       24.25701332092285,
@@ -3990,14 +3325,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4006,17 +3334,17 @@
   {
     "step": 99,
     "observation": [
-      0.801319420337677,
+      0.801361083984375,
       100.0,
-      28.705278396606445,
+      28.7054443359375,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0003174862067680806,
-      -0.001260622637346387,
-      0.0019442163174971938,
+      -0.0016731993528082967,
+      -0.000192673149285838,
+      0.0009896605042740703,
       0.0,
       20.426822662353516,
       24.24980354309082,
@@ -4031,14 +3359,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4047,17 +3368,17 @@
   {
     "step": 100,
     "observation": [
-      0.8013333082199097,
+      0.8013749718666077,
       100.0,
-      28.705333709716797,
+      28.70549964904785,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00016731144569348544,
-      0.0007338188588619232,
-      0.002026256872341037,
+      0.0005064632860012352,
+      0.003082284703850746,
+      0.00028651574393734336,
       0.0,
       20.430561065673828,
       24.24260139465332,
@@ -4072,14 +3393,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4088,17 +3402,17 @@
   {
     "step": 101,
     "observation": [
-      0.8013471961021423,
+      0.8013888597488403,
       100.0,
-      28.70538902282715,
+      28.705554962158203,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005163002060726285,
-      0.00012752471957355738,
-      -3.728496812982485e-05,
+      0.0003927239158656448,
+      -0.0006284977425821126,
+      -0.00036391138564795256,
       0.0,
       20.43428611755371,
       24.235408782958984,
@@ -4113,14 +3427,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4129,17 +3436,17 @@
   {
     "step": 102,
     "observation": [
-      0.801361083984375,
+      0.8014028072357178,
       100.0,
-      28.7054443359375,
+      28.705610275268555,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011742935748770833,
-      0.00037307338789105415,
-      -0.0002532607177272439,
+      -0.00036424663267098367,
+      -0.002025594934821129,
+      -0.0005442035035230219,
       0.0,
       20.437999725341797,
       24.22822380065918,
@@ -4154,14 +3461,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4170,17 +3470,17 @@
   {
     "step": 103,
     "observation": [
-      0.8013749718666077,
+      0.8014166951179504,
       100.0,
-      28.70549964904785,
+      28.70566749572754,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0012244846438989043,
-      9.947102807927877e-05,
-      0.0011410642182454467,
+      0.0004803127085324377,
+      0.0005092374049127102,
+      -1.6558905144847813e-06,
       0.0,
       20.44170379638672,
       24.221046447753906,
@@ -4195,14 +3495,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4211,17 +3504,17 @@
   {
     "step": 104,
     "observation": [
-      0.8013888597488403,
+      0.8014305830001831,
       100.0,
-      28.705554962158203,
+      28.70572280883789,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0015038386918604374,
-      0.0010997781064361334,
-      0.0014526293380185962,
+      -0.0011124210432171822,
+      0.00012719506048597395,
+      -8.176622941391543e-06,
       0.0,
       20.44539451599121,
       24.21388053894043,
@@ -4236,14 +3529,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4252,17 +3538,17 @@
   {
     "step": 105,
     "observation": [
-      0.8014028072357178,
+      0.8014444708824158,
       100.0,
-      28.705610275268555,
+      28.705778121948242,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00024243224470410496,
-      -2.290768679813482e-05,
-      0.0006903585162945092,
+      0.0011684452183544636,
+      -2.3799892005627044e-05,
+      0.0003392242069821805,
       0.0,
       20.449073791503906,
       24.20672035217285,
@@ -4277,14 +3563,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4293,17 +3572,17 @@
   {
     "step": 106,
     "observation": [
-      0.8014166951179504,
+      0.8014583587646484,
       100.0,
-      28.70566749572754,
+      28.705833435058594,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006227012490853667,
-      -8.066660666372627e-05,
-      -0.0021066104527562857,
+      0.0008556486573070288,
+      0.00021426078455988318,
+      0.00015620019985362887,
       0.0,
       20.452741622924805,
       24.19957160949707,
@@ -4318,14 +3597,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4334,17 +3606,17 @@
   {
     "step": 107,
     "observation": [
-      0.8014305830001831,
+      0.8014722466468811,
       100.0,
-      28.70572280883789,
+      28.705888748168945,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0008217513095587492,
-      0.0007807843503542244,
-      -0.0005089282640255988,
+      -0.0007988506695255637,
+      0.0001271985238417983,
+      -0.0007475315942429006,
       0.0,
       20.456398010253906,
       24.192428588867188,
@@ -4359,14 +3631,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4375,17 +3640,17 @@
   {
     "step": 108,
     "observation": [
-      0.8014444708824158,
+      0.8014861345291138,
       100.0,
-      28.705778121948242,
+      28.705944061279297,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00045879464596509933,
-      -0.0022806862834841013,
-      0.00045729937846772373,
+      -0.0003551315749064088,
+      0.0004981062957085669,
+      0.00040358860860578716,
       0.0,
       20.46004295349121,
       24.1852970123291,
@@ -4400,14 +3665,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4416,17 +3674,17 @@
   {
     "step": 109,
     "observation": [
-      0.8014583587646484,
+      0.8015000224113464,
       100.0,
-      28.705833435058594,
+      28.70599937438965,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007373716216534376,
-      0.0008788829436525702,
-      -0.0005744475056417286,
+      -0.0002506918681319803,
+      0.0003973406564909965,
+      -2.596148624434136e-05,
       0.0,
       20.46367645263672,
       24.178171157836914,
@@ -4441,14 +3699,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4457,17 +3708,17 @@
   {
     "step": 110,
     "observation": [
-      0.8014722466468811,
+      0.8015139102935791,
       100.0,
-      28.705888748168945,
+      28.7060546875,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0012689759023487568,
-      0.0009699076763354242,
-      -0.0008575207903049886,
+      -0.0005287047242745757,
+      0.00011935429938603193,
+      -0.002035043900832534,
       0.0,
       20.467296600341797,
       24.17105484008789,
@@ -4482,14 +3733,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4498,17 +3742,17 @@
   {
     "step": 111,
     "observation": [
-      0.8014861345291138,
+      0.8015277981758118,
       100.0,
-      28.705944061279297,
+      28.706111907958984,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003521574835758656,
-      -0.0023307979572564363,
-      -0.0007190595497377217,
+      0.0010329167125746608,
+      0.0007279725978150964,
+      -0.001727081835269928,
       0.0,
       20.47090721130371,
       24.16394805908203,
@@ -4523,14 +3767,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4539,17 +3776,17 @@
   {
     "step": 112,
     "observation": [
-      0.8015000224113464,
+      0.8015416860580444,
       100.0,
-      28.70599937438965,
+      28.706167221069336,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.001178063452243805,
-      0.0011932653142139316,
-      0.0013849623501300812,
+      -0.0019243627320975065,
+      -0.0009176222374662757,
+      -0.0016407204093411565,
       0.0,
       20.474506378173828,
       24.156848907470703,
@@ -4564,14 +3801,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4580,17 +3810,17 @@
   {
     "step": 113,
     "observation": [
-      0.8015139102935791,
+      0.8015555739402771,
       100.0,
-      28.7060546875,
+      28.706222534179688,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005276349256746471,
-      0.0009473585523664951,
-      -0.0007138902437873185,
+      -0.00025684013962745667,
+      0.001501703867688775,
+      -0.0005719904438592494,
       0.0,
       20.47809410095215,
       24.149757385253906,
@@ -4605,14 +3835,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4621,17 +3844,17 @@
   {
     "step": 114,
     "observation": [
-      0.8015277981758118,
+      0.8015694618225098,
       100.0,
-      28.706111907958984,
+      28.70627784729004,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011034532217308879,
-      -0.0003746954316738993,
-      -0.0002496450615581125,
+      -0.0011729644611477852,
+      -0.0005974107189103961,
+      -0.001811165944673121,
       0.0,
       20.481670379638672,
       24.142675399780273,
@@ -4646,14 +3869,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4662,17 +3878,17 @@
   {
     "step": 115,
     "observation": [
-      0.8015416860580444,
+      0.8015833497047424,
       100.0,
-      28.706167221069336,
+      28.70633316040039,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00022154940234031528,
-      0.0007674656226299703,
-      3.0000603146618232e-05,
+      -0.002019947161898017,
+      -0.0007984626572579145,
+      -0.0007484835223294795,
       0.0,
       20.4852352142334,
       24.135602951049805,
@@ -4687,14 +3903,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4703,17 +3912,17 @@
   {
     "step": 116,
     "observation": [
-      0.8015555739402771,
+      0.8015972375869751,
       100.0,
-      28.706222534179688,
+      28.706388473510742,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00205413531512022,
-      0.001399849890731275,
-      -0.0006705374107696116,
+      -0.0014528223546221852,
+      -0.0005919395480304956,
+      0.0005459396634250879,
       0.0,
       20.488788604736328,
       24.128536224365234,
@@ -4728,14 +3937,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4744,17 +3946,17 @@
   {
     "step": 117,
     "observation": [
-      0.8015694618225098,
+      0.8016111254692078,
       100.0,
-      28.70627784729004,
+      28.706443786621094,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007727099000476301,
-      0.00033265730598941445,
-      0.0008350277203135192,
+      -0.00034304545260965824,
+      0.0009141284390352666,
+      0.0008100164704956114,
       0.0,
       20.49233055114746,
       24.121479034423828,
@@ -4769,14 +3971,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4785,17 +3980,17 @@
   {
     "step": 118,
     "observation": [
-      0.8015833497047424,
+      0.8016250133514404,
       100.0,
-      28.70633316040039,
+      28.706499099731445,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006451308727264404,
-      0.000767282210290432,
-      0.001309445477090776,
+      -0.0013476971071213484,
+      9.666528785601258e-05,
+      -0.0020658071152865887,
       0.0,
       20.495861053466797,
       24.114431381225586,
@@ -4810,14 +4005,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4826,17 +4014,17 @@
   {
     "step": 119,
     "observation": [
-      0.8015972375869751,
+      0.8016389012336731,
       100.0,
-      28.706388473510742,
+      28.70655632019043,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007790936506353319,
-      0.001193443895317614,
-      0.0005208838265389204,
+      0.0001397397427354008,
+      8.724968938622624e-05,
+      -0.0003285000566393137,
       0.0,
       20.499380111694336,
       24.107391357421875,
@@ -4851,14 +4039,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4867,17 +4048,17 @@
   {
     "step": 120,
     "observation": [
-      0.8016111254692078,
+      0.8016527891159058,
       100.0,
-      28.706443786621094,
+      28.70661163330078,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0008604046306572855,
-      0.00024122149625327438,
-      0.0006350140902213752,
+      0.00044442960643209517,
+      -0.00017976622621063143,
+      -0.0005316289607435465,
       0.0,
       20.502887725830078,
       24.100358963012695,
@@ -4892,14 +4073,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4908,17 +4082,17 @@
   {
     "step": 121,
     "observation": [
-      0.8016250133514404,
+      0.8016666769981384,
       100.0,
-      28.706499099731445,
+      28.706666946411133,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00024413905339315534,
-      -0.0002892919583246112,
-      -0.0019943597726523876,
+      -0.0010456283343955874,
+      -3.149164331262e-05,
+      6.162218778626993e-05,
       0.0,
       20.506385803222656,
       24.09333610534668,
@@ -4933,14 +4107,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4949,17 +4116,17 @@
   {
     "step": 122,
     "observation": [
-      0.8016389012336731,
+      0.8016805648803711,
       100.0,
-      28.70655632019043,
+      28.706722259521484,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005598106072284281,
-      -0.00019224091374780983,
-      -0.0001055551110766828,
+      -0.00011110014747828245,
+      -0.000784036295954138,
+      -0.0006592968129552901,
       0.0,
       20.509870529174805,
       24.086320877075195,
@@ -4974,14 +4141,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -4990,17 +4150,17 @@
   {
     "step": 123,
     "observation": [
-      0.8016527891159058,
+      0.8016944527626038,
       100.0,
-      28.70661163330078,
+      28.706777572631836,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0015448963968083262,
-      -0.0005715739680454135,
-      -0.0010867924429476261,
+      -0.00011957254173466936,
+      -4.1702438466018066e-05,
+      -0.0006211536237969995,
       0.0,
       20.51334571838379,
       24.079313278198242,
@@ -5015,14 +4175,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5031,24 +4184,24 @@
   {
     "step": 124,
     "observation": [
-      0.8016666769981384,
+      0.8017083406448364,
       100.0,
-      28.706666946411133,
+      28.706832885742188,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -8.635236736154184e-05,
-      -0.0004099610960111022,
-      0.0005377176566980779,
+      0.001224611303769052,
+      0.0012439460260793567,
+      0.0008686184883117676,
       0.0,
       20.516807556152344,
       24.072315216064453,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
@@ -5056,14 +4209,7 @@
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
-    "persistent_faults": [
-      {
-        "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      }
-    ],
+    "persistent_faults": [],
     "intermittent_faults": [],
     "decision_source": "Classical",
     "terminated": false,
@@ -5072,36 +4218,38 @@
   {
     "step": 125,
     "observation": [
-      0.8016805648803711,
+      0.8017222285270691,
       100.0,
-      28.706722259521484,
+      28.70688819885254,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000902090803720057,
-      -0.001250452478416264,
-      -0.0010695273522287607,
+      0.0009388328180648386,
+      -0.0004277637926861644,
+      -0.0007818625890649855,
       0.0,
       20.520259857177734,
       24.065324783325195,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5113,36 +4261,38 @@
   {
     "step": 126,
     "observation": [
-      0.8016944527626038,
+      0.8017777800559998,
       100.0,
-      28.706777572631836,
+      28.707111358642578,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003915729757864028,
-      -0.0014110777992755175,
-      0.0011663674376904964,
+      -0.000862777407746762,
+      0.0010201078839600086,
+      0.00029553650529123843,
       0.0,
       20.523700714111328,
       24.05834197998047,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5154,36 +4304,38 @@
   {
     "step": 127,
     "observation": [
-      0.8017083406448364,
+      0.8018333315849304,
       100.0,
-      28.706832885742188,
+      28.707332611083984,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006665446562692523,
-      -0.0005986985052004457,
-      -0.000851038726978004,
+      0.0001383218332193792,
+      0.0011857572244480252,
+      0.00012494775000959635,
       0.0,
       20.527132034301758,
       24.051368713378906,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5195,36 +4347,38 @@
   {
     "step": 128,
     "observation": [
-      0.8017222285270691,
+      0.8018888831138611,
       100.0,
-      28.70688819885254,
+      28.707555770874023,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0012554986169561744,
-      -0.0007270302157849073,
-      0.00042488652979955077,
+      0.0007342041935771704,
+      0.001723772962577641,
+      0.001558771706186235,
       0.0,
       20.530550003051758,
       24.044403076171875,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5236,36 +4390,38 @@
   {
     "step": 129,
     "observation": [
-      0.8017361164093018,
+      0.8019444346427917,
       100.0,
-      28.70694351196289,
+      28.70777702331543,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0011234685080125928,
-      -0.001249220222234726,
-      -0.0014365888200700283,
+      8.361320215044543e-05,
+      -0.0011950979242101312,
+      -0.0008375413017347455,
       0.0,
       20.533958435058594,
       24.037446975708008,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5277,36 +4433,38 @@
   {
     "step": 130,
     "observation": [
-      0.8017500042915344,
+      0.8019999861717224,
       100.0,
-      28.707000732421875,
+      28.70800018310547,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0002651643590070307,
-      -0.00028508715331554413,
-      -0.0010580250527709723,
+      0.0012588060926645994,
+      -0.00038181873969733715,
+      0.000615975761320442,
       0.0,
       20.537355422973633,
       24.03049659729004,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5318,36 +4476,38 @@
   {
     "step": 131,
     "observation": [
-      0.8017638921737671,
+      0.8020555377006531,
       100.0,
-      28.707056045532227,
+      28.708221435546875,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      2.458439121255651e-05,
-      -0.0006729213637299836,
-      0.0007713909144513309,
+      0.00018918038404081017,
+      -5.539049379876815e-05,
+      -0.0002674213610589504,
       0.0,
       20.540740966796875,
       24.023555755615234,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5359,36 +4519,38 @@
   {
     "step": 132,
     "observation": [
-      0.8017777800559998,
+      0.8021110892295837,
       100.0,
-      28.707111358642578,
+      28.708444595336914,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0009391441126354039,
-      -0.0019799943547695875,
-      1.0214211215497926e-05,
+      0.00025102990912273526,
+      -0.001785353058949113,
+      -0.0007699807174503803,
       0.0,
       20.54411506652832,
       24.016624450683594,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5400,36 +4562,38 @@
   {
     "step": 133,
     "observation": [
-      0.8017916679382324,
+      0.8021666407585144,
       100.0,
-      28.70716667175293,
+      28.70866584777832,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005628701765090227,
-      0.0018453099764883518,
-      -0.0012352279154583812,
+      2.6569690817268565e-05,
+      0.0006320698885247111,
+      -5.424487608252093e-05,
       0.0,
       20.5474796295166,
       24.00969886779785,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5441,36 +4605,38 @@
   {
     "step": 134,
     "observation": [
-      0.8018055558204651,
+      0.8022222518920898,
       100.0,
-      28.70722198486328,
+      28.70888900756836,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000751808169297874,
-      -0.00016327541379723698,
-      -0.0006168089457787573,
+      -0.00013058797048870474,
+      -0.00039634888526052237,
+      -0.00040771072963252664,
       0.0,
       20.550830841064453,
       24.002782821655273,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5482,36 +4648,38 @@
   {
     "step": 135,
     "observation": [
-      0.8018194437026978,
+      0.8022778034210205,
       100.0,
-      28.707277297973633,
+      28.709110260009766,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0015104637714102864,
-      0.0002823773247655481,
-      -0.00015669064305257052,
+      -0.00040979086770676076,
+      -0.0009998237947002053,
+      -0.0005539123667404056,
       0.0,
       20.55417251586914,
       23.995874404907227,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5523,36 +4691,38 @@
   {
     "step": 136,
     "observation": [
-      0.8018333315849304,
+      0.8023333549499512,
       100.0,
-      28.707332611083984,
+      28.709333419799805,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00031594079337082803,
-      -0.0014445472043007612,
-      -0.0009397745016030967,
+      0.0009130995604209602,
+      0.00033359555527567863,
+      0.0006495644338428974,
       0.0,
       20.557504653930664,
       23.988975524902344,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5564,36 +4734,38 @@
   {
     "step": 137,
     "observation": [
-      0.8018472194671631,
+      0.8023889064788818,
       100.0,
-      28.70738983154297,
+      28.70955467224121,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006519169546663761,
-      -0.0010866039665415883,
-      0.0008046010043472052,
+      -0.00015073323447722942,
+      0.000566418981179595,
+      0.0009531622636131942,
       0.0,
       20.560823440551758,
       23.98208236694336,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5605,36 +4777,38 @@
   {
     "step": 138,
     "observation": [
-      0.8018611073493958,
+      0.8024444580078125,
       100.0,
-      28.70744514465332,
+      28.70977783203125,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0017511260230094194,
-      0.0007059086346998811,
-      0.0018659362103790045,
+      -0.00019391013483982533,
+      -0.001706769340671599,
+      0.00015296138008125126,
       0.0,
       20.564132690429688,
       23.97519874572754,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5646,36 +4820,38 @@
   {
     "step": 139,
     "observation": [
-      0.8018749952316284,
+      0.8025000095367432,
       100.0,
-      28.707500457763672,
+      28.709999084472656,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0004885054659098387,
-      -0.0008084382279776037,
-      -0.0004693008086178452,
+      0.0010086941765621305,
+      -0.0013754261890426278,
+      0.002660223050042987,
       0.0,
       20.567432403564453,
       23.96832275390625,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5687,36 +4863,38 @@
   {
     "step": 140,
     "observation": [
-      0.8018888831138611,
+      0.8025555610656738,
       100.0,
-      28.707555770874023,
+      28.710222244262695,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0031785639002919197,
-      -0.0002064301079371944,
-      0.0003096965083386749,
+      0.0008521833224222064,
+      -1.9056808014283888e-05,
+      -0.0008630551747046411,
       0.0,
       20.57071876525879,
       23.961456298828125,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5728,36 +4906,38 @@
   {
     "step": 141,
     "observation": [
-      0.8019027709960938,
+      0.8026111125946045,
       100.0,
-      28.707611083984375,
+      28.7104434967041,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0010674449149519205,
-      0.00022668548626825213,
-      0.0004978482611477375,
+      -0.00040909223025664687,
+      -0.0003718227380886674,
+      -0.001894346671178937,
       0.0,
       20.57399559020996,
       23.9545955657959,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5769,36 +4949,38 @@
   {
     "step": 142,
     "observation": [
-      0.8019166588783264,
+      0.8026666641235352,
       100.0,
-      28.707666397094727,
+      28.71066665649414,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.001993403537198901,
-      0.00019778369460254908,
-      -0.0009541060426272452,
+      0.0005059842951595783,
+      0.0009349397732876241,
+      -0.00023590879573021084,
       0.0,
       20.577260971069336,
       23.947744369506836,
       0.0
     ],
     "action": 0,
-    "reward": 0.2,
+    "reward": -1.1,
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5810,17 +4992,17 @@
   {
     "step": 143,
     "observation": [
-      0.8019305467605591,
+      0.8027222156524658,
       100.0,
-      28.707721710205078,
+      28.71088981628418,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007629783358424902,
-      0.0011992229847237468,
-      0.0010931758442893624,
+      0.0001774553384166211,
+      -0.0012981072068214417,
+      0.0009195023449137807,
       0.0,
       20.580516815185547,
       23.940900802612305,
@@ -5831,15 +5013,17 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
+      "EPS": "BatteryCellFailure",
       "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
+        "type": "BatteryCellFailure",
+        "params": {
+          "capacity_reduction": 0.75
+        },
         "intermittent": false
       }
     ],
@@ -5851,17 +5035,17 @@
   {
     "step": 144,
     "observation": [
-      0.8019444346427917,
+      0.8027777671813965,
       100.0,
-      28.70777702331543,
+      28.711111068725586,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0011383546516299248,
-      0.002620169660076499,
-      -0.00013223328278400004,
+      -0.0009865141473710537,
+      -0.0005257325246930122,
+      -0.0011140241986140609,
       0.0,
       20.58376121520996,
       23.934064865112305,
@@ -5872,22 +5056,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5900,17 +5078,17 @@
   {
     "step": 145,
     "observation": [
-      0.8019583225250244,
+      0.8028333187103271,
       100.0,
-      28.707834243774414,
+      28.711334228515625,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006308319279924035,
-      0.0004824638308491558,
-      -0.000595698191318661,
+      -0.0009144000359810889,
+      -0.0005260736215859652,
+      -0.001435577985830605,
       0.0,
       20.586994171142578,
       23.92723846435547,
@@ -5921,22 +5099,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5949,17 +5121,17 @@
   {
     "step": 146,
     "observation": [
-      0.8019722104072571,
+      0.8028888702392578,
       100.0,
-      28.707889556884766,
+      28.71155548095703,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0013697624672204256,
-      -0.00027958769351243973,
-      -0.0007314569083973765,
+      0.0023432259913533926,
+      -0.0007702585426159203,
+      0.0001366999640595168,
       0.0,
       20.59021759033203,
       23.92041778564453,
@@ -5970,22 +5142,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -5998,17 +5164,17 @@
   {
     "step": 147,
     "observation": [
-      0.8019860982894897,
+      0.8029444217681885,
       100.0,
-      28.707944869995117,
+      28.71177864074707,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0009288049768656492,
-      0.0008742423378862441,
-      -0.0008403249667026103,
+      -0.0010184301063418388,
+      0.0006825639866292477,
+      0.000496652617584914,
       0.0,
       20.593429565429688,
       23.913606643676758,
@@ -6019,22 +5185,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6047,17 +5207,17 @@
   {
     "step": 148,
     "observation": [
-      0.8019999861717224,
+      0.8029999732971191,
       100.0,
-      28.70800018310547,
+      28.711999893188477,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000486013013869524,
-      0.0011157962726429105,
-      -0.0003735646896529943,
+      0.0015516062267124653,
+      0.000524914707057178,
+      -0.0005188125651329756,
       0.0,
       20.596630096435547,
       23.906803131103516,
@@ -6068,22 +5228,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6096,17 +5250,17 @@
   {
     "step": 149,
     "observation": [
-      0.8020138740539551,
+      0.8030555844306946,
       100.0,
-      28.70805549621582,
+      28.712223052978516,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.000593571166973561,
-      -9.186342504108325e-05,
-      0.00038072463939897716,
+      -0.0008859816007316113,
+      -3.7683406844735146e-05,
+      0.0014060185058042407,
       0.0,
       20.599821090698242,
       23.900007247924805,
@@ -6117,22 +5271,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6145,17 +5293,17 @@
   {
     "step": 150,
     "observation": [
-      0.8020277619361877,
+      0.8031111359596252,
       100.0,
-      28.708110809326172,
+      28.712444305419922,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0013316164258867502,
-      -0.0022640451788902283,
-      -0.0001901002397062257,
+      0.0004310084041208029,
+      -0.00012589579273480922,
+      -0.001518194330856204,
       0.0,
       20.603002548217773,
       23.893220901489258,
@@ -6166,22 +5314,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6194,17 +5336,17 @@
   {
     "step": 151,
     "observation": [
-      0.8020416498184204,
+      0.8031666874885559,
       100.0,
-      28.708166122436523,
+      28.71266746520996,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009710489539429545,
-      -0.0006538699963130057,
-      -0.00033107164199464023,
+      -0.0018336671637371182,
+      -0.0015614009462296963,
+      -0.001000860589556396,
       0.0,
       20.606170654296875,
       23.88644027709961,
@@ -6215,22 +5357,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6243,17 +5379,17 @@
   {
     "step": 152,
     "observation": [
-      0.8020555377006531,
+      0.8032222390174866,
       100.0,
-      28.708221435546875,
+      28.712888717651367,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0024805234279483557,
-      0.0002683441271074116,
-      0.001241746242158115,
+      -0.0004921664949506521,
+      0.0003780357073992491,
+      0.0009401767165400088,
       0.0,
       20.609331130981445,
       23.879669189453125,
@@ -6264,22 +5400,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6292,17 +5422,17 @@
   {
     "step": 153,
     "observation": [
-      0.8020694255828857,
+      0.8032777905464172,
       100.0,
-      28.70827865600586,
+      28.713111877441406,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00036606055800803006,
-      0.001928440178744495,
-      -0.0010740394936874509,
+      -0.00016597377543803304,
+      -0.0005591487279161811,
+      0.00021810935868415982,
       0.0,
       20.612478256225586,
       23.872905731201172,
@@ -6313,22 +5443,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6341,17 +5465,17 @@
   {
     "step": 154,
     "observation": [
-      0.8020833134651184,
+      0.8033333420753479,
       100.0,
-      28.70833396911621,
+      28.713333129882812,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.000464076321804896,
-      -0.00011266618821537122,
-      0.00029714222182519734,
+      -0.0026947285514324903,
+      -0.00035740790190175176,
+      -0.00047901232028380036,
       0.0,
       20.615615844726562,
       23.86614990234375,
@@ -6362,22 +5486,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6390,17 +5508,17 @@
   {
     "step": 155,
     "observation": [
-      0.8020972013473511,
+      0.8033888936042786,
       100.0,
-      28.708389282226562,
+      28.71355628967285,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007847208180464804,
-      0.00044947335845790803,
-      0.0005821941886097193,
+      -0.0012423275038599968,
+      0.00013936420145910233,
+      -0.0013128286227583885,
       0.0,
       20.618743896484375,
       23.85940170288086,
@@ -6411,22 +5529,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6439,17 +5551,17 @@
   {
     "step": 156,
     "observation": [
-      0.8021110892295837,
+      0.8034444451332092,
       100.0,
-      28.708444595336914,
+      28.713777542114258,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004622367850970477,
-      -0.00027059929561801255,
-      0.0011538113467395306,
+      0.0005980361020192504,
+      0.0005449976306408644,
+      6.336096703307703e-05,
       0.0,
       20.62186050415039,
       23.8526611328125,
@@ -6460,22 +5572,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6488,17 +5594,17 @@
   {
     "step": 157,
     "observation": [
-      0.8021249771118164,
+      0.8034999966621399,
       100.0,
-      28.708499908447266,
+      28.714000701904297,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00012536060239654034,
-      -3.697321915296925e-07,
-      0.0006488271174021065,
+      -0.0006300276727415621,
+      -0.0009873448871076107,
+      -0.0014132913202047348,
       0.0,
       20.624967575073242,
       23.845928192138672,
@@ -6509,22 +5615,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6537,17 +5637,17 @@
   {
     "step": 158,
     "observation": [
-      0.8021388649940491,
+      0.8035555481910706,
       100.0,
-      28.708555221557617,
+      28.714221954345703,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0012652137083932757,
-      -0.00013829571253154427,
-      0.0007771084201522171,
+      -0.000511301914229989,
+      0.00026401039212942123,
+      0.0016713824588805437,
       0.0,
       20.628063201904297,
       23.839202880859375,
@@ -6558,22 +5658,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6586,17 +5680,17 @@
   {
     "step": 159,
     "observation": [
-      0.8021527528762817,
+      0.8036110997200012,
       100.0,
-      28.70861053466797,
+      28.714445114135742,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00015389859618153423,
-      -0.0008012696634978056,
-      -0.0003485677589196712,
+      0.00012927180796395987,
+      -8.084128785412759e-05,
+      0.0002933120704255998,
       0.0,
       20.631149291992188,
       23.832487106323242,
@@ -6607,22 +5701,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6635,17 +5723,17 @@
   {
     "step": 160,
     "observation": [
-      0.8021666407585144,
+      0.8036666512489319,
       100.0,
-      28.70866584777832,
+      28.71466636657715,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0001582788536325097,
-      0.00033389299642294645,
-      -0.0005336505128070712,
+      0.0011212473036721349,
+      0.0019341277657076716,
+      -0.000539114756975323,
       0.0,
       20.63422393798828,
       23.82577896118164,
@@ -6656,22 +5744,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6684,17 +5766,17 @@
   {
     "step": 161,
     "observation": [
-      0.8021805286407471,
+      0.8037222027778625,
       100.0,
-      28.708723068237305,
+      28.714889526367188,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      9.027510532177985e-05,
-      5.090494596515782e-05,
-      -0.002225152449682355,
+      -5.2694667829200625e-05,
+      0.002122440142557025,
+      0.00020917021902278066,
       0.0,
       20.63728904724121,
       23.819076538085938,
@@ -6705,22 +5787,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6733,17 +5809,17 @@
   {
     "step": 162,
     "observation": [
-      0.8021944165229797,
+      0.8037777543067932,
       100.0,
-      28.708778381347656,
+      28.715110778808594,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.001455137156881392,
-      -0.0005303347716107965,
-      0.0009222886874340475,
+      0.0002128310443367809,
+      -0.001999754225835204,
+      0.0004334046971052885,
       0.0,
       20.640342712402344,
       23.8123836517334,
@@ -6754,22 +5830,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6782,17 +5852,17 @@
   {
     "step": 163,
     "observation": [
-      0.8022083044052124,
+      0.8038333058357239,
       100.0,
-      28.708833694458008,
+      28.715333938598633,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      8.950109622674063e-05,
-      0.0005878179799765348,
-      -0.0016133446479216218,
+      0.001072203041985631,
+      -0.0001820630714064464,
+      0.000618941558059305,
       0.0,
       20.643386840820312,
       23.80569839477539,
@@ -6803,22 +5873,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6831,17 +5895,17 @@
   {
     "step": 164,
     "observation": [
-      0.8022222518920898,
+      0.8038889169692993,
       100.0,
-      28.70888900756836,
+      28.71555519104004,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0014698462327942252,
-      -0.0009803218999877572,
-      0.001253305352292955,
+      -4.25249854743015e-05,
+      -0.0009840651182457805,
+      0.00020396229228936136,
       0.0,
       20.646421432495117,
       23.799020767211914,
@@ -6852,22 +5916,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6880,17 +5938,17 @@
   {
     "step": 165,
     "observation": [
-      0.8022361397743225,
+      0.80394446849823,
       100.0,
-      28.70894432067871,
+      28.715778350830078,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0007730979705229402,
-      -0.0012055648257955909,
-      -0.0001930796861415729,
+      3.762814594665542e-05,
+      0.0006240435759536922,
+      -0.0020861453376710415,
       0.0,
       20.649444580078125,
       23.79235076904297,
@@ -6901,22 +5959,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6929,17 +5981,17 @@
   {
     "step": 166,
     "observation": [
-      0.8022500276565552,
+      0.8040000200271606,
       100.0,
-      28.708999633789062,
+      28.715999603271484,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005237170844338834,
-      0.001193258329294622,
-      -3.715092680067755e-05,
+      0.00010819966701092198,
+      0.0011288245441392064,
+      0.0015442260773852468,
       0.0,
       20.652456283569336,
       23.785688400268555,
@@ -6950,22 +6002,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -6978,17 +6024,17 @@
   {
     "step": 167,
     "observation": [
-      0.8022639155387878,
+      0.8040555715560913,
       100.0,
-      28.709054946899414,
+      28.716222763061523,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0005427448195405304,
-      -0.0007623530691489577,
-      0.0010512484004721045,
+      1.0608257070998661e-05,
+      -0.0004570205055642873,
+      0.0002994084788952023,
       0.0,
       20.655460357666016,
       23.779033660888672,
@@ -6999,22 +6045,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7027,17 +6067,17 @@
   {
     "step": 168,
     "observation": [
-      0.8022778034210205,
+      0.804111123085022,
       100.0,
-      28.709110260009766,
+      28.71644401550293,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00028882676269859076,
-      -0.0011411566520109773,
-      0.00020375924941617996,
+      -0.0007960568182170391,
+      -0.001822451944462955,
+      -0.0010186980944126844,
       0.0,
       20.6584529876709,
       23.77238655090332,
@@ -7048,22 +6088,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7076,17 +6110,17 @@
   {
     "step": 169,
     "observation": [
-      0.8022916913032532,
+      0.8041666746139526,
       100.0,
-      28.70916748046875,
+      28.71666717529297,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00030646429513581097,
-      -0.0015546783106401563,
-      -0.00018931852537207305,
+      -0.0002226809156127274,
+      -0.0004015611775685102,
+      -0.00025577054475434124,
       0.0,
       20.661434173583984,
       23.7657470703125,
@@ -7097,22 +6131,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7125,17 +6153,17 @@
   {
     "step": 170,
     "observation": [
-      0.8023055791854858,
+      0.8042222261428833,
       100.0,
-      28.7092227935791,
+      28.716888427734375,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0015467898920178413,
-      0.0016970965079963207,
-      -0.0011336918687447906,
+      0.0002255009749205783,
+      -0.0017323510255664587,
+      -0.0014999499544501305,
       0.0,
       20.664405822753906,
       23.75911521911621,
@@ -7146,22 +6174,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7174,17 +6196,17 @@
   {
     "step": 171,
     "observation": [
-      0.8023194670677185,
+      0.804277777671814,
       100.0,
-      28.709278106689453,
+      28.717111587524414,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0003492579853627831,
-      -0.000842494482640177,
-      6.412932270905003e-05,
+      -0.00047838929458521307,
+      -0.00045985146425664425,
+      -3.260892117395997e-05,
       0.0,
       20.667367935180664,
       23.752490997314453,
@@ -7195,22 +6217,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7223,17 +6239,17 @@
   {
     "step": 172,
     "observation": [
-      0.8023333549499512,
+      0.8043333292007446,
       100.0,
-      28.709333419799805,
+      28.71733283996582,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0008103456348180771,
-      -0.0009469101787544787,
-      0.0003811476635746658,
+      0.0004025689559057355,
+      -0.00014950695913285017,
+      -0.0004921711515635252,
       0.0,
       20.670320510864258,
       23.745874404907227,
@@ -7244,22 +6260,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7272,17 +6282,17 @@
   {
     "step": 173,
     "observation": [
-      0.8023472428321838,
+      0.8043888807296753,
       100.0,
-      28.709388732910156,
+      28.71755599975586,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0013466180535033345,
-      -0.0013102400116622448,
-      -0.00026623017038218677,
+      -4.0303133573615924e-05,
+      0.0003702240064740181,
+      0.002664758823812008,
       0.0,
       20.673261642456055,
       23.73926544189453,
@@ -7293,22 +6303,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7321,17 +6325,17 @@
   {
     "step": 174,
     "observation": [
-      0.8023611307144165,
+      0.804444432258606,
       100.0,
-      28.709444046020508,
+      28.717777252197266,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011510485783219337,
-      0.0007044158410280943,
-      0.0005764194647781551,
+      -0.0009146711090579629,
+      0.001404613838531077,
+      0.0003273345355410129,
       0.0,
       20.676193237304688,
       23.732664108276367,
@@ -7342,22 +6346,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7370,17 +6368,17 @@
   {
     "step": 175,
     "observation": [
-      0.8023750185966492,
+      0.8044999837875366,
       100.0,
-      28.70949935913086,
+      28.718000411987305,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0014037145301699638,
-      0.0025560271460562944,
-      0.0013758332934230566,
+      -0.0007588643929921091,
+      -0.0017787411343306303,
+      -0.0016131459269672632,
       0.0,
       20.679113388061523,
       23.726070404052734,
@@ -7391,22 +6389,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7419,17 +6411,17 @@
   {
     "step": 176,
     "observation": [
-      0.8023889064788818,
+      0.8045555353164673,
       100.0,
-      28.70955467224121,
+      28.71822166442871,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0006693450268357992,
-      -0.00035009882412850857,
-      0.001516466261819005,
+      0.00042950172792188823,
+      0.00042743110680021346,
+      -0.0013708299957215786,
       0.0,
       20.682025909423828,
       23.719486236572266,
@@ -7440,22 +6432,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7468,17 +6454,17 @@
   {
     "step": 177,
     "observation": [
-      0.8024027943611145,
+      0.804611086845398,
       100.0,
-      28.709611892700195,
+      28.71844482421875,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00039478219696320593,
-      0.0007957119378261268,
-      0.001082858070731163,
+      0.0002458697999827564,
+      -0.0010772045934572816,
+      -0.0005555341485887766,
       0.0,
       20.684926986694336,
       23.712907791137695,
@@ -7489,22 +6475,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7517,17 +6497,17 @@
   {
     "step": 178,
     "observation": [
-      0.8024166822433472,
+      0.8046666383743286,
       100.0,
-      28.709667205810547,
+      28.718666076660156,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009089754312299192,
-      -6.65979168843478e-05,
-      -0.00044914823956787586,
+      0.00038636717363260686,
+      -0.0009503961191512644,
+      -0.0008187712519429624,
       0.0,
       20.687816619873047,
       23.706336975097656,
@@ -7538,22 +6518,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7566,17 +6540,17 @@
   {
     "step": 179,
     "observation": [
-      0.8024305701255798,
+      0.804722249507904,
       100.0,
-      28.7097225189209,
+      28.718889236450195,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0015949731459841132,
-      0.00044320349115878344,
-      -8.165365215972997e-06,
+      0.0007935952162370086,
+      0.0008718695607967675,
+      0.0010883915238082409,
       0.0,
       20.690698623657227,
       23.69977378845215,
@@ -7587,22 +6561,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7615,17 +6583,17 @@
   {
     "step": 180,
     "observation": [
-      0.8024444580078125,
+      0.8047778010368347,
       100.0,
-      28.70977783203125,
+      28.7191104888916,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.001646670512855053,
-      0.0008228932274505496,
-      0.0014358304906636477,
+      0.0006142395432107151,
+      -0.0010048706317320466,
+      -0.0017788645345717669,
       0.0,
       20.69356918334961,
       23.693218231201172,
@@ -7636,22 +6604,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7664,17 +6626,17 @@
   {
     "step": 181,
     "observation": [
-      0.8024583458900452,
+      0.8048333525657654,
       100.0,
-      28.7098331451416,
+      28.71933364868164,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004493105807341635,
-      -0.0009160963818430901,
-      0.0009189828997477889,
+      -0.00032136813388206065,
+      -0.0002429497690172866,
+      -0.00151114072650671,
       0.0,
       20.696430206298828,
       23.686670303344727,
@@ -7685,22 +6647,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7713,17 +6669,17 @@
   {
     "step": 182,
     "observation": [
-      0.8024722337722778,
+      0.804888904094696,
       100.0,
-      28.709888458251953,
+      28.719554901123047,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      5.629079169011675e-05,
-      0.0011699078604578972,
-      0.00022637593792751431,
+      0.00020764798682648689,
+      -0.000973046466242522,
+      0.0004716591502074152,
       0.0,
       20.699281692504883,
       23.68012809753418,
@@ -7734,22 +6690,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7762,17 +6712,17 @@
   {
     "step": 183,
     "observation": [
-      0.8024861216545105,
+      0.8049444556236267,
       100.0,
-      28.709943771362305,
+      28.719778060913086,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0011376378824934363,
-      -0.001712559605948627,
-      7.978380745043978e-05,
+      -0.0001076285116141662,
+      -0.000642129045445472,
+      0.00042180746095255017,
       0.0,
       20.70212173461914,
       23.673595428466797,
@@ -7783,22 +6733,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7811,17 +6755,17 @@
   {
     "step": 184,
     "observation": [
-      0.8025000095367432,
+      0.8050000071525574,
       100.0,
-      28.709999084472656,
+      28.719999313354492,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0009630756685510278,
-      -0.0008433740586042404,
-      -8.386647095903754e-05,
+      0.0009343578130938113,
+      0.0006020751316100359,
+      -0.00017891245079226792,
       0.0,
       20.704952239990234,
       23.667070388793945,
@@ -7832,22 +6776,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7860,17 +6798,17 @@
   {
     "step": 185,
     "observation": [
-      0.8025138974189758,
+      0.805055558681488,
       100.0,
-      28.71005630493164,
+      28.72022247314453,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0021531078964471817,
-      0.00011611587251536548,
-      -0.001580757787451148,
+      -0.0005157241830602288,
+      -0.000894147960934788,
+      0.00029616261599585414,
       0.0,
       20.707775115966797,
       23.660552978515625,
@@ -7881,22 +6819,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7909,17 +6841,17 @@
   {
     "step": 186,
     "observation": [
-      0.8025277853012085,
+      0.8051111102104187,
       100.0,
-      28.710111618041992,
+      28.720443725585938,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0004973351024091244,
-      -0.00016757241974119097,
-      -7.697375258430839e-05,
+      -0.0004253119695931673,
+      -7.660168193979189e-05,
+      -0.00037519828765653074,
       0.0,
       20.71058464050293,
       23.654041290283203,
@@ -7930,22 +6862,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -7958,17 +6884,17 @@
   {
     "step": 187,
     "observation": [
-      0.8025416731834412,
+      0.8051666617393494,
       100.0,
-      28.710166931152344,
+      28.720666885375977,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0021449988707900047,
-      0.0005864230333827436,
-      -0.0007546775159426033,
+      -0.00040277434163726866,
+      -0.0005334395100362599,
+      -0.000528709264472127,
       0.0,
       20.71338653564453,
       23.647539138793945,
@@ -7979,22 +6905,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8007,17 +6927,17 @@
   {
     "step": 188,
     "observation": [
-      0.8025555610656738,
+      0.80522221326828,
       100.0,
-      28.710222244262695,
+      28.720888137817383,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0005805780529044569,
-      0.0017741587944328785,
-      -0.0002236084983451292,
+      -0.00011348279076628387,
+      -3.2951364119071513e-05,
+      0.0020244682673364878,
       0.0,
       20.71617889404297,
       23.641042709350586,
@@ -8028,22 +6948,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8056,17 +6970,17 @@
   {
     "step": 189,
     "observation": [
-      0.8025694489479065,
+      0.8052777647972107,
       100.0,
-      28.710277557373047,
+      28.721111297607422,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0007791878888383508,
-      0.00048817702918313444,
-      -0.0005119310808368027,
+      0.0008313286234624684,
+      0.0006919959560036659,
+      -0.001148647628724575,
       0.0,
       20.71895980834961,
       23.634553909301758,
@@ -8077,22 +6991,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8105,17 +7013,17 @@
   {
     "step": 190,
     "observation": [
-      0.8025833368301392,
+      0.8053333163261414,
       100.0,
-      28.7103328704834,
+      28.721332550048828,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0012327608419582248,
-      -0.0013210588367655873,
-      -0.0014125584857538342,
+      -0.001043545315042138,
+      -0.0005136995459906757,
+      0.0004697104450315237,
       0.0,
       20.721731185913086,
       23.62807273864746,
@@ -8126,22 +7034,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8154,17 +7056,17 @@
   {
     "step": 191,
     "observation": [
-      0.8025972247123718,
+      0.805388867855072,
       100.0,
-      28.71038818359375,
+      28.721555709838867,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0003479706065263599,
-      -0.0001515871990704909,
-      -0.0013322756858542562,
+      0.0004874668375123292,
+      -0.0013968718703836203,
+      -0.00013970652071293443,
       0.0,
       20.7244930267334,
       23.621599197387695,
@@ -8175,22 +7077,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8203,17 +7099,17 @@
   {
     "step": 192,
     "observation": [
-      0.8026111125946045,
+      0.8054444193840027,
       100.0,
-      28.7104434967041,
+      28.721776962280273,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0006152298301458359,
-      -0.0011289236135780811,
-      -0.00042050296906381845,
+      0.0012185773812234402,
+      0.000984963495284319,
+      0.0013705989113077521,
       0.0,
       20.727245330810547,
       23.61513328552246,
@@ -8224,22 +7120,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8252,17 +7142,17 @@
   {
     "step": 193,
     "observation": [
-      0.8026250004768372,
+      0.8054999709129333,
       100.0,
-      28.710500717163086,
+      28.722000122070312,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0002656534197740257,
-      0.0017563427099958062,
-      0.001187572255730629,
+      -0.0006854730891063809,
+      -0.0015318499645218253,
+      -0.0020510314498096704,
       0.0,
       20.72998809814453,
       23.608675003051758,
@@ -8273,22 +7163,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8301,17 +7185,17 @@
   {
     "step": 194,
     "observation": [
-      0.8026388883590698,
+      0.8055555820465088,
       100.0,
-      28.710556030273438,
+      28.72222137451172,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.002584500703960657,
-      -0.0017591059440746903,
-      0.001742154243402183,
+      0.0019173239124938846,
+      -0.0014782551443204284,
+      7.310928776860237e-05,
       0.0,
       20.73272132873535,
       23.602224349975586,
@@ -8322,22 +7206,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8350,17 +7228,17 @@
   {
     "step": 195,
     "observation": [
-      0.8026527762413025,
+      0.8056111335754395,
       100.0,
-      28.71061134338379,
+      28.722444534301758,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0008556060492992401,
-      0.00043072988046333194,
-      0.001241505378857255,
+      -0.001246756175532937,
+      -9.643677185522392e-05,
+      0.0008722029160708189,
       0.0,
       20.735443115234375,
       23.595779418945312,
@@ -8371,22 +7249,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8399,17 +7271,17 @@
   {
     "step": 196,
     "observation": [
-      0.8026666641235352,
+      0.8056666851043701,
       100.0,
-      28.71066665649414,
+      28.722665786743164,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -5.169001087779179e-05,
-      0.00011072539200540632,
-      -0.0002860402746591717,
+      -0.0016176492208614945,
+      -0.00042654399294406176,
+      0.00026146401069127023,
       0.0,
       20.738157272338867,
       23.589344024658203,
@@ -8420,22 +7292,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8448,17 +7314,17 @@
   {
     "step": 197,
     "observation": [
-      0.8026805520057678,
+      0.8057222366333008,
       100.0,
-      28.710721969604492,
+      28.722888946533203,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.00021848815958946943,
-      -0.00028447006479837,
-      0.0030606254003942013,
+      -0.0006074627744965255,
+      0.00012220304051879793,
+      -0.0019960328936576843,
       0.0,
       20.740859985351562,
       23.582914352416992,
@@ -8469,22 +7335,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8497,17 +7357,17 @@
   {
     "step": 198,
     "observation": [
-      0.8026944398880005,
+      0.8057777881622314,
       100.0,
-      28.710777282714844,
+      28.72311019897461,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.00032940777600742877,
-      -0.0008482250850647688,
-      0.0011139125563204288,
+      -0.0011349464766681194,
+      0.0009852747898548841,
+      0.0006903090979903936,
       0.0,
       20.743555068969727,
       23.576492309570312,
@@ -8518,22 +7378,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8546,17 +7400,17 @@
   {
     "step": 199,
     "observation": [
-      0.8027083277702332,
+      0.8058333396911621,
       100.0,
-      28.710832595825195,
+      28.72333335876465,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      0.0014586009783670306,
-      0.00019252685888204724,
-      0.0014918437227606773,
+      -0.0005161913577467203,
+      1.1472202459117398e-06,
+      -0.0002975978422909975,
       0.0,
       20.746238708496094,
       23.570077896118164,
@@ -8567,22 +7421,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
@@ -8595,17 +7443,17 @@
   {
     "step": 200,
     "observation": [
-      0.8027222156524658,
+      0.8058888912200928,
       100.0,
-      28.71088981628418,
+      28.723554611206055,
       50.0,
       0.0,
       0.0,
       0.0,
       1.0,
-      -0.0013183077098801732,
-      0.0015841101994737983,
-      0.0007154907798394561,
+      -0.001082687289454043,
+      0.0011796064209192991,
+      0.0005822163075208664,
       0.0,
       20.748912811279297,
       23.563669204711914,
@@ -8616,22 +7464,16 @@
     "mode": "Nominal",
     "is_sunlit": true,
     "subsystem_statuses": {
-      "EPS": "Nominal",
-      "ADCS": "ReactionWheelFriction",
+      "EPS": "BatteryCellFailure",
+      "ADCS": "Nominal",
       "TCS": "Nominal"
     },
     "persistent_faults": [
       {
         "subsystem": "EPS",
-        "type": "PowerShortCircuit",
-        "params": {},
-        "intermittent": false
-      },
-      {
-        "subsystem": "ADCS",
-        "type": "ReactionWheelFriction",
+        "type": "BatteryCellFailure",
         "params": {
-          "friction_increase": 1.5
+          "capacity_reduction": 0.75
         },
         "intermittent": false
       }
