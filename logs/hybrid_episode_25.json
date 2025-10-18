@@ -10,9 +10,9 @@
       0.0,
       0.0,
       1.0,
+      0.0010000000474974513,
+      -0.0,
       0.0,
-      0.0,
-      -0.0020000000949949026,
       0.0,
       20.0,
       25.0,
@@ -29,9 +29,8463 @@
     },
     "persistent_faults": [],
     "intermittent_faults": [],
-    "decision_source": "rule_override",
+    "decision_source": "drl_primary",
     "terminated": false,
     "truncated": false,
-    "drl_confidence": 0.32961219549179077,
-    "rule_action": 1,
-    "drl_action": 
+    "drl_confidence": 0.18726232647895813,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 2,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852034479379654,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 3,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896565854549408,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 4,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.05500030517578,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896526962518692,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 5,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.079999923706055,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964490294456482,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 6,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.104999542236328,
+      24.959999084472656,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964242935180664,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 7,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.110000610351562,
+      24.95199966430664,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185194194316864,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 8,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      0.0,
+      20.11400032043457,
+      24.944000244140625,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518981337547302,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 9,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.118999481201172,
+      24.93600082397461,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851912885904312,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 10,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.143999099731445,
+      24.92799949645996,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896388679742813,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 11,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.16900062561035,
+      24.920000076293945,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964098393917084,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 12,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.17300033569336,
+      24.91200065612793,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518409132957458,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 13,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.17799949645996,
+      24.90399932861328,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518245220184326,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 14,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852068156003952,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 15,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964947760105133,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 16,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520276248455048,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 17,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520258367061615,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 18,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.045000076293945,
+      24.959999084472656,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520194292068481,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 19,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.06999969482422,
+      24.951000213623047,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896485984325409,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 20,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.003000000026077032,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.094999313354492,
+      24.94300079345703,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896432787179947,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 21,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.003000000026077032,
+      -0.0,
+      0.0,
+      20.099000930786133,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519452214241028,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 22,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.124000549316406,
+      24.927000045776367,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896480768918991,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 23,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.14900016784668,
+      24.91900062561035,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963563442230225,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 24,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.15399932861328,
+      24.910999298095703,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518611788749695,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 25,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.158000946044922,
+      24.902999877929688,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518809974193573,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 26,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.163000106811523,
+      24.895999908447266,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518656492233276,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 27,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.167999267578125,
+      24.88800048828125,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517878651618958,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 28,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0,
+      -0.0,
+      0.0,
+      20.17300033569336,
+      24.8799991607666,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518397212028503,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 29,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.177000045776367,
+      24.871999740600586,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518494069576263,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 30,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.18199920654297,
+      24.86400032043457,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518227338790894,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 31,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.187000274658203,
+      24.856000900268555,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518157303333282,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 32,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.19099998474121,
+      24.847999572753906,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517839908599854,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 33,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.195999145507812,
+      24.84000015258789,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517878651618958,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 34,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.200000762939453,
+      24.832000732421875,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517795205116272,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 35,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0020000000949949026,
+      0.0,
+      20.204999923706055,
+      24.825000762939453,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518394231796265,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 36,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.209999084472656,
+      24.816999435424805,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517710268497467,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 37,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.214000701904297,
+      24.80900001525879,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518003821372986,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 38,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.2189998626709,
+      24.801000595092773,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518327176570892,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 39,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.243000030517578,
+      24.792999267578125,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963539600372314,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 40,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003000000026077032,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.26799964904785,
+      24.78499984741211,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962225317955017,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 41,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.29199981689453,
+      24.777999877929688,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962949514389038,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 42,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.316999435424805,
+      24.770000457763672,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962404131889343,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 43,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.340999603271484,
+      24.761999130249023,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962351977825165,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 44,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.364999771118164,
+      24.753999710083008,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896188110113144,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 45,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.389999389648438,
+      24.746999740600586,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962489068508148,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 46,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.413999557495117,
+      24.73900032043457,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961848318576813,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 47,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852121651172638,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 48,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520785868167877,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 49,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965192139148712,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 50,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.059999465942383,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896543651819229,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 51,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.084999084472656,
+      24.959999084472656,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888217210769653,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 52,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.110000610351562,
+      24.951000213623047,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18886907398700714,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 53,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.134000778198242,
+      24.94300079345703,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18886923789978027,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 54,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.159000396728516,
+      24.934999465942383,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888606697320938,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 55,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      -0.003000000026077032,
+      0.0,
+      20.18400001525879,
+      24.92799949645996,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.189634770154953,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 56,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      20.208999633789062,
+      24.920000076293945,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963225185871124,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 57,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.232999801635742,
+      24.91200065612793,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963350355625153,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 58,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.257999420166016,
+      24.90399932861328,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963438272476196,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 59,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.283000946044922,
+      24.895999908447266,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961986899375916,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 60,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0,
+      0.0,
+      0.0,
+      20.30699920654297,
+      24.88800048828125,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896176040172577,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 61,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.332000732421875,
+      24.8799991607666,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962332606315613,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 62,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.356000900268555,
+      24.871999740600586,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.189611554145813,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 63,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.381000518798828,
+      24.864999771118164,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896076500415802,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 64,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.405000686645508,
+      24.85700035095215,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960683047771454,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 65,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.429000854492188,
+      24.849000930786133,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895972490310669,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 66,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.45400047302246,
+      24.840999603271484,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896037608385086,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 67,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.47800064086914,
+      24.833999633789062,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18959647417068481,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 68,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.50200080871582,
+      24.826000213623047,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895938366651535,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 69,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.525999069213867,
+      24.81800079345703,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895846426486969,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 70,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.551000595092773,
+      24.81100082397461,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958976864814758,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 71,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0020000000949949026,
+      0.0,
+      20.575000762939453,
+      24.80299949645996,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958334624767303,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 72,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.599000930786133,
+      24.795000076293945,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895783692598343,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 73,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.62299919128418,
+      24.788000106811523,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18957963585853577,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 74,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003000000026077032,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.62700080871582,
+      24.780000686645508,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851128488779068,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 75,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.631000518798828,
+      24.773000717163086,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511414527893066,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 76,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.635000228881836,
+      24.764999389648438,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511535227298737,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 77,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.638999938964844,
+      24.757999420166016,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851087510585785,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 78,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      0.0,
+      20.64299964904785,
+      24.75,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511323630809784,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 79,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.66699981689453,
+      24.743000030517578,
+      1.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18956071138381958,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 80,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.019999999552965164,
+      0.003000000026077032,
+      0.0020000000949949026,
+      0.0,
+      20.69099998474121,
+      24.735000610351562,
+      1.0
+    ],
+    "action": 5,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961459398269653,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 81,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.00800000037997961,
+      0.0020000000949949026,
+      0.0,
+      20.69499969482422,
+      24.72800064086914,
+      0.0
+    ],
+    "action": 4,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512138724327087,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 82,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.014000000432133675,
+      -0.009999999776482582,
+      -0.004999999888241291,
+      0.0,
+      20.7189998626709,
+      24.719999313354492,
+      1.0
+    ],
+    "action": 4,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895010769367218,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 83,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014000000432133675,
+      0.004000000189989805,
+      -0.004999999888241291,
+      0.0,
+      20.743000030517578,
+      24.71299934387207,
+      1.0
+    ],
+    "action": 2,
+    "reward": 2.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroNoiseIncrease",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18954189121723175,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 84,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      20.766000747680664,
+      24.704999923706055,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18955589830875397,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 85,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521066009998322,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 86,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185213103890419,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 87,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521486222743988,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 88,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896645873785019,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 89,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.065000534057617,
+      24.958999633789062,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965189158916473,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 90,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.09000015258789,
+      24.951000213623047,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965758383274078,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 91,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.114999771118164,
+      24.94300079345703,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965312838554382,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 92,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      20.138999938964844,
+      24.934999465942383,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.189650759100914,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 93,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.163999557495117,
+      24.927000045776367,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963991105556488,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 94,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.18899917602539,
+      24.91900062561035,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.189630925655365,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 95,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      20.194000244140625,
+      24.91200065612793,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517377972602844,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 96,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.003000000026077032,
+      0.0010000000474974513,
+      0.0,
+      20.197999954223633,
+      24.90399932861328,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851755529642105,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 97,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      20.202999114990234,
+      24.895999908447266,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518051505088806,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 98,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.20800018310547,
+      24.88800048828125,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851808875799179,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 99,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.23200035095215,
+      24.8799991607666,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963676691055298,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 100,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.23699951171875,
+      24.871999740600586,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517370522022247,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 101,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.26099967956543,
+      24.86400032043457,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896214485168457,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 102,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.266000747680664,
+      24.856000900268555,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516629934310913,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 103,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.270000457763672,
+      24.847999572753906,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516705930233002,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 104,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.274999618530273,
+      24.840999603271484,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517115712165833,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 105,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.280000686645508,
+      24.83300018310547,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516920506954193,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 106,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.284000396728516,
+      24.825000762939453,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517038226127625,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 107,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.288000106811523,
+      24.816999435424805,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851675659418106,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 108,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.292999267578125,
+      24.80900001525879,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516698479652405,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 109,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      20.297000885009766,
+      24.802000045776367,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516641855239868,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 110,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.302000045776367,
+      24.79400062561035,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851671040058136,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 111,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852085143327713,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 112,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521001935005188,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 113,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521463871002197,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 114,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.020000457763672,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521355092525482,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 115,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.024999618530273,
+      24.958999633789062,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520593643188477,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 116,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.030000686645508,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520671129226685,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 117,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      0.0,
+      20.03499984741211,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852087825536728,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 118,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.040000915527344,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520765006542206,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 119,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.04400062561035,
+      24.927000045776367,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520645797252655,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 120,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.048999786376953,
+      24.91900062561035,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185205340385437,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 121,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.054000854492188,
+      24.910999298095703,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852034628391266,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 122,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.05900001525879,
+      24.902999877929688,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852055788040161,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 123,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.06399917602539,
+      24.895000457763672,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520289659500122,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 124,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.089000701904297,
+      24.886999130249023,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964914977550507,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 125,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.11400032043457,
+      24.878999710083008,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964461982250214,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 126,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.13800048828125,
+      24.871000289916992,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964795768260956,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 127,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      -0.0,
+      0.0,
+      20.163000106811523,
+      24.863000869750977,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964041769504547,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 128,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.187999725341797,
+      24.854999542236328,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896420121192932,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 129,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.211999893188477,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963733315467834,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 130,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.23699951171875,
+      24.84000015258789,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963244557380676,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 131,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.26099967956543,
+      24.832000732421875,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896214485168457,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 132,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      20.285999298095703,
+      24.823999404907227,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962912261486053,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 133,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.290000915527344,
+      24.81599998474121,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516641855239868,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 134,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520700931549072,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 135,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520677089691162,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 136,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520453572273254,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 137,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18966373801231384,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 138,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0020000000949949026,
+      0.0,
+      20.065000534057617,
+      24.958999633789062,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896454393863678,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 139,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.06999969482422,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851988136768341,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 140,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.075000762939453,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519896268844604,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 141,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.099000930786133,
+      24.934999465942383,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965518474578857,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 142,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.124000549316406,
+      24.927000045776367,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964900076389313,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 143,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.14900016784668,
+      24.91900062561035,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963785469532013,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 144,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.173999786376953,
+      24.910999298095703,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896326243877411,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 145,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.197999954223633,
+      24.902999877929688,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963223695755005,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 146,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.222999572753906,
+      24.895999908447266,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896393746137619,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 147,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.003000000026077032,
+      0.0,
+      20.22800064086914,
+      24.88800048828125,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517887592315674,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 148,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.23200035095215,
+      24.8799991607666,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517495691776276,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 149,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.256999969482422,
+      24.871999740600586,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962301313877106,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 150,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.003000000026077032,
+      0.0,
+      0.0,
+      20.281999588012695,
+      24.86400032043457,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962764739990234,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 151,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.305999755859375,
+      24.856000900268555,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962356448173523,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 152,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.33099937438965,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896267831325531,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 153,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.354999542236328,
+      24.840999603271484,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962056934833527,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 154,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.378999710083008,
+      24.83300018310547,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962211906909943,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 155,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.40399932861328,
+      24.825000762939453,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896091252565384,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 156,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.42799949645996,
+      24.816999435424805,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960882723331451,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 157,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      20.45199966430664,
+      24.809999465942383,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960848450660706,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 158,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.476999282836914,
+      24.802000045776367,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895984560251236,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 159,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      0.0,
+      20.500999450683594,
+      24.79400062561035,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958920240402222,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 160,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521073460578918,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 161,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964917957782745,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 162,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520523607730865,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 163,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520139157772064,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 164,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.045000076293945,
+      24.959999084472656,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519948422908783,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 165,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.049999237060547,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520276248455048,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 166,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.05500030517578,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519984185695648,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 167,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0,
+      0.0,
+      0.0,
+      20.07900047302246,
+      24.934999465942383,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965665996074677,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 168,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.083999633789062,
+      24.927000045776367,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519605696201324,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 169,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.003000000026077032,
+      0.0,
+      20.089000701904297,
+      24.91900062561035,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851942241191864,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 170,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.0939998626709,
+      24.910999298095703,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852007359266281,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 171,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.003000000026077032,
+      -0.0010000000474974513,
+      0.0,
+      20.099000930786133,
+      24.902999877929688,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519602715969086,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 172,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.104000091552734,
+      24.895000457763672,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519499897956848,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 173,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.003000000026077032,
+      0.0,
+      20.107999801635742,
+      24.886999130249023,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519584834575653,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 174,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.132999420166016,
+      24.878999710083008,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964369595050812,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 175,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.158000946044922,
+      24.871999740600586,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964213132858276,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 176,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.18199920654297,
+      24.86400032043457,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896408200263977,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 177,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.207000732421875,
+      24.856000900268555,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964438140392303,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 178,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.23200035095215,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964341282844543,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 179,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.256000518798828,
+      24.84000015258789,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963190913200378,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 180,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.2810001373291,
+      24.832000732421875,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962135910987854,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 181,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.28499984741211,
+      24.823999404907227,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18516740202903748,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 182,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.309999465942383,
+      24.816999435424805,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896291971206665,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 183,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      -0.0,
+      0.0,
+      20.333999633789062,
+      24.80900001525879,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962286412715912,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 184,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.358999252319336,
+      24.801000595092773,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962131440639496,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 185,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.382999420166016,
+      24.792999267578125,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961195647716522,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 186,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.003000000026077032,
+      -0.0020000000949949026,
+      0.0,
+      20.386999130249023,
+      24.785999298095703,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18515720963478088,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 187,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.41200065612793,
+      24.777999877929688,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961355090141296,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 188,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.43600082397461,
+      24.770000457763672,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960891664028168,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 189,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852101981639862,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 190,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852136105298996,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 191,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852094829082489,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 192,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965888023376465,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 193,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.05500030517578,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896696239709854,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 194,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521000444889069,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 195,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965034186840057,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 196,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.05500030517578,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18966053426265717,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 197,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0,
+      0.0020000000949949026,
+      0.0,
+      20.079999923706055,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18966129422187805,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 198,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.104999542236328,
+      24.959999084472656,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896507292985916,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 199,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.1299991607666,
+      24.95199966430664,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965214490890503,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 200,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.15399932861328,
+      24.944000244140625,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroNoiseIncrease",
+        "params": {
+          "noise_factor": 10.0
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": true,
+    "drl_confidence": 0.1896466761827469,
+    "rule_action": 0,
+    "drl_action": 1
+  }
+]

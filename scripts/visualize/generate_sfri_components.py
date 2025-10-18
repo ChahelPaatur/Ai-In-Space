@@ -106,7 +106,7 @@ def create_sfri_components():
         edgecolor='black', linewidth=2
     )
     ax.add_patch(sfri_box)
-    ax.text(sfri_pos[0], sfri_pos[1], "SFRI Score\n(0-100 scale)", 
+    ax.text(sfri_pos[0], sfri_pos[1], "SFRI Score\n(0-70 scale)", 
              ha='center', va='center', fontsize=14, weight='bold', color='white')
     
     # Draw arrows

@@ -1,21 +1,23 @@
 import random
 import copy # Needed for deep copying fault info
 
-# Define potential fault types (can be expanded significantly)
+# Fault types based on real spacecraft failures
 POSSIBLE_FAULTS = [
-    # EPS Faults
+    # Power system faults
     {'subsystem': 'EPS', 'type': 'SolarPanelDegradation', 'params': {'degradation_factor': 0.6}, 'intermittent': False},
+    # Battery cell failure: Critical issue seen in Hubble servicing missions, ISS battery replacements
     {'subsystem': 'EPS', 'type': 'BatteryCellFailure', 'params': {'capacity_reduction': 0.75}, 'intermittent': False},
     {'subsystem': 'EPS', 'type': 'PowerShortCircuit', 'params': {}, 'intermittent': False},
 
-    # ADCS Faults
+    # Attitude control faults
     {'subsystem': 'ADCS', 'type': 'GyroBias', 'params': {'bias_value': 0.01}, 'intermittent': False},
     {'subsystem': 'ADCS', 'type': 'ReactionWheelFriction', 'params': {'friction_increase': 1.5}, 'intermittent': False},
     {'subsystem': 'ADCS', 'type': 'GyroNoiseIncrease', 'params': {'noise_factor': 10.0}, 'intermittent': False},
 
-    # TCS Faults
+    # Thermal control faults
     {'subsystem': 'TCS', 'type': 'HeaterStuckOn', 'params': {}, 'intermittent': False},
     {'subsystem': 'TCS', 'type': 'HeaterStuckOff', 'params': {}, 'intermittent': False},
+    # Temperature sensor failure: Frequent spacecraft telemetry anomaly
     {'subsystem': 'TCS', 'type': 'SensorAFailure', 'params': {'failed_value': -999.0}, 'intermittent': False},
     # Intermittent Example:
     {

@@ -2,109 +2,76 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from pathlib import Path
 
-# Create output directory
-Path("static/plots/paper").mkdir(parents=True, exist_ok=True)
-
-# Load p-value data
-with open("P_value/sfri_pvalues.json", "r") as file:
-    data = json.load(file)
+# Load p-value results
+with open('P_value/sfri_pvalues.json', 'r') as f:
+    data = json.load(f)
 
 # Extract data for plotting
-comparisons = list(data.keys())
-p_values = [-np.log10(data[comp]["p_value"]) for comp in comparisons]  # Use -log10 for better visualization
-effect_sizes = [abs(data[comp]["effect_size"]) for comp in comparisons]
-better_agents = [data[comp]["better_agent"] for comp in comparisons]
+comparisons = ["classical_vs_drl", "classical_vs_hybrid", "drl_vs_hybrid"]
+p_values = [data[comp]["p_value"] for comp in comparisons]
+mean_diffs = [abs(data[comp]["mean_diff"]) for comp in comparisons]
+t_statistics = [abs(data[comp]["t_statistic"]) for comp in comparisons]
 
-# Determine bar colors based on better agent
-colors = []
-for agent in better_agents:
-    if agent == "classical":
-        colors.append("blue")
-    elif agent == "drl":
-        colors.append("orange")
-    elif agent == "hybrid":
-        colors.append("green")
+# Create the plot
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
 
-# Nicer labels for plotting
-labels = [comp.replace("_", " vs ").title() for comp in comparisons]
-
-# Create a figure with two subplots
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
-
-# Plot p-values (as -log10(p))
-bars1 = ax1.bar(labels, p_values, color=colors)
-ax1.set_title("Statistical Significance of SFRI Comparisons")
-ax1.set_ylabel("-log10(p-value)")
-ax1.axhline(y=-np.log10(0.05), color='red', linestyle='--', label='p=0.05')
-ax1.axhline(y=-np.log10(0.01), color='darkred', linestyle='--', label='p=0.01')
+# Plot 1: P-values with significance thresholds
+ax1.bar(range(len(comparisons)), p_values, color=['#FF6B6B', '#4ECDC4', '#45B7D1'])
+ax1.axhline(y=0.05, color='orange', linestyle='--', alpha=0.7, label='p = 0.05')
+ax1.axhline(y=0.01, color='red', linestyle='--', alpha=0.7, label='p = 0.01') 
+ax1.axhline(y=0.001, color='darkred', linestyle='--', alpha=0.7, label='p = 0.001')
+ax1.set_yscale('log')
+ax1.set_xlabel('Agent Comparison')
+ax1.set_ylabel('P-value (log scale)')
+ax1.set_title('Statistical Significance of SFRI Differences')
+ax1.set_xticks(range(len(comparisons)))
+ax1.set_xticklabels(['Classical vs DRL', 'Classical vs Hybrid', 'DRL vs Hybrid'], rotation=45)
 ax1.legend()
+ax1.grid(True, alpha=0.3)
 
-# Annotate with actual p-values
-for i, bar in enumerate(bars1):
-    height = bar.get_height()
-    ax1.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-            f'p={data[comparisons[i]]["p_value"]:.2e}',
-            ha='center', va='bottom', rotation=0, fontsize=9)
+# Add significance annotations
+for i, (comp, pval) in enumerate(zip(comparisons, p_values)):
+    if pval < 0.001:
+        ax1.annotate('***', xy=(i, pval), xytext=(i, pval*10), 
+                    ha='center', va='bottom', fontsize=14, fontweight='bold')
+    elif pval < 0.01:
+        ax1.annotate('**', xy=(i, pval), xytext=(i, pval*10), 
+                    ha='center', va='bottom', fontsize=14, fontweight='bold')
+    elif pval < 0.05:
+        ax1.annotate('*', xy=(i, pval), xytext=(i, pval*10), 
+                    ha='center', va='bottom', fontsize=14, fontweight='bold')
 
-# Plot effect sizes
-bars2 = ax2.bar(labels, effect_sizes, color=colors)
-ax2.set_title("Effect Size of SFRI Comparisons")
-ax2.set_ylabel("Cohen's d (absolute value)")
-ax2.axhline(y=0.2, color='gray', linestyle='--', label='Small')
-ax2.axhline(y=0.5, color='gray', linestyle='-', label='Medium')
-ax2.axhline(y=0.8, color='black', linestyle='--', label='Large')
-ax2.legend()
+# Plot 2: Mean differences (effect sizes)
+ax2.bar(range(len(comparisons)), mean_diffs, color=['#FF6B6B', '#4ECDC4', '#45B7D1'])
+ax2.set_xlabel('Agent Comparison')
+ax2.set_ylabel('SFRI Score Difference (points)')
+ax2.set_title('Magnitude of SFRI Score Differences')
+ax2.set_xticks(range(len(comparisons)))
+ax2.set_xticklabels(['Classical vs DRL', 'Classical vs Hybrid', 'DRL vs Hybrid'], rotation=45)
+ax2.grid(True, alpha=0.3)
 
-# Annotate with actual effect sizes and better agent
-for i, bar in enumerate(bars2):
-    height = bar.get_height()
-    effect_size = data[comparisons[i]]["effect_size"]
-    better = data[comparisons[i]]["better_agent"]
-    ax2.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-            f'd={effect_size:.2f}\n{better}',
-            ha='center', va='bottom', rotation=0, fontsize=9)
+# Add value labels on bars
+for i, diff in enumerate(mean_diffs):
+    ax2.text(i, diff + 0.5, f'{diff:.1f}', ha='center', va='bottom', fontweight='bold')
 
 plt.tight_layout()
-plt.savefig("static/plots/paper/figure_pvalues_comparison.png", dpi=300, bbox_inches='tight')
-plt.savefig("P_value/pvalues_visualization.png", dpi=300, bbox_inches='tight')
-print("P-value visualization created and saved to static/plots/paper/figure_pvalues_comparison.png")
+plt.savefig('P_value/sfri_pvalue_analysis.png', dpi=300, bbox_inches='tight')
+plt.savefig('static/plots/paper/figure12_pvalue_analysis.png', dpi=300, bbox_inches='tight')
 
-# Create a detailed tabular visualization
-plt.figure(figsize=(10, 6))
-plt.axis('off')
+print("P-value analysis plots saved to:")
+print("  - P_value/sfri_pvalue_analysis.png")
+print("  - static/plots/paper/figure12_pvalue_analysis.png")
 
-# Create table data
-table_data = []
-headers = ["Comparison", "P-Value", "Significant", "Effect Size", "Better Agent"]
+# Create a summary table
+print("\n=== STATISTICAL ANALYSIS SUMMARY ===")
+print(f"{'Comparison':<20} {'P-value':<12} {'Significance':<15} {'Mean Diff':<10}")
+print("-" * 65)
 for comp in comparisons:
     p_val = data[comp]["p_value"]
-    sig = "Yes (p<0.001)" if data[comp]["significant_001"] else "Yes (p<0.05)" if data[comp]["significant_005"] else "No"
-    effect = data[comp]["effect_size"]
-    effect_mag = "Large" if abs(effect) >= 0.8 else "Medium" if abs(effect) >= 0.5 else "Small" if abs(effect) >= 0.2 else "Negligible"
-    better = data[comp]["better_agent"]
-    
-    table_data.append([
-        comp.replace("_", " vs ").title(),
-        f"{p_val:.2e}",
-        sig,
-        f"{effect:.2f} ({effect_mag})",
-        better.title()
-    ])
+    sig_level = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else "n.s."
+    mean_diff = abs(data[comp]["mean_diff"])
+    comp_name = comp.replace("_", " ").title()
+    print(f"{comp_name:<20} {p_val:<12.6f} {sig_level:<15} {mean_diff:<10.1f}")
 
-# Plot table
-table = plt.table(cellText=table_data, colLabels=headers, loc='center', cellLoc='center')
-table.auto_set_font_size(False)
-table.set_fontsize(10)
-table.scale(1, 1.5)
-
-# Add title
-plt.title("Statistical Analysis of SFRI Comparisons", pad=20, fontsize=14)
-
-plt.tight_layout()
-plt.savefig("static/plots/paper/figure_pvalues_table.png", dpi=300, bbox_inches='tight')
-plt.savefig("P_value/pvalues_table.png", dpi=300, bbox_inches='tight')
-print("P-value table visualization created and saved to static/plots/paper/figure_pvalues_table.png")
-
-print("All p-value visualizations completed successfully.") 
+plt.close() 

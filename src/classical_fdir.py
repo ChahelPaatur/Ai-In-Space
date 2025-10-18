@@ -1,28 +1,23 @@
 """
-Safety-Compliant Rule-Based FDIR Agent
+Rule-Based FDIR Agent
 
-This module implements a certifiable rule-based FDIR agent adhering to aerospace software
-safety standards like DO-178C (DAL B) and ECSS-E-ST-40C.
+Traditional spacecraft fault detection using threshold-based rules.
+Includes support for processing external telemetry data from various sources.
 
-The agent implements deterministic decision logic with formal verification properties,
-runtime assertion checking, and comprehensive logging required for certification.
-
-Safety features include:
-- Deterministic rule-based logic
-- Formal verification annotations
-- Runtime assertion checking
-- Comprehensive audit logging
-- Safety-first priority ordering
+Features:
+- Deterministic decision logic
+- Input validation and logging
+- Support for NASA, ESA, and other data formats
 """
 
 import numpy as np
 import logging
 import time
 import json
-import os
 from datetime import datetime
 from pathlib import Path
 from collections import deque
+from typing import Dict, List, Optional, Any, Union
 
 # Configure logging
 logging.basicConfig(
@@ -30,6 +25,74 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'
 )
 logger = logging.getLogger("SafetyRuleAgent")
+
+class ExternalDataProcessor:
+    """
+    Process external telemetry data from various sources for rule-based analysis.
+    Supports NASA, ESA, and other spacecraft data formats.
+    """
+    def __init__(self):
+        self.supported_formats = ['spacecraft_env', 'nasa_ccsds', 'esa_opssat', 'csv_telemetry']
+        self.format_processors = {
+            'spacecraft_env': self._process_spacecraft_env,
+            'nasa_ccsds': self._process_nasa_ccsds,
+            'esa_opssat': self._process_esa_opssat,
+            'csv_telemetry': self._process_csv_telemetry
+        }
+    
+    def process_external_data(self, data: Any, format_type: str) -> Optional[np.ndarray]:
+        """
+        Process external data into standard observation format.
+        
+        Args:
+            data: Raw telemetry data in various formats
+            format_type: Data format identifier
+            
+        Returns:
+            Standardized observation array or None if processing fails
+        """
+        try:
+            processor = self.format_processors.get(format_type)
+            if processor:
+                return processor(data)
+            else:
+                logger.warning(f"Unsupported data format: {format_type}")
+                return None
+        except Exception as e:
+            logger.error(f"Error processing external data: {e}")
+            return None
+    
+    def _process_spacecraft_env(self, data: Any) -> Optional[np.ndarray]:
+        """Process standard spacecraft environment format."""
+        if isinstance(data, (list, np.ndarray)) and len(data) >= 15:
+            return np.array(data[:15], dtype=np.float32)
+        return None
+    
+    def _process_nasa_ccsds(self, data: Any) -> Optional[np.ndarray]:
+        """Process NASA CCSDS telemetry packets."""
+        if isinstance(data, dict) and 'telemetry' in data:
+            tel_data = data['telemetry']
+            if len(tel_data) >= 15:
+                return np.array(tel_data[:15], dtype=np.float32)
+        return None
+    
+    def _process_esa_opssat(self, data: Any) -> Optional[np.ndarray]:
+        """Process ESA OPS-SAT telemetry format."""
+        if isinstance(data, dict) and 'parameters' in data:
+            params = data['parameters']
+            if isinstance(params, list) and len(params) >= 15:
+                return np.array(params[:15], dtype=np.float32)
+        return None
+    
+    def _process_csv_telemetry(self, data: Any) -> Optional[np.ndarray]:
+        """Process CSV telemetry format."""
+        if isinstance(data, (list, np.ndarray)) and len(data) >= 15:
+            return np.array(data[:15], dtype=np.float32)
+        elif isinstance(data, dict) and 'values' in data:
+            values = data['values']
+            if len(values) >= 15:
+                return np.array(values[:15], dtype=np.float32)
+        return None
 
 class RuleBasedFDIR:
     """
@@ -104,7 +167,17 @@ class RuleBasedFDIR:
         # Set up audit logging for certification
         self._setup_audit_logging()
         
-        logger.info("Safety-Compliant Rule-Based FDIR Agent initialized")
+        # Initialize external data processor for research compatibility
+        self.external_processor = ExternalDataProcessor()
+        
+        # Performance tracking for external data processing
+        self.external_data_metrics = {
+            'total_processed': 0,
+            'format_counts': {},
+            'processing_errors': 0
+        }
+        
+        logger.info("Safety-Compliant Rule-Based FDIR Agent initialized with external data support")
 
     def _define_verification_properties(self):
         """
@@ -255,6 +328,59 @@ class RuleBasedFDIR:
         
         return True
 
+    def process_external_telemetry(self, telemetry_data: Any, format_type: str = 'spacecraft_env') -> Optional[int]:
+        """
+        Process external telemetry data and generate response action.
+        Enables analysis of historical spacecraft data with rule-based logic.
+        
+        Args:
+            telemetry_data: External telemetry in various formats
+            format_type: Data format identifier
+            
+        Returns:
+            Recommended action or None if processing fails
+        """
+        try:
+            observation = self.external_processor.process_external_data(telemetry_data, format_type)
+            if observation is not None:
+                # Update metrics
+                self.external_data_metrics['total_processed'] += 1
+                self.external_data_metrics['format_counts'][format_type] = \
+                    self.external_data_metrics['format_counts'].get(format_type, 0) + 1
+                
+                # Process with rule-based logic
+                action = self.get_action(observation, {'external_data': True})
+                logger.info(f"Processed external {format_type} data, recommended action: {self.ACTION_NAMES.get(action, action)}")
+                return action
+            return None
+        except Exception as e:
+            logger.error(f"Error processing external telemetry: {e}")
+            self.external_data_metrics['processing_errors'] += 1
+            return None
+    
+    def get_external_data_metrics(self) -> Dict:
+        """
+        Get metrics about external data processing for research analysis.
+        
+        Returns:
+            Dict containing processing statistics
+        """
+        return {
+            'total_processed': self.external_data_metrics['total_processed'],
+            'format_breakdown': dict(self.external_data_metrics['format_counts']),
+            'processing_errors': self.external_data_metrics['processing_errors'],
+            'supported_formats': self.external_processor.supported_formats
+        }
+    
+    def reset_external_metrics(self):
+        """Reset external data processing metrics for new evaluation."""
+        self.external_data_metrics = {
+            'total_processed': 0,
+            'format_counts': {},
+            'processing_errors': 0
+        }
+        logger.info("External data metrics reset")
+
     def get_action(self, observation: np.ndarray, current_info: dict) -> int:
         """
         Determine the action based on the current observation and predefined rules.
@@ -316,7 +442,7 @@ class RuleBasedFDIR:
             self._record_rule_activation("POWER_RECOVERED", 
                                        f"SoC recovered: {eps_soc:.2f} > {self.thresholds['soc_critical'] + 0.05:.2f}",
                                        telemetry)
-             self.current_mode = 'Nominal'
+            self.current_mode = 'Nominal'
             action = self.ACTION_MAP["ENTER_NOMINAL_MODE"]
             self._log_decision(action, "Power state recovered", telemetry)
             return action

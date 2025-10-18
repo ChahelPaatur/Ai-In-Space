@@ -10,12 +10,49 @@
       0.0,
       0.0,
       1.0,
-      -0.0020000000949949026,
-      -0.0020000000949949026,
+      -0.0,
       -0.0010000000474974513,
+      0.0,
       0.0,
       20.0,
       25.0,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1872638761997223,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 2,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
       0.0
     ],
     "action": 1,
@@ -29,9 +66,8255 @@
     },
     "persistent_faults": [],
     "intermittent_faults": [],
-    "decision_source": "rule_override",
+    "decision_source": "drl_primary",
     "terminated": false,
     "truncated": false,
-    "drl_confidence": 0.3296129107475281,
-    "rule_action": 1,
-    "drl_action": 
+    "drl_confidence": 0.18520432710647583,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 3,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520501255989075,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 4,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852099597454071,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 5,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.020000457763672,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852044314146042,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 6,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      0.0,
+      20.024999618530273,
+      24.958999633789062,
+      0.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596255779266357,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 7,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596340715885162,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 8,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.05500030517578,
+      24.94300079345703,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888601660728455,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 9,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.079999923706055,
+      24.934999465942383,
+      1.0
+    ],
+    "action": 7,
+    "reward": -0.4,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888822466135025,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 10,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.104000091552734,
+      24.927000045776367,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888603150844574,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 11,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.128999710083008,
+      24.91900062561035,
+      1.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888366222381592,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 12,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.15399932861328,
+      24.910999298095703,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.188865527510643,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 13,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.179000854492188,
+      24.902999877929688,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896374672651291,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 14,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.202999114990234,
+      24.895000457763672,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896337866783142,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 15,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.20800018310547,
+      24.88800048828125,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851831078529358,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 16,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.232999801635742,
+      24.8799991607666,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963703513145447,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 17,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.23699951171875,
+      24.871999740600586,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851774901151657,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 18,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.242000579833984,
+      24.86400032043457,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518048524856567,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 19,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.246000289916992,
+      24.856000900268555,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517684936523438,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 20,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.003000000026077032,
+      0.0,
+      0.0,
+      20.250999450683594,
+      24.847999572753906,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18517008423805237,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 21,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.256000518798828,
+      24.84000015258789,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851753145456314,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 22,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.260000228881836,
+      24.83300018310547,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185177743434906,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 23,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521465361118317,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 24,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521183729171753,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 25,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.003000000026077032,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18966145813465118,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 26,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.059999465942383,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896628886461258,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 27,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.084999084472656,
+      24.959999084472656,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896597146987915,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 28,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521447479724884,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 29,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965694308280945,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 30,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521371483802795,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 31,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852109134197235,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 32,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.045000076293945,
+      24.959999084472656,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520966172218323,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 33,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.049999237060547,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520863354206085,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 34,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.05500030517578,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852063238620758,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 35,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.05900001525879,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521086871623993,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 36,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.06399917602539,
+      24.927000045776367,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520767986774445,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 37,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.069000244140625,
+      24.91900062561035,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520550429821014,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 38,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.0939998626709,
+      24.910999298095703,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965895473957062,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 39,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.118999481201172,
+      24.902999877929688,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896543800830841,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 40,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.143999099731445,
+      24.895000457763672,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965372443199158,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 41,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0020000000949949026,
+      0.0,
+      20.167999267578125,
+      24.886999130249023,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965433537960052,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 42,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.19300079345703,
+      24.878999710083008,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896493136882782,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 43,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.197999954223633,
+      24.871999740600586,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851869821548462,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 44,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.20199966430664,
+      24.86400032043457,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851789653301239,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 45,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.226999282836914,
+      24.856000900268555,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896292120218277,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 46,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.250999450683594,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962961435317993,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 47,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      0.0,
+      20.275999069213867,
+      24.84000015258789,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18885284662246704,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 48,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.301000595092773,
+      24.832000732421875,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18885204195976257,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 49,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.325000762939453,
+      24.825000762939453,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18962223827838898,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 50,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.349000930786133,
+      24.816999435424805,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961231410503387,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 51,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.374000549316406,
+      24.80900001525879,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896199882030487,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 52,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      20.398000717163086,
+      24.801000595092773,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961547315120697,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 53,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.42300033569336,
+      24.79400062561035,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896100491285324,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 54,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.44700050354004,
+      24.785999298095703,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960267305374146,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 55,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.47100067138672,
+      24.777999877929688,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896049827337265,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 56,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.4950008392334,
+      24.770999908447266,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18959443271160126,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 57,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.499000549316406,
+      24.76300048828125,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18513426184654236,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 58,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0020000000949949026,
+      -0.0,
+      0.0,
+      20.52400016784668,
+      24.7549991607666,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18959027528762817,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 59,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.527999877929688,
+      24.74799919128418,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512572348117828,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 60,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.552000045776367,
+      24.739999771118164,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958453834056854,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 61,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.555999755859375,
+      24.732999801635742,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185127392411232,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 62,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.559999465942383,
+      24.725000381469727,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512511253356934,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 63,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.56399917602539,
+      24.718000411987305,
+      0.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512703478336334,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 64,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      20.56800079345703,
+      24.709999084472656,
+      0.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1858755499124527,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 65,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      20.57200050354004,
+      24.702999114990234,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18587440252304077,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 66,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.576000213623047,
+      24.69499969482422,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512827157974243,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 67,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.579999923706055,
+      24.687999725341797,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512973189353943,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 68,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.604000091552734,
+      24.68000030517578,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895868182182312,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 69,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.628000259399414,
+      24.67300033569336,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958814442157745,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 70,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.652000427246094,
+      24.665000915527344,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958710134029388,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 71,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.676000595092773,
+      24.658000946044922,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18956857919692993,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 72,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.68000030517578,
+      24.649999618530273,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511462211608887,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 73,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.68400001525879,
+      24.64299964904785,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511438369750977,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 74,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.687000274658203,
+      24.63599967956543,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851150393486023,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 75,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.69099998474121,
+      24.628000259399414,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18511174619197845,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 76,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.71500015258789,
+      24.621000289916992,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18957163393497467,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 77,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.73900032043457,
+      24.613000869750977,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18957535922527313,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 78,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      -0.0,
+      0.0,
+      20.761999130249023,
+      24.606000900268555,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18957053124904633,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 79,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.785999298095703,
+      24.599000930786133,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18956352770328522,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 80,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.809999465942383,
+      24.591999053955078,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18956291675567627,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 81,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.83300018310547,
+      24.583999633789062,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18955843150615692,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 82,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.85700035095215,
+      24.57699966430664,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18954995274543762,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 83,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.881000518798828,
+      24.56999969482422,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895415037870407,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 84,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.884000778198242,
+      24.562999725341797,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18507608771324158,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 85,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.908000946044922,
+      24.55500030517578,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895347237586975,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 86,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.930999755859375,
+      24.54800033569336,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18953140079975128,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 87,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.003000000026077032,
+      -0.0010000000474974513,
+      0.0,
+      20.95400047302246,
+      24.541000366210938,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18953236937522888,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 88,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.97800064086914,
+      24.534000396728516,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18952937424182892,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 89,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.981000900268555,
+      24.527000427246094,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18506093323230743,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 90,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      21.0049991607666,
+      24.520000457763672,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18952715396881104,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 91,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      21.027999877929688,
+      24.51300048828125,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18951930105686188,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 92,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      21.051000595092773,
+      24.506000518798828,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.189509317278862,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 93,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.004000000189989805,
+      0.0010000000474974513,
+      0.0,
+      21.073999404907227,
+      24.499000549316406,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18950890004634857,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 94,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      21.077999114990234,
+      24.492000579833984,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18504147231578827,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 95,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      21.08099937438965,
+      24.485000610351562,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18504314124584198,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 96,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      21.104000091552734,
+      24.47800064086914,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18951894342899323,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 97,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      21.12700080871582,
+      24.47100067138672,
+      1.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18950946629047394,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 98,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      21.149999618530273,
+      24.464000701904297,
+      1.0
+    ],
+    "action": 8,
+    "reward": -1.1,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18872959911823273,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 99,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.009999999776482582,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      21.17300033569336,
+      24.457000732421875,
+      1.0
+    ],
+    "action": 6,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895437091588974,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 100,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      21.195999145507812,
+      24.450000762939453,
+      1.0
+    ],
+    "action": 5,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1894976943731308,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 101,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      21.198999404907227,
+      24.44300079345703,
+      0.0
+    ],
+    "action": 5,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18502260744571686,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 102,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      21.20199966430664,
+      24.43600082397461,
+      0.0
+    ],
+    "action": 4,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18502743542194366,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 103,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      21.225000381469727,
+      24.429000854492188,
+      1.0
+    ],
+    "action": 0,
+    "reward": -1.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18949252367019653,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 104,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      0.0,
+      21.24799919128418,
+      24.422000885009766,
+      1.0
+    ],
+    "action": 8,
+    "reward": -1.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18949434161186218,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 105,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      21.270999908447266,
+      24.415000915527344,
+      1.0
+    ],
+    "action": 8,
+    "reward": -1.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18948403000831604,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 106,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      21.29400062561035,
+      24.409000396728516,
+      1.0
+    ],
+    "action": 8,
+    "reward": -1.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18948882818222046,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 107,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      21.316999435424805,
+      24.402000427246094,
+      1.0
+    ],
+    "action": 2,
+    "reward": 2.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "GyroBias",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18948034942150116,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 108,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      21.34000015258789,
+      24.395000457763672,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18948450684547424,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 109,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      21.343000411987305,
+      24.38800048828125,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18500396609306335,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 110,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      21.344999313354492,
+      24.381999969482422,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18500275909900665,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 111,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521542847156525,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 112,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521742522716522,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 113,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965384364128113,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 114,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.70199966430664,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521395325660706,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 115,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      -0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.040000915527344,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596889078617096,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 116,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.045000076293945,
+      24.959999084472656,
+      0.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596778810024261,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 117,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.06999969482422,
+      24.951000213623047,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888147175312042,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 118,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.094999313354492,
+      24.94300079345703,
+      1.0
+    ],
+    "action": 5,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18889066576957703,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 119,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.099000930786133,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596145510673523,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 120,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.124000549316406,
+      24.927000045776367,
+      1.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18888050317764282,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 121,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.14900016784668,
+      24.91900062561035,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.188877135515213,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 122,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.173999786376953,
+      24.910999298095703,
+      1.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18887881934642792,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 123,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.197999954223633,
+      24.90399932861328,
+      1.0
+    ],
+    "action": 5,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888716071844101,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 124,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.202999114990234,
+      24.895999908447266,
+      0.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18594539165496826,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 125,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.45199966430664,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      20.22800064086914,
+      24.88800048828125,
+      1.0
+    ],
+    "action": 4,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888606697320938,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 126,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.452999114990234,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.25200080871582,
+      24.8799991607666,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18885721266269684,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 127,
+    "observation": [
+      0.8009999990463257,
+      100.0,
+      28.452999114990234,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.277000427246094,
+      24.871999740600586,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18886306881904602,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 128,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.301000595092773,
+      24.86400032043457,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18885555863380432,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 129,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.326000213623047,
+      24.856000900268555,
+      1.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18884067237377167,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 130,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.350000381469727,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18884393572807312,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 131,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.375,
+      24.840999603271484,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18883837759494781,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 132,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.39900016784668,
+      24.83300018310547,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18961213529109955,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 133,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.423999786376953,
+      24.825000762939453,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960319459438324,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 134,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.447999954223633,
+      24.81800079345703,
+      1.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18960003554821014,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 135,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.472000122070312,
+      24.809999465942383,
+      1.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888175904750824,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 136,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.496000289916992,
+      24.802000045776367,
+      1.0
+    ],
+    "action": 1,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1888236105442047,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 137,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.520999908447266,
+      24.795000076293945,
+      1.0
+    ],
+    "action": 5,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18880456686019897,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 138,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      0.0,
+      20.524999618530273,
+      24.78700065612793,
+      0.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18587467074394226,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 139,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.52899932861328,
+      24.77899932861328,
+      0.0
+    ],
+    "action": 0,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1858721524477005,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 140,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.533000946044922,
+      24.77199935913086,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1858740895986557,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 141,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.53700065612793,
+      24.763999938964844,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512584269046783,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 142,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.541000366210938,
+      24.756999969482422,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512572348117828,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 143,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.545000076293945,
+      24.749000549316406,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851242035627365,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 144,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0020000000949949026,
+      0.0,
+      0.0,
+      0.0,
+      20.549999237060547,
+      24.740999221801758,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512775003910065,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 145,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.554000854492188,
+      24.733999252319336,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512669205665588,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 146,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.558000564575195,
+      24.72599983215332,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512356281280518,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 147,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.562000274658203,
+      24.7189998626709,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851245015859604,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 148,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.56599998474121,
+      24.711000442504883,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512660264968872,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 149,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.56999969482422,
+      24.70400047302246,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512360751628876,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 150,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0,
+      -0.0020000000949949026,
+      0.0,
+      20.573999404907227,
+      24.695999145507812,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512177467346191,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 151,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.577999114990234,
+      24.68899917602539,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512651324272156,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 152,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.582000732421875,
+      24.680999755859375,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512609601020813,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 153,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0,
+      0.0,
+      20.586000442504883,
+      24.673999786376953,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512660264968872,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 154,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      20.59000015258789,
+      24.666000366210938,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512658774852753,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 155,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.003000000026077032,
+      -0.0010000000474974513,
+      0.0,
+      20.5939998626709,
+      24.659000396728516,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512021005153656,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 156,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.597999572753906,
+      24.650999069213867,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851194053888321,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 157,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.601999282836914,
+      24.643999099731445,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18512026965618134,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 158,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0,
+      0.003000000026077032,
+      0.0,
+      20.625999450683594,
+      24.63599967956543,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18958528339862823,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 159,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.64900016784668,
+      24.628999710083008,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1895819753408432,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 160,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520919978618622,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 161,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.983999252319336,
+      1.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965640664100647,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 162,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0010000000474974513,
+      0.0,
+      20.05500030517578,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18964961171150208,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 163,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.079999923706055,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965372443199158,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 164,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520916998386383,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 165,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521295487880707,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 166,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 7,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852087825536728,
+    "rule_action": 0,
+    "drl_action": 7
+  },
+  {
+    "step": 167,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.014999389648438,
+      24.97599983215332,
+      0.0
+    ],
+    "action": 6,
+    "reward": -0.30000000000000004,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596751987934113,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 168,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.451000213623047,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.020000457763672,
+      24.968000411987305,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.8,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1859697848558426,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 169,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.450000762939453,
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.024999618530273,
+      24.958999633789062,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.2,
+    "mode": "Safe",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18596448004245758,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 170,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.030000686645508,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520063161849976,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 171,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.03499984741211,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520672619342804,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 172,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.040000915527344,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520496785640717,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 173,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0,
+      0.0,
+      20.04400062561035,
+      24.927000045776367,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520544469356537,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 174,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.048999786376953,
+      24.91900062561035,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852039247751236,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 175,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.003000000026077032,
+      0.0,
+      20.054000854492188,
+      24.910999298095703,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851998120546341,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 176,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.05900001525879,
+      24.902999877929688,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.185205340385437,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 177,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.06399917602539,
+      24.895000457763672,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852039396762848,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 178,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.089000701904297,
+      24.886999130249023,
+      1.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965092301368713,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 179,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0010000000474974513,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521001935005188,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 180,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 3,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852109134197235,
+    "rule_action": 0,
+    "drl_action": 3
+  },
+  {
+    "step": 181,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.0049991607666,
+      24.992000579833984,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18520626425743103,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 182,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.010000228881836,
+      24.983999252319336,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18521380424499512,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 183,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.03499984741211,
+      24.97599983215332,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18966472148895264,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 184,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.059999465942383,
+      24.968000411987305,
+      1.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965305387973785,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 185,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.084999084472656,
+      24.959999084472656,
+      1.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18965089321136475,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 186,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      20.09000015258789,
+      24.951000213623047,
+      0.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851949840784073,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 187,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.0939998626709,
+      24.94300079345703,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519674241542816,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 188,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.099000930786133,
+      24.934999465942383,
+      0.0
+    ],
+    "action": 5,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852002739906311,
+    "rule_action": 0,
+    "drl_action": 5
+  },
+  {
+    "step": 189,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.104000091552734,
+      24.927000045776367,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1852005422115326,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 190,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.108999252319336,
+      24.91900062561035,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1851995587348938,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 191,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.701000213623047,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      0.0,
+      20.11400032043457,
+      24.910999298095703,
+      0.0
+    ],
+    "action": 1,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519720435142517,
+    "rule_action": 0,
+    "drl_action": 1
+  },
+  {
+    "step": 192,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0,
+      0.0010000000474974513,
+      0.0,
+      0.0,
+      20.118999481201172,
+      24.902999877929688,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519188463687897,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 193,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      0.0,
+      20.12299919128418,
+      24.895999908447266,
+      0.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519121408462524,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 194,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0,
+      -0.0010000000474974513,
+      0.0,
+      20.128000259399414,
+      24.88800048828125,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519242107868195,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 195,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      -0.0010000000474974513,
+      0.0,
+      20.132999420166016,
+      24.8799991607666,
+      0.0
+    ],
+    "action": 2,
+    "reward": -0.30000000000000004,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18518880009651184,
+    "rule_action": 0,
+    "drl_action": 2
+  },
+  {
+    "step": 196,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0020000000949949026,
+      0.0,
+      20.136999130249023,
+      24.871999740600586,
+      0.0
+    ],
+    "action": 8,
+    "reward": 0.1,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519102036952972,
+    "rule_action": 0,
+    "drl_action": 8
+  },
+  {
+    "step": 197,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0020000000949949026,
+      -0.0010000000474974513,
+      -0.0,
+      0.0,
+      20.142000198364258,
+      24.86400032043457,
+      0.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18519139289855957,
+    "rule_action": 0,
+    "drl_action": 4
+  },
+  {
+    "step": 198,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      -0.0010000000474974513,
+      -0.0020000000949949026,
+      0.0,
+      20.16699981689453,
+      24.856000900268555,
+      1.0
+    ],
+    "action": 6,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.1896497905254364,
+    "rule_action": 0,
+    "drl_action": 6
+  },
+  {
+    "step": 199,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0010000000474974513,
+      0.0020000000949949026,
+      -0.0010000000474974513,
+      0.0,
+      20.191999435424805,
+      24.847999572753906,
+      1.0
+    ],
+    "action": 0,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": false,
+    "drl_confidence": 0.18963974714279175,
+    "rule_action": 0,
+    "drl_action": 0
+  },
+  {
+    "step": 200,
+    "observation": [
+      0.800000011920929,
+      100.0,
+      28.700000762939453,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.0010000000474974513,
+      0.0010000000474974513,
+      0.0,
+      20.215999603271484,
+      24.84000015258789,
+      1.0
+    ],
+    "action": 4,
+    "reward": 0.2,
+    "mode": "Nominal",
+    "is_sunlit": true,
+    "subsystem_statuses": {
+      "EPS": "Nominal",
+      "ADCS": "Nominal",
+      "TCS": "Nominal"
+    },
+    "persistent_faults": [
+      {
+        "subsystem": "ADCS",
+        "type": "GyroBias",
+        "params": {
+          "bias_value": 0.01
+        },
+        "intermittent": false
+      }
+    ],
+    "intermittent_faults": [],
+    "decision_source": "drl_primary",
+    "terminated": false,
+    "truncated": true,
+    "drl_confidence": 0.18964609503746033,
+    "rule_action": 0,
+    "drl_action": 4
+  }
+]

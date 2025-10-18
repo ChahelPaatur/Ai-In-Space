@@ -1,0 +1,5 @@
+2025-07-11 06:52:38,490 - INFO - [AUDIT] - ===== AUDIT LOG INITIALIZED =====
+2025-07-11 06:52:38,491 - INFO - [AUDIT] - Safety Thresholds: {"soc_low": 0.18, "soc_critical": 0.12, "vbus_low": 25.5, "ang_vel_high": 0.35, "attitude_error_high": 0.15707963267948966, "gyro_bias_suspected_error": 0.013962634015954637, "temp_a_low": 6.0, "temp_a_high": 44.0, "temp_a_critical_low": -8.0, "temp_a_critical_high": 58.0}
+2025-07-11 06:52:38,493 - INFO - [AUDIT] - Agent reset between episodes
+2025-07-11 06:52:38,493 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.00 < 25.50
+2025-07-11 06:52:38,493 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal

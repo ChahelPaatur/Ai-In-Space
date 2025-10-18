@@ -1,10 +1,10 @@
 # Spacecraft FDIR Agent Comparison Framework
 
-This repository contains a simulation framework for comparing different Fault Detection, Identification, and Recovery (FDIR) agent architectures for spacecraft operations. The framework includes implementations of three agent types:
+This repository contains the complete implementation and research for comparing different Fault Detection, Identification, and Recovery (FDIR) agent architectures for autonomous spacecraft operations. The framework includes implementations of three agent types:
 
-1. **Rule-Based FDIR** - A traditional deterministic approach using telemetry thresholds
-2. **Deep Reinforcement Learning (DRL)** - A learning-based approach using Proximal Policy Optimization (PPO)
-3. **Hybrid FDIR** - A novel architecture combining rule-based safety guarantees with DRL adaptability
+1. **Classical Rule-Based FDIR** - Traditional deterministic approach using telemetry thresholds
+2. **Deep Reinforcement Learning (DRL)** - Learning-based approach using Proximal Policy Optimization (PPO)
+3. **DRL-First Hybrid FDIR** - Novel architecture combining DRL intelligence with rule-based safety validation
 
 ## Research Context
 
@@ -12,10 +12,12 @@ This research investigates the effectiveness of different FDIR strategies for au
 
 ### Key Contributions
 
-- Direct comparison between classical rule-based FDIR and learning-based approaches
-- Introduction of a novel hybrid architecture leveraging strengths of both approaches
-- Development of the SFRI (Stability-Integrated Fault Recovery Index) metric for comprehensive agent evaluation
-- Scalable simulation environment for spacecraft subsystem fault management
+- **DRL-First Hybrid Architecture**: Novel approach positioning AI as primary intelligence with rule-based safety validation
+- **Predictive Fault Analytics**: Neural network pattern analysis for early fault detection
+- **SFRI Metric**: Stability Fault Recovery Index for comprehensive agent evaluation
+- **Temporal Validation Framework**: Adaptive fault persistence checking to reduce false positives
+- **Safety-Compliant Design**: Integration with aerospace standards (DO-178C, ECSS-E-ST-40C)
+- **Comprehensive Evaluation**: Statistical analysis across 100 fault scenarios per agent type
 
 ## Project Structure
 
@@ -31,17 +33,18 @@ This research investigates the effectiveness of different FDIR strategies for au
 │
 ├── scripts/                    # Executable scripts
 │   ├── run/                    # Simulation execution scripts
-│   │   ├── run_comparison.py   # Run and compare classical and DRL agents
 │   │   ├── run_enhanced_comparison.py # Enhanced comparison with metrics
-│   │   └── run_hybrid.py       # Run and evaluate hybrid agent
+│   │   ├── run_hybrid.py       # Run and evaluate hybrid agent
+│   │   └── run_mixed_comparison.py    # Mixed historical/generated fault comparison
 │   ├── train/                  # Training scripts
 │   │   ├── train_drl.py        # Train DRL agent (50K steps)
-│   │   └── train_long.py       # Extended DRL training (500K steps)
+│   │   └── train_long.py       # Extended DRL training (1M steps)
 │   ├── visualize/              # Visualization scripts
-│   │   ├── visualize_results.py       # Basic results visualization
-│   │   ├── visualize_advanced.py      # Advanced metrics visualization
-│   │   ├── visualize_flowcharts.py    # Generate architecture diagrams
-│   │   ├── generate_paper_figures.py  # Generate figures for the paper
+│   │   ├── generate_all_paper_figures.py  # Generate all paper figures
+│   │   ├── generate_paper_figures.py      # Generate specific paper figures
+│   │   ├── visualize_results.py           # Basic results visualization
+│   │   ├── visualize_advanced.py          # Advanced metrics visualization
+│   │   └── visualize_flowcharts.py        # Generate architecture diagrams
 │   └── utils/                  # Utility scripts
 │       └── app.py              # Flask web visualization app
 │
@@ -49,10 +52,21 @@ This research investigates the effectiveness of different FDIR strategies for au
 │   └── plots/                  # Generated plots and diagrams
 │       └── paper/              # Paper-specific figures
 │
-├── logs/                       # Simulation logs
-├── results/                    # Simulation results
+├── Paper/                      # Research paper and documentation
+│   ├── paper.md                # Research paper (Markdown format)
+│   ├── paper.docx              # Research paper (Word format)
+│   └── OFFICIAL-RULES.md       # Regeneron STS competition rules
 │
-├── ppo_agent.pth               # Trained DRL model weights
+├── P_value/                    # Statistical analysis
+│   ├── calculate_sfri_pvalues.py  # P-value calculations
+│   ├── sfri_pvalues.json       # Statistical significance results
+│   └── visualize_pvalues.py    # P-value visualization
+│
+├── logs/                       # Simulation logs and training data
+├── results/                    # Simulation results and comparisons
+├── models/                     # Trained model weights
+│   └── ppo_agent.pth           # Trained DRL model
+│
 └── requirements.txt            # Project dependencies
 ```
 
@@ -67,15 +81,16 @@ This research investigates the effectiveness of different FDIR strategies for au
 
 ### Agents
 
-- **Rule-Based:** Implements a priority-based decision tree with telemetry thresholds
-- **DRL:** PPO implementation with Actor-Critic architecture
-- **Hybrid:** Combines rule-based safety guarantees with DRL adaptability using confidence-based arbitration
+- **Classical Rule-Based:** Priority-based decision tree with telemetry thresholds and deterministic recovery actions
+- **DRL Agent:** PPO implementation with 2-layer Actor-Critic network (64 neurons, Tanh activation)
+- **DRL-First Hybrid:** Novel architecture with DRL as primary intelligence, rule-based safety validation, predictive analytics, and temporal validation
 
 ### Metrics
 
-- Traditional: Episode rewards, action distributions
-- FDIR-specific: MTTD (Mean Time To Detect), MTTR (Mean Time To Recover)
-- Novel: SFRI (Stability-Integrated Fault Recovery Index)
+- **Traditional RL:** Episode rewards, action distributions, detection/recovery rates
+- **FDIR-Specific:** MTTD (Mean Time To Detect), MTTR (Mean Time To Recover), false positive rates
+- **Novel SFRI:** Stability Fault Recovery Index combining detection, recovery, stability, and false positive management
+- **Statistical Analysis:** Welch's t-tests, Cohen's d effect sizes, confidence intervals
 
 ## Getting Started
 
@@ -97,8 +112,8 @@ All dependencies are listed in `requirements.txt`.
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/spacecraft-fdir-comparison.git
-cd spacecraft-fdir-comparison
+git clone https://github.com/username/AI-in-space.git
+cd AI-in-space
 
 # Install dependencies
 pip install -r requirements.txt
@@ -119,14 +134,14 @@ python scripts/train/train_long.py
 #### Running Comparisons
 
 ```bash
-# Compare Rule-Based and DRL agents
-python scripts/run/run_comparison.py
+# Run comprehensive comparison with all metrics
+python scripts/run/run_enhanced_comparison.py
 
-# Evaluate the Hybrid agent
+# Evaluate the Hybrid agent specifically
 python scripts/run/run_hybrid.py
 
-# Run enhanced comparison with additional metrics
-python scripts/run/run_enhanced_comparison.py
+# Run mixed historical/generated fault scenarios
+python scripts/run/run_mixed_comparison.py
 ```
 
 #### Visualizing Results
@@ -185,83 +200,111 @@ The simulation framework is designed to be modular, allowing for adaptation to d
 
 By modifying these key components, the simulation can be tailored to model a wide variety of spacecraft and FDIR challenges.
 
-## Visual Demonstrations
+## Research Paper Figures
 
-### Agent Response Comparisons
+The following figures from the research paper demonstrate the key findings and system architectures:
 
-Below are visual demonstrations showing how the three agent types (Rule-based, DRL, and Hybrid) respond differently to various fault scenarios.
+### Performance Comparison Results
 
-#### Thermal Fault Response Comparison
+![Figure 1: Reward Comparison](static/plots/paper/figure1_reward_comparison.png)
+**Figure 1:** Episode reward comparison showing DRL agent's superior performance (-19.8) vs Classical (-190.4) and Hybrid (-19.8).
 
-![Thermal Response Comparison](static/plots/demos/thermal_response_comparison.png)
+![Figure 2: Detection and Recovery Times](static/plots/paper/figure2_mttr_mttd_comparison.png)
+**Figure 2:** Mean Time To Detect (MTTD) and Mean Time To Recover (MTTR) comparison across all agent types.
 
-The comparison shows how each agent responds to a thermal fault. Note the different detection times and recovery patterns:
-- The Rule-based agent (blue) shows a delayed but stable recovery
-- The DRL agent (red) detects the fault earlier but exhibits oscillatory behavior during recovery
-- The Hybrid agent (green) combines early detection with more stable recovery
+![Figure 3: False Positive Analysis](static/plots/paper/figure3_false_positive_comparison.png)
+**Figure 3:** False positive rates showing the trade-off between detection sensitivity and false alarms.
 
-#### Power Fault Response Comparison
+![Figure 4: SFRI Comparison](static/plots/paper/figure4_sfri_comparison.png)
+**Figure 4:** Stability Fault Recovery Index (SFRI) scores demonstrating Hybrid agent's superior balanced performance.
 
-![Battery Response Comparison](static/plots/demos/battery_response_comparison.png)
+![Figure 5: Detection and Recovery Rates](static/plots/paper/figure5_detection_recovery_rates.png)
+**Figure 5:** Detection and recovery success rates across 100 fault scenarios per agent.
 
-When a power subsystem fault occurs, the agents demonstrate different recovery capabilities:
-- The Rule-based agent takes longest to initiate recovery
-- The DRL agent detects the fault quickly and initiates recovery earlier
-- The Hybrid agent balances detection speed with efficient recovery
+### System Architectures
 
-#### Attitude Control Fault Response Comparison
+![Figure 8a: Hybrid Architecture](static/plots/paper/figure8a_hybrid_architecture.png)
+**Figure 8a:** DRL-First Hybrid Agent architecture showing the integration of neural networks with rule-based safety validation.
 
-![Attitude Response Comparison](static/plots/demos/attitude_response_comparison.png)
+![Figure 8b: DRL Architecture](static/plots/paper/figure8b_drl_architecture.png)
+**Figure 8b:** Deep Reinforcement Learning agent neural network architecture (2 layers, 64 neurons, Tanh activation).
 
-For attitude control faults, the response patterns further illustrate each agent's characteristics:
-- The Rule-based agent waits until attitude error becomes significant before acting
-- The DRL agent preemptively responds to subtle patterns indicating fault conditions
-- The Hybrid agent leverages DRL's detection capabilities while maintaining stable recovery
+![Figure 8c: Rule-Based Flowchart](static/plots/paper/figure8c_rule_based_flowchart.png)
+**Figure 8c:** Classical rule-based FDIR decision flowchart showing deterministic threshold-based logic.
 
-### Interactive Dashboard
+### Training and Analysis
 
-The project includes an interactive visualization dashboard that allows real-time monitoring of agent performance, state variables, and decision-making.
+![Figure 7: Learning Curve](static/plots/paper/figure7_learning_curve.png)
+**Figure 7:** DRL agent learning progression over 1M training steps showing convergence to optimal policy.
 
-![Dashboard Demo](static/plots/demos/dashboard_demo.png)
+![Figure 9: Action Distribution](static/plots/paper/figure9_action_distribution.png)
+**Figure 9:** Action selection patterns across different agent types during fault scenarios.
 
-To launch the interactive dashboard:
+### Detailed Response Analysis
 
-```bash
-python scripts/utils/app.py
-```
+![Figure 10a: Thermal Response](static/plots/paper/figure10a_thermal_response_comparison.png)
+**Figure 10a:** Thermal fault response comparison showing agent behavior during temperature control failures.
 
-Then navigate to `http://localhost:5000` in your web browser.
+![Figure 10b: Battery Response](static/plots/paper/figure10b_battery_response_comparison.png)
+**Figure 10b:** Battery fault response comparison demonstrating power management strategies.
 
-### Key Metrics Visualization
+### Statistical Validation
 
-![SFRI Components](static/plots/paper/figure11_SFRIMetric.png)
+![Figure 11: SFRI Components](static/plots/paper/figure11_sfri_components.png)
+**Figure 11:** SFRI metric component breakdown showing how detection, recovery, stability, and false positive rates combine.
 
-The Stability-Integrated Fault Recovery Index (SFRI) combines detection accuracy, recovery speed, system stability, and false positive rates into a comprehensive metric for agent evaluation.
+![Figure 12: P-Value Analysis](static/plots/paper/figure12_pvalue_analysis.png)
+**Figure 12:** Statistical significance analysis with p-values confirming performance differences (p < 3.64e-17).
+
+*For detailed analysis and interpretation of these results, see the complete research paper in the `Paper/` directory.*
 
 ## Research Findings
 
-The initial comparison after 50,000 timesteps of training showed:
+### Performance Results (100 Episodes Each)
 
-- Rule-Based FDIR achieved better average rewards (-161.26) than the partially-trained DRL agent (-192.80)
-- DRL agent demonstrated a broader range of learned control behaviors
-- The learning curve confirmed learning occurred but was incomplete
+**DRL Agent (1M Training Steps):**
+- Superior reward optimization: -19.8 vs -190.4 (Classical)
+- 100% fault detection rate vs 33.7% (Classical)
+- Fastest fault detection: 4.4 steps MTTD
+- Challenge: High false positives (1,329 vs 0 Classical)
 
-Extended training and more sophisticated metrics (MTTR, MTTD, SFRI) provide deeper insights into agent performance characteristics. The novel hybrid architecture demonstrates a promising approach to balancing safety constraints with adaptive behavior.
+**DRL-First Hybrid Architecture:**
+- Highest SFRI score: 51.0 vs 49.2 (DRL) vs 28.5 (Classical)
+- 100% fault detection with reduced false positives (1,096)
+- Balanced response time: 5.1 steps vs 40.4 (Classical)
+- Confidence-based arbitration threshold: 0.18 (optimized)
+
+**Statistical Significance:**
+- Welch's t-test: p < 3.64e-17 (highly significant)
+- Cohen's d effect size: 1.42 (large effect)
+- All performance differences statistically validated
+
+The hybrid architecture successfully combines DRL intelligence with safety validation, achieving E3/E4 autonomy levels while maintaining aerospace safety compliance.
 
 ## License
 
 [MIT License](LICENSE)
+
+## Research Paper
+
+The complete research paper is available in the `Paper/` directory in both Markdown and Word formats:
+
+- **Markdown Version:** `Paper/paper.md`
+- **Word Version:** `Paper/paper.docx`
+
+**Title:** "The Effectiveness and Comparison of Rule-Based, DRL, and Novel Hybrid Agents for Simulated Spacecraft FDIR"
 
 ## Citation
 
 If you use this code in your research, please cite:
 
 ```
-@article{paatur2023comparison,
-  title={The Effectiveness and Comparison of Rule-Based and DRL Agents for Simulated Spacecraft FDIR},
+@article{paatur2025spacecraft,
+  title={The Effectiveness and Comparison of Rule-Based, DRL, and Novel Hybrid Agents for Simulated Spacecraft FDIR},
   author={Paatur, Chahel},
   journal={Independent Research, John C. Kimball High School},
-  year={2023}
+  year={2025},
+  note={Provisional Patent Filed: DRL-First Hybrid Architecture}
 }
 ```
 

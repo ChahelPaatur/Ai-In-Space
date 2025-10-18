@@ -30,18 +30,17 @@ LEARNING_CURVE_FILENAME = "learning_curve.png"
 ROLLING_AVG_WINDOW = 100 # Window size for smoothing the learning curve plot
 
 def plot_learning_curve(timesteps, rewards, save_path, window=ROLLING_AVG_WINDOW):
-    """Generates and saves the learning curve plot (reward vs. timesteps)."""
-    print(f"\nGenerating learning curve plot and saving to {save_path}...")
+    """Plot and save the learning curve."""
+    print(f"\nSaving learning curve to {save_path}...")
     if not timesteps or not rewards:
-        print("No data available to plot learning curve.")
+        print("No data to plot.")
         return
 
     plt.style.use('seaborn-v0_8-darkgrid')
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    # Calculate and plot rolling average for smoothed trend visualization
+    # Plot smoothed rewards if we have enough data
     if len(rewards) >= window:
-        # Use pandas for efficient rolling calculation
         rewards_series = pd.Series(rewards)
         rolling_avg = rewards_series.rolling(window=window, min_periods=1).mean()
         ax.plot(timesteps, rolling_avg, label=f'Rolling Average Reward (Window={window})', color='cyan', linewidth=2)

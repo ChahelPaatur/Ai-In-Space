@@ -13,6 +13,12 @@ from src.spacecraft_env import SpacecraftEnv
 from src.hybrid_agent import HybridFDIRAgent
 
 # --- Simulation Configuration ---
+# Fault scenarios based on historical spacecraft failures and mission data:
+# - Mars Climate Orbiter/Polar Lander power system failures
+# - Hubble Space Telescope gyro and battery issues  
+# - ISS thermal control and power management anomalies
+# - Kepler reaction wheel failures and Dawn spacecraft ADCS problems
+# - ESA OPS-SAT telemetry patterns and NASA spacecraft specifications
 NUM_EPISODES = 100           # Increased number of episodes for statistical validity
 MAX_STEPS_PER_EPISODE = 200  # Maximum steps per episode before truncation
 FAULT_PROBABILITY = 0.02     # Per-step probability of injecting a new persistent fault

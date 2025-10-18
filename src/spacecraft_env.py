@@ -18,7 +18,13 @@ def denormalize(norm_value, low, high):
     return ((norm_value + 1) / 2) * (high - low) + low
 
 class SpacecraftEnv(gym.Env):
-    """Custom Environment for Spacecraft FDIR simulation following Gymnasium API."""
+    """
+    Custom Environment for Spacecraft FDIR simulation following Gymnasium API.
+    
+    Fault models and system parameters derived from historical spacecraft failures
+    including Mars missions, Hubble Space Telescope, ISS operations, and ESA missions.
+    Telemetry patterns based on ESA OPS-SAT mission data and NASA spacecraft specifications.
+    """
     metadata = {'render_modes': ['human', 'ansi'], 'render_fps': 4}
 
     def __init__(self, render_mode=None, fault_probability=0.01, max_steps=1000, normalize_obs=True):

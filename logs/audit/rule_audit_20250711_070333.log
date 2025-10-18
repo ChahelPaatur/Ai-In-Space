@@ -1,0 +1,52 @@
+2025-07-11 07:03:33,706 - INFO - [AUDIT] - ===== AUDIT LOG INITIALIZED =====
+2025-07-11 07:03:33,706 - INFO - [AUDIT] - Safety Thresholds: {"soc_low": 0.18, "soc_critical": 0.12, "vbus_low": 25.5, "ang_vel_high": 0.35, "attitude_error_high": 0.15707963267948966, "gyro_bias_suspected_error": 0.013962634015954637, "temp_a_low": 6.0, "temp_a_high": 44.0, "temp_a_critical_low": -8.0, "temp_a_critical_high": 58.0}
+2025-07-11 07:03:34,466 - INFO - [AUDIT] - ===== AUDIT LOG INITIALIZED =====
+2025-07-11 07:03:34,466 - INFO - [AUDIT] - Safety Thresholds: {"soc_low": 0.18, "soc_critical": 0.12, "vbus_low": 25.5, "ang_vel_high": 0.35, "attitude_error_high": 0.15707963267948966, "gyro_bias_suspected_error": 0.013962634015954637, "temp_a_low": 6.0, "temp_a_high": 44.0, "temp_a_critical_low": -8.0, "temp_a_critical_high": 58.0}
+2025-07-11 07:03:34,468 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,468 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.30 < 25.50
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,470 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.3856406211853027, 'selected_action': 'RECOVER_EPS'}
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 07:03:34,470 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.5588456392288208, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 07:03:34,470 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.30 < 25.50
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,471 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,472 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.3856406211853027, 'selected_action': 'RECOVER_EPS'}
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 07:03:34,472 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.5588456392288208, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,472 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.30 < 25.50
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,473 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.3856406211853027, 'selected_action': 'RECOVER_EPS'}
+2025-07-11 07:03:34,473 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 07:03:34,474 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.5588456392288208, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.30 < 25.50
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 0.90 < 25.50
+2025-07-11 07:03:34,474 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.3856406211853027, 'selected_action': 'RECOVER_EPS'}
+2025-07-11 07:03:34,474 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 07:03:34,475 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 07:03:34,475 - ERROR - [AUDIT] - Assertion Failure: High angular rates must trigger ADCS recovery, Details: {'ang_vel_mag': 1.5588456392288208, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 07:03:34,475 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe

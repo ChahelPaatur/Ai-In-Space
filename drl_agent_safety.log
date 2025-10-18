@@ -1,0 +1,25 @@
+2025-07-11 07:38:18,744 - DRL-SafetyAgent - INFO - [drl_agent.py:200] - Initializing safety-compliant PPO agent on device: cpu
+2025-07-11 07:38:18,744 - DRL-SafetyAgent - INFO - [drl_agent.py:53] - SafetyMonitor initialized with config: {
+  "action_verification": true,
+  "input_validation": true,
+  "self_monitoring": true,
+  "redundancy_checks": true,
+  "safety_envelope": true,
+  "watchdog_timeout_ms": 1000,
+  "heartbeat_interval_ms": 2000,
+  "safety_criticality_level": "C",
+  "error_recovery": true,
+  "action_bounds_check": true,
+  "version": "1.0.0",
+  "certification_id": "DRL-FDIR-001"
+}
+2025-07-11 07:38:18,755 - DRL-SafetyAgent - INFO - [drl_agent.py:173] - Network parameters initialized with safety-compliant bounds
+2025-07-11 07:38:18,755 - DRL-SafetyAgent - INFO - [drl_agent.py:162] - ActorCriticNetwork initialized: obs_size=15, action_size=9, hidden_size=64
+2025-07-11 07:38:19,416 - DRL-SafetyAgent - INFO - [drl_agent.py:173] - Network parameters initialized with safety-compliant bounds
+2025-07-11 07:38:19,416 - DRL-SafetyAgent - INFO - [drl_agent.py:162] - ActorCriticNetwork initialized: obs_size=15, action_size=9, hidden_size=64
+2025-07-11 07:38:19,432 - DRL-SafetyAgent - INFO - [drl_agent.py:249] - System integrity verification passed
+2025-07-11 07:38:19,432 - DRL-SafetyAgent - INFO - [drl_agent.py:231] - Safety-compliant PPO agent initialization complete
+2025-07-11 07:38:19,432 - DRL-SafetyAgent - INFO - [drl_agent.py:749] - Loading model from ppo_agent.pth
+2025-07-11 07:38:19,434 - DRL-SafetyAgent - WARNING - [drl_agent.py:776] - Loaded model without safety metadata (legacy format)
+2025-07-11 07:38:19,434 - DRL-SafetyAgent - INFO - [drl_agent.py:249] - System integrity verification passed
+2025-07-11 07:38:19,434 - DRL-SafetyAgent - INFO - [drl_agent.py:784] - Model loaded and verified successfully

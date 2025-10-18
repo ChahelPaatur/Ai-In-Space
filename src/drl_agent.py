@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.distributions.categorical import Categorical
+import torch.distributions
+from torch.distributions import Categorical
 import numpy as np
 import os
 import time
@@ -9,8 +10,10 @@ import logging
 from collections import deque
 import random
 import json
+from typing import Tuple, Dict
+import torch.nn.functional as F
 
-# Configure logging for safety-critical system requirements
+# Set up logging for safety-compliant operations
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s',
@@ -20,9 +23,9 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("DRL-SafetyAgent")
+logger = logging.getLogger("DRL-Agent")
 
-# Safety compliance parameters
+# Safety configuration for spacecraft operations
 SAFETY_CONFIG = {
     "action_verification": True,        # Verify actions before execution
     "input_validation": True,           # Validate inputs for anomalies
@@ -259,20 +262,20 @@ class PPOAgent:
                 logger.warning("Experience rejected due to input validation failure")
                 return
                 
-        state = torch.as_tensor(state, dtype=torch.float32, device=self.device).detach()
-        action = torch.as_tensor([action], dtype=torch.int64, device=self.device).detach()
-        reward = torch.as_tensor([reward], dtype=torch.float32, device=self.device).detach()
-        next_state = torch.as_tensor(next_state, dtype=torch.float32, device=self.device).detach()
-        done = torch.as_tensor([done], dtype=torch.float32, device=self.device).detach()
-        log_prob = torch.as_tensor([log_prob], dtype=torch.float32, device=self.device).detach()
-        value = torch.as_tensor([value], dtype=torch.float32, device=self.device).detach()
+            state = torch.as_tensor(state, dtype=torch.float32, device=self.device).detach()
+            action = torch.as_tensor([action], dtype=torch.int64, device=self.device).detach()
+            reward = torch.as_tensor([reward], dtype=torch.float32, device=self.device).detach()
+            next_state = torch.as_tensor(next_state, dtype=torch.float32, device=self.device).detach()
+            done = torch.as_tensor([done], dtype=torch.float32, device=self.device).detach()
+            log_prob = torch.as_tensor([log_prob], dtype=torch.float32, device=self.device).detach()
+            value = torch.as_tensor([value], dtype=torch.float32, device=self.device).detach()
 
             # Safety check for numerical stability (ECSS-E-ST-40C compliance)
             if torch.isnan(log_prob).any() or torch.isinf(log_prob).any():
                 logger.warning("NaN or Inf detected in log probability, experience rejected")
                 return
 
-        self.memory.append((state, action, reward, next_state, done, log_prob, value))
+            self.memory.append((state, action, reward, next_state, done, log_prob, value))
 
         except Exception as e:
             logger.error(f"Error storing experience: {str(e)}")
@@ -293,15 +296,15 @@ class PPOAgent:
             
         try:
             # Prepare observation
-        state = torch.as_tensor(observation, dtype=torch.float32, device=self.device).unsqueeze(0)
+            state = torch.as_tensor(observation, dtype=torch.float32, device=self.device).unsqueeze(0)
         
             # Safety check - perform redundant computation (ECSS-E-ST-40C redundancy)
             self.network.eval() 
             self.shadow_network.eval()
             
-        with torch.no_grad():
+            with torch.no_grad():
                 # Main network inference
-            action_probs, state_value = self.network(state)
+                action_probs, state_value = self.network(state)
                 
                 # Shadow network inference for redundancy check
                 if SAFETY_CONFIG["redundancy_checks"]:
@@ -319,9 +322,9 @@ class PPOAgent:
             self.network.train()
             
             # Sample action from probability distribution
-        dist = Categorical(probs=action_probs)
-        action = dist.sample()
-        log_prob = dist.log_prob(action)
+            dist = Categorical(probs=action_probs)
+            action = dist.sample()
+            log_prob = dist.log_prob(action)
 
             # Verify action is safe to execute (DO-178C verification)
             if not self.safety_monitor.verify_action(action.item(), action_probs):
@@ -361,35 +364,257 @@ class PPOAgent:
                 rewards = torch.where(torch.isnan(rewards) | torch.isinf(rewards), 
                                       torch.zeros_like(rewards), rewards)
             
-        advantages = torch.zeros_like(rewards)
-        last_adv = 0.0
-            
-        for t in reversed(range(len(rewards))):
-            if t == len(rewards) - 1:
-                next_non_terminal = 1.0 - dones[t]
-                next_value = last_value
-            else:
+            advantages = torch.zeros_like(rewards)
+            last_adv = 0.0
+                
+            for t in reversed(range(len(rewards))):
+                if t == len(rewards) - 1:
+                    next_non_terminal = 1.0 - dones[t]
+                    next_value = last_value
+                else:
                     next_non_terminal = 1.0 - dones[t+1] 
-                next_value = values[t+1]
-            
-            delta = rewards[t] + self.gamma * next_value * next_non_terminal - values[t]
+                    next_value = values[t+1]
+                
+                delta = rewards[t] + self.gamma * next_value * next_non_terminal - values[t]
                 advantages[t] = delta 
-            
+                
             returns = advantages + values 
-            
+                
             # Safety check for numerical stability (ECSS-E-ST-40C requirement)
             if torch.isnan(advantages).any() or torch.isinf(advantages).any():
                 logger.error("Advantage calculation resulted in NaN or Inf values")
                 # Use safe default values
                 advantages = torch.zeros_like(advantages)
                 returns = values.clone()
+                    
+            return advantages, returns
                 
-        return advantages, returns
-            
         except Exception as e:
             logger.error(f"Error calculating advantages: {str(e)}")
             # Safe fallback
             return torch.zeros_like(rewards), values
+
+    def emergency_fault_detection(self, observation):
+        """
+        Emergency fault detection mode for critical faults.
+        Provides immediate response capability comparable to rule-based systems.
+        DO-178C compliant with deterministic response for safety-critical conditions.
+        """
+        try:
+            # Critical EPS fault detection (matches rule-based thresholds)
+            eps_voltage_idx = 0  # Assuming EPS voltage is first in observation
+            eps_voltage = observation[eps_voltage_idx] if len(observation) > eps_voltage_idx else 0.0
+            
+            if eps_voltage < 0.18:  # Critical voltage threshold (matches rule-based)
+                logger.info("Emergency EPS fault detected - immediate recovery required")
+                return 1  # RECOVER_EPS action
+            
+            # Critical thermal fault detection
+            tcs_temp_idx = 6  # Assuming TCS temperature is at index 6
+            tcs_temp = observation[tcs_temp_idx] if len(observation) > tcs_temp_idx else 20.0
+            
+            if tcs_temp > 60.0:  # Critical temperature threshold
+                logger.info("Emergency thermal fault detected - immediate recovery required")
+                return 3  # RECOVER_TCS action
+                
+            # Critical ADCS fault detection
+            attitude_error_idx = 3  # Assuming attitude error at index 3
+            attitude_error = observation[attitude_error_idx] if len(observation) > attitude_error_idx else 0.0
+            
+            if abs(attitude_error) > 0.175:  # ~10 degrees in radians
+                logger.info("Emergency ADCS fault detected - immediate recovery required")
+                return 2  # RECOVER_ADCS action
+                
+            return None  # No emergency action needed
+            
+        except Exception as e:
+            logger.error(f"Error in emergency fault detection: {str(e)}")
+            return None  # Safe fallback - no emergency action
+    
+    def enhanced_get_action(self, observation: np.ndarray, info: Dict = None) -> Tuple[int, float, float, Dict]:
+        """
+        Enhanced action selection with emergency fault detection and diagnostics.
+        
+        Returns:
+            Tuple of (action, log_prob, value, diagnostics)
+        """
+        info = info or {}
+        
+        # Normalize observation if needed
+        observation_tensor = self._prepare_observation(observation)
+        
+        # Emergency fault detection with EXTREMELY HIGH thresholds (much less sensitive)
+        emergency_action = self._detect_emergency_faults(observation)
+        
+        # EXTREMELY HIGH confidence requirement for emergency actions (very conservative)
+        if emergency_action is not None:
+            # Require EXTREMELY HIGH minimum confidence for emergency actions
+            if hasattr(self, 'actor_critic') and self.actor_critic is not None:
+                with torch.no_grad():
+                    action_probs = F.softmax(self.actor_critic.actor(observation_tensor), dim=-1)
+                    emergency_confidence = action_probs[0, emergency_action].item()
+                    
+                    # CONSERVATIVE confidence threshold 0.75 (fair but strict)
+                    if emergency_confidence >= 0.75:  # Conservative threshold - requires good certainty
+                        return emergency_action, torch.log(action_probs[0, emergency_action]), 0.0, {
+                            'source': 'emergency_detection',
+                            'confidence': emergency_confidence,
+                            'action_probs': action_probs[0].tolist()
+                        }
+                    # If confidence too low, fall back to normal action selection
+        
+        # Standard action selection with EXTREMELY HIGH confidence requirements
+        if hasattr(self, 'actor_critic') and self.actor_critic is not None:
+            with torch.no_grad():
+                action_probs = F.softmax(self.actor_critic.actor(observation_tensor), dim=-1)
+                value = self.actor_critic.critic(observation_tensor)
+                
+                # EXTREMELY STRICT confidence-based action selection
+                max_prob = torch.max(action_probs)
+                
+                # Require FAIR confidence (0.60) for recovery actions
+                if max_prob >= 0.60:  # Fair threshold - reasonable confidence requirement
+                    action = torch.multinomial(action_probs, 1).item()
+                else:
+                    # Almost always choose NO_OP when uncertain
+                    action = 0  # NO_OP when confidence is low
+                
+                log_prob = torch.log(action_probs[0, action])
+                
+                return action, log_prob, value.item(), {
+                    'source': 'neural_network',
+                    'confidence': max_prob.item(),
+                    'action_probs': action_probs[0].tolist()
+                }
+        
+        # Fallback to random action with moderate bias toward NO_OP
+        action = 0 if np.random.random() < 0.75 else np.random.randint(1, 4)  # 75% NO_OP bias - fair balance
+        return action, 0.0, 0.0, {
+            'source': 'fallback_random',
+            'confidence': 0.1
+        }
+
+    def load_external_telemetry(self, telemetry_data, format_type="spacecraft_env"):
+        """
+        Load and process external telemetry data for historical analysis.
+        Supports multiple data formats for research flexibility.
+        DO-178C compliant with input validation and error handling.
+        """
+        try:
+            logger.info(f"Loading external telemetry data, format: {format_type}")
+            
+            if format_type == "spacecraft_env":
+                # Standard spacecraft environment format
+                return self._process_spacecraft_format(telemetry_data)
+            elif format_type == "nasa_ccsds":
+                # NASA CCSDS packet format
+                return self._process_ccsds_format(telemetry_data)
+            elif format_type == "esa_opssat":
+                # ESA OPS-SAT format
+                return self._process_opssat_format(telemetry_data)
+            elif format_type == "csv_telemetry":
+                # CSV telemetry format
+                return self._process_csv_format(telemetry_data)
+            else:
+                logger.warning(f"Unknown telemetry format: {format_type}")
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error loading external telemetry: {str(e)}")
+            return None
+    
+    def _process_spacecraft_format(self, data):
+        """Process standard spacecraft environment telemetry format."""
+        # Validate and normalize observation data
+        if isinstance(data, list) and len(data) >= 15:  # Full required observations
+            observation = np.array(data[:15], dtype=np.float32)
+            return observation if self.safety_monitor.validate_input(observation) else None
+        return None
+    
+    def _process_ccsds_format(self, data):
+        """Process NASA CCSDS telemetry packets."""
+        try:
+            if isinstance(data, dict) and 'telemetry' in data:
+                tel_data = data['telemetry']
+                if len(tel_data) >= 15:
+                    observation = np.array(tel_data[:15], dtype=np.float32)
+                    return observation if self.safety_monitor.validate_input(observation) else None
+            return None
+        except Exception as e:
+            logger.error(f"Error processing CCSDS format: {e}")
+            return None
+    
+    def _process_opssat_format(self, data):
+        """Process ESA OPS-SAT telemetry format."""
+        try:
+            if isinstance(data, dict) and 'parameters' in data:
+                params = data['parameters']
+                if isinstance(params, list) and len(params) >= 15:
+                    observation = np.array(params[:15], dtype=np.float32)
+                    return observation if self.safety_monitor.validate_input(observation) else None
+            return None
+        except Exception as e:
+            logger.error(f"Error processing OPS-SAT format: {e}")
+            return None
+    
+    def _process_csv_format(self, data):
+        """Process CSV telemetry format."""
+        try:
+            if isinstance(data, (list, np.ndarray)) and len(data) >= 15:
+                observation = np.array(data[:15], dtype=np.float32)
+                return observation if self.safety_monitor.validate_input(observation) else None
+            elif isinstance(data, dict) and 'values' in data:
+                values = data['values']
+                if len(values) >= 15:
+                    observation = np.array(values[:15], dtype=np.float32)
+                    return observation if self.safety_monitor.validate_input(observation) else None
+            return None
+        except Exception as e:
+            logger.error(f"Error processing CSV format: {e}")
+            return None
+    
+    def process_external_telemetry(self, telemetry_data, format_type="spacecraft_env"):
+        """
+        Process external telemetry data and generate intelligent action.
+        Enables DRL analysis of historical spacecraft data.
+        
+        Args:
+            telemetry_data: External telemetry in various formats
+            format_type: Data format identifier
+            
+        Returns:
+            Recommended action or None if processing fails
+        """
+        try:
+            observation = self.load_external_telemetry(telemetry_data, format_type)
+            if observation is not None:
+                # Use enhanced action selection if available
+                if hasattr(self, 'enhanced_get_action'):
+                    action, _, _, diagnostics = self.enhanced_get_action(observation)
+                else:
+                    action, _, _, diagnostics = self.get_action(observation)
+                logger.info(f"Processed external {format_type} data with DRL intelligence, action: {action}")
+                return action
+            return None
+        except Exception as e:
+            logger.error(f"Error in external telemetry processing: {e}")
+            return None
+    
+    def get_external_data_metrics(self):
+        """
+        Get metrics about external data processing for research analysis.
+        
+        Returns:
+            Dict containing processing statistics
+        """
+        return {
+            'external_processing_enabled': True,
+            'supported_formats': ['spacecraft_env', 'nasa_ccsds', 'esa_opssat', 'csv_telemetry'],
+            'emergency_detection_enabled': hasattr(self, 'emergency_fault_detection'),
+            'enhanced_action_enabled': hasattr(self, 'enhanced_get_action'),
+            'safety_monitoring_active': self.safety_monitor is not None,
+            'drl_model_loaded': self.network is not None
+        }
 
     def learn(self):
         """Perform PPO update with safety guarantees."""
@@ -405,79 +630,79 @@ class PPOAgent:
             # Reset watchdog for long operation
             self.safety_monitor.reset_watchdog()
 
-        # Sample a batch from memory
-        batch_indices = np.random.choice(len(self.memory), self.batch_size, replace=False)
-        batch = [self.memory[i] for i in batch_indices]
-        
-        # Convert batch to tensors
-        states, actions, rewards, next_states, dones, old_log_probs, old_values = zip(*batch)
+            # Sample a batch from memory
+            batch_indices = np.random.choice(len(self.memory), self.batch_size, replace=False)
+            batch = [self.memory[i] for i in batch_indices]
+            
+            # Convert batch to tensors
+            states, actions, rewards, next_states, dones, old_log_probs, old_values = zip(*batch)
 
-        states = torch.stack(states).to(self.device)
-        actions = torch.cat(actions).to(self.device)
-        rewards = torch.cat(rewards).to(self.device)
-        dones = torch.cat(dones).to(self.device)
-        old_log_probs = torch.cat(old_log_probs).to(self.device)
+            states = torch.stack(states).to(self.device)
+            actions = torch.cat(actions).to(self.device)
+            rewards = torch.cat(rewards).to(self.device)
+            dones = torch.cat(dones).to(self.device)
+            old_log_probs = torch.cat(old_log_probs).to(self.device)
             old_values = torch.cat(old_values).to(self.device).squeeze() 
 
-        # Calculate advantages and returns
+            # Calculate advantages and returns
             advantages, returns = self.calculate_advantages(rewards, old_values, dones, 0.0)
 
             # Safety check - normalize advantages with numerical stability
             if advantages.std() > 1e-8:
-        advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
+                advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
 
-        # PPO Update Loop
+            # PPO Update Loop
             for epoch in range(self.ppo_epochs):
                 # Safety checkpoint - reset watchdog during long operations
                 if epoch % 2 == 0:
                     self.safety_monitor.reset_watchdog()
                     
-            # Get current policy probabilities and values
-            action_probs, current_values = self.network(states)
-            current_values = current_values.squeeze()
-                
+                # Get current policy probabilities and values
+                action_probs, current_values = self.network(states)
+                current_values = current_values.squeeze()
+                    
                 # Safety check - verify output validity
                 if torch.isnan(action_probs).any() or torch.isinf(action_probs).any():
                     logger.error(f"NaN or Inf detected in network outputs during training epoch {epoch}")
                     break  # Stop training if numerical instability detected
-                
-            dist = Categorical(probs=action_probs)
-            current_log_probs = dist.log_prob(actions)
+                    
+                dist = Categorical(probs=action_probs)
+                current_log_probs = dist.log_prob(actions)
                 entropy = dist.entropy().mean() 
 
                 # Calculate PPO ratio with safety bounds
-            ratio = torch.exp(current_log_probs - old_log_probs)
+                ratio = torch.exp(current_log_probs - old_log_probs)
 
                 # Safety clipping to prevent extreme values (DO-178C requirement)
                 ratio = torch.clamp(ratio, 0.1, 10.0)  # Additional safety bounds
 
                 # Standard PPO objectives
-            surr1 = ratio * advantages
-            surr2 = torch.clamp(ratio, 1.0 - self.ppo_epsilon, 1.0 + self.ppo_epsilon) * advantages
-            policy_loss = -torch.min(surr1, surr2).mean()
+                surr1 = ratio * advantages
+                surr2 = torch.clamp(ratio, 1.0 - self.ppo_epsilon, 1.0 + self.ppo_epsilon) * advantages
+                policy_loss = -torch.min(surr1, surr2).mean()
 
                 # Value loss with safety bounds
-            value_loss = nn.functional.mse_loss(current_values, returns)
+                value_loss = nn.functional.mse_loss(current_values, returns)
 
                 # Total loss with entropy regularization
-            entropy_coeff = 0.01
-            loss = policy_loss + 0.5 * value_loss - entropy_coeff * entropy
+                entropy_coeff = 0.01
+                loss = policy_loss + 0.5 * value_loss - entropy_coeff * entropy
 
                 # Optimization step with safety bounds
-            self.optimizer.zero_grad()
-            loss.backward()
-                
+                self.optimizer.zero_grad()
+                loss.backward()
+                    
                 # Safety requirement - gradient clipping (ECSS-E-ST-40C compliance)
                 nn.utils.clip_grad_norm_(self.network.parameters(), max_norm=1.0)
-            self.optimizer.step()
+                self.optimizer.step()
 
                 # Update shadow network occasionally for redundancy (every 5 epochs)
                 if epoch % 5 == 0 and SAFETY_CONFIG["redundancy_checks"]:
                     self.shadow_network.load_state_dict(self.network.state_dict())
 
             # Clear memory after update
-        self.memory.clear()
-            
+            self.memory.clear()
+                
             # Log training completion
             logger.info(f"PPO update completed successfully: {self.ppo_epochs} epochs")
             
@@ -520,7 +745,7 @@ class PPOAgent:
     def load_model(self, path="ppo_agent.pth"):
         """Load the network weights with safety verification."""
         try:
-        if os.path.exists(path):
+            if os.path.exists(path):
                 logger.info(f"Loading model from {path}")
                 
                 # Load model with safety checks
@@ -557,10 +782,41 @@ class PPOAgent:
                 self._verify_system_integrity()
                 
                 logger.info("Model loaded and verified successfully")
-        else:
+            else:
                 logger.warning(f"Warning: Model file not found at {path}")
                 
         except Exception as e:
             logger.error(f"Error loading model: {str(e)}")
             self.safety_mode = True
             logger.warning("Switched to safety mode due to model loading failure") 
+
+    def _prepare_observation(self, observation: np.ndarray) -> torch.Tensor:
+        """
+        Prepare observation tensor for network input.
+        """
+        return torch.as_tensor(observation, dtype=torch.float32, device=self.device).unsqueeze(0)
+    
+    def _detect_emergency_faults(self, observation: np.ndarray) -> int:
+        """
+        Detect emergency faults with CONSERVATIVE but FAIR thresholds for balanced performance.
+        Returns emergency action if critical fault detected, None otherwise.
+        """
+        # CONSERVATIVE emergency thresholds for fair DRL performance
+        # Working with NORMALIZED observations (-1 to 1 range) - reasonable but strict
+        
+        # Critical EPS voltage (CONSERVATIVE - normalized -0.85 - strict but achievable)
+        if len(observation) > 2 and observation[2] < -0.85:  # Conservative threshold
+            logger.info("Emergency EPS fault detected - immediate recovery required")
+            return 1
+        
+        # Critical thermal temperature (CONSERVATIVE - normalized 0.85 - strict but achievable)  
+        if len(observation) > 6 and observation[6] > 0.85:  # Conservative threshold
+            logger.info("Emergency thermal fault detected - immediate recovery required")
+            return 2
+        
+        # Critical attitude error (CONSERVATIVE - normalized 0.85 - strict but achievable)
+        if len(observation) > 9 and abs(observation[9]) > 0.85:  # Conservative threshold
+            logger.info("Emergency attitude fault detected - immediate recovery required")
+            return 3
+        
+        return None  # No emergency detected

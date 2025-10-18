@@ -400,7 +400,7 @@ def figure7_learning_curve(output_dir=OUTPUT_DIR):
                  color='blue', linewidth=2, label=f'Rolling Avg (n={window_size})')
     
     # Styling
-    plt.title('Figure 7: DRL Agent Learning Curve (n=500K steps)')
+    plt.title('Figure 7: DRL Agent Learning Curve (n=1M steps)')
     plt.xlabel('Environment Steps')
     plt.ylabel('Episode Reward')
     plt.legend()

@@ -1,0 +1,40 @@
+2025-07-11 05:06:29,478 - INFO - [AUDIT] - ===== AUDIT LOG INITIALIZED =====
+2025-07-11 05:06:29,478 - INFO - [AUDIT] - Safety Thresholds: {"soc_low": 0.18, "soc_critical": 0.12, "vbus_low": 25.5, "ang_vel_high": 0.35, "attitude_error_high": 0.15707963267948966, "gyro_bias_suspected_error": 0.013962634015954637, "temp_a_low": 6.0, "temp_a_high": 44.0, "temp_a_critical_low": -8.0, "temp_a_critical_high": 58.0}
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0200 rad
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 22.00 < 25.50
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0200 rad
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Rule Activated: ATTITUDE_ERROR, Reason: Large attitude error: 0.1800 rad
+2025-07-11 05:06:29,482 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Large attitude error, attempting gyro bias reset, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 24.00 < 25.50
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 05:06:29,483 - ERROR - [AUDIT] - Assertion Failure: Critical temperatures must trigger thermal recovery, Details: {'temp': 63.0, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0600 rad
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0600 rad
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0600 rad
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0600 rad
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Rule Activated: HEATER_MANAGEMENT, Reason: Temperature below lower bound: 0.00 < 6.00
+2025-07-11 05:06:29,483 - INFO - [AUDIT] - Decision: HEATER_ON, Reason: Low temperature, turning heater on, Mode: Nominal
+2025-07-11 05:06:29,494 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0200 rad
+2025-07-11 05:06:29,494 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 22.00 < 25.50
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Rule Activated: MODERATE_ATTITUDE_ERROR, Reason: Moderate attitude error: 0.0200 rad
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Moderate attitude error, Mode: Nominal
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Rule Activated: ATTITUDE_ERROR, Reason: Large attitude error: 0.1800 rad
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Decision: RESET_GYRO_BIAS, Reason: Large attitude error, attempting gyro bias reset, Mode: Nominal
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Rule Activated: CRITICAL_VOLTAGE, Reason: Bus voltage below threshold: 24.00 < 25.50
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Decision: RECOVER_EPS, Reason: Critical voltage, Mode: Nominal
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Rule Activated: CRITICAL_POWER, Reason: SoC below critical threshold: 0.10 < 0.12
+2025-07-11 05:06:29,498 - ERROR - [AUDIT] - Assertion Failure: Critical temperatures must trigger thermal recovery, Details: {'temp': 63.0, 'selected_action': 'ENTER_SAFE_MODE'}
+2025-07-11 05:06:29,498 - INFO - [AUDIT] - Decision: ENTER_SAFE_MODE, Reason: Critical power state, Mode: Safe
+2025-07-11 05:06:29,499 - INFO - [AUDIT] - Rule Activated: HEATER_MANAGEMENT, Reason: Temperature below lower bound: 0.00 < 6.00
+2025-07-11 05:06:29,499 - INFO - [AUDIT] - Decision: HEATER_ON, Reason: Low temperature, turning heater on, Mode: Nominal

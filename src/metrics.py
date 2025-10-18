@@ -89,16 +89,16 @@ class FDIRMetrics:
                 ttr = episode['recovery_step'] - episode['start_step']
                 ttr_values.append(ttr)
         
-        # Count total actions for false positive rate calculation
-        total_actions = sum(1 for step in episode_log if step.get('action') in self.recovery_actions)
-        self.total_actions += total_actions
+        # FIXED: Count total actions for this episode only (not cumulative)
+        total_episode_actions = len([step for step in episode_log if 'action' in step])
+        recovery_actions_count = sum(1 for step in episode_log if step.get('action') in self.recovery_actions)
         
-        # Calculate SFRI
+        # Calculate SFRI for this episode with correct per-episode actions
         # Paper reference: Section 3.5 "Metrics Framework" - The novel integrated metric
         # that combines detection, recovery, stability, and false positive considerations
-        sfri = self._calculate_sfri(
+        sfri = self._calculate_sfri_episode(
             ttd_values, ttr_values, stability_impacts, 
-            false_positives, len(fault_episodes)
+            false_positives, len(fault_episodes), total_episode_actions
         )
         
         # Update overall metrics
@@ -106,6 +106,7 @@ class FDIRMetrics:
         self.detection_times.extend(ttd_values)
         self.recovery_times.extend(ttr_values)
         self.false_positives += false_positives
+        self.total_actions += total_episode_actions  # Still track cumulative for aggregate
         self.stability_impacts.extend(stability_impacts)
         
         # Return episode metrics
@@ -131,7 +132,7 @@ class FDIRMetrics:
         """
         # Calculate detection and recovery rates
         # Paper reference: Section 4.1 "Detection & Recovery Rates" - The paper highlights the
-        # Hybrid agent's perfect 100% detection rate compared to DRL (48.3%) and Rule-based (33.7%)
+        # Hybrid agent's 100% detection rate compared to DRL (100%) and Rule-based (33.7%)
         total_faults = len(self.fault_episodes)
         detection_rate = len(self.detection_times) / total_faults if total_faults > 0 else 1.0
         recovery_rate = len(self.recovery_times) / total_faults if total_faults > 0 else 1.0
@@ -476,14 +477,71 @@ class FDIRMetrics:
         
         return false_positives
     
+    def _calculate_sfri_episode(self, detection_times, recovery_times, stability_impacts, 
+                               false_positives, total_faults, total_episode_actions):
+        """
+        Calculate the Stability-Integrated Fault Recovery Index (SFRI) for a single episode.
+        
+        # Paper reference: Section 3.5 "Metrics Framework" - This implements the SFRI
+        # metric with weights:
+        # "SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate"
+        # Maximum possible score: 35 + 25 + 10 - 0 = 70.0 points
+        
+        Args:
+            detection_times: List of time-to-detect values
+            recovery_times: List of time-to-recover values
+            stability_impacts: List of stability impact scores
+            false_positives: Number of false positive recovery actions in this episode
+            total_faults: Number of fault episodes
+            total_episode_actions: Total actions taken in this specific episode
+            
+        Returns:
+            float: SFRI score (higher is better, max 70.0)
+        """
+        if total_faults == 0:
+            return 0.0
+            
+        # Detection Rate (35% weight)
+        detection_rate = len(detection_times) / total_faults
+        detection_component = 35.0 * detection_rate
+        
+        # MTTR Component (25% weight)
+        if recovery_times:
+            avg_mttr = sum(recovery_times) / len(recovery_times)
+            recovery_score = max(0.0, 1.0 - (avg_mttr / self.max_steps))
+        else:
+            recovery_score = 0.0
+        recovery_component = 25.0 * recovery_score
+        
+        # Stability Component (10% weight)
+        if stability_impacts:
+            avg_stability = sum(stability_impacts) / len(stability_impacts)
+            stability_score = max(0.0, 1.0 - avg_stability)
+        else:
+            stability_score = 1.0
+        stability_component = 10.0 * stability_score
+        
+        # False Positive Penalty (30% weight)
+        if total_episode_actions > 0:
+            false_positive_rate = false_positives / total_episode_actions
+        else:
+            false_positive_rate = 0.0
+        false_positive_penalty = 30.0 * false_positive_rate
+        
+        # Calculate final SFRI (max possible: 70.0)
+        sfri = detection_component + recovery_component + stability_component - false_positive_penalty
+        
+        return max(0.0, sfri)  # Ensure non-negative
+
     def _calculate_sfri(self, detection_times, recovery_times, stability_impacts, 
                        false_positives, total_faults):
         """
         Calculate the Stability-Integrated Fault Recovery Index (SFRI).
         
-        # Paper reference: Section 3.5 "Metrics Framework" - This implements the novel SFRI
-        # metric described in the paper:
+        # Paper reference: Section 3.5 "Metrics Framework" - This implements the SFRI
+        # metric with weights:
         # "SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate"
+        # Maximum possible score: 35 + 25 + 10 - 0 = 70.0 points
         
         Args:
             detection_times: List of time-to-detect values
@@ -493,41 +551,39 @@ class FDIRMetrics:
             total_faults: Total number of fault episodes
             
         Returns:
-            float: SFRI score (higher is better)
+            float: SFRI score (higher is better, max 70.0)
         """
-        # 1. Detection Rate component (0-100%)
-        detection_rate = len(detection_times) / max(1, total_faults) * 100.0
-        detection_component = self.detection_weight * (detection_rate / 100.0)  # Scale to 0-35
+        if total_faults == 0:
+            return 0.0
+            
+        # Detection Rate (35% weight)
+        detection_rate = len(detection_times) / total_faults
+        detection_component = 35.0 * detection_rate
         
-        # 2. Recovery Time component (0-100%)
+        # MTTR Component (25% weight)
         if recovery_times:
-            mttr = np.mean(recovery_times)
-            # Recovery score is better when MTTR is lower (1 - MTTR/MaxSteps)
-            recovery_score = max(0.0, 1.0 - (mttr / self.max_steps)) * 100.0
-            recovery_component = self.recovery_weight * (recovery_score / 100.0)  # Scale to 0-25
+            avg_mttr = sum(recovery_times) / len(recovery_times)
+            recovery_score = max(0.0, 1.0 - (avg_mttr / self.max_steps))
         else:
-            recovery_component = 0.0  # No recovery data
+            recovery_score = 0.0
+        recovery_component = 25.0 * recovery_score
         
-        # 3. Stability Score component (0-100%)
-        # Convert stability impacts (where higher is worse) to stability score (where higher is better)
+        # Stability Component (10% weight)
         if stability_impacts:
-            avg_stability_impact = np.mean(stability_impacts)
-            stability_score = (1.0 - avg_stability_impact) * 100.0  # Convert to 0-100%
-            stability_component = self.stability_weight * (stability_score / 100.0)  # Scale to 0-10
+            avg_stability = sum(stability_impacts) / len(stability_impacts)
+            stability_score = max(0.0, 1.0 - avg_stability)
         else:
-            stability_component = self.stability_weight  # Perfect stability if no data
+            stability_score = 1.0
+        stability_component = 10.0 * stability_score
         
-        # 4. False Positive Rate component (0-100%)
-        # In the paper: False Positive Rate = Nfalse positives / Ntotal actions
-        total_actions = self.total_actions if hasattr(self, 'total_actions') and self.total_actions > 0 else max(false_positives, 1)
-        false_positive_rate = (false_positives / total_actions) * 100.0
-        false_positive_component = self.false_positive_weight * (false_positive_rate / 100.0)  # Scale to 0-30
+        # False Positive Penalty (30% weight)
+        if self.total_actions > 0:
+            false_positive_rate = false_positives / self.total_actions
+        else:
+            false_positive_rate = 0.0
+        false_positive_penalty = 30.0 * false_positive_rate
         
-        # Calculate SFRI according to the paper's formula
-        # SFRI = 35×DetectionRate + 25×(1-MTTR/MaxSteps) + 10×StabilityScore - 30×FalsePositiveRate
-        sfri = detection_component + recovery_component + stability_component - false_positive_component
+        # Calculate final SFRI (max possible: 70.0)
+        sfri = detection_component + recovery_component + stability_component - false_positive_penalty
         
-        # Convert to 0-100 scale for reporting
-        sfri_scaled = max(0.0, min(100.0, sfri * 100.0 / 70.0))  # 70 is the maximum possible score (35+25+10)
-        
-        return sfri_scaled 
+        return max(0.0, sfri)  # Ensure non-negative 
