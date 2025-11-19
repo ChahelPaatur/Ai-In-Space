@@ -54,8 +54,8 @@ This research investigates the effectiveness of different FDIR strategies for au
 │
 ├── Paper/                      # Research paper and documentation
 │   ├── paper.md                # Research paper (Markdown format)
-│   ├── paper.docx              # Research paper (Word format)
-│   └── OFFICIAL-RULES.md       # Regeneron STS competition rules
+│   └── paper.docx              # Research paper (Word format)
+│        
 │
 ├── P_value/                    # Statistical analysis
 │   ├── calculate_sfri_pvalues.py  # P-value calculations
